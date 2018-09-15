@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "SFD-Black";
+    src: url("SanFranciscoDisplay-Black.ttf") format("truetype"),
+         url("SanFranciscoDisplay-Black.eot") format("embedded-opentype");
+    /* src: url("./SanFranciscoDisplay-Black.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Black.eot") format("embedded-opentype"); */
+  }
+
+@font-face {
+    font-family: "SFD-Bold";
+    src: url("./SanFranciscoDisplay-Bold.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Bold.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Heavy";
+    src: url("./SanFranciscoDisplay-Heavy.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Heavy.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Light";
+    src: url("./SanFranciscoDisplay-Light.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Light.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Medium";
+    src: url("./SanFranciscoDisplay-Medium.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Medium.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Regular";
+    src: url("./SanFranciscoDisplay-Regular.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Regular.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Semibold";
+    src: url("./SanFranciscoDisplay-Semibold.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Semibold.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Thin";
+    src: url("./SanFranciscoDisplay-Thin.ttf") format("truetype"),
+         url("./SanFranciscoDisplay-Thin.eot") format("embedded-opentype");
+  }
+
+@font-face {
+    font-family: "SFD-Ultralight";
+    src: url("SanFranciscoDisplay-Ultralight.ttf") format("truetype"),
+         url("SanFranciscoDisplay-Ultralight.eot") format("embedded-opentype");
+  }

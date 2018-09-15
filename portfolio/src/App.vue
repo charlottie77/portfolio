@@ -1,31 +1,50 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <div id="app">
+      <div id="header-group">
+         <label>Portfolio</label>
+          <label>About</label>
+      </div>
     <router-view/>
-  </div>
+    </div>
+
 </template>
 
+<script>
+  
+</script>
+
 <style>
+@import url("./assets/fonts/SanFranciscoDisplay.css");
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: 'SFD-Regular';
 }
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+#header-group {
+  /* display: flex; */
+  right: 10px;
+  position: fixed;
+  margin-top: 30px;
+  margin-right: 100px;
+  z-index: 1;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#header-group label {
+  font-size: 16px;
+  color: #979797;
+  letter-spacing: 0.75px;
+  margin: 0px 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-family: 'SFD-Regular';
 }
+
+body {
+  margin: 0;
+}
+
+  
+
+
+
+
 </style>
