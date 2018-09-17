@@ -23,7 +23,7 @@
   right: 10px;
   position: fixed;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 80px;
   z-index: 1;
 }
 
@@ -36,6 +36,7 @@
   border-radius: 8px;
   padding: 4px 8px;
   font-family: 'SFD-Regular';
+  box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
 }
 
 body {

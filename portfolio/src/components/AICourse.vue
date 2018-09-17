@@ -88,6 +88,31 @@
                 <div class="c-overview c-slim-58">
                     <p class="p-text"> We have <span>iterations between stage 3 to stage 8</span>, where we used agile development methods. </p>
                 </div>
+                <div class="c-kick c-slim-58">
+                    <h3>Kick-off</h3>
+                    <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
+                    <div class="ck-1">
+                         <div class="title-70">
+                            <h4 >Conduct Research</h4>
+                        </div>
+                        <p class="p-text">We conducted market research, literature research. Also, we conducted user interviews in many programming, creator, and AI extra-curricular classes around Shanghai and some non-first-tier cities, like Suzhou, and Urumqi. </p>
+                        <p class="p-text">We have classified the insights into the following three categories:</p>
+                        <div class="ck-1-1">
+                             <label class="ck1-img"></label>
+                        </div> 
+                    </div>
+                </div>
+                <div class="c-deep c-slim-58">
+                    <h3>Deeper Research</h3>
+                    <p class="p-text">Due to the plan of lab, we first narrow to kids aged 6-12, 
+                        who are in primary school. we found that schools tend to set AI course 
+                        only <span>for 11 to 12 years old kids</span>, since they are relatively matured and 
+                        get a better logical savvy. Based on our research insights, I proposed 
+                        several questions firstly.</p>
+                    <div class="cd-1">
+                        
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -102,79 +127,12 @@ export default {
 </script>
 
 <style scoped>
-.title-170 {
-    margin-top: 170px;
-}
-.title-90 {
-    margin-top: 90px;
-}
 
-.title-70 {
-    margin-top: 70px;
-}
-
-.title-50 {
-    margin-top: 50px;
-}
-.title-30 {
-    margin-top: 30px;
-}
-.p-text {
-    font-size: 14px;
-    color: #000000;
-    letter-spacing: 1.06px;
-    line-height: 24px;
-}
-
-.p-text span {
-    color: #4A90E2;
-    font-weight: 600;
-}
-
-h1 {
-    letter-spacing: 2px;
-    font-size: 42px;
-    color: #4A4A4A;
-}
-
-h2 {
-    font-size: 28px;
-    color: #4A90E2;
-    letter-spacing: 1.12px;
-    font-family: 'SFD-Light';
-    margin: 16px 0px;
-}
-
-h3 {
-    font-size: 32px;
-    color: #9B9B9B;
-    letter-spacing: 1.5px;
-    font-family: 'SFD-Semibold';
-}
-
-h4 {
-    font-size: 22px;
-    color: #4A4A4A;
-    letter-spacing: 1px;
-}
-.c-slim-58 {
-    width: 58%;
-}
-.label-goal {
-    font-size: 28px;
-    color: #003B7F;
-    letter-spacing: 1.12px;
-    text-align: center;
-    padding: 14px;
-    border-top: 2px solid #003b7f;
-    border-bottom: 2px solid #003b7f;
-}
+@import url("../css/common_style.css");
 
 #case-1{
     margin-bottom: 170px;
 }
-
-
 
 .c1-banner {
     width: 100%;
@@ -349,11 +307,26 @@ h4 {
     display: inline-block;
 }
 
+.ck1-img {
+    background: transparent url("../assets/5.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 80%;
+    height: 178px;
+    border-style:  none;
+    display: inline-block;
+}
+
 .co-2-2 {
     margin-top: 24px;
 }
 
 .cot-2-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ck-1-1 {
     display: flex;
     justify-content: center;
 }
