@@ -183,6 +183,38 @@
                             <label class="cd7-img"></label>
                             <p class="cs-p">The insights we got from Jerry Dong </p>
                         </div>
+                        <div class="c-quote title-70">
+                            <p class="cq-content">“Education, therefore, is a process of living and not a preparation for future living.”</p>
+                            <p class="cq-by">By John Dewey in My Pedagogical Creed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-dechall c-slim-58 title-170">
+                    <h3>Design Challenges</h3>
+                    <p class="p-text">We summarize the insights obtained in the above deeper research, and we deducted our design goals, and our design challenges emerged.</p>
+                    <label class="cde1-img"></label>
+                </div>
+                <div class="c-deev c-slim-58 title-170">
+                    <h3>Design &amp; Evaluation</h3>
+                    <div class="deev-1">
+                        <div class="title-70">
+                            <h4>The Framework</h4>
+                        </div>
+                        <p class="p-text">Then, we start to explore our information architecture. We conducted <span>affinity diagramming exercise</span> to organize our ideas. 
+                            And we <span> brainstormed </span> elements that can stimulate and cultivate children’s interests. </p>
+                        <div class="deev-1-1 title-90">
+                            <div class="deev11-1">
+                                 <label class="deev1-img"></label>
+                            </div>
+                            <div class="deev11-2">
+                                <label class="deev2-img"></label>
+                                <p class="cs-p">A basic classification of these elements</p>
+                            </div>
+                        </div>
+                        <div class="title-70">
+                            <p class="p-text">Thus, we proposed several ideas, after repeated trials and combinations, we roughly determined <span> a rough solution — 
+                             earning, exercise, and practice. </span> </p>
+                        </div>
                     </div>
                 </div>
 
