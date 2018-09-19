@@ -1,6 +1,10 @@
 .title-170 {
     margin-top: 170px;
 }
+
+.title-150 {
+    margin-top: 150px;
+}
 .title-90 {
     margin-top: 90px;
 }
@@ -16,7 +20,7 @@
     margin-top: 30px;
 }
 .p-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     letter-spacing: 1.06px;
     line-height: 24px;
@@ -31,6 +35,7 @@ h1 {
     letter-spacing: 2px;
     font-size: 42px;
     color: #4A4A4A;
+    margin-bottom: 18px;
 }
 
 h2 {
@@ -38,7 +43,7 @@ h2 {
     color: #4A90E2;
     letter-spacing: 1.12px;
     font-family: 'SFD-Light';
-    margin: 16px 0px;
+    margin: 14px 0px;
 }
 
 h3 {
@@ -52,6 +57,12 @@ h4 {
     font-size: 22px;
     color: #4A4A4A;
     letter-spacing: 1px;
+}
+h5 {
+    font-family: 'SFD-Bold';
+    font-size: 36px;
+    color: #4A4A4A;
+    letter-spacing: 1.5px;
 }
 .c-slim-58 {
     width: 58%;

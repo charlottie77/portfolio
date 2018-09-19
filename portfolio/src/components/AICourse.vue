@@ -11,7 +11,7 @@
                     <h1>AI Course Platform</h1>
                     <h2>We create an all-in-one platform for K-12 AI education.</h2>
                 </div>
-                <div class="c-info c-slim-58"> 
+                <div class="c-info c-slim-58 title-50"> 
                     <div class="c-info-left">
                         <div class="c-info-list">
                             <label class="il-title">Team</label>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="co-t-2">
+                    <div class="co-t-2 title-90">
                         <h4>The Mission</h4>
                         <div class="cot-2-1 title-90">
                             <label class="label-goal">Explore a better solution for AI K-12 Education.</label>
@@ -84,11 +84,11 @@
                         <h4>Design Process</h4>
                     </div>
                 </div>
-                <label class="cot3-img"></label>
-                <div class="c-overview c-slim-58">
+                <label class="cot3-img title-30"></label>
+                <div class="c-overview c-slim-58 title-30">
                     <p class="p-text"> We have <span>iterations between stage 3 to stage 8</span>, where we used agile development methods. </p>
                 </div>
-                <div class="c-kick c-slim-58">
+                <div class="c-kick c-slim-58 title-170">
                     <h3>Kick-off</h3>
                     <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
                     <div class="ck-1">
@@ -102,7 +102,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="c-deep c-slim-58">
+                <div class="c-deep c-slim-58 title-170">
                     <h3>Deeper Research</h3>
                     <p class="p-text">Due to the plan of lab, we first narrow to kids aged 6-12, 
                         who are in primary school. we found that schools tend to set AI course 
@@ -110,9 +110,82 @@
                         get a better logical savvy. Based on our research insights, I proposed 
                         several questions firstly.</p>
                     <div class="cd-1">
+                        <div class="title-70">
+                            <h4>The User</h4>
+                        </div>
+                        <div class="cd-1-1">
+                             <label class="cd1-img"></label>
+                        </div>
+                        <div class="cd-1-2">
+                             <label class="cd2-img"></label>
+                             <p class="cs-p">The three question I proposed for our deeper research.</p>
+                        </div>
+                    </div>
+                    <div class="cd-2">
+                        <div class="cd2-t-1 title-150">
+                            <label>1</label>
+                            <h5>The Content Users Want To Learn</h5>
+                        </div>
+                        <div class="c-quote title-30">
+                            <p class="cq-content">“In fact, sending him to study, I do hope that he will become more persevering.”</p>
+                            <p class="cq-by">By Jennifer Lee, a participant of our user interview.</p>
+                        </div>
+                        <div class="cd2-2 title-30">
+                            <div class="cd2-2-1">
+                                <p class="p-text">To solve the first question — “When we talked about AI education, what do we want to learn?”, we conduct <span>user interview.</span> </p>
+                                <div class="title-50" style="padding-right: 32px;">
+                                     <p class="p-text">In the interview, we prepared <span>card-sorting exercise</span>, allowing users to arrange some cards with the elements 
+                                    they can learn in AI education. We sorted out the results to know what they want to learn.</p>
+                                </div>
+                                <div class="cd221-1 title-70"  style="padding-right: 42px;">
+                                    <label class="cd3-img"></label>
+                                    <p class="cs-p">User Interview</p>
+                                </div>
+                            </div>
+                            <div class="cd2-2-2">
+                                <label class="cd4-img"></label>
+                                <p class="cs-p">The result of the card-sorting exercise</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cd-3">
+                         <div class="cd3-t-1 title-150">
+                            <label>2</label>
+                            <h5>The Way Users Are Learning</h5>
+                        </div>
+                        <div class="cd-3-1">
+                            <div class="cd31-l">
+                                <label class="cd5-img"></label>
+                                <p class="cs-p">Photo by Xiaoteng Ge</p>
+                            </div>
+                            <div class="cd31-r">
+                                <p class="p-text">In order to understand the current study situation, we <span>interviewed 5 group of parents</span>. At the same time, we conducted <span>observations</span>, both in the programming classes and in the experimental AI course which our lab are teaching (without using our product platform)</p>
+                            </div>
+                        </div>
                         
                     </div>
                 </div>
+                <label class="cd6-img title-90"></label>
+                <div class="c-deep c-slim-58">
+                    <div class="cd-3-2 title-30">
+                        <p class="cs-p">The discoveries we found.</p>
+                    </div>
+                    <div class="cd-4">
+                        <div class="cd4-t-1 title-150">
+                            <label>3</label>
+                            <h5>The Model Users Learng</h5>
+                        </div>
+                        <div class="cd-4-1">
+                            <p class="p-text">We also discussed model of children's learning with Jerry Dong, a children's learning expert.</p>
+                            <p class="p-text">We focused on John Dewey’s theory of schooling, which is called <span>progressivism</span>, emphasizes children and their interests rather than subject matter. </p>
+                        </div>
+                        <div class="cd-4-2 title-70">
+                            <label class="cd7-img"></label>
+                            <p class="cs-p">The insights we got from Jerry Dong </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         
@@ -129,206 +202,5 @@ export default {
 <style scoped>
 
 @import url("../css/common_style.css");
-
-#case-1{
-    margin-bottom: 170px;
-}
-
-.c1-banner {
-    width: 100%;
-    height: 500px;
-    background: aliceblue url("../assets/case_1_banner.png") no-repeat;
-    background-size: auto 100%;
-    background-position: 50%;
-}
-
-.back-btn {
-    position: fixed;
-    padding-top: 30px;
-    padding-left: 100px;
-}
-
-.back-btn button {
-    width: 32px;
-    height: 32px;
-    background: #fff url("../assets/icon-back.png") no-repeat;
-    background-size: 10px 20px;
-    background-position: 50% 50%;
-    border-style: none;
-    border-radius: 50%;
-    box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
-}
-
-.c-info {
-    display: flex;
-}
-
-.c-info-left,
-.c-info-right {
-    flex: 1;
-}
-
-.c-info-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.cil-tool {
-    margin-top: 40px;
-}
-
-.c1-content {
-    /* width: 58%; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.c1-content-div {
-    margin-top: 100px;
-}
-
-.c-info-list .il-title {
-    font-size: 20px;
-    color: #9B9B9B;
-    letter-spacing: 1px;
-    font-family: 'SFD-Semibold';
-}
-
-.c-info-list label {
-    font-size: 16px;
-    color: #000000;
-    letter-spacing: 1.06px;
-    margin: 4px 0px;
-}
-
-.c-info-list p {
-    font-size: 16px;
-    color: #9b9b9b;
-    letter-spacing: 1.06px;
-    line-height: 20px;
-    margin: 4px 0px 0px 8px;
-}
-
-.c-info-list p span {
-    color: #4A90E2;
-    font-weight: 600;
-}
-
-.c-secret {
-    margin-top: 50px;
-}
-
-.cs-p{
-    font-family: Charter-Italic;
-    font-size: 14px;
-    color: #979797;
-    letter-spacing: 0.44px;
-}
-
-.c-quote .cq-content {
-    font-family: Charter;
-    font-size: 22px;
-    color: #4A90E2;
-    letter-spacing: 0.88px;
-}
-
-.c-quote .cq-by {
-    font-size: 16px;
-    color: #979797;
-    letter-spacing: 0.62px;
-}
-
-.c-quote {
-    border-left: 8px rgba(142,189,231,0.50) solid;
-    padding-left: 16px;
-}
-
-.co-1 {
-    display: flex;
-}
-
-.co-1-1,
-.co-1-2 {
-    flex: 1;
-    border-style: none;
-}
-
-.co-1-1 {
-    display: flex;
-    justify-content: center;
-}
-
-.co-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* img stock */
-.co11-img{
-    background: transparent url("../assets/1.png") no-repeat;
-    background-size: 350px 205px;
-    background-position: center;
-    width: 350px;
-    height: 205px;
-    box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
-    border-style:  none;
-    display: inline-block;
-}
-
-.co21-img {
-    background: transparent url("../assets/2.png") no-repeat;
-    background-size: 800px 132px;
-    background-position: center;
-    width: 800px;
-    height: 132px;
-    border-style:  none;
-    display: inline-block;
-}
-
-.co3-img {
-    background: transparent url("../assets/3.png") no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    width: 100%;
-    height: 210px;
-    border-style:  none;
-    display: inline-block;
-}
-
-.cot3-img {
-    background: transparent url("../assets/4.png") no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    width: 80%;
-    height: 203px;
-    border-style:  none;
-    display: inline-block;
-}
-
-.ck1-img {
-    background: transparent url("../assets/5.png") no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    width: 80%;
-    height: 178px;
-    border-style:  none;
-    display: inline-block;
-}
-
-.co-2-2 {
-    margin-top: 24px;
-}
-
-.cot-2-1 {
-    display: flex;
-    justify-content: center;
-}
-
-.ck-1-1 {
-    display: flex;
-    justify-content: center;
-}
-
+@import url("../css/ai_course.css");
 </style>

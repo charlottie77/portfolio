@@ -52,7 +52,7 @@ export default {
   .home-left {
     background: transparent url("../assets/home_bg_left.png") no-repeat;
     /* background-size: 600px auto; */
-    background-size: calc(100% - 100px) auto;
+    background-size: calc(100% - 150px) auto;
   }
 
   .home-right {
