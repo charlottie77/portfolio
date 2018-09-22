@@ -245,8 +245,133 @@
                              earning, exercise, and practice. </span> </p>
                         </div>
                     </div>
-                </div>
 
+                    <div class="deev-2">
+                        <div class="title-110">
+                            <h4>Test and Iteration</h4>
+                        </div>
+                        <p class="p-text">Then we quickly came up with a rough lecture of “Chapter 3. Learning”. Jan and I made a little game on the paper 
+                            about teaching a robot to take care about himself. We <span>tested</span> it on a child(9 years old boy) and several laymen(who without CS 
+                            background). </p>
+                        <div class="deev-2-1">
+                            <div class="deev21-l">
+                                <label class="deev3-img"></label>
+                                <div class="deev21l-1">
+                                    <p class="cs-p" style="display: inline">Our paper prototype</p>
+                                    <label class="deev4-img"></label>
+                                </div>
+                            </div>
+                            <div class="deev21-r">
+                                <label class="deev5-img"></label>
+                            </div>
+                        </div>
+                        <p class="p-text">We found that, for children with insufficient concentration (which is very common), to learn content directly is very boring and they would easily lose interests. After the several rounds of tests and modification, I proposed three features:</p>
+                        <div class="title-70">
+                            <label class="deev6-img"></label>
+                        </div>
+                        <p class="p-text title-70">To complete —eliminate the technical barriers, we believe that all stages of learning should be integrated into one platform, 
+                            and be compatible with mainstream learning tools, such as PC and iPad. Thus, we just refine <span>our solution and flow.</span></p>
+                        <div class="deev21-1 title-70">
+                            <label class="deev7-img"></label>
+                            <p class="cs-p">Our final architecture of AI Course Platform</p>
+                        </div>
+                    </div>
+                    <div class="deev-3">
+                        <div class="title-110">
+                            <h4>Information Architecture</h4>
+                            <div class="deev3-1">
+                                <p class="p-text">During the iteration, while paying attention to interest, we find that the knowledge delivery part is weak. In order 
+                                    to highlight the interactive content, we create another module to strengthen knowledge learning.</p>
+                                <label class="deev8-img"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deev-4 title-110">
+                        <h4>Flow Refinement</h4> 
+                    </div>
+                </div>
+                <div class="deev4-1">
+                    <p class="p-text">We have several rounds of wireframe design. At the same time, we also start to design every single 
+                        exercise and off-line experiment. You could see more detail about game-like exercise project here.</p>
+                    <label class="deev9-img"></label>
+                </div>
+                <div class="c-deev c-slim-58 title-70">
+                    <h4>Wireframe</h4> 
+                </div>
+                <div class="deev4-2">
+                    <label class="deev10-img"></label>
+                </div>
+                <div class="c-deev c-slim-58 title-70">
+                    <h4>Visual Design</h4>
+                    <p class="p-text">We created Robi, a little robot, to lead our storyline.</p>
+                </div>
+                <div class="deev4-3">
+                    <label class="deev11-img"></label>
+                </div>
+                <div class="c-deev c-slim-58 title-30">
+                    <p class="p-text">Bright colors with highly customized illustrations are the keys of visual design.</p>
+                </div>
+                <div class="c-result c-slim-58 title-170">
+                    <h3>Our Result</h3>
+                    <div class="cr-1">
+                        <h4>Interactive Text Content</h4>
+                    </div>
+                </div>
+                <div class="cr1-1">
+                    <label class="cr1-img"></label>
+                </div>
+                <div class="c-result c-slim-58 title-90">
+                    <h4>Game-like Exercises</h4>
+                    <p class="p-text">In every lesson, the students will play a game-like exercise to study, presenting them various scenarios of how to work with AI and what can be accomplished.</p>
+                </div>
+                <div class="cr1-2 title-50">
+                    <label class="cr2-img"></label>
+                    <label class="cr3-img"></label>
+                    <p class="p-text">Like you could train a little robot to take care about himself. You could see more detail about this project here.</p>
+                </div>
+                <div class="c-result c-slim-58 title-90">
+                    <h4>Linked Glossary of AI</h4>
+                </div>
+                <div class="cr1-3">
+                    <label class="cr4-img"></label>
+                    <p class="p-text">We link a glossary of AI in the platform containing a fund of materials, which students could view it anytime, to help them get a deeper understanding.</p>
+                </div>
+                <div class="c-result c-slim-58 title-90">
+                    <h4>All-in-one Platform</h4>
+                    <p class="p-text">We put all features above into one platform to eliminate the technical barrier of users. It allows students to attain new knowledge, get hands-on experience and practice in one step, anywhere and anytime. </p>
+                </div>
+                <div class="cr1-4 title-30">
+                    <label class="cr5-img"></label>
+                </div>
+                <div class="c-launch c-slim-58 title-170">
+                    <h3>Launch</h3>
+                    <p class="p-text">In May 2018, we finally released a beta version of the AI Course Platform.</p>
+                    <label class="cl1-img"></label>
+                    <p class="p-text">We conducted the AI K-12 learning from traditional solution to a new all-in-one platform. The new solution is dedicated to cultivating children's interests, focusing on interaction and practice, and greatly facilitating our users.</p>
+                </div>
+                <div class="cl-1 title-90">
+                    <label class="cl2-img"></label>
+                    <p class="cs-p">Our improvement</p>
+                </div>
+                <div class="c-launch c-slim-58 title-90">
+                    <p class="p-text">June 2018, with the AI Course Platform and the corresponding courses, which are still improving, we held a lecture at the LEGO Activity Center in Pudong New Area, Shanghai, explaining the lesson “Chapter 3. Learning — Machine could learn”.</p>
+                    <p class="p-text">We used the AI Course Platform to assist the teacher and complete the test successfully. We received plenty of positive feedback from the students and their parents. </p>
+                    <div class="cl-2 title-50">
+                        <div class="cl2-1">
+                            <label class="cl3-img"></label>
+                            <label class="cl4-img"></label>
+                        </div>
+                        <p class="cs-p">Photo by Xiaoteng Ge</p>
+                    </div>
+                    <div class="cl-3 title-110">
+                        <label class="cl5-img"></label>
+                        <p class="cs-p">The data of the class</p>
+                    </div>
+                    <div class="title-50">
+                        <p class="p-text">Seeing the encouragement from real users, I was more excited and determined to value the children’s precious interests in this field.</p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
         

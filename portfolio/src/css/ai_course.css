@@ -365,6 +365,184 @@
     display: inline-block;
 }
 
+.deev3-img {
+    background: transparent url("../assets/16.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 275px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.deev4-img {
+    background: transparent url("../assets/34.png") no-repeat;
+    background-size: 50% auto;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.deev5-img {
+    background: transparent url("../assets/17.png") no-repeat;
+    background-size: 80% auto;
+    background-position: center;
+    width: 100%;
+    height: 357px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.deev6-img {
+    background: transparent url("../assets/18.png") no-repeat;
+    background-size: 50% auto;
+    background-position: center;
+    width: 100%;
+    height: 218px;
+    border-style:  none;
+    display: inline-block;
+}
+.deev7-img {
+    background: transparent url("../assets/19.png") no-repeat;
+    background-size: 70% auto;
+    background-position: center;
+    width: 100%;
+    height: 382px;
+    border-style:  none;
+    display: inline-block;
+}
+.deev8-img {
+    background: transparent url("../assets/20.png") no-repeat;
+    background-size: 80% auto;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border-style:  none;
+    display: inline-block;
+}
+.deev9-img {
+    background: transparent url("../assets/21.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    border-style:  none;
+    display: inline-block;
+}
+.deev10-img {
+    background: transparent url("../assets/22.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 468px;
+    border-style:  none;
+    display: inline-block;
+}
+.deev11-img {
+    background: transparent url("../assets/23.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 626px;
+    border-style:  none;
+    display: inline-block;
+}
+.cr1-img {
+    background: transparent url("../assets/24.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 434px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.cr2-img {
+    background: transparent url("../assets/26.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 350px;
+    height: 219px;
+    border-style:  none;
+    display: inline-block;
+    margin: 0px 24px;
+}
+.cr3-img {
+    background: transparent url("../assets/27.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 350px;
+    height: 219px;
+    border-style:  none;
+    display: inline-block;
+    margin: 0px 24px;
+}
+.cr4-img {
+    background: transparent url("../assets/28.png") no-repeat;
+    background-size: 70% auto;
+    background-position: center;
+    width: 100%;
+    height: 513px;
+    border-style:  none;
+    display: inline-block;
+}
+.cr5-img {
+    background: transparent url("../assets/30.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 189px;
+    border-style:  none;
+    display: inline-block;
+}
+.cl1-img {
+    background: #f2f2f2;
+    height: 434px;
+    width: 100%;
+    display: inline-block;
+}
+.cl2-img {
+    background: transparent url("../assets/31.png") no-repeat;
+    background-size: 70% auto;
+    background-position: center;
+    width: 100%;
+    height: 149px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.cl3-img {
+    background: transparent url("../assets/32.png") no-repeat;
+    background-size: 90% auto;
+    background-position: center;
+    width: 415px;
+    height: 248px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.cl4-img {
+    background: transparent url("../assets/33.png") no-repeat;
+    background-size: 90% auto;
+    background-position: center;
+    width: 415px;
+    height: 248px;
+    border-style:  none;
+    display: inline-block;
+}
+
+.cl5-img {
+    background: transparent url("../assets/35.png") no-repeat;
+    background-size: 80% auto;
+    background-position: center;
+    width: 100%;
+    height: 173px;
+    border-style:  none;
+    display: inline-block;
+}
+
 .co-2-2 {
     margin-top: 24px;
 }
@@ -479,4 +657,123 @@
 
 .oc1 {
     height: 350px;
+}
+
+.deev21l-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.deev21-l {
+    display: flex;
+    flex-direction: column;
+}
+
+.deev-2-1 {
+    display: flex;
+}
+
+.deev21-l,
+.deev21-r {
+    flex: 1;
+}
+
+.deev21-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deev3-1 {
+    position: relative;
+}
+
+.deev3-1 p {
+    position: absolute;
+    width: 464px;
+    top: 30px;
+}
+
+.deev4-1 {
+    position: relative;
+    height: 670px;
+    width: 100%;
+}
+
+.deev4-1 p {
+    position: absolute;
+    width: 418px;
+    right: 281px;
+    bottom: 87px;
+}
+
+.deev4-2 {
+    height: 468px;
+    width: 100%;
+}
+
+.deev4-3 {
+    height: 626px;
+    width: 100%;
+}
+
+.cr1-1 {
+    height: 434px;
+    width: 100%;
+}
+
+.cr1-2 {
+    height: 282px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cr1-2 p {
+    width: 446px;
+    margin-top: 150px;
+}
+
+.cr1-3 {
+    position: relative;
+    width: 100%;
+    height: 513px;
+}
+
+.cr1-3 p {
+    position: absolute;
+    width: 450px;
+    bottom: 40px;
+    left: 21%;
+}
+
+.cr1-4 {
+    height: 189px;
+    width: 100%;
+}
+
+.cl-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+}
+
+.cl-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cl2-1 {
+    display: flex;
+
+}
+
+.cl-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
