@@ -5,6 +5,10 @@
 .title-150 {
     margin-top: 150px;
 }
+
+.title-110 {
+    margin-top: 110px;
+}
 .title-90 {
     margin-top: 90px;
 }
@@ -22,8 +26,11 @@
 .p-text {
     font-size: 16px;
     color: #000000;
-    letter-spacing: 1.06px;
+    letter-spacing: 1.56px;
     line-height: 24px;
+}
+.p-bold {
+    font-family: 'SF-Pro-Bold';
 }
 
 .p-text span {
@@ -33,33 +40,35 @@
 
 h1 {
     letter-spacing: 2px;
-    font-size: 42px;
+    font-size: 36px;
     color: #4A4A4A;
     margin-bottom: 18px;
+    font-family: 'SF-Pro-Bold';
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 24px;
     color: #4A90E2;
     letter-spacing: 1.12px;
-    font-family: 'SFD-Light';
-    margin: 14px 0px;
+    font-family: 'SF-Pro-Light';
+    margin: 0px 0px;
 }
 
 h3 {
-    font-size: 32px;
+    font-family: 'SF-Pro-Ultralight';
+    font-size: 46px;
     color: #9B9B9B;
-    letter-spacing: 1.5px;
-    font-family: 'SFD-Semibold';
+    letter-spacing: 1.62px;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 26px;
     color: #4A4A4A;
     letter-spacing: 1px;
+    font-family: 'SF-Pro-Bold';
 }
 h5 {
-    font-family: 'SFD-Bold';
+    font-family: 'SF-Pro-Bold';
     font-size: 36px;
     color: #4A4A4A;
     letter-spacing: 1.5px;
@@ -75,4 +84,15 @@ h5 {
     padding: 14px;
     border-top: 2px solid #003b7f;
     border-bottom: 2px solid #003b7f;
+    font-family: 'SF-Pro-Semibold';
+}
+
+.over-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.over-center label{
+    display: inline-block;
 }

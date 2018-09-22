@@ -1,6 +1,6 @@
 <template>
     <div id="case-1">
-        <div class="back-btn">
+        <div class="back-btn" @click="goToMain()">
             <button></button>
         </div>
         <div class="c1-banner">
@@ -11,50 +11,76 @@
                     <h1>AI Course Platform</h1>
                     <h2>We create an all-in-one platform for K-12 AI education.</h2>
                 </div>
-                <div class="c-info c-slim-58 title-50"> 
-                    <div class="c-info-left">
-                        <div class="c-info-list">
-                            <label class="il-title">Team</label>
-                            <label>Linas Zhang</label>
-                            <label>Me</label>
-                            <label>Jay Zhu</label>
-                            <label>Jan Doring</label>
-                            <label>Dachang Liu</label>
+                <div class="c-overview c-slim-58  title-70">
+                    <h3>Overview</h3>
+                    <div class="c-info"> 
+                        <div class="ci-1">
+                            <div class="ci-1-l">
+                                <label class="il-title">Team</label>
+                                <div class="ci1l-1">
+                                    <label>Xiaohua Sun</label>
+                                    <label>Linas Zhang</label>
+                                    <label>Me</label>
+                                    <label>Jay Zhu</label>
+                                    <label>Jan Doring</label>
+                                    <label>Dachang Liu</label>
+                                </div>
+                            </div>
+                            <div class="ci-1-r">
+                                <label class="il-title">Tool &amp; Tech</label>
+                                <div class="ci1r-1">
+                                    <label>Sketch</label>
+                                    <label>illustrator</label>
+                                    <label>After Effect</label>
+                                    <label>Unity 3D</label>
+                                    <label>TensorFlow</label>
+                                    <label>OpenCV</label>
+                                </div>
+                            </div>
                         </div>
-                        <div class="c-info-list cil-tool">
-                            <label class="il-title">Tool &amp; Tech</label>
-                            <label>Sketch、illustrator、After Effect</label>
-                            <label>Unity 3D、TensorFlow、OpenCV</label>
-                        </div>
-                    </div>
-                    <div class="c-info-right">
-                        <div class="c-info-list">
-                            <label class="il-title">My Role</label>
-                            <label>Researcher</label>
-                            <label>Concept Design</label>
-                            <label>UX Design</label>
-                            <label>Programmer</label>
-                            <p>Due to my <span>CS background</span> and deep participation of design, 
-                                I <span>collaborated</span> with another programmer on <span>technology selection, 
-                                requirement modeling, architecture design and high-level system 
-                                design</span>. I also complete <span>algorithm design</span> relating to machine 
-                                learning and computer vision.</p>
-                            <label>Scrum Master</label>
-                            <p>I lead our team using agile software development methods.</p>
+                        <div class="ci-2">
+                            <div class="ci-2-l">
+                                <label class="il-title">My Role</label>
+                                <div class="ci2l-1">
+                                    <label>Researcher</label>
+                                    <label>Concept Design</label>
+                                    <label>UX Design</label>
+                                    <label>Programmer</label>
+                                </div>
+                            </div>
+                            <div class="ci-2-m">
+                                <label></label>
+                            </div>
+                            <div class="ci-2-r">
+                                <div class="ci2r-1">
+                                    <p>Due to my CS background and deep participation of design, I collaborated on, </p>
+                                    <p class="p-bold">· Technology selection</p>
+                                    <p class="p-bold">· Requirement modeling</p>
+                                    <p class="p-bold">· Architecture design</p>
+                                </div>
+                                <div class="ci2r-2">
+                                    <p>I also lead, </p>
+                                    <p><span class="p-bold">· Algorithm design</span> (relating to machine learning and computer vision.)</p>
+                                    <p><span class="p-bold">· Unity development team </span>(using agile software development methods.)</p>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
+                
                 <div class="c-secret c-slim-58">
                     <p class="cs-p">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</p>
                 </div>
-                <div class="c-overview title-170 c-slim-58">
-                    <h3>Overview</h3>
+                <div class="c-firstq c-slim-58 title-170">
+                    <div class="c-quote">
+                        <p class="cq-content">“It’s important that our children be given accurate information about Al so they can understand this technology that is reshaping our lives.”</p>
+                        <p class="cq-by">By Prof. David Touretzky, an AI researcher at CMU</p>
+                    </div>
+                </div>
+                <div class="c-overview title-150 c-slim-58">
                     <div class="co-t-1">
                         <h4>Background</h4>
-                        <div class="c-quote">
-                            <p class="cq-content">“It’s important that our children be given accurate information about Al so they can understand this technology that is reshaping our lives.”</p>
-                            <p class="cq-by">By Prof. David Touretzky, an AI researcher at CMU</p>
-                        </div>
                         <div class="co-1 title-70">
                             <div class="co-1-1">
                                 <label class="co11-img"></label>
@@ -70,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="co-t-2 title-90">
+                    <div class="co-t-2 title-150">
                         <h4>The Mission</h4>
                         <div class="cot-2-1 title-90">
                             <label class="label-goal">Explore a better solution for AI K-12 Education.</label>
@@ -89,17 +115,17 @@
                     <p class="p-text"> We have <span>iterations between stage 3 to stage 8</span>, where we used agile development methods. </p>
                 </div>
                 <div class="c-kick c-slim-58 title-170">
-                    <h3>Kick-off</h3>
-                    <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
+                    <h4>Kick-off</h4>
                     <div class="ck-1">
-                         <div class="title-70">
-                            <h4 >Conduct Research</h4>
-                        </div>
+                        <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
                         <p class="p-text">We conducted market research, literature research. Also, we conducted user interviews in many programming, creator, and AI extra-curricular classes around Shanghai and some non-first-tier cities, like Suzhou, and Urumqi. </p>
-                        <p class="p-text">We have classified the insights into the following three categories:</p>
-                        <div class="ck-1-1">
+                        <div class="ck-1-1 title-90">
                              <label class="ck1-img"></label>
                         </div> 
+                        <div class="ck-1-2">
+                            <p class="cs-p">Three categories of first insights we got.</p>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="c-deep c-slim-58 title-170">
@@ -137,7 +163,7 @@
                                      <p class="p-text">In the interview, we prepared <span>card-sorting exercise</span>, allowing users to arrange some cards with the elements 
                                     they can learn in AI education. We sorted out the results to know what they want to learn.</p>
                                 </div>
-                                <div class="cd221-1 title-70"  style="padding-right: 42px;">
+                                <div class="cd221-1 title-70"  style="padding-right: 62px;">
                                     <label class="cd3-img"></label>
                                     <p class="cs-p">User Interview</p>
                                 </div>
@@ -165,10 +191,16 @@
                         
                     </div>
                 </div>
-                <label class="cd6-img title-90"></label>
+                <div class="over-center oc1 title-90">
+                     <label class="cd6-img"></label>
+                </div>
                 <div class="c-deep c-slim-58">
                     <div class="cd-3-2 title-30">
                         <p class="cs-p">The discoveries we found.</p>
+                    </div>
+                    <div class="c-quote title-150">
+                            <p class="cq-content">“Education, therefore, is a process of living and not a preparation for future living.”</p>
+                            <p class="cq-by">By John Dewey in My Pedagogical Creed</p>
                     </div>
                     <div class="cd-4">
                         <div class="cd4-t-1 title-150">
@@ -183,10 +215,7 @@
                             <label class="cd7-img"></label>
                             <p class="cs-p">The insights we got from Jerry Dong </p>
                         </div>
-                        <div class="c-quote title-70">
-                            <p class="cq-content">“Education, therefore, is a process of living and not a preparation for future living.”</p>
-                            <p class="cq-by">By John Dewey in My Pedagogical Creed</p>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="c-dechall c-slim-58 title-170">
@@ -202,10 +231,10 @@
                         </div>
                         <p class="p-text">Then, we start to explore our information architecture. We conducted <span>affinity diagramming exercise</span> to organize our ideas. 
                             And we <span> brainstormed </span> elements that can stimulate and cultivate children’s interests. </p>
-                        <div class="deev-1-1 title-90">
-                            <div class="deev11-1">
+                        <div class="deev-1-1 title-70">
+                            <!-- <div class="deev11-1">
                                  <label class="deev1-img"></label>
-                            </div>
+                            </div> -->
                             <div class="deev11-2">
                                 <label class="deev2-img"></label>
                                 <p class="cs-p">A basic classification of these elements</p>
@@ -226,7 +255,13 @@
 
 <script>
 export default {
-  name: 'AICourse'
+  name: 'AICourse',
+  methods: {
+    goToMain:function(){
+      this.$router.push({path:'/'});
+    }
+  }
+  
 }
   
 </script>
@@ -235,4 +270,5 @@ export default {
 
 @import url("../css/common_style.css");
 @import url("../css/ai_course.css");
+
 </style>

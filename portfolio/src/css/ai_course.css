@@ -4,8 +4,8 @@
 
 .c1-banner {
     width: 100%;
-    height: 500px;
-    background: aliceblue url("../assets/case_1_banner.png") no-repeat;
+    height: 450px;
+    background: aliceblue url("../assets/c1_header.png") no-repeat;
     background-size: auto 100%;
     background-position: 50%;
 }
@@ -29,11 +29,82 @@
 
 .c-info {
     display: flex;
+    flex-direction: column;
 }
 
 .c-info-left,
 .c-info-right {
     flex: 1;
+}
+
+.ci1l-1,
+.ci1r-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ci1l-1 label {
+    margin: 8px 48px 8px 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    line-height: 36px;
+}
+
+.ci1r-1 label {
+    margin: 8px 48px 8px 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    line-height: 36px;
+}
+
+.ci-2 {
+    margin-top: 64px;
+    display: flex;
+}
+
+.ci2l-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.ci2l-1 label {
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    /* line-height: 36px; */
+}
+.ci-2-m label {
+    background: #fff url("../assets/myrole_line.png") no-repeat;
+    background-size: 1px 157px;
+    width: 1px;
+    height: 157px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.ci-2-l {
+    margin-right: 100px;
+    flex-basis: 140px;
+    flex-shrink: 0;
+}
+.ci-2-r {
+    display: flex;
+}
+
+.ci2r-1,
+.ci2r-2 {
+    flex: 1;
+    margin: 0px 16px;
+}
+.ci-2-r p{
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1.06px;
 }
 
 .c-info-list {
@@ -56,11 +127,20 @@
     margin-top: 100px;
 }
 
-.c-info-list .il-title {
-    font-size: 24px;
-    color: #9B9B9B;
-    letter-spacing: 1px;
-    font-family: 'SFD-Semibold';
+.il-title {
+    font-family: 'SF-Pro-Bold';
+    font-size: 28px;
+    color: #A3CCF0;
+    letter-spacing: 0.88px;
+}
+
+.ci-1 {
+    display: flex;
+}
+
+.ci-1-l,
+.ci-1-r {
+    flex: 1;
 }
 
 .c-info-list label {
@@ -219,7 +299,7 @@
     background: transparent url("../assets/8.png") no-repeat;
     background-size: 100% auto;
     background-position: center;
-    width: 80%;
+    width: 65%;
     height: 550px;
     border-style:  none;
     display: inline-block;
@@ -237,10 +317,10 @@
 
 .cd6-img {
     background: transparent url("../assets/11.png") no-repeat;
-    background-size: 78% auto;
+    background-size: 70% auto;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 350px;
     border-style:  none;
     display: inline-block;
 }
@@ -280,7 +360,7 @@
     background-size: 80% auto;
     background-position: center;
     width: 100%;
-    height: 274px;
+    height: 393px;
     border-style:  none;
     display: inline-block;
 }
@@ -294,7 +374,8 @@
     justify-content: center;
 }
 
-.ck-1-1 {
+.ck-1-1,
+.ck-1-2 {
     display: flex;
     justify-content: center;
 }
@@ -323,7 +404,7 @@
 .cd2-t-1 label,
 .cd3-t-1 label,
 .cd4-t-1 label{
-    font-family: 'SFD-Semibold';
+    font-family: 'SF-Pro-Semibold';
     font-size: 88px;
     color: #DDDDDD;
     position: absolute;
@@ -394,4 +475,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.oc1 {
+    height: 350px;
 }
