@@ -8,12 +8,21 @@
     background: aliceblue url("../assets/c1_header.png") no-repeat;
     background-size: auto 100%;
     background-position: 50%;
+    z-index: 1;
 }
 
 .back-btn {
     position: fixed;
     padding-top: 30px;
     padding-left: 100px;
+}
+
+.back-btn:active,
+.back-btn:focus,
+.back-btn button:active,
+.back-btn button:focus
+ {
+    outline: none;
 }
 
 .back-btn button {
@@ -240,9 +249,10 @@
     background-size: 100% auto;
     background-position: center;
     width: 100%;
-    height: 210px;
+    height: 320px;
     border-style:  none;
     display: inline-block;
+    z-index: 1;
 }
 
 .cot3-img {
@@ -253,6 +263,7 @@
     height: 203px;
     border-style:  none;
     display: inline-block;
+    z-index: 1;
 }
 
 .ck1-img {
@@ -297,9 +308,9 @@
 
 .cd4-img {
     background: transparent url("../assets/8.png") no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-position: center;
-    width: 65%;
+    width: 324px;
     height: 550px;
     border-style:  none;
     display: inline-block;
@@ -320,7 +331,7 @@
     background-size: 70% auto;
     background-position: center;
     width: 100%;
-    height: 350px;
+    height: 430px;
     border-style:  none;
     display: inline-block;
 }
@@ -329,7 +340,7 @@
     background: transparent url("../assets/12.png") no-repeat;
     background-size: 78% auto;
     background-position: center;
-    width: 100%;
+    width: 966px;
     height: 265px;
     border-style:  none;
     display: inline-block;
@@ -339,8 +350,8 @@
     background: transparent url("../assets/13.png") no-repeat;
     background-size: 80% auto;
     background-position: center;
-    width: 100%;
-    height: 548px;
+    width: 885px;
+    height: 500px;
     border-style:  none;
     display: inline-block;
 }
@@ -427,7 +438,7 @@
     background-size: 100% auto;
     background-position: center;
     width: 100%;
-    height: 600px;
+    height: 650px;
     border-style:  none;
     display: inline-block;
 }
@@ -448,6 +459,7 @@
     height: 626px;
     border-style:  none;
     display: inline-block;
+    z-index: 1;
 }
 .cr1-img {
     background: transparent url("../assets/24.png") no-repeat;
@@ -505,10 +517,10 @@
 }
 .cl2-img {
     background: transparent url("../assets/31.png") no-repeat;
-    background-size: 70% auto;
+    background-size: 80% auto;
     background-position: center;
-    width: 100%;
-    height: 149px;
+    width: 1285px;
+    height: 250px;
     border-style:  none;
     display: inline-block;
 }
@@ -535,10 +547,10 @@
 
 .cl5-img {
     background: transparent url("../assets/35.png") no-repeat;
-    background-size: 80% auto;
+    background-size: 100% auto;
     background-position: center;
     width: 100%;
-    height: 173px;
+    height: 250px;
     border-style:  none;
     display: inline-block;
 }
@@ -692,7 +704,7 @@
 .deev3-1 p {
     position: absolute;
     width: 464px;
-    top: 30px;
+    top: 10px;
 }
 
 .deev4-1 {
@@ -716,6 +728,7 @@
 .deev4-3 {
     height: 626px;
     width: 100%;
+    z-index: 1;
 }
 
 .cr1-1 {
@@ -751,13 +764,15 @@
 .cr1-4 {
     height: 189px;
     width: 100%;
+    margin-bottom: 50px;
+    z-index: 1;
 }
 
 .cl-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 180px;
+    height: 250px;
     width: 100%;
 }
 
@@ -773,6 +788,70 @@
 }
 
 .cl-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-kick-outter,
+.c-deev-outter,
+.deev-3-outter
+ {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.c-grey-bg {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.deev-3-outter {
+    width: 100%;
+}
+.c-kick,
+.c-deev {
+    margin-bottom: 30px;
+}
+
+.anch-item span{
+    width: 11px;
+    height: 11px;
+    background-color: #A3CCF0;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 8px 16px 0px 0px;
+}
+
+.anch-item span:hover {
+    width: 13px;
+    height: 13px;
+    background-color: #4A90E2;
+}
+
+.anch-item label {
+    color: #4a90e2;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+
+    /* color: #9b9b9b;
+    letter-spacing: 1.5px; */
+    font-family: 'SF-Pro-Light';
+    /* font-size: 12px; */
+}
+
+/* .anch-item label:hover {
+    color: #4a90e2;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+} */
+
+.cdec-1 {
     display: flex;
     flex-direction: column;
     align-items: center;

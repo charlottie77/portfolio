@@ -96,3 +96,10 @@ h5 {
 .over-center label{
     display: inline-block;
 }
+
+.anchor-index {
+    position: fixed;
+    top: 40%;
+    left: 80px;
+    z-index:0;
+}

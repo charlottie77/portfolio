@@ -1,8 +1,11 @@
 <template>
     <div id="app">
-      <div id="header-group">
-         <label @click="goToMain()">Portfolio</label>
-         <label @click="goToAbout()">About</label>
+      <div id="header-group" >
+           <label v-for="(item, index) in nav" :key="index" 
+            @click="routerLink(index, item.path)" 
+            :class=" navIndex === index ? 'label-active' : 'label-unactive'">
+             {{ item.title}} 
+          </label>
       </div>
     <router-view/>
     </div>
@@ -14,12 +17,39 @@ export default {
   name: 'App',
   props: {
   },
+  data: function(){
+    return {
+      nav: [
+        {title: 'Portfolio', path: '/'},
+        {title: 'About', path: '/about'}
+      ],
+      navIndex: 0,
+    }  
+  },
+  watch: {
+    "$route"() {
+    // 获取当前路径
+    let path = this.$route.path;
+    // 检索当前路径
+    this.checkRouterLocal(path);
+    }
+  },
   methods: {
     goToMain:function(){
       this.$router.push({path:'/'});
     },
     goToAbout: function() {
       this.$router.push({path:'/about'});
+    },
+    routerLink(index, path) {
+      // 点击哪个路由就赋值给自定义的下下标
+      this.navIndex = index;
+      // 路由跳转
+      this.$router.push(path)
+    },
+    checkRouterLocal(path) {
+      // 查找当前路由下标高亮
+      this.navIndex = this.nav.findIndex(item => item.path === path);
     }
   }
 }
@@ -32,7 +62,7 @@ export default {
   font-family: 'SF-Pro-Regular';
 }
 #header-group {
-  /* display: flex; */
+  display: flex;
   right: 10px;
   position: fixed;
   margin-top: 30px;
@@ -42,7 +72,7 @@ export default {
 
 #header-group label {
   font-size: 16px;
-  color: #979797;
+  /* color: #979797; */
   letter-spacing: 2px;
   margin: 0px 16px;
   /* background-color: #fff;
@@ -50,6 +80,17 @@ export default {
   padding: 4px 8px;
   font-family: 'SF-Pro-Regular';
   /* box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5); */
+}
+
+#header-group label:hover {
+  color: #8c3800;
+}
+
+.label-active {
+  color: #4a4a4a;
+}
+.label-unactive {
+  color: #979797;
 }
 
 body {

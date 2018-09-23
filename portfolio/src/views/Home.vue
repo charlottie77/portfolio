@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <PortList msg="Welcome to Your Vue.js App"/>
+    <PortList msg=""/>
   </div>
 </template>
 

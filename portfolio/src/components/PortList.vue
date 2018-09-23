@@ -2,7 +2,7 @@
   <div id="port-list">
     <div class="pl-item">
       <div class="pli-img i-1" @mouseover='showCover(1)' ></div>
-      <div @click="goToCase(1)"  class="pli-cover" id="pli1-cover" v-show="show1" @mouseout='hideCover(1)'>
+      <div @click="goToCase(1)"  class="pli-cover" id="pli1-cover" v-show="show1" @mouseleave='hideCover(1)'>
         <label class="pli-title t-1">AI Course Platform</label>
         <label class="pli-des d-1">Create an all-in-one platform for K-12 AI education.</label>
       </div>
@@ -51,7 +51,7 @@ export default {
 #port-list {
   display:flex;
   flex-direction: column;
-  left: 18.5%;
+  margin-left: 18.5%;
   position: relative;
   margin-top: 100px;
 }
@@ -80,7 +80,7 @@ export default {
 
  .pli-cover {
    position: absolute;
-   left: 0px;
+   left: -10px;
    display: flex;
    flex-direction: column;
  }

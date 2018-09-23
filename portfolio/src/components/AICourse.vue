@@ -3,6 +3,12 @@
         <div class="back-btn" @click="goToMain()">
             <button></button>
         </div>
+        <div class="anchor-index">
+           <div class="anch-item" v-for="(item, index) in cate" @mouseover='showAnchor(index)' @mouseleave='hideAnchor(index)' @click="goAnchor('#cc-'+ item.anchor)">
+               <span></span>
+               <label v-show="show_anchor[index]">{{item.title}}</label>
+           </div>
+        </div>
         <div class="c1-banner">
         </div>
         <div class="c1-content-div">
@@ -11,7 +17,7 @@
                     <h1>AI Course Platform</h1>
                     <h2>We create an all-in-one platform for K-12 AI education.</h2>
                 </div>
-                <div class="c-overview c-slim-58  title-70">
+                <div class="c-overview c-slim-58  title-70" id="cc-overview">
                     <h3>Overview</h3>
                     <div class="c-info"> 
                         <div class="ci-1">
@@ -78,7 +84,7 @@
                         <p class="cq-by">By Prof. David Touretzky, an AI researcher at CMU</p>
                     </div>
                 </div>
-                <div class="c-overview title-150 c-slim-58">
+                <div class="c-overview title-150 c-slim-58" id="cc-background">
                     <div class="co-t-1">
                         <h4>Background</h4>
                         <div class="co-1 title-70">
@@ -96,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="co-t-2 title-150">
+                    <div class="co-t-2 title-150" id="cc-the-mission">
                         <h4>The Mission</h4>
                         <div class="cot-2-1 title-90">
                             <label class="label-goal">Explore a better solution for AI K-12 Education.</label>
@@ -105,7 +111,7 @@
                     </div>
                 </div>
                 <label class="co3-img title-50"></label>
-                <div class="c-overview title-170 c-slim-58">
+                <div class="c-overview title-110 c-slim-58" id="cc-design-process">
                     <div class="co-t-3">
                         <h4>Design Process</h4>
                     </div>
@@ -114,21 +120,24 @@
                 <div class="c-overview c-slim-58 title-30">
                     <p class="p-text"> We have <span>iterations between stage 3 to stage 8</span>, where we used agile development methods. </p>
                 </div>
-                <div class="c-kick c-slim-58 title-170">
-                    <h4>Kick-off</h4>
-                    <div class="ck-1">
-                        <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
-                        <p class="p-text">We conducted market research, literature research. Also, we conducted user interviews in many programming, creator, and AI extra-curricular classes around Shanghai and some non-first-tier cities, like Suzhou, and Urumqi. </p>
-                        <div class="ck-1-1 title-90">
-                             <label class="ck1-img"></label>
-                        </div> 
-                        <div class="ck-1-2">
-                            <p class="cs-p">Three categories of first insights we got.</p>
+                <div class="c-kick-outter title-170">
+                    <div class="c-kick c-slim-58">
+                        <h4>Kick-off</h4>
+                        <div class="ck-1">
+                            <p class="p-text">Before we find our specific challenges, we take a step back and think about the challenges in the field of AI education.</p>
+                            <p class="p-text">We conducted market research, literature research. Also, we conducted user interviews in many programming, creator, and AI extra-curricular classes around Shanghai and some non-first-tier cities, like Suzhou, and Urumqi. </p>
+                            <div class="ck-1-1 title-90">
+                                <label class="ck1-img"></label>
+                            </div> 
+                            <div class="ck-1-2">
+                                <p class="cs-p">Three categories of first insights we got.</p>
+                            </div>
+                            
                         </div>
-                        
                     </div>
                 </div>
-                <div class="c-deep c-slim-58 title-170">
+                
+                <div class="c-deep c-slim-58 title-170" id="cc-deeper-research">
                     <h3>Deeper Research</h3>
                     <p class="p-text">Due to the plan of lab, we first narrow to kids aged 6-12, 
                         who are in primary school. we found that schools tend to set AI course 
@@ -195,7 +204,7 @@
                      <label class="cd6-img"></label>
                 </div>
                 <div class="c-deep c-slim-58">
-                    <div class="cd-3-2 title-30">
+                    <div class="cd-3-2 title-70">
                         <p class="cs-p">The discoveries we found.</p>
                     </div>
                     <div class="c-quote title-150">
@@ -218,34 +227,41 @@
                         
                     </div>
                 </div>
-                <div class="c-dechall c-slim-58 title-170">
+                <div class="c-dechall c-slim-58 title-170" id="cc-design-challenges">
                     <h3>Design Challenges</h3>
-                    <p class="p-text">We summarize the insights obtained in the above deeper research, and we deducted our design goals, and our design challenges emerged.</p>
-                    <label class="cde1-img"></label>
+                    <div class="cdec-1">
+                        <p class="p-text">We summarize the insights obtained in the above deeper research, and we deducted our design goals, and our design challenges emerged.</p>
+                        <label class="cde1-img"></label>
+                    </div>
+                    
                 </div>
-                <div class="c-deev c-slim-58 title-170">
-                    <h3>Design &amp; Evaluation</h3>
-                    <div class="deev-1">
-                        <div class="title-70">
-                            <h4>The Framework</h4>
-                        </div>
-                        <p class="p-text">Then, we start to explore our information architecture. We conducted <span>affinity diagramming exercise</span> to organize our ideas. 
-                            And we <span> brainstormed </span> elements that can stimulate and cultivate children’s interests. </p>
-                        <div class="deev-1-1 title-70">
-                            <!-- <div class="deev11-1">
-                                 <label class="deev1-img"></label>
-                            </div> -->
-                            <div class="deev11-2">
-                                <label class="deev2-img"></label>
-                                <p class="cs-p">A basic classification of these elements</p>
+                <div class="c-deev-outter title-170" id="cc-design-evaluation">
+                     <div class="c-deev c-slim-58 ">
+                        <h3>Design &amp; Evaluation</h3>
+                        <div class="deev-1">
+                            <div class="title-70">
+                                <h4>The Framework</h4>
+                            </div>
+                            <p class="p-text">Then, we start to explore our information architecture. We conducted <span>affinity diagramming exercise</span> to organize our ideas. 
+                                And we <span> brainstormed </span> elements that can stimulate and cultivate children’s interests. </p>
+                            <div class="deev-1-1 title-70">
+                                <!-- <div class="deev11-1">
+                                    <label class="deev1-img"></label>
+                                </div> -->
+                                <div class="deev11-2">
+                                    <label class="deev2-img"></label>
+                                    <p class="cs-p">A basic classification of these elements</p>
+                                </div>
+                            </div>
+                            <div class="title-70">
+                                <p class="p-text">Thus, we proposed several ideas, after repeated trials and combinations, we roughly determined <span> a rough solution — 
+                                earning, exercise, and practice. </span> </p>
                             </div>
                         </div>
-                        <div class="title-70">
-                            <p class="p-text">Thus, we proposed several ideas, after repeated trials and combinations, we roughly determined <span> a rough solution — 
-                             earning, exercise, and practice. </span> </p>
-                        </div>
                     </div>
-
+                </div>
+               
+                <div class="c-deev c-slim-58">
                     <div class="deev-2">
                         <div class="title-110">
                             <h4>Test and Iteration</h4>
@@ -276,8 +292,10 @@
                             <p class="cs-p">Our final architecture of AI Course Platform</p>
                         </div>
                     </div>
-                    <div class="deev-3">
-                        <div class="title-110">
+                </div>
+                <div class="deev-3-outter title-110" id="cc-information-architecture">
+                    <div class="deev-3 c-slim-58">
+                        <div>
                             <h4>Information Architecture</h4>
                             <div class="deev3-1">
                                 <p class="p-text">During the iteration, while paying attention to interest, we find that the knowledge delivery part is weak. In order 
@@ -286,6 +304,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="c-deev c-slim-58" id="cc-flow-wireframe">
                     <div class="deev-4 title-110">
                         <h4>Flow Refinement</h4> 
                     </div>
@@ -311,7 +331,7 @@
                 <div class="c-deev c-slim-58 title-30">
                     <p class="p-text">Bright colors with highly customized illustrations are the keys of visual design.</p>
                 </div>
-                <div class="c-result c-slim-58 title-170">
+                <div class="c-result c-slim-58 title-170" id="cc-our-result">
                     <h3>Our Result</h3>
                     <div class="cr-1">
                         <h4>Interactive Text Content</h4>
@@ -320,14 +340,16 @@
                 <div class="cr1-1">
                     <label class="cr1-img"></label>
                 </div>
-                <div class="c-result c-slim-58 title-90">
-                    <h4>Game-like Exercises</h4>
-                    <p class="p-text">In every lesson, the students will play a game-like exercise to study, presenting them various scenarios of how to work with AI and what can be accomplished.</p>
-                </div>
-                <div class="cr1-2 title-50">
-                    <label class="cr2-img"></label>
-                    <label class="cr3-img"></label>
-                    <p class="p-text">Like you could train a little robot to take care about himself. You could see more detail about this project here.</p>
+                <div class="c-grey-bg title-90">
+                    <div class="c-result c-slim-58 ">
+                        <h4>Game-like Exercises</h4>
+                        <p class="p-text">In every lesson, the students will play a game-like exercise to study, presenting them various scenarios of how to work with AI and what can be accomplished.</p>
+                    </div>
+                    <div class="cr1-2 title-50">
+                        <label class="cr2-img"></label>
+                        <label class="cr3-img"></label>
+                        <p class="p-text">Like you could train a little robot to take care about himself. You could see more detail about this project here.</p>
+                    </div>
                 </div>
                 <div class="c-result c-slim-58 title-90">
                     <h4>Linked Glossary of AI</h4>
@@ -336,14 +358,17 @@
                     <label class="cr4-img"></label>
                     <p class="p-text">We link a glossary of AI in the platform containing a fund of materials, which students could view it anytime, to help them get a deeper understanding.</p>
                 </div>
-                <div class="c-result c-slim-58 title-90">
-                    <h4>All-in-one Platform</h4>
-                    <p class="p-text">We put all features above into one platform to eliminate the technical barrier of users. It allows students to attain new knowledge, get hands-on experience and practice in one step, anywhere and anytime. </p>
+                <div class="c-grey-bg title-90">
+                    <div class="c-result c-slim-58 ">
+                        <h4>All-in-one Platform</h4>
+                        <p class="p-text">We put all features above into one platform to eliminate the technical barrier of users. It allows students to attain new knowledge, get hands-on experience and practice in one step, anywhere and anytime. </p>
+                    </div>
+                    <div class="cr1-4 title-30">
+                        <label class="cr5-img"></label>
+                    </div>
                 </div>
-                <div class="cr1-4 title-30">
-                    <label class="cr5-img"></label>
-                </div>
-                <div class="c-launch c-slim-58 title-170">
+                
+                <div class="c-launch c-slim-58 title-170" id="cc-launch">
                     <h3>Launch</h3>
                     <p class="p-text">In May 2018, we finally released a beta version of the AI Course Platform.</p>
                     <label class="cl1-img"></label>
@@ -363,9 +388,9 @@
                         </div>
                         <p class="cs-p">Photo by Xiaoteng Ge</p>
                     </div>
-                    <div class="cl-3 title-110">
+                    <div class="cl-3 title-70">
                         <label class="cl5-img"></label>
-                        <p class="cs-p">The data of the class</p>
+                        <p class="cs-p title-50">The data of the class</p>
                     </div>
                     <div class="title-50">
                         <p class="p-text">Seeing the encouragement from real users, I was more excited and determined to value the children’s precious interests in this field.</p>
@@ -384,8 +409,53 @@ export default {
   methods: {
     goToMain:function(){
       this.$router.push({path:'/'});
+    },
+    showAnchor: function(i) {
+        console.log(i);
+        this.$set(this.show_anchor,i,true);
+        // this.show_anchor[i] = true;
+        console.log(this.show_anchor);
+    },
+    hideAnchor: function(i) {
+        this.$set(this.show_anchor,i,false);
+        //this.show_anchor[i] = false;
+    },
+    goAnchor(selector) {
+        // var anchor = this.$el.querySelector(selector);
+        // document.body.scrollTop = anchor.offsetTop;
+        document.querySelector(selector).scrollIntoView(true);
     }
-  }
+  },
+  data: function(){
+    return {
+      cate : [
+        {title: 'Overview', anchor: 'overview'},
+        {title: 'Background', anchor: 'background'},
+        {title: 'The Mission', anchor: 'the-mission'},
+        {title: 'Design Process', anchor: 'design-process'},
+        {title: 'Deeper Research', anchor: 'deeper-research'},
+        {title: 'Design Challenges', anchor: 'design-challenges'},
+        {title: 'Design & Evaluation', anchor: 'design-evaluation'},
+        {title: 'Information Architecture', anchor: 'information-architecture'},
+        {title: 'Flow & Wireframe', anchor: 'flow-wireframe'},
+        {title: 'Our Result', anchor: 'our-result'},
+        {title: 'Launch', anchor: 'launch'}
+      ],
+      show_anchor : [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+      ]
+    }
+  },
   
 }
   
