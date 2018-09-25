@@ -95,6 +95,10 @@ export default {
 
 body {
   margin: 0;
+  min-width: 1366px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
 }
 
 </style>
