@@ -53,8 +53,20 @@ export default {
   flex-direction: column;
   margin-left: 18.5%;
   position: relative;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
+
+@media screen and (max-width: 1300px) {
+  #port-list {
+      margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1300px){
+  #port-list {
+      margin-top: 50px;
+  }
+}
+
 .pli-img {
   width: 400px;
   height: 259px;

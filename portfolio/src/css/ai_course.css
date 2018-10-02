@@ -53,7 +53,7 @@
 }
 
 .ci1l-1 label {
-    margin: 8px 48px 8px 0px;
+    margin: 8px 24px 8px 0px;
     font-size: 18px;
     color: #000000;
     letter-spacing: 0.92px;
@@ -61,7 +61,7 @@
 }
 
 .ci1r-1 label {
-    margin: 8px 48px 8px 0px;
+    margin: 8px 24px 8px 0px;
     font-size: 18px;
     color: #000000;
     letter-spacing: 0.92px;
@@ -92,15 +92,54 @@
     width: 1px;
     height: 157px;
     display: inline-block;
-    margin-right: 100px;
     margin-top: 30px;
 }
 
-.ci-2-l {
-    margin-right: 100px;
-    flex-basis: 140px;
-    flex-shrink: 0;
+@media screen and (max-width: 1100px) {
+    .ci-2-l {
+        margin-right: 20px;
+        flex-basis: 140px;
+        flex-shrink: 0;
+    }
+    .ci-2-m label {
+        margin-right: 20px;
+    }
 }
+@media screen and (min-width: 1100px) and (max-width: 1380px)
+{
+    .ci-2-l {
+        margin-right: 40px;
+        flex-basis: 140px;
+        flex-shrink: 0;
+    }
+    .ci-2-m label {
+        margin-right: 40px;
+    }
+}
+@media screen and (min-width: 1380px) and (max-width: 1600px)
+{
+    .ci-2-l {
+        margin-right: 80px;
+        flex-basis: 140px;
+        flex-shrink: 0;
+    }
+    .ci-2-m label {
+        margin-right: 80px;
+    }
+}
+@media screen and (min-width: 1600px)
+{
+    .ci-2-l {
+        margin-right: 100px;
+        flex-basis: 140px;
+        flex-shrink: 0;
+    }
+    .ci-2-m label {
+        margin-right: 100px;
+    }
+}
+
+
 .ci-2-r {
     display: flex;
 }
@@ -211,6 +250,10 @@
     border-style: none;
 }
 
+.co-1-2 {
+    margin: 0px 0px 0px 16px;
+}
+
 .co-1-1 {
     display: flex;
     justify-content: center;
@@ -259,11 +302,21 @@
     background: transparent url("../assets/4.png") no-repeat;
     background-size: 100% auto;
     background-position: center;
-    width: 80%;
     height: 203px;
     border-style:  none;
     display: inline-block;
     z-index: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .cot3-img {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1300px){
+    .cot3-img {
+        width: 80%;
+    }
 }
 
 .ck1-img {
@@ -280,27 +333,47 @@
     background: transparent url("../assets/6.png") no-repeat;
     background-size: 45% auto;
     background-position: center;
-    width: 80%;
     height: 300px;
     border-style:  none;
     display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+   .cd1-img {
+       width: 90%;
+   }
+}
+@media screen and (min-width: 1300px){
+    .cd1-img {
+        width: 80%;
+    }
 }
 
 .cd2-img {
     background: transparent url("../assets/7.png") no-repeat;
     background-size: 50% auto;
     background-position: center;
-    width: 80%;
     height: 300px;
     border-style:  none;
     display: inline-block;
 }
 
+@media screen and (max-width: 1300px) {
+    .cd2-img {
+        width: 90%;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .cd2-img {
+         width: 80%;
+     }
+ }
+
 .cd3-img {
     background: transparent url("../assets/9.png") no-repeat;
     background-size: 100% auto;
     background-position: center;
-    width: 80%;
+    width: 431px;
     height: 250px;
     border-style:  none;
     display: inline-block;
@@ -320,21 +393,42 @@
     background: transparent url("../assets/10.png") no-repeat;
     background-size: 100% auto;
     background-position: center;
-    width: 80%;
     height: 232px;
     border-style:  none;
     display: inline-block;
 }
 
+@media screen and (max-width: 1300px) {
+    .cd5-img {
+        width: 90%;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .cd5-img {
+         width: 80%;
+     }
+ }
+
 .cd6-img {
     background: transparent url("../assets/11.png") no-repeat;
-    background-size: 70% auto;
+    /* background-size: 70% auto; */
     background-position: center;
     width: 100%;
     height: 430px;
     border-style:  none;
     display: inline-block;
 }
+
+@media screen and (max-width: 1300px) {
+    .cd6-img {
+        background-size: 85% auto;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .cd6-img {
+        background-size: 75% auto;
+     }
+ }
 
 .cd7-img {
     background: transparent url("../assets/12.png") no-repeat;
@@ -368,13 +462,25 @@
 
 .deev2-img {
     background: transparent url("../assets/15.png") no-repeat;
-    background-size: 80% auto;
+    /* background-size: 80% auto; */
     background-position: center;
     width: 100%;
     height: 393px;
     border-style:  none;
     display: inline-block;
 }
+
+
+@media screen and (max-width: 1300px) {
+    .deev2-img {
+        background-size: 90% auto;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .deev2-img {
+        background-size: 80% auto;
+     }
+ }
 
 .deev3-img {
     background: transparent url("../assets/16.png") no-repeat;
@@ -408,22 +514,46 @@
 
 .deev6-img {
     background: transparent url("../assets/18.png") no-repeat;
-    background-size: 50% auto;
+    /* background-size: 50% auto; */
     background-position: center;
     width: 100%;
     height: 218px;
     border-style:  none;
     display: inline-block;
 }
+
+@media screen and (max-width: 1300px) {
+    .deev6-img {
+        background-size: 65% auto;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .deev6-img {
+        background-size: 55% auto;
+     }
+ }
+
 .deev7-img {
     background: transparent url("../assets/19.png") no-repeat;
-    background-size: 70% auto;
+    /* background-size: 70% auto; */
     background-position: center;
     width: 100%;
     height: 382px;
     border-style:  none;
     display: inline-block;
 }
+
+@media screen and (max-width: 1300px) {
+    .deev7-img {
+        background-size: 80% auto;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .deev7-img {
+        background-size: 70% auto;
+     }
+ }
+
 .deev8-img {
     background: transparent url("../assets/20.png") no-repeat;
     background-size: 80% auto;
@@ -547,13 +677,24 @@
 
 .cl5-img {
     background: transparent url("../assets/35.png") no-repeat;
-    background-size: 100% auto;
+    /* background-size: 55% auto; */
     background-position: center;
     width: 100%;
     height: 250px;
     border-style:  none;
     display: inline-block;
 }
+
+@media screen and (max-width: 1300px) {
+    .cl5-img {
+        background-size: 70% auto;
+    }
+ }
+ @media screen and (min-width: 1300px){
+     .cl5-img {
+        background-size: 55% auto;
+     }
+ }
 
 .co-2-2 {
     margin-top: 24px;
@@ -638,7 +779,7 @@
 }
 
 .cd31-r p{
-    padding-right: 180px;
+    padding-right: 50px;
 }
 
 .cd-3-2 {
@@ -855,4 +996,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.cl-video {
+    display: flex;
+    justify-content: center;
 }

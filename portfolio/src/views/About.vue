@@ -112,6 +112,7 @@ export default {
 
 .ac1-resume {
   margin-top: 28px;
+  margin-bottom: 70px;
 }
 </style>
 

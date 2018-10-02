@@ -371,8 +371,10 @@
                 <div class="c-launch c-slim-58 title-170" id="cc-launch">
                     <h3>Launch</h3>
                     <p class="p-text">In May 2018, we finally released a beta version of the AI Course Platform.</p>
-                    <label class="cl1-img"></label>
-                    <p class="p-text">We conducted the AI K-12 learning from traditional solution to a new all-in-one platform. The new solution is dedicated to cultivating children's interests, focusing on interaction and practice, and greatly facilitating our users.</p>
+                    <div class="cl-video title-70">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/a4uwXHM7kjY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <p class="p-text title-70">We conducted the AI K-12 learning from traditional solution to a new all-in-one platform. The new solution is dedicated to cultivating children's interests, focusing on interaction and practice, and greatly facilitating our users.</p>
                 </div>
                 <div class="cl-1 title-90">
                     <label class="cl2-img"></label>
@@ -388,9 +390,11 @@
                         </div>
                         <p class="cs-p">Photo by Xiaoteng Ge</p>
                     </div>
-                    <div class="cl-3 title-70">
-                        <label class="cl5-img"></label>
-                        <p class="cs-p title-50">The data of the class</p>
+                </div>
+                 <label class="cl5-img title-70"></label>
+                 <div class="c-launch c-slim-58">
+                    <div class="cl-3 title-30">
+                        <p class="cs-p">The data of the class</p>
                     </div>
                     <div class="title-50">
                         <p class="p-text">Seeing the encouragement from real users, I was more excited and determined to value the children’s precious interests in this field.</p>

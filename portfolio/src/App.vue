@@ -60,6 +60,8 @@ export default {
 @import url("./assets/fonts/SF-Pro.css");
 #app {
   font-family: 'SF-Pro-Regular';
+  width: 100%;
+  max-width: 1920px;
 }
 #header-group {
   display: flex;
@@ -95,10 +97,11 @@ export default {
 
 body {
   margin: 0;
-  min-width: 1366px;
-  max-width: 1920px;
+  min-width: 1280px;
   display: flex;
   justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 </style>
