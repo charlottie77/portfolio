@@ -465,9 +465,6 @@ export default {
   
 </script>
 
-<style scoped>
 
-@import url("../css/common_style.css");
-@import url("../css/ai_course.css");
-
-</style>
+<style scoped src='../css/common_style.css'></style>
+<style scoped src='../css/ai_course.css'></style>

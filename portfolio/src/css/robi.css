@@ -1,0 +1,228 @@
+#case-2{
+    margin-bottom: 170px;
+}
+
+.c2-banner {
+    width: 100%;
+    height: 450px;
+    background: aliceblue url("../assets/c2_banner.png") no-repeat;
+    background-size: auto 100%;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.back-btn {
+    position: fixed;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.back-btn:active,
+.back-btn:focus,
+.back-btn button:active,
+.back-btn button:focus
+ {
+    outline: none;
+}
+
+.back-btn button {
+    width: 32px;
+    height: 32px;
+    background: #fff url("../assets/icon-back.png") no-repeat;
+    background-size: 8px 16px;
+    background-position: 50% 50%;
+    border-style: none;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 48px;
+}
+h2 {
+    color: #52BAA1;
+    font-family: 'SF-Pro-Regular';
+    font-weight: normal;
+    font-size: 28px;
+}
+h3 {
+    margin: 0;
+    font-family: 'SF-Pro-Light';
+    font-weight: 300;
+    font-size: 52px;
+}
+h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.c2-content {
+    /* width: 58%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c2-content-div {
+    margin-top: 76px;
+}
+
+.c-info {
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-info-left,
+.c-info-right {
+    flex: 1;
+}
+
+.ci1l-1,
+.ci1r-1 {
+    margin-top: 23.2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ci1l-1 label {
+    margin: 0px 47px 0px 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    line-height: 36px;
+}
+
+.ci1r-1 label {
+    margin: 0px 47px 0px 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    line-height: 36px;
+}
+
+.ci-2 {
+    margin-top: 56.8px;
+    display: flex;
+}
+
+.ci2l-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56.2px;
+}
+
+.ci2l-1 label {
+    margin: 0px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.92px;
+    line-height: 36px;
+}
+
+.ci-2-m {
+    width: 1px;
+    height: calc(100%-18px);
+    background-color: #D0D0D0;
+    margin: 9px 110px 9px 0;;
+}
+
+.ci-2-m label {
+    background: #fff url("../assets/myrole_line.png") no-repeat;
+    background-size: 1px 157px;
+    width: 1px;
+    height: 157px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.ci-2-l,
+.ci-2-r {
+    flex: 1;
+}
+
+.ci-2-r {
+    display: flex;
+}
+
+.ci2r-1,
+.ci2r-2 {
+    flex: 1;
+    margin: 0px 16px;
+}
+.ci-2-r p{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    font-size: 18px;
+    letter-spacing: 1.06px;
+    color: #000000;
+}
+
+.c-info-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.cil-tool {
+    margin-top: 40px;
+}
+
+.c1-content {
+    /* width: 58%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c1-content-div {
+    margin-top: 100px;
+}
+
+.il-title {
+    font-family: 'SF-Pro-Bold';
+    font-size: 28px;
+    color: #A5DBCE;
+    letter-spacing: 0.88px;
+}
+
+.ci-1 {
+    display: flex;
+}
+
+.ci-1-l,
+.ci-1-r {
+    flex: 1;
+}
+
+.c-info-list label {
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1.06px;
+    margin: 4px 0px;
+}
+
+.c-info-list p {
+    font-size: 16px;
+    color: #9b9b9b;
+    letter-spacing: 1.06px;
+    line-height: 20px;
+    margin: 4px 0px 0px 8px;
+}
+
+.c-info-list p span {
+    color: #4A90E2;
+    font-weight: 600;
+}
+
+#mission-title {
+    display: block;
+    margin: 23px auto;
+    width: 611px;
+}
