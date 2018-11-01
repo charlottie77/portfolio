@@ -5,7 +5,7 @@
 .c2-banner {
     width: 100%;
     height: 450px;
-    background: aliceblue url("../assets/c2_banner.png") no-repeat;
+    background: #E8F7F4 url("../assets/c2_banner.png") no-repeat;
     background-size: auto 100%;
     background-position: 50%;
     z-index: 1;
@@ -126,12 +126,6 @@ h4 {
     line-height: 36px;
 }
 
-.ci-2-m {
-    width: 1px;
-    height: calc(100%-18px);
-    background-color: #D0D0D0;
-    margin: 9px 110px 9px 0;;
-}
 
 .ci-2-m label {
     background: #fff url("../assets/myrole_line.png") no-repeat;
@@ -143,11 +137,12 @@ h4 {
 }
 
 .ci-2-l,
-.ci-2-r {
+.ci-2-m {
     flex: 1;
 }
 
 .ci-2-r {
+    flex:2;
     display: flex;
 }
 
@@ -221,8 +216,141 @@ h4 {
     font-weight: 600;
 }
 
-#mission-title {
+#img-mission-title {
     display: block;
     margin: 23px auto;
     width: 611px;
+}
+
+.co-1 {
+    display: flex;
+}
+
+.co-1-l,
+.co-1-r {
+    flex:1;
+    display: block;
+}
+
+.co-1-r p{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    font-size: 18px;
+    letter-spacing: 1.06px;
+    padding: 0 24px 0 96px;
+}
+
+.co-1-l img{
+    width: calc(100% - 48px);
+    margin-left: 48px;
+}
+
+.p-text span {
+    color: #52BAA1;
+    font-weight: inherit;
+}
+
+#img-research-q1 {
+    width: 763px;
+    padding-top: 28px;
+}
+
+.c-research{
+    width: 100%;
+}
+
+
+
+#rq1 h4{
+    margin-top: 50px;
+}
+
+#img-research-q1-l{
+    width: 562px;
+}
+
+/* .qa p,
+.qa img {
+    display: inline-block;
+} */
+
+#rq1 .qa {
+    display: flex;
+    margin-top: 54px;
+}
+
+#cc-challenges p,
+#continue_research p,
+.qa p {
+    margin: 0;
+    line-height: 36px;
+    font-size: 18px;
+    letter-spacing: 1.06px;
+}
+
+.gray_bg {
+    width: 100%;
+    /* height: 749px; */
+    padding: 50px 0;
+    background-color: #FAFAFA;
+}
+.c-research .c-slim-68{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-research-q2 {
+    width: 909px;;
+}
+#img-research-q2-m{
+    width: 100%;
+    margin: 32.8px 0 36.2px 0;
+}
+.rq2 h4 {
+    margin: 55px 0 30px 0;
+}
+
+#img-research-q2-ec{
+    width: 813px;
+    margin: 36.8px auto 50px auto;
+    display: block;
+}
+
+#continue_research {
+    width: 849px;
+}
+
+#img_continue_research{
+    width: 1150px;
+    display: block;
+    margin: 16px auto 84px auto;
+}
+
+#previous_discoveries {
+    width: 930px;
+    margin: 134px auto 83px auto;
+    display: block;
+}
+
+#the_insights {
+    /* display: block; */
+    margin: 149px 0 156px;
+    font-family: 'SF-Pro-Medium';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 36px;
+    letter-spacing: 1.125px;
+    color: #52BAA1;
+}
+
+#title-design-challenges {
+    margin-bottom: 52.2px;
+}
+
+#img-challenges{
+    width: 800px;
+    margin: 32.8px auto;
+    display: block;
 }
