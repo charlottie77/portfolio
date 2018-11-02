@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div id='continue_research' class="rq2 c-slim-68 title-110">
-                        <img id='continue_research' src="../assets/next_cr2em.png" alt="">
+                        <img id='img_continue_research' src="../assets/next_cr2em.png" alt="">
                         <h4>Expert Interviews</h4>
                         <p>We conducted expert interviews and literature review to explore the children's learning model. Discussing with Jerry Dong, a children's learning expert. He claims that children will build different schemas, try to absorb new things and use them to fit their schemes that are already existed, thus building new schemas. Finally reach the state of equilibrium.</p>
                     </div>
@@ -126,6 +126,35 @@
                     <p>2.	How to help them fit their existed schemas better?</p>
                     <p>3.	How to cultivate their interests in specific exercise? How to encourage them to learn actively?</p>
                     <img src="../assets/img-challenges.png" alt="" id="img-challenges">
+                </div>
+                <div class="c-design title-70" id="cc-design">
+                    <div class="c-slim-68">
+                        <h3 id="title-design">Design</h3>
+                        <h4>Ideate</h4>
+                        <p>Based on the three core challenges above, we brainstormed to get some idea. </p>
+                    </div>
+                    <div id="ideate-1" class="c-slim-68">
+                        <div id='ideate-1-l'>
+                            <img id="img-ideate-l" src="../assets/ideate-left.png" alt="">
+                        </div>
+                        <div id='ideate-1-r'>
+                            <div class="list-item-line">
+                                <img src='../assets/badge_1.png' alt='1'>
+                                <p>We proposed that a fascinating storyline tends to do more with less.</p>
+                            </div>
+                            <p>So we created a character, named <span class="green-text">Robi</span>, a small robot. Robi will serve as the protagonist of a series of game-like exercises, running through the curriculum and involving a storyline.</p>
+                        </div>
+                    </div>
+                    <div class="gray_bg title-70" >
+                        <div class="c-slim-68" id="ideate-2">
+                            <div class="list-item-line">
+                                <img src="../assets/badge_2.png" alt="2">
+                                <p>Producing a graph of gist concepts, we selected <span class="green-text">‘experience’</span> and <span class="green-text">‘action’</span> as the main elements. </p>
+                            </div>
+                            <p>In this way, helping Robi finish a certain kind of learning with a high accuracy could be the game goal.  To integrate knowledge points into the main game mode is the most important thing. Therefore, we try to further decompose ‘the process of machine learning’, refine and extract the content.</p>
+                        </div>
+                        <img id="img-ideate-2" src="../assets/p9.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
