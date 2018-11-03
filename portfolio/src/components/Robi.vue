@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div id='continue_research' class="rq2 c-slim-68 title-110">
-                        <img id='img_continue_research' src="../assets/next_cr2em.png" alt="">
+                        <img id='img_next_cr2em' src="../assets/next_cr2em.png" alt="">
                         <h4>Expert Interviews</h4>
                         <p>We conducted expert interviews and literature review to explore the children's learning model. Discussing with Jerry Dong, a children's learning expert. He claims that children will build different schemas, try to absorb new things and use them to fit their schemes that are already existed, thus building new schemas. Finally reach the state of equilibrium.</p>
                     </div>
@@ -154,6 +154,37 @@
                             <p>In this way, helping Robi finish a certain kind of learning with a high accuracy could be the game goal.  To integrate knowledge points into the main game mode is the most important thing. Therefore, we try to further decompose ‘the process of machine learning’, refine and extract the content.</p>
                         </div>
                         <img id="img-ideate-2" src="../assets/p9.png" alt="">
+                    </div>
+                    <div class="c-slim-68 title-50" id="ideate-3">
+                        <div class="list-item-line">
+                            <img src="../assets/badge_3.png" alt="3">
+                            <p>“Teach the little Robi how to take care of himself” —— we found inspiration from the electronic pets.</p>
+                        </div>
+                    </div>
+                    <div id="container-ideate-3">
+                        <div class="c-slim-80">
+                            <img src="../assets/p10.png" alt="" id="img-ideate-3">
+                            <p id="c-i3-p1">To fit the psychological model of learning, we need to find a set of metaphors of ‘experience’ and ‘action’ in daily life to teach the concept of "machine could learn”. </p>
+                            <p id="c-i3-p2">Robi knows nothing about taking care of himself at first. To train him, we give Robi three choices: watering, charging and repairing, which correspond to three attributes — the mood value, power, and maintenance value. </p>
+                        </div>
+                    </div>
+                    <div class="gray_bg title-70">
+                        <div class="c-slim-68" id="ideate-4">
+                            <div id="ideate-4-l">
+                                <div class="list-item-line">
+                                    <img src="../assets/badge_4.png" alt="4">
+                                    <p>Also, we explain the concept of data vividly.</p>
+                                </div>
+                                <p>In order to empower children to better understand data, they can view Robi's memory blocks in the game. The memory blocks record the Robi’s action of each round, which can explain the concept of data vividly.</p>
+                            </div>
+                            <div id="ideate-4-r">
+                                <img id="img-ideate-4-r" src="../assets/p23.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="solution" class="c-slim-68">
+                        <h4>Solution</h4>
+                        <p>The game has two phases: the training phase and the testing phase.</p>
                     </div>
                 </div>
             </div>
