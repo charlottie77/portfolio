@@ -85,6 +85,51 @@ h5 {
 .c-slim-60{
     width: 60%;
 }
+.bottom-50{
+    margin-bottom: 50px;
+}
+.bottom-70{
+    margin-bottom: 70px;
+}
+.bottom-90{
+    margin-bottom: 90px;
+}
+.bottom-110{
+    margin-bottom: 110px;
+}
+div[dflex]{
+    display: flex;
+}
+div[flex1]{
+    flex: 1;
+}
+div[flex2]{
+    flex: 2;
+}
+div[flex3]{
+    flex: 3;
+}
+div[flex4]{
+    flex: 4;
+}
+div[flex5]{
+    flex: 5;
+}
+img[dblock]{
+    display: block;
+}
+div[h100]{
+    height: 100%;
+}
+div[dinline]{
+    display: inline;
+}
+div[dinline-block]{
+    display: inline-block;
+}
+div[fshrink0]{
+    flex-shrink: 0;
+}
 
 .label-goal {
     font-size: 28px;

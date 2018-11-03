@@ -182,9 +182,34 @@
                             </div>
                         </div>
                     </div>
-                    <div id="solution" class="c-slim-68">
+                    <div id="solution" class="c-slim-68 title-110">
                         <h4>Solution</h4>
                         <p>The game has two phases: the training phase and the testing phase.</p>
+                        <div dflex id="training-up" class="title-70">
+                            <div flex1 id="training-l">
+                                <img dblock src="../assets/p3.png" alt="Training" id="img-training">
+                                <p id="training-text">Robi's propensity of three choices, called <span class="green-text">Preference</span> (which is the model in machine learning). In the beginning, Robi’s preference of each choice is the same. </p>
+                            </div>
+                            <div flex1 id="training-r">
+                                <img dblock src="../assets/p11.png" alt="" id="img-training-r">
+                            </div>
+                        </div>
+                        <div dflex id="training-down" class="title-70">
+                            <div flex1 id="training-down-l">
+                                <img dblock src="../assets/p4.png" alt="" id="img-training-down-l">
+                            </div>
+                            <div flex1 id="training-down-r">
+                                <div id="training-text2">
+                                    <p>The player checks whether Robi should do this by observing the current state.</p>
+	                                <p>&emsp;- If the player chooses "No", Robi will re-select one thing based on preference.</p>
+	                                <p>&emsp;- If the player chooses "Yes", Robi will do it.  </p>
+                                    <p>The corresponding value will increase, and the remaining two will be down. Robi goes to the next round.</p>
+                                </div>
+                                <div id="c-tdr">
+                                    <img src="../assets/p6.png" id="img-training-down-r" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

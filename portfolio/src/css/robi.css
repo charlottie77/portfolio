@@ -406,3 +406,43 @@ h2 {
 #img-ideate-4-r{
     width: 100%;
 }
+#img-training-r{
+    width: 524px;
+}
+#img-training{
+    width: 163px;
+    margin-bottom: 23px;
+}
+#training-l{
+    height: 313px;
+    flex-shrink: 0;
+    flex-basis: 330px;
+}
+#training-l>div{
+    height: calc(100% - 80px);
+}
+#training-text {
+    margin-left: 23px !important;
+    border-left: #BEDAF9 solid 8px;
+    padding-left: 18px;
+    padding-right: 30px;
+}
+#training-text2{
+    margin-left: 17px !important;
+    border-left: #BEDAF9 solid 8px;
+    padding-left: 24px;
+    /* padding-right: 30px; */
+}
+#img-training-down-l{
+    width: calc(100% - 18px);
+    min-width: 431px;
+    padding-left: 23px;
+}
+#img-training-down-r{
+    width: 100%;
+    min-width: 199px;
+}
+#c-tdr{
+    padding-left: 17px;
+    margin-top: 57px;
+}
