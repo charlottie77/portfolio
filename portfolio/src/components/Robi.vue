@@ -3,6 +3,12 @@
         <div class="back-btn" @click="goToMain()">
             <button></button>
         </div>
+         <div class="anchor-index">
+           <div class="anch-item" v-for="(item, index) in cate" @mouseover='showAnchor(index)' @mouseleave='hideAnchor(index)' @click="goAnchor('#cc-'+ item.anchor)">
+               <span></span>
+               <label v-show="show_anchor[index]">{{item.title}}</label>
+           </div>
+        </div>
         <div class="c2-banner"></div>
         <div class="c2-content-div">
             <div class="c2-content">
@@ -51,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-overview title-150 c-slim-68" id="cc-background">
+                <div class="c-overview title-150 c-slim-68">
                     <div class="co-t-1">
                         <h4>The Mission</h4>
                         <img id="img-mission-title" src="../assets/robi_mission_title.png" alt="">
@@ -67,7 +73,7 @@
                         
                     </div>
                 </div>
-                <div class="c-research title-90">
+                <div class="c-research title-90" id="cc-research">
                     <div class="gray_bg">
                         <div class="c-slim-68">
                             <h3>Research</h3>
@@ -79,7 +85,7 @@
                                         <img id='img-research-q1-l' src="../assets/research_q1_l.png" alt="">
                                     </div>
                                     <div class='cq1-r'>
-                                        <p>In the beginning, we thought that determining the content was the most important thing. Since our learners are all primary school students, teachers have already cut and translated the content into the language that they may understand better.  We want to illustrate three points of knowledge in the exercise:</p>
+                                        <p class="p-text">In the beginning, we thought that determining the content was the most important thing. Since our learners are all primary school students, teachers have already cut and translated the content into the language that they may understand better.  We want to illustrate three points of knowledge in the exercise:</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,16 +95,16 @@
                         <img id='img-research-q2' src="../assets/research_q2_title.png" alt="">
                         <h4>Delivery of Concepts</h4>
                         <div class="qa">
-                            <p>Why it is hard to teach in a traditional way? We embarked on the delivery of concepts. Take the reading content of machine learning course in Stanford as an example: </p>
+                            <p class="p-text">Why it is hard to teach in a traditional way? We embarked on the delivery of concepts. Take the reading content of machine learning course in Stanford as an example: </p>
                             <img id='img-research-q2-m' src="../assets/research_q2_m.png" alt="">
-                            <p>This definition is too abstract to understand for pupil, and uses mathematical notation. For primary school students, it is really difficult to understand, let alone to cultivate interests.</p>
+                            <p class="p-text">This definition is too abstract to understand for pupil, and uses mathematical notation. For primary school students, it is really difficult to understand, let alone to cultivate interests.</p>
                         </div>
                     </div>
                     <div class="gray_bg title-70">
                         <div class="rq2 c-slim-68">
                             <h4>Examples of Concepts</h4>
                             <div class="qa">
-                                <p>As for the examples of concepts, most of them are abstract and unfamiliar for pupil since the main application fields of AI are finance, medical, and etc. </p>
+                                <p class="p-text">As for the examples of concepts, most of them are abstract and unfamiliar for pupil since the main application fields of AI are finance, medical, and etc. </p>
                                 <img id='img-research-q2-ec' src="../assets/example_of_concepts.png" alt="">
                             </div>
                         </div>
@@ -106,32 +112,34 @@
                     <div id='continue_research' class="rq2 c-slim-68 title-110">
                         <img id='img_next_cr2em' src="../assets/next_cr2em.png" alt="">
                         <h4>Expert Interviews</h4>
-                        <p>We conducted expert interviews and literature review to explore the children's learning model. Discussing with Jerry Dong, a children's learning expert. He claims that children will build different schemas, try to absorb new things and use them to fit their schemes that are already existed, thus building new schemas. Finally reach the state of equilibrium.</p>
+                        <p class="p-text">We conducted expert interviews and literature review to explore the children's learning model. Discussing with Jerry Dong, a children's learning expert. He claims that children will build different schemas, try to absorb new things and use them to fit their schemes that are already existed, thus building new schemas. Finally reach the state of equilibrium.</p>
                     </div>
                     <img id='img_continue_research' src="../assets/img_continue_research.png" alt="">
                     <div class="gray_bg">
                         <div class="rq2 c-slim-68">
                             <h4>Previous Discoveries</h4>
+                            <p class="p-text">We also combined some user interview and observation we did previously to gather more information. </p>
+                            <!-- <span class="green-text">You could check the project here.</span> -->
                             <img src="../assets/previous_discoveries.png" alt="" id="previous_discoveries">
                         </div>
                     </div>
                 </div>
                 <div class="c-slim-68">
-                    <p id='the_insights'>From the insights, we tease apart our design challenges.</p>
+                    <p id='the_insights' class="p-text">From the insights, we tease apart our design challenges.</p>
                 </div>
                 <div class="c-challenges c-slim-68" id="cc-challenges">
                     <h3 id="title-design-challenges">Design Challenges</h3>
-                    <p>Based on the previous insights, we combed the children’s journey in the exercise, and derived three core design challenges: </p>
-                    <p>1.	In the exercise, how to deliver the knowledge points?</p>
-                    <p>2.	How to help them fit their existed schemas better?</p>
-                    <p>3.	How to cultivate their interests in specific exercise? How to encourage them to learn actively?</p>
+                    <p class="p-text">Based on the previous insights, we combed the children’s journey in the exercise, and derived three core design challenges: </p>
+                    <p class="p-text">1.	In the exercise, how to deliver the knowledge points?</p>
+                    <p class="p-text">2.	How to help them fit their existed schemas better?</p>
+                    <p class="p-text">3.	How to cultivate their interests in specific exercise? How to encourage them to learn actively?</p>
                     <img src="../assets/img-challenges.png" alt="" id="img-challenges">
                 </div>
                 <div class="c-design title-70" id="cc-design">
                     <div class="c-slim-68">
                         <h3 id="title-design">Design</h3>
                         <h4>Ideate</h4>
-                        <p>Based on the three core challenges above, we brainstormed to get some idea. </p>
+                        <p class="p-text">Based on the three core challenges above, we brainstormed to get some idea. </p>
                     </div>
                     <div id="ideate-1" class="c-slim-68">
                         <div id='ideate-1-l'>
@@ -140,32 +148,32 @@
                         <div id='ideate-1-r'>
                             <div class="list-item-line">
                                 <img src='../assets/badge_1.png' alt='1'>
-                                <p>We proposed that a fascinating storyline tends to do more with less.</p>
+                                <p class="p-text">We proposed that a fascinating storyline tends to do more with less.</p>
                             </div>
-                            <p>So we created a character, named <span class="green-text">Robi</span>, a small robot. Robi will serve as the protagonist of a series of game-like exercises, running through the curriculum and involving a storyline.</p>
+                            <p class="p-text">So we created a character, named <span class="green-text">Robi</span>, a small robot. Robi will serve as the protagonist of a series of game-like exercises, running through the curriculum and involving a storyline.</p>
                         </div>
                     </div>
                     <div class="gray_bg title-70" >
                         <div class="c-slim-68" id="ideate-2">
                             <div class="list-item-line">
                                 <img src="../assets/badge_2.png" alt="2">
-                                <p>Producing a graph of gist concepts, we selected <span class="green-text">‘experience’</span> and <span class="green-text">‘action’</span> as the main elements. </p>
+                                <p class="p-text">Producing a graph of gist concepts, we selected <span class="green-text">‘experience’</span> and <span class="green-text">‘action’</span> as the main elements. </p>
                             </div>
-                            <p>In this way, helping Robi finish a certain kind of learning with a high accuracy could be the game goal.  To integrate knowledge points into the main game mode is the most important thing. Therefore, we try to further decompose ‘the process of machine learning’, refine and extract the content.</p>
+                            <p class="p-text">In this way, helping Robi finish a certain kind of learning with a high accuracy could be the game goal.  To integrate knowledge points into the main game mode is the most important thing. Therefore, we try to further decompose ‘the process of machine learning’, refine and extract the content.</p>
                         </div>
                         <img id="img-ideate-2" src="../assets/p9.png" alt="">
                     </div>
-                    <div class="c-slim-68 title-50" id="ideate-3">
+                    <div class="c-slim-68 title-90" id="ideate-3">
                         <div class="list-item-line">
                             <img src="../assets/badge_3.png" alt="3">
-                            <p>“Teach the little Robi how to take care of himself” —— we found inspiration from the electronic pets.</p>
+                            <p class="p-text">“Teach the little Robi how to take care of himself” —— we found inspiration from the electronic pets.</p>
                         </div>
                     </div>
-                    <div id="container-ideate-3">
+                    <div id="container-ideate-3" class="title-50">
                         <div class="c-slim-80">
                             <img src="../assets/p10.png" alt="" id="img-ideate-3">
-                            <p id="c-i3-p1">To fit the psychological model of learning, we need to find a set of metaphors of ‘experience’ and ‘action’ in daily life to teach the concept of "machine could learn”. </p>
-                            <p id="c-i3-p2">Robi knows nothing about taking care of himself at first. To train him, we give Robi three choices: watering, charging and repairing, which correspond to three attributes — the mood value, power, and maintenance value. </p>
+                            <p class="p-text" id="c-i3-p1">To fit the psychological model of learning, we need to find a set of metaphors of ‘experience’ and ‘action’ in daily life to teach the concept of "machine could learn”. </p>
+                            <p class="p-text" id="c-i3-p2">Robi knows nothing about taking care of himself at first. To train him, we give Robi three choices: watering, charging and repairing, which correspond to three attributes — the mood value, power, and maintenance value. </p>
                         </div>
                     </div>
                     <div class="gray_bg title-70">
@@ -173,9 +181,9 @@
                             <div id="ideate-4-l">
                                 <div class="list-item-line">
                                     <img src="../assets/badge_4.png" alt="4">
-                                    <p>Also, we explain the concept of data vividly.</p>
+                                    <p class="p-text">Also, we explain the concept of data vividly.</p>
                                 </div>
-                                <p>In order to empower children to better understand data, they can view Robi's memory blocks in the game. The memory blocks record the Robi’s action of each round, which can explain the concept of data vividly.</p>
+                                <p class="p-text">In order to empower children to better understand data, they can view Robi's memory blocks in the game. The memory blocks record the Robi’s action of each round, which can explain the concept of data vividly.</p>
                             </div>
                             <div id="ideate-4-r">
                                 <img id="img-ideate-4-r" src="../assets/p23.png" alt="">
@@ -184,7 +192,7 @@
                     </div>
                     <div id="solution" class="c-slim-68">
                         <h4>Solution</h4>
-                        <p>The game has two phases: the training phase and the testing phase.</p>
+                        <p class="p-text">The game has two phases: the training phase and the testing phase.</p>
                     </div>
                 </div>
             </div>
@@ -199,10 +207,44 @@ export default {
         goToMain: function(){
             this.$router.push({path:'/'});
         },
+        showAnchor: function(i) {
+        console.log(i);
+        this.$set(this.show_anchor,i,true);
+        console.log(this.show_anchor);
+        },
+        hideAnchor: function(i) {
+            this.$set(this.show_anchor,i,false);
+        },
+        goAnchor(selector) {
+            document.querySelector(selector).scrollIntoView(true);
+        }
     },
     data: function(){
         return {
-
+            cate : [
+                {title: 'Overview', anchor: 'overview'},
+                {title: 'Research', anchor: 'research'},
+                {title: 'Discovery', anchor: 'discovery'},
+                {title: 'Ideate', anchor: 'ideate'},
+                {title: 'Solution', anchor: 'solution'},
+                {title: 'Algorithm Design', anchor: 'algorithm-design'},
+                {title: 'Test & Iteration', anchor: 'test-iteration'},
+                {title: 'Flow & Wireframe', anchor: 'flow-wireframe'},
+                {title: 'Our Result', anchor: 'our-result'},
+                {title: 'Reflection', anchor: 'reflection'}
+            ],
+            show_anchor : [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
         }
     }
 }
