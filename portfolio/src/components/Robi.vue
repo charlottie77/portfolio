@@ -300,6 +300,7 @@
                         </div>
                     </div>
                 </div>
+                 <div class="end-line"></div>
                 <div dflex class="c-slim-68 bottom-navicator title-110">
                     <div flex1 class="bn-l">
      
@@ -313,6 +314,7 @@
                         <button class="button hover-blue" @click="goToCase1">NEXT</button>
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
@@ -329,9 +331,9 @@ export default {
             this.$router.push({path:'/1-case'})
         },
         showAnchor: function(i) {
-        console.log(i);
+        //console.log(i);
         this.$set(this.show_anchor,i,true);
-        console.log(this.show_anchor);
+        //console.log(this.show_anchor);
         },
         hideAnchor: function(i) {
             this.$set(this.show_anchor,i,false);

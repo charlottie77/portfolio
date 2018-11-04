@@ -64,11 +64,14 @@ export default {
     font-size: 36px;
     color: #000000;
     letter-spacing: 2.5px;
+    font-family: 'SF-Pro-Semibold';
+    margin-top: 0px;
   }
 
   .htd-3 {
     font-size: 18px;
     color: #000000;
     letter-spacing: 2.5px;
+    margin-top: 24px;
   }
 </style>

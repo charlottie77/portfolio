@@ -400,6 +400,7 @@
                         <p class="p-text">Seeing the encouragement from real users, I was more excited and determined to value the children’s precious interests in this field.</p>
                     </div>
                 </div>
+                 <div class="end-line"></div>
                 <div dflex class="c-slim-58 bottom-navicator title-110">
                     <div flex1 class="bn-l">
                         <div class="prev-line">
