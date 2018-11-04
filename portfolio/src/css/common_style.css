@@ -174,3 +174,79 @@ div[fshrink0]{
         left: 80px;
     }
 }
+
+
+.bn-l{
+    padding-right: 140px;
+    /* border-right: #DDDDDD solid 0.05px; */
+}
+
+.bn-r{
+    padding-left: 140px;
+    /* border-left: #DDDDDD solid 0.05px; */
+}
+
+
+.bn-r .prev-line img{
+    margin-left: 13px;
+}
+.bn-r,
+.bn-r .prev-line,
+.bn-r .case-intro{
+    text-align: right;
+}
+
+.bn-l .prev-line img{
+    margin-right: 13px;
+}
+.bn-l,
+.bn-l .prev-line,
+.bn-l .case-intro{
+    text-align: left;
+}
+
+.bottom-navicator p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.prev-line img{
+    width: 13px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.prev-line p{
+    font-family: "SF-Pro-Medium";
+    display: inline;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333333;
+}
+.case-intro{
+    font-family: "SF-Pro-Regular";
+    font-size: 18px;
+    color: #9B9B9B;
+}
+.button{
+    cursor: pointer;
+    width: 81px;
+    height: 49px;
+    background-color: #ECECEC;
+    border-radius: 14px;
+    font-size: 18px;
+    color: #909090;
+    text-align: center;
+    line-height: 49px;
+    transition: color 0.25s, background-color 0.25s;
+    border: none;
+    outline: none;
+}
+.hover-blue:hover{
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    transition: color 0.25s, background-color 0.25s;
+}
+.hover-green:hover{
+    background-color: #6BD6C1;
+    color: #FFFFFF;
+    transition: color 0.25s, background-color 0.25s;
+}

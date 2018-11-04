@@ -300,6 +300,19 @@
                         </div>
                     </div>
                 </div>
+                <div dflex class="c-slim-68 bottom-navicator title-110">
+                    <div flex1 class="bn-l">
+     
+                    </div>
+                    <div flex1 class="bn-r">
+                        <div class="prev-line">
+                            <p @click="goToCase1">AI Course Platform</p>
+                            <img src="../assets/arrow-right-blue.png" alt="prev" @click="goToCase1">
+                        </div>
+                        <p class="case-intro" @click="goToCase1">We create an all-in-one platform for K-12 AI education.</p>
+                        <button class="button hover-blue" @click="goToCase1">NEXT</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -311,6 +324,9 @@ export default {
     methods: {
         goToMain: function(){
             this.$router.push({path:'/'});
+        },
+        goToCase1: function(){
+            this.$router.push({path:'/1-case'})
         },
         showAnchor: function(i) {
         console.log(i);
