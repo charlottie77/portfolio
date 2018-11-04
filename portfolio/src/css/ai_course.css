@@ -2,6 +2,10 @@
     margin-bottom: 170px;
 }
 
+h2 {
+    color: #4A90E2;
+}
+
 .c1-banner {
     width: 100%;
     height: 450px;
@@ -991,4 +995,8 @@
 .cl-video {
     display: flex;
     justify-content: center;
+}
+
+.p-text span {
+    color: #4A90E2;
 }

@@ -124,8 +124,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-slim-68">
-                    <p id='the_insights' class="p-text">From the insights, we tease apart our design challenges.</p>
+                <div class="c-slim-68 title-110">
+                    <h2>From the insights, we tease apart our design challenges.</h2>
                 </div>
                 <div class="c-challenges c-slim-68" id="cc-challenges">
                     <h3 id="title-design-challenges">Design Challenges</h3>
@@ -141,7 +141,7 @@
                         <h4>Ideate</h4>
                         <p class="p-text">Based on the three core challenges above, we brainstormed to get some idea. </p>
                     </div>
-                    <div id="ideate-1" class="c-slim-68">
+                    <div id="ideate-1" class="c-slim-68 title-50">
                         <div id='ideate-1-l'>
                             <img id="img-ideate-l" src="../assets/ideate-left.png" alt="">
                         </div>
@@ -190,32 +190,112 @@
                             </div>
                         </div>
                     </div>
-                    <div id="solution" class="c-slim-68 title-110">
-                        <h4>Solution</h4>
-                        <p class="p-text">The game has two phases: the training phase and the testing phase.</p>
-                        <div dflex id="training-up" class="title-70">
-                            <div flex1 id="training-l">
-                                <img dblock src="../assets/p3.png" alt="Training" id="img-training">
-                                <p id="training-text">Robi's propensity of three choices, called <span class="green-text">Preference</span> (which is the model in machine learning). In the beginning, Robi’s preference of each choice is the same. </p>
+                    <div>
+                        <div class="c-slim-68 title-110 solution-1" >
+                            <h4>Solution</h4>
+                            <p class="p-text">The game has two phases: the training phase and the testing phase.</p>
+                            <div dflex id="training-up" class="title-70">
+                                <div class="tu-img1">
+                                </div>
                             </div>
-                            <div flex1 id="training-r">
-                                <img dblock src="../assets/p11.png" alt="" id="img-training-r">
+                            <div dflex id="training-down" class="title-50">
+                                <div class="td-img1"> 
+                                </div>
                             </div>
                         </div>
-                        <div dflex id="training-down" class="title-70">
-                            <div flex1 id="training-down-l">
-                                <img dblock src="../assets/p4.png" alt="" id="img-training-down-l">
+                    </div>
+                    <div class="gray_bg"> 
+                        <div class="solution-2 c-slim-68">
+                            <div id="test-up" class="">
+                                <div class="tuu-img1">
+                                </div>
                             </div>
-                            <div flex1 id="training-down-r">
-                                <div id="training-text2">
-                                    <p>The player checks whether Robi should do this by observing the current state.</p>
-	                                <p>&emsp;- If the player chooses "No", Robi will re-select one thing based on preference.</p>
-	                                <p>&emsp;- If the player chooses "Yes", Robi will do it.  </p>
-                                    <p>The corresponding value will increase, and the remaining two will be down. Robi goes to the next round.</p>
+                        </div>
+                    </div>
+                     <div class="c-slim-68 title-110">
+                        <h2>Then, all about the efforts…</h2>
+                    </div>
+                    <div class="c-slim-68 title-90 c-alde">
+                        <div class="cal-1">
+                            <h4>Algorithm Design</h4>
+                            <label class="calde-img1"></label>
+                        </div>
+                        <p class="p-text title-30" >Facing current needs, I just finished the algorithm design. The model's input is <span class="green-text">(vector x, vector y)</span>, 
+                            where vector <span class="p-bold">x</span> is Robi's three attributes, the mood, power, and maintenance value. The vector <span class="p-bold">y</span> is the user's input 
+                            (is what Robi should do). And the vector <span class="p-bold">y</span> also the target of this model.</p>
+                        <div class="cal-2 title-50">
+                            <div class="calde-img2"></div>
+                        </div>
+                        <p class="p-text title-50">Here, with the reference of Naive Bayes, I simplify the problem as follows:</p>
+                        <div class="cal-3 title-90">
+                            <!-- <div class="list-item-line cal3-1">
+                                <img src='../assets/badge_1.png' alt='1'>
+                                <p class="regular-font p-text">Initially a 3x3 matrix, which represents the possibility that Robi will choose to do something when an attribute is minimum. It can be seen that the initial possibilities are evenly distributed.</p>
+                            </div>
+                            <div class="calde-img3"></div> -->
+                            <div>
+                                <div class="calde-img3"></div>
+                            </div>
+                        </div>
+                        <div class="cal-4 title-30">
+                             <div class="list-item-line cal3-1">
+                                <img src='../assets/badge_2.png' alt='1'>
+                                <p class="regular-font p-text"> Every action of Robi will lead to changes of distribution. For example, when robi selects watering flowes when mood value is minimum, then P11 becomes:</p>
+                            </div>
+                            <div class="cal-5">
+                                <div class="calde-img4"></div>
+                            </div>
+                            <p class="p-text title-50">The sum of the probability in choosing watering flowers should be 1, so the rest P12, P13 becomes:</p>
+                             <div class="cal-5 title-50">
+                                <div class="calde-img5"></div>
+                            </div>
+                            <p class="p-text title-50">Where <span class="p-bold">n</span> is the coefficient, you can control the difficulty and the time of the game by adjusting n and the number of game rounds. </p>
+                        </div>
+                    </div>
+                    <div class="gray_bg">
+                        <div class="test-and-ite c-slim-68 title-50">
+                            <div class="tai-1">
+                                 <h4>Test and Iteration</h4>
+                                 <p class="p-text">We start to sketch up the exercise and make prototype for it. After some modification, we start to make a rough prototype. </p>
+                            </div>
+                            <div class="tai-2 title-50">
+                                <div class="tai-img1"></div>
+                                <div class="tai-img2"></div>
+                                <div class="tai-img3"></div>
+                            </div>
+                            <p class="p-text title-70"> After several rounds of test, based on our test insights, we made several updates:</p>
+                            <div class="tai-3 title-90">
+                                <div class="tai-img4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result title-170">
+                        <div class="r-1 c-slim-68">
+                            <h3>Our Result</h3>
+                            <div class="cl-video title-70">
+                                <iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>  
+                    </div>
+                     <div class="c-slim-68 title-110">
+                        <h2>The closure stage is necessary…</h2>
+                    </div>
+                    <div class="reflection title-110">
+                        <div class="re-1 c-slim-68">
+                            <h3>Reflection</h3>
+                        </div>
+                        <div class="re-2 c-slim-68 title-70">
+                            <div class="re2-1">
+                                <div class="re21-1">
+                                    <div class="re-img1"></div>
                                 </div>
-                                <div id="c-tdr">
-                                    <img src="../assets/p6.png" id="img-training-down-r" alt="">
+                                <p class="p-text title-30">Based on our test and feedbacks, we considered about adding a mode where users could edit memory blocks to feed data, to deepen the concept of "machine could learn" from another perspective.</p>
+                            </div>
+                            <div class="re2-2">
+                                <div class="re22-1">
+                                    <div class="re-img2"></div>
                                 </div>
+                                <p class="p-text re22-2">Consider extending the solution to reinforcement learning.</p>
                             </div>
                         </div>
                     </div>
@@ -227,7 +307,7 @@
 
 <script>
 export default {
-    name: 'AICourse',
+    name: 'Robi',
     methods: {
         goToMain: function(){
             this.$router.push({path:'/'});
