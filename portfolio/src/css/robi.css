@@ -735,3 +735,8 @@ h2 {
 .re22-2 {
     margin-top: 45px;
 }
+
+.cl-video  {
+    display: flex;
+    justify-content: center;
+}

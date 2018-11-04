@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id='continue_research' class="rq2 c-slim-68 title-110">
+                    <div class="continue_research rq2 c-slim-68 title-110" id="cc-discovery">
                         <img id='img_next_cr2em' src="../assets/next_cr2em.png" alt="">
                         <h4>Expert Interviews</h4>
                         <p class="p-text">We conducted expert interviews and literature review to explore the children's learning model. Discussing with Jerry Dong, a children's learning expert. He claims that children will build different schemas, try to absorb new things and use them to fit their schemes that are already existed, thus building new schemas. Finally reach the state of equilibrium.</p>
@@ -127,7 +127,7 @@
                 <div class="c-slim-68 title-110">
                     <h2>From the insights, we tease apart our design challenges.</h2>
                 </div>
-                <div class="c-challenges c-slim-68" id="cc-challenges">
+                <div class="c-challenges c-slim-68" id="cc-design-challenges">
                     <h3 id="title-design-challenges">Design Challenges</h3>
                     <p class="p-text">Based on the previous insights, we combed the children’s journey in the exercise, and derived three core design challenges: </p>
                     <p class="p-text">1.	In the exercise, how to deliver the knowledge points?</p>
@@ -135,7 +135,7 @@
                     <p class="p-text">3.	How to cultivate their interests in specific exercise? How to encourage them to learn actively?</p>
                     <img src="../assets/img-challenges.png" alt="" id="img-challenges">
                 </div>
-                <div class="c-design title-70" id="cc-design">
+                <div class="c-design title-70" id="cc-ideate">
                     <div class="c-slim-68">
                         <h3 id="title-design">Design</h3>
                         <h4>Ideate</h4>
@@ -186,12 +186,12 @@
                                 <p class="p-text">In order to empower children to better understand data, they can view Robi's memory blocks in the game. The memory blocks record the Robi’s action of each round, which can explain the concept of data vividly.</p>
                             </div>
                             <div id="ideate-4-r">
-                                <img id="img-ideate-4-r" src="../assets/p23.png" alt="">
+                                <img id="img-ideate-4-r" src="../assets/also_we_explain.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class="c-slim-68 title-110 solution-1" >
+                        <div class="c-slim-68 title-110 solution-1" id="cc-solution">
                             <h4>Solution</h4>
                             <p class="p-text">The game has two phases: the training phase and the testing phase.</p>
                             <div dflex id="training-up" class="title-70">
@@ -215,7 +215,7 @@
                      <div class="c-slim-68 title-110">
                         <h2>Then, all about the efforts…</h2>
                     </div>
-                    <div class="c-slim-68 title-90 c-alde">
+                    <div class="c-slim-68 title-90 c-alde" id="cc-algorithm-design">
                         <div class="cal-1">
                             <h4>Algorithm Design</h4>
                             <label class="calde-img1"></label>
@@ -227,7 +227,7 @@
                             <div class="calde-img2"></div>
                         </div>
                         <p class="p-text title-50">Here, with the reference of Naive Bayes, I simplify the problem as follows:</p>
-                        <div class="cal-3 title-90">
+                        <div class="cal-3 title-50">
                             <!-- <div class="list-item-line cal3-1">
                                 <img src='../assets/badge_1.png' alt='1'>
                                 <p class="regular-font p-text">Initially a 3x3 matrix, which represents the possibility that Robi will choose to do something when an attribute is minimum. It can be seen that the initial possibilities are evenly distributed.</p>
@@ -237,7 +237,7 @@
                                 <div class="calde-img3"></div>
                             </div>
                         </div>
-                        <div class="cal-4 title-30">
+                        <div class="cal-4 title-70">
                              <div class="list-item-line cal3-1">
                                 <img src='../assets/badge_2.png' alt='1'>
                                 <p class="regular-font p-text"> Every action of Robi will lead to changes of distribution. For example, when robi selects watering flowes when mood value is minimum, then P11 becomes:</p>
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="gray_bg">
-                        <div class="test-and-ite c-slim-68 title-50">
+                        <div class="test-and-ite c-slim-68 title-50" id="cc-test-iteration">
                             <div class="tai-1">
                                  <h4>Test and Iteration</h4>
                                  <p class="p-text">We start to sketch up the exercise and make prototype for it. After some modification, we start to make a rough prototype. </p>
@@ -270,10 +270,10 @@
                         </div>
                     </div>
                     <div class="result title-170">
-                        <div class="r-1 c-slim-68">
+                        <div class="r-1 c-slim-68" id="cc-our-result">
                             <h3>Our Result</h3>
                             <div class="cl-video title-70">
-                                <iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/1YLQf-1B_vE?ecver=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>  
                     </div>
@@ -281,7 +281,7 @@
                         <h2>The closure stage is necessary…</h2>
                     </div>
                     <div class="reflection title-110">
-                        <div class="re-1 c-slim-68">
+                        <div class="re-1 c-slim-68" id="cc-reflection">
                             <h3>Reflection</h3>
                         </div>
                         <div class="re-2 c-slim-68 title-70">
@@ -330,11 +330,11 @@ export default {
                 {title: 'Overview', anchor: 'overview'},
                 {title: 'Research', anchor: 'research'},
                 {title: 'Discovery', anchor: 'discovery'},
+                {title: 'Design Challenges', anchor: 'design-challenges'},
                 {title: 'Ideate', anchor: 'ideate'},
                 {title: 'Solution', anchor: 'solution'},
                 {title: 'Algorithm Design', anchor: 'algorithm-design'},
                 {title: 'Test & Iteration', anchor: 'test-iteration'},
-                {title: 'Flow & Wireframe', anchor: 'flow-wireframe'},
                 {title: 'Our Result', anchor: 'our-result'},
                 {title: 'Reflection', anchor: 'reflection'}
             ],

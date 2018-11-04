@@ -614,9 +614,10 @@ h2 {
     border-style:  none;
     display: inline-block;
     margin: 0px 24px;
+    box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
 }
 .cr3-img {
-    background: transparent url("../assets/27.png") no-repeat;
+    background: transparent url("../assets/36.png") no-repeat;
     background-size: 100% auto;
     background-position: center;
     width: 350px;
@@ -624,6 +625,7 @@ h2 {
     border-style:  none;
     display: inline-block;
     margin: 0px 24px;
+    box-shadow: 0px 2px 6px rgba(124, 124, 124, 0.5);
 }
 .cr4-img {
     background: transparent url("../assets/28.png") no-repeat;

@@ -16,12 +16,12 @@
           <label class="ac1-sub-title">E-MAIL</label>
           <label class="ac1-sub-text sub-margin1">yuqing.kwok@outlook.com</label>
         </div>
-        <div class="ac1-resume">
+        <!-- <div class="ac1-resume">
           <label class="ac1-sub-title">RESUME</label>
           <label class="ac1-sub-text sub-margin2">English</label>
           <label class="ac1-sub-text sub-margin3">|</label>
           <label class="ac1-sub-text sub-margin3">中文简体</label>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
