@@ -6,6 +6,11 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: "Ubuntu-M";
+    src: url("Ubuntu-M.ttf");
+  }
   
   @font-face {
       font-family: "Ubuntu";

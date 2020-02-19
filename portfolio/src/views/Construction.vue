@@ -32,7 +32,7 @@ export default {
         margin-top: 200px;
     }
   .con-p-1 {
-      font-family: 'Ubuntu-Bold';
+      font-family: 'Ubuntu-M';
       font-size: 36px;
       letter-spacing: 2px;
   }
