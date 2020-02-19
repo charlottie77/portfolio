@@ -22,8 +22,8 @@ export default {
 
 <style>
 
-  @import url("/../assets/fonts/ubuntu_font.css");
-  @import url("/../assets/fonts/SF-Pro.css");
+  @import url("../assets/fonts/ubuntu_font.css");
+  @import url("../assets/fonts/SF-Pro.css");
     #main {
         width: 60%;
     }
