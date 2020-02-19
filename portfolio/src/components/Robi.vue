@@ -218,7 +218,7 @@
                     <div class="c-slim-68 title-90 c-alde" id="cc-algorithm-design">
                         <div class="cal-1">
                             <h4>Algorithm Design</h4>
-                            <label class="calde-img1"></label>
+                            <!-- <label class="calde-img1"></label> -->
                         </div>
                         <p class="p-text title-30" >Facing current needs, I just finished the algorithm design. The model's input is <span class="green-text">(vector x, vector y)</span>, 
                             where vector <span class="p-bold">x</span> is Robi's three attributes, the mood, power, and maintenance value. The vector <span class="p-bold">y</span> is the user's input 
