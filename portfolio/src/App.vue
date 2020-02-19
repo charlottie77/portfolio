@@ -1,12 +1,12 @@
 <template>
     <div id="app">
-      <div id="header-group" >
+      <!-- <div id="header-group" >
            <label v-for="(item, index) in nav" :key="index" 
             @click="routerLink(index, item.path)" 
             :class=" navIndex === index ? 'label-active' : 'label-unactive'">
              {{ item.title}} 
           </label>
-      </div>
+      </div> -->
     <router-view/>
     </div>
 
@@ -58,10 +58,18 @@ export default {
 
 <style>
 @import url("./assets/fonts/SF-Pro.css");
-#app {
+/* #app {
   font-family: 'SF-Pro-Regular';
   width: 100%;
   max-width: 1920px;
+} */
+#app {
+  font-family: 'SF-Pro-Regular';
+  width: 100%;
+  /* max-width: 1920px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #header-group {
   display: flex;
