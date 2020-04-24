@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
   @import url("../assets/fonts/ubuntu_font.css");
   @import url("../assets/fonts/SF-Pro.css");
