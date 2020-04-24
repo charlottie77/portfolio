@@ -12,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Coming Soon',
-      component: Construction
+      name: 'index',
+      component: Home
     },
     {
       path: '/1-case',
