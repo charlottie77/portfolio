@@ -1,6 +1,6 @@
 <template>
   <div id="navbar" class="row">
-    <label v-for="(item, index) in nav" :key="index" 
+    <label class='nav-label' v-for="(item, index) in nav" :key="index" 
       @click="routerLink(index, item.path)" 
       :class=" navIndex === index ? 'label-active' : 'label-unactive'">
         {{item.title}} 
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style >
+.nav-label:hover{
+  cursor: pointer;
+}
 #navbar {
   right: 214px;
   top: 100px;
