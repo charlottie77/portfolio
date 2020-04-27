@@ -1,35 +1,67 @@
 <template>
   <div id="about">
-    <div class="about-header">
-
+    <Banner height="439px" backgroundColor="rgba(255,210,119,0.14)"/>
+    <div class="row" id="hr-1">
+      <span class="line left-line"></span>
+      <span class="blank-line"></span>
+      <span class="line right-line"></span>
     </div>
-    <div class="about-content">
-      <div class="ac-1">
-        <label class="ac1-title">HI, I'M YUQING.</label>
-        <label class="ac1-line"></label>
-        <div class="ac1-des">
-          <p>I’m currently working as a UX Designer and Front-end Developer in Shanghai.</p>
-          <p>I focus on the interactions with technology, especially AI algorithms, in education and daily life.</p>
-          <p>Thanks for stopping by.</p>
+    <div class="row" id="hr-2">
+      <span class="line left-line"></span>
+      <span class="blank-line"></span>
+      <span class="line right-line"></span>
+    </div>
+
+    <div class="container row">
+      <div>
+        <img src="@/assets/img/avatar.png" alt="" id='avatar'/>
+      </div>
+      <div id="about-content">
+        <div id="content-line1">Hi, I am Yuqing</div>
+        <div id="content-line2">a technical designer, with passion for</div>
+        <div id="content-line3" class="row">
+          <img :src='require("@/assets/img/skill-point.svg")' alt="">
+          <span class="skill-name">UX design</span>
+          <img :src='require("@/assets/img/skill-point.svg")' alt="">
+          <span class="skill-name">Illustration</span>
+          <img :src='require("@/assets/img/skill-point.svg")' alt="">
+          <span class="skill-name">Coding</span>
         </div>
-        <div class="ac1-email">
-          <label class="ac1-sub-title">E-MAIL</label>
-          <label class="ac1-sub-text sub-margin1">yuqing.kwok@outlook.com</label>
+        <div id="detail">
+          <p class="detail-line">Currently, I am interested in <span class='highlight'>design for learning.</span><img :src="require('@/assets/img/learning.svg')" alt=""> </p>
+          <p class="detail-line">Right now, I am an HCI student and UX Designer at Carnegie Mellon University.  </p>
+          <p class="detail-line">Outside of design work, I enjoy video games (a big fan of Nintendo) <img :src="require('@/assets/img/nintendo-switch.svg')" alt=""> , cooking <img :src="require('@/assets/img/cooking.svg')" alt=""> (good at cooking but a novice in baking), and journaling. <img :src="require('@/assets/img/journaling.svg')" alt=""></p>
+          <p class="detail-line">Previously, I studied software engineering & new media technology <img :src="require('@/assets/img/coding.svg')" alt=""> at Tongji University. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
         </div>
-        <!-- <div class="ac1-resume">
-          <label class="ac1-sub-title">RESUME</label>
-          <label class="ac1-sub-text sub-margin2">English</label>
-          <label class="ac1-sub-text sub-margin3">|</label>
-          <label class="ac1-sub-text sub-margin3">中文简体</label>
-        </div> -->
+        <div style='mix-blend-mode: normal;opacity: 0.51;border: 3px solid #F8E5C7;width: 114px; margin:32.5px 0 16.75px'/>
+        <div id="contact-info">
+          <div class="row">
+            <span class="contact-method">E-mail</span>
+            <span class="contact-detail">yuqingg@andrew.cmu.edu</span>
+          </div>
+          <div class="row">
+            <span class="contact-method">Resume</span>
+            <span class="contact-detail"> <a href="">English</a> </span>
+          </div>
+        </div>
+        <div class="row" id='social-network'>
+          <img :src="require('@/assets/img/linkedin.svg')" alt="">
+          <img :src="require('@/assets/img/dribbble.svg')" alt="">
+          <img :src="require('@/assets/img/github.svg')" alt="">
+        </div>
+        <div id="copyright">This site was designed and developed from scratch by Yuqing. </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Banner from "@/components/Banner"
 export default {
   name: 'About',
+  components: {
+    Banner,
+  },
   props: {
   },
   methods: {
@@ -37,82 +69,135 @@ export default {
 }
 </script>
 
+<style>
+#about{
+  width: 100%;
+}
+</style>
+
 <style scoped>
-.about-header {
-    background: transparent url("../assets/about_bg.png") no-repeat;
-    background-size: 100% auto;
-    width: 100%;
-    height: 286px;
+.highlight{
+  position: relative;
+  cursor: default;
+  display: inline-block;
 }
-
-.about-content {
-  display: flex;
-  justify-content: center;
+.highlight:hover:after {
+  top: 0%;
 }
-
-.ac-1 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 30%;
+.highlight::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, .8, .13, 1);
+  background-color: rgba(252,233,155,0.74);
 }
-
-.ac1-title {
-  font-family: 'SF-Pro-Bold';
+#copyright{
+  margin-bottom: 150px;
+  /* font-family: SourceSansPro; */
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 1.31667px;
+  color: #4A4A4A;
+}
+#social-network{
+  margin:85px -19px 21px;
+}
+#social-network>img{
+  margin: 0 19px;
+}
+.contact-detail,.contact-detail>a{
+  /* font-family: Source Sans Pro; */
   font-size: 24px;
-  color: #4a4a4a;
+  line-height: 30px;
   letter-spacing: 2.18px;
-  line-height: 26px;
-}
-
-.ac1-line {
-  background: transparent url("../assets/about_line.png") no-repeat;
-  background-size: 100% auto;
-  width: 57px;
-  height: 2px;
-  margin-top: 26px;
-}
-
-.ac1-des p {
-  font-size: 18px;
   color: #4A4A4A;
-  letter-spacing: 1.72px;
-  line-height: 26px;
 }
-
-.ac1-sub-title {
-  font-family: 'SF-Pro-Bold';
-  font-size: 18px;
-  color: #8C3800;
+.contact-method{
+  font-family: 'Ubuntu-Bold';
+  font-size: 24px;
+  line-height: 26px;
   letter-spacing: 2.18px;
-  line-height: 26px;
-  min-width: 110px;
+  color: #825B46;
+  width: 120px;
 }
-
-.ac1-sub-text {
-  font-size: 18px;
+#detail{
+  margin-top: 46px;
+}
+.detail-line{
+  overflow-wrap: break-word;
+  /* font-family: Source Sans Pro; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1.264px;
   color: #4A4A4A;
-  letter-spacing: 2.18px;
+}
+.detail-line:nth-of-type(2){
+  margin-top: 14px;
+}
+.detail-line:nth-of-type(3),.detail-line:nth-of-type(4){
+  margin-top: 25px;
+}
+.skill-name{
+  margin-left: 8px;
+  margin-right: 12px;
+  font-family: 'Ubuntu-Bold';
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 1.806px;
+  color: #4A4A4A;
+}
+#content-line1{
+  font-family: 'Ubuntu-Bold';
+  font-size: 30px;
+  line-height: 31px;
+  letter-spacing: 2.58px;
+  color: #4A4A4A;
+}
+#content-line2{
+  margin-top: 16px;
+  font-family: 'Ubuntu';
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 1.806px;
+  color: #4A4A4A;
+}
+#avatar{
+  width: 218.88px;
+}
+.container{
+  margin-top: -140px;
+  padding: 0 276px;
+}
+#about-content{
+  flex-grow: 1;
+  padding-top: 40px;
+  padding-left: 31px;
+  max-width: 615px;
+}
+.line{
+  border: 1.5px solid rgba(239,195,123,0.42);
+}
+.blank-line{
+  width: 480px;
+}
+.left-line{
+  width: 510px;
+}
+.right-line{
+  flex-grow: 2;
+}
+#hr-1{
+  margin:0
+}
+#hr-2{
+  margin: 5px 0 0;
 }
 
-.sub-margin1 {
-  margin-left: 38px;
-}
-
-.sub-margin2 {
-  margin-left: 26px;
-}
-
-.sub-margin3 {
-  margin-left: 24px;
-}
-
-.ac1-email {
-  margin-top: 86px;
-}
-
-.ac1-resume {
-  margin-top: 28px;
-  margin-bottom: 70px;
-}
 </style>
 
