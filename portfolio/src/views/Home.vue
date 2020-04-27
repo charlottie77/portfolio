@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <Banner height="443px" backgroundColor="#E9E0D9" />
+    <Banner height="443px" backgroundColor="rgba(233,224,217,0.75)"/>
     <div class="container row">
       <div>
         <img src="@/assets/img/banner_illu.png" alt="" id='selfy'/>
@@ -41,15 +41,13 @@
 <script>
 // @ is an alias to /src
 
-import PortList from "@/components/PortList"
 import Banner from "@/components/Banner"
-import PortItem from "../components/PortItem"
+import PortItem from "@/components/PortItem"
 
 
 export default {
   name: "home",
   components: {
-    PortList,
     Banner,
     PortItem
   },

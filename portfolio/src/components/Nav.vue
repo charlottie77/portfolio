@@ -20,6 +20,9 @@ export default {
     ],
     navIndex: 0,
   }),
+  created: function(){
+    if(this.$router.currentRoute.name=='about')this.navIndex = 1
+  },
   methods: {
     goToMain:function(){
       this.$router.push({path:'/'});
