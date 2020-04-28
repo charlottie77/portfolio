@@ -5,6 +5,7 @@ import Case1 from './components/AICourse.vue'
 import Case2 from './components/Robi.vue'
 import About from './views/About'
 import Construction from './views/Construction.vue'
+import Robi from './views/Robi'
 
 Vue.use(Router)
 
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Home
+    },
+    {
+      path:'/robi',
+      name: 'robi',
+      component: Robi
     },
     {
       path: '/1-case',

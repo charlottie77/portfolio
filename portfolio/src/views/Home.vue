@@ -29,6 +29,7 @@
           :subtitle='item.subtitle'
           :params='item.params'
           :tags='item.tags'
+          :link='item.link'
           />
         </div>
       </div>
@@ -66,7 +67,8 @@ export default {
           myrole: 'Scrum Master, UX Design, Developer',
           duration: '3 months'
         },
-        tags:['Game Design','Learning Experience Design']
+        tags:['Game Design','Learning Experience Design'],
+        link:'/robi'
       },
       {
         projectName: 'HamPage',
@@ -80,7 +82,8 @@ export default {
           myrole: 'Scrum Master, UX Design, Developer',
           duration: '3 months'
         },
-        tags:['Game Design','Learning Experience Design']
+        tags:['Game Design','Learning Experience Design'],
+        link:'/'
       }
     ]
   }),

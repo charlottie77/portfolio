@@ -1,6 +1,6 @@
 <template>
   <div class="port-item">
-    <div v-if='!showDetail' class="simple">
+    <div v-if='!showDetail' class="simple" @click='gotoProject(link)'>
       <div class="row">
         <div class="item-discription">
           <div class="name">{{projectName}}</div>
@@ -12,7 +12,7 @@
       </div>
       <div class="hr"></div>
     </div>
-    <div v-if="showDetail" class="detail">
+    <div v-if="showDetail" class="detail" @click='gotoProject(link)'>
       <div class="row">
         <div class="item-detail">
           <div class="name">{{projectName}}</div>
@@ -46,7 +46,12 @@
 <script>
 export default {
   name: 'PortItem',
-  props: ['showDetail','simpleImgSrc','detailImgSrc','projectName','projectDiscription','subtitle','params','tags']
+  props: ['showDetail','simpleImgSrc','detailImgSrc','projectName','projectDiscription','subtitle','params','tags','link'],
+  methods:{
+    gotoProject: function(url){
+      this.$router.push(url)
+    }
+  }
 }
 </script>
 
