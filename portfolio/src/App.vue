@@ -27,6 +27,7 @@ export default {
 <style>
 @import url("./assets/fonts/SF-Pro.css");
 @import url("./assets/fonts/ubuntu_font.css");
+@import url("./assets/fonts/SSP.css");
 @import url("./css/MyGrid.css");
 /* #app {
   font-family: 'SF-Pro-Regular';
