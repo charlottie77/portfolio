@@ -63,6 +63,20 @@
       </div>
       <div id="final-launch">
         <h1 id="final-launch-title">Launch</h1>
+        <div class="row">
+          <div id='final-launch-content'>
+            In June 2018, we held a <span class="green">trial course, named “The first class of AI — Machine can learn” at the LEGO Activity Center in Pudong New Area, Shanghai.</span> We used <span class="green">Robi’s Room</span> to scaffold the class successfully. After the course, we received very positive feedback on the practice from both students and their parents. 
+          </div>
+        </div>
+        <div class="row" id='final-launch-images'>
+          <div>
+            <img :src='require("@/assets/img/launch-image-1.jpg")' alt="">
+            <img :src='require("@/assets/img/launch-image-2.jpg")' alt="">
+          </div>
+        </div>
+        <div class="row" id="photo-credit">
+          Photo by Xiaoteng Ge
+        </div>
       </div>
     </div>
   </div>
@@ -89,6 +103,45 @@ export default {
 </style>
 
 <style scoped>
+#photo-credit{
+  margin-top: 16px;
+  justify-content: center;
+  font-family: Charter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.5625px;
+  color: #979797;
+}
+#final-launch-images{
+  margin-top: 38px;
+}
+#final-launch-images>div{
+  display: flex;
+  justify-content: space-between;
+  width: 826px;
+}
+#final-launch-images img{
+  width: 48%;
+}
+#final-launch-content{
+  margin-top: 43px;
+  width: 826px;
+  font-family: 'Source Sans Pro';
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.488889px;
+  color: #000000;
+}
+#final-launch-content>span.green{
+  color: #189779;
+}
+#final-launch .row{
+  justify-content: center;
+  
+}
 #final-launch{
   margin-top: 255px;
 }
