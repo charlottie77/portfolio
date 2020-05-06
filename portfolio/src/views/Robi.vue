@@ -1,7 +1,7 @@
 <template>
   <div id="Robi">
     <Banner height="322px" backgroundColor="rgba(168, 216, 185, 0.683047)"/>
-    <div class="container">
+    <div class="container" style="margin-top:-200px">
       <div class="row">
         <div>
           <div id='project-title'>Robi’s Room</div>
@@ -77,6 +77,58 @@
         <div class="row" id="photo-credit">
           Photo by Xiaoteng Ge
         </div>
+        <div id='launch-result' class="row col-15 justify-center" style="margin:52px auto">
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green">17/20</span>
+              <span class="green">Students</span>
+            </div>
+            <div>Successfully Completed the Practice</div>
+          </div>
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green">3 Sessions</span>
+            </div>
+            <div>Trial course conducted</div>
+          </div>
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green"> 90% </span>
+            </div>
+            <div>Positive Feedback</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img :src='require("@/assets/img/Group 8.jpg")' alt="" style="width:100%; margin:170px 0">
+    <div class="container">
+      <h2>How did we get there</h2>
+      <div class="row justify-center" style="margin:64px auto 93px"><img :src='require("@/assets/img/dotdotdot.svg")' alt=""></div>
+    </div>
+    <div id="design-process" class='gray-bg'>
+      <h1>Design Process</h1>
+      <div class="row justify-center" style="margin-top:88px">
+        <img :src='require("@/assets/img/Group 60.svg")' alt="">
+      </div>
+    </div>
+    <div class="container">
+      <h1 style="margin:114px auto 119px">Design Research</h1>
+      <div class='black-center'>Learners in Context</div>
+      <img :src='require("@/assets/img/Group 59.svg")' alt="" class='img-center' style="margin-top:51px;margin-bottom:35px">
+      <div class="text">In this project, our targeted users are 11-12 years old children in elementary school. We went backward and started by outlining the key research questions and investigated them through <span class="green">interviews, observations, and literature reviews.</span> Here are <span class="SSP-bold">three questions I want to share:</span></div>
+      <div id='three-questions'>
+        <div>
+          <img :src='require("@/assets/img/circle-1.svg")' alt="">
+          <p>When parents mentioned learning AI, what do they expect children to learn?</p>
+        </div>
+        <div>
+          <img :src='require("@/assets/img/circle-2.svg")' alt="">
+          <p>What is the learning characteristic of extracurricular courses in this domain?</p>
+        </div>
+        <div>
+          <img :src='require("@/assets/img/circle-3.svg")' alt="">
+          <p>Which learning strategy is most effective for primary school students at age 11-12?</p>
+        </div>
       </div>
     </div>
   </div>
@@ -97,12 +149,105 @@ export default {
 }
 </script>
 <style>
+.SSP-bold{
+  font-family: 'Source Sans Pro-B';
+}
+.text{
+  font-family: 'Source Sans Pro';
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.488889px;
+  color: #000000;
+}
 #Robi{
   width: 100%;
+}
+h1{
+  font-family: 'Ubuntu-Bold';
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #C0C0C0;
+}
+h2{
+  font-family: 'Ubuntu-Bold';
+  font-style: italic;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #51BAA1;
+}
+h3{
+  margin: 16px 0;
+  font-family: 'Ubuntu-Bold';
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.6875px;
+  color: #838383;
+}
+.gray-bg{
+  background: #FAFAFA;
 }
 </style>
 
 <style scoped>
+#three-questions{
+  width:590px;
+  margin:84px auto 111px;
+}
+#three-questions>div{
+  display: flex;
+}
+#three-questions p{
+  margin: 22.5px 0 22.5px 32px;
+  font-family: 'Source Sans Pro';
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #4A4A4A;
+}
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.black-center{
+  font-family: 'Ubuntu-Bold';
+  font-size: 27px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.84375px;
+  color: #4A4A4A;
+}
+#design-process{
+  padding-top: 44px;
+  padding-bottom: 39px;
+}
+#launch-result>.col-8{
+  align-items: center;
+}
+#launch-result>.col-8>div:nth-of-type(1){
+  font-family: 'Source Sans Pro-B';
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1.06px;
+  width: 156px;
+  height: 103px;
+  background: #ECF5F3;
+  border-radius: 8px;
+  margin-bottom: 9px;
+}
+#launch-result>.col-8>div:nth-of-type(2){
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.942222px;
+  color: #4A4A4A;;
+}
 #photo-credit{
   margin-top: 16px;
   justify-content: center;
@@ -135,7 +280,7 @@ export default {
   letter-spacing: 0.488889px;
   color: #000000;
 }
-#final-launch-content>span.green{
+.green{
   color: #189779;
 }
 #final-launch .row{
@@ -173,14 +318,7 @@ export default {
 #final-solution-title{
   margin-bottom: 129px;
 }
-h1{
-  font-family: 'Ubuntu-Bold';
-  font-size: 40px;
-  line-height: 46px;
-  text-align: center;
-  letter-spacing: 0.875px;
-  color: #C0C0C0;
-}
+
 .row.splitter{
   margin: 86px 0;
 }
@@ -214,14 +352,7 @@ h1{
 #Overview{
   margin-top: 76px;
 }
-h3{
-  margin: 16px 0;
-  font-family: 'Ubuntu-Bold';
-  font-size: 22px;
-  line-height: 25px;
-  letter-spacing: 0.6875px;
-  color: #838383;
-}
+
 #robi-p1{
   margin-top: 15px;
   width:549px;
@@ -253,7 +384,7 @@ h3{
   color: #3FAB91;
 }
 .container{
-  margin: -200px 16% 0;
+  margin: 0 16% 0;
 }
 #project-description{
   margin-top: 10px;
