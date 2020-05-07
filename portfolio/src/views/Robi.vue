@@ -131,6 +131,32 @@
         </div>
       </div>
     </div>
+    <div class='gray-bg'>
+      <div id="research-1">
+        <div class="row align-items-center research-title">
+          <span>1</span>
+          <h4>What do parents expect children to learn?</h4>
+        </div>
+        <p>While our end users are children, the most important stakeholder is their parents, who typically have control over their children's extracurricular activities.</p>
+        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a card-sorting exercise where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
+        <div id='insights'>Insights</div>
+        <div class="row">
+          <div class='insights'>
+            <div>
+              <img :src='require("@/assets/img/blob-shape (2).svg")' alt="">
+              <div class="title">Cultivating interest is the top priority. </div>
+              <div class='content'>To our surprise, in every card-sorting activity, parents always put “cultivate interests” at the top position. Rather than expecting kids to acquire AI basic concepts after finishing the course, they want kids to be motivated to continue learning with the big ideas of AI in the future. </div>
+            </div>
+            <div>
+              <img :src='require("@/assets/img/blob-shape (2).svg")' alt="">
+              <div class="title">Parents prefer soft skills over academic skill development.</div>
+              <div class='content'>Parents put soft skills, like communication, logical thinking, and personality traits, such as patience and perseverance, in higher positions. Generally, they expect their kids to build these soft skills at this early stage and learn specific skills in or after high school. </div>
+            </div>
+          </div>
+          <img :src='require("@/assets/img/Group 41.svg")' alt="">
+        </div>
+      </div>
+    </div>
   </div>
   
 </template>
@@ -187,12 +213,69 @@ h3{
   letter-spacing: 0.6875px;
   color: #838383;
 }
+h4{
+  font-family: 'Ubuntu-Bold';
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 1.125px;
+  color: #4A4A4A; 
+  margin: 0;
+}
 .gray-bg{
   background: #FAFAFA;
 }
 </style>
 
 <style scoped>
+.insights>div{
+  position: relative;
+  padding-left: 26px;
+  padding-right: 84px;
+  margin-bottom: 76px;
+}
+.insights .title{
+  font-family: 'Source Sans Pro-M';
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 1.47222px;
+  color: #008757;
+}
+.insights>div>img{
+  position: absolute;
+  top: -11px;
+  left: 0;
+}
+#insights{
+  font-family: 'Ubuntu-Bold';
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.6875px;
+  color: #4A4A4A;
+  margin-top: 32px;
+  margin-bottom: 37px;
+}
+#research-1{
+  padding-top: 60px;
+  padding-left: 35px;
+}
+#research-1 p,#research-1 .content{
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.06px;
+  color: #000000;
+  margin: 8px 0;
+}
+.research-title{
+  margin-left: -35px;
+}
+.research-title>span{
+  font-family: 'Ubuntu-Bold';
+  font-size: 59px;
+  line-height: 68px;
+  letter-spacing: 1.22917px;
+  color: #CDCDCD;
+}
 #three-questions{
   width:590px;
   margin:84px auto 111px;
@@ -318,7 +401,6 @@ h3{
 #final-solution-title{
   margin-bottom: 129px;
 }
-
 .row.splitter{
   margin: 86px 0;
 }
@@ -352,7 +434,6 @@ h3{
 #Overview{
   margin-top: 76px;
 }
-
 #robi-p1{
   margin-top: 15px;
   width:549px;
@@ -383,7 +464,7 @@ h3{
   letter-spacing: 0.6125px;
   color: #3FAB91;
 }
-.container{
+.container,#research-1{
   margin: 0 16% 0;
 }
 #project-description{
