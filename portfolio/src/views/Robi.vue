@@ -157,6 +157,30 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div id="research-2">
+        <div class="row align-items-center research-title">
+          <span>2</span>
+          <h4>Learning characteristic in related extracurricular courses</h4>
+        </div>
+        <p style="margin:34px 0 43px">In order to understand the current study situation, we interviewed five groups of parents. At the same time, we conducted observations, both in the programming classes and in the experimental AI course which our lab is teaching (without using our product platform)</p>
+        <div class="row align-left"><img :src='require("@/assets/img/Group 37.svg")' alt=""></div>
+        <div class="row align-right"><img :src='require("@/assets/img/Group 38.svg")' alt="" style="margin-top: -48.5px;"></div>
+        <div class="row align-left"><img :src='require("@/assets/img/Group 39.svg")' alt="" style="margin-top: -48.5px;"></div>
+        <div class="row align-right"><img :src='require("@/assets/img/Group 40.svg")' alt="" style="margin-top: -48.5px;"></div>
+      </div>
+    </div>
+    <div class="gray-bg">
+      <div id="research-3">
+        <div class="row align-items-center research-title">
+          <span>3</span>
+          <h4>Which learning strategy is most effective for kids?</h4>
+        </div>
+        <p>We conducted <span class="green">expert interviews</span> and <span class="green">literature review</span> to explore the children's learning model. During our discussion with Jerry Dong, a learning expert, he claimed that <span class="bold">children would “absorb” new knowledge by fitting it into their existing schemas. Learners could build connections between the new knowledge and their prior knowledge to reach the state of equilibrium, the new schemas. </span></p>
+        <img :src='require("@/assets/img/Group 43.svg")' alt="" style="margin:43px auto">
+        <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
+      </div>
+    </div>
   </div>
   
 </template>
@@ -175,6 +199,12 @@ export default {
 }
 </script>
 <style>
+.align-left{
+  justify-content: flex-start;
+}
+.align-right{
+  justify-content: flex-end;
+}
 .SSP-bold{
   font-family: 'Source Sans Pro-B';
 }
@@ -254,11 +284,12 @@ h4{
   margin-top: 32px;
   margin-bottom: 37px;
 }
-#research-1{
+#research-1, #research-2, #research-3{
   padding-top: 60px;
-  padding-left: 35px;
+  padding-left: 42px;
+  padding-bottom: 97px;
 }
-#research-1 p,#research-1 .content{
+#research-1 p,#research-1 .content, #research-2 p, #research-3 p{
   font-family: 'Source Sans Pro';
   font-size: 18px;
   line-height: 23px;
@@ -267,9 +298,10 @@ h4{
   margin: 8px 0;
 }
 .research-title{
-  margin-left: -35px;
+  margin-left: -42px;
 }
 .research-title>span{
+  margin-right: 7px;
   font-family: 'Ubuntu-Bold';
   font-size: 59px;
   line-height: 68px;
@@ -464,7 +496,7 @@ h4{
   letter-spacing: 0.6125px;
   color: #3FAB91;
 }
-.container,#research-1{
+.container,#research-1, #research-3{
   margin: 0 16% 0;
 }
 #project-description{
