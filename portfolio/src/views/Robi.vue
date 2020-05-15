@@ -181,6 +181,15 @@
         <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
       </div>
     </div>
+    <div class="container">
+      <h1 style="margin:52px auto 26px">Design Challenges</h1>
+      <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
+      <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:24px;margin-bottom:64px'>
+      <p>The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
+      <img :src='require("@/assets/img/Group 46.svg")' alt="" class="img-center" style="margin-top:38px">
+      <div  style="margin-top:24px;margin-left:-110px"><img class="img-center" :src='require("@/assets/img/Group 45.svg")' alt="" style=""></div>
+      <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:17px; margin-bottom:49px">
+    </div>
   </div>
   
 </template>
@@ -199,6 +208,11 @@ export default {
 }
 </script>
 <style>
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .align-left{
   justify-content: flex-start;
 }
@@ -289,11 +303,11 @@ h4{
   padding-left: 42px;
   padding-bottom: 97px;
 }
-#research-1 p,#research-1 .content, #research-2 p, #research-3 p{
+#research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
   font-family: 'Source Sans Pro';
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 1.06px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.488889px;
   color: #000000;
   margin: 8px 0;
 }
