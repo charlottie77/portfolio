@@ -190,6 +190,14 @@
       <div  style="margin-top:24px;margin-left:-110px"><img class="img-center" :src='require("@/assets/img/Group 45.svg")' alt="" style=""></div>
       <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:17px; margin-bottom:49px">
     </div>
+    <div class="gray-bg" id='ideation'>
+      <div class="container">
+        <h1>Ideation</h1>
+        <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we brainstormed elements that can help children learn basic AI concepts in a motivating way.</p>
+        <img :src='require("@/assets/img/Group 48.svg")' alt="" class="img-center" style="margin:54px auto 83px">
+        <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
+      </div>
+    </div>
   </div>
   
 </template>
@@ -271,6 +279,10 @@ h4{
 </style>
 
 <style scoped>
+#ideation{
+  padding-top: 47px;
+  padding-bottom: 120px;
+}
 .insights>div{
   position: relative;
   padding-left: 26px;
