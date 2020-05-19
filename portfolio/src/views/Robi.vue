@@ -198,6 +198,20 @@
         <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
       </div>
     </div>
+    <div class="container" style="padding: 81px 0 63px;">
+      <h1>Prototyping</h1>
+      <div style='margin:70px auto 84px' class="black-center">Paper Prototype</div>
+      <p style="margin:84px auto 33px">Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
+      <img :src='require("@/assets/img/Group 49.png")' alt="" class="img-center" style="max-width:894px">
+      <p style="margin:80px 0 32px">Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
+      <div style="position:relative">
+        <img :src='require("@/assets/img/Group 50.svg")' alt="" style="position:absolute">
+      </div>
+      <div style="margin:424px 396px -46px 15px; width:702px">
+        <p>The instructions and feedback were considered confusing and took participants some time to understand. Therefore, we needed to modify the writing and provided more guidance. </p>
+        <p>Furthermore, the game length of 20 rounds was too long for kids,  and we realized that this is only the training process. There should be a validation phase for learners to “assess” Robi’s learning, which is also the assessment of players’ learning. </p>
+      </div>
+    </div>
   </div>
   
 </template>
