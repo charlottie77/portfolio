@@ -207,10 +207,43 @@
       <div style="position:relative">
         <img :src='require("@/assets/img/Group 50.svg")' alt="" style="position:absolute">
       </div>
-      <div style="margin:424px 396px -46px 15px; width:702px">
+      <div style="margin:444px 396px -46px 15px; width:702px">
         <p>The instructions and feedback were considered confusing and took participants some time to understand. Therefore, we needed to modify the writing and provided more guidance. </p>
         <p>Furthermore, the game length of 20 rounds was too long for kids,  and we realized that this is only the training process. There should be a validation phase for learners to “assess” Robi’s learning, which is also the assessment of players’ learning. </p>
       </div>
+    </div>
+    <div class="gray-bg" id="midfi">
+      <div class="container">
+        <div class="black-center">Mid-fi Prototype</div>
+        <p style="margin:36px auto 67px">While our visual designer was working on illustration and animation, Jan and I started to make a medium-fidelity prototype based on previous feedback. Since it was hard for us to recruit more kids, in this round, we conducted more prototype testing with high-school students, who were novices as well.  Here are some <span class="bold">key improvements we made in this iteration: </span></p>
+        <div class="midfi-iter">
+          <div style="width:467px;position:absolute">
+            <p><span class="green bold">#1 Feedback Improvement</span></p>
+            <p style="width:467px;">When Robi takes action, it will generate a memory block that contains the values, action, and permission. There is also a memory stack for learners to trace back all the data. (which acts like training dataset)</p>
+          </div>
+          <img :src='require("@/assets/img/Group 52.svg")' alt="" style="width:100%;">
+        </div>
+        <div class="midfi-iter" style="margin-top:96px">
+          <div style="width:403px;position:absolute">
+            <p><span class="green">#2 Instructional Text Adjustment</span></p>
+            <p>We clarified the instructional texts and made them more conversational to promote the psychological engagement of learners better.</p>
+          </div>
+          <img :src='require("@/assets/img/Group 54.svg")' alt="" style="width: 100%">
+        </div>
+        <div class="row" style="margin:0 -12px">
+          <div class="midfi-iter">
+            <img :src='require("@/assets/img/robis_room-07.png")' alt="">
+            <p><span class="green">#3 Inclusion of Validation Stage</span></p>
+            <p>We added an automatic validation stage where Robi acts according to the training he received. This stage also makes the overall process closer to actual machine learning.</p>
+          </div>
+          <div class="midfi-iter">
+            <img :src='require("@/assets/img/robis_room-08.png")' alt="">
+            <p><span class="green">#4 Additional Guidance and Instruction</span></p>
+            <p>We added some guidance and instruction at the beginning of each stage. </p>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
   
@@ -293,6 +326,19 @@ h4{
 </style>
 
 <style scoped>
+#midfi{
+  padding:58px 0 32px;
+}
+.midfi-iter{
+  position: relative;
+}
+.row>.midfi-iter{
+  flex:1;
+  margin: 57px 12px;
+}
+.row>.midfi-iter>img{
+  width: 100%;
+}
 #ideation{
   padding-top: 47px;
   padding-bottom: 120px;
@@ -537,7 +583,8 @@ h4{
   color: #3FAB91;
 }
 .container,#research-1, #research-3{
-  margin: 0 16% 0;
+  margin: 0 auto 0;
+  max-width: 1000px;
 }
 #project-description{
   margin-top: 10px;
