@@ -41,7 +41,7 @@
           </div>
           <div class="row">
             <span class="contact-method">Resume</span>
-            <span class="contact-detail"> <a href="">English</a> </span>
+            <span class="contact-detail"> <a href="https://drive.google.com/file/d/189Dg3HKdWIiyQdvahWGtUuL_v_hkkDTZ/view?usp=sharing">English</a> </span>
           </div>
         </div>
         <div class="row" id='social-network'>

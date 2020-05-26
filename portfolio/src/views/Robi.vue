@@ -111,7 +111,7 @@
         <img :src='require("@/assets/img/Group 60.svg")' alt="">
       </div>
     </div>
-    <div class="container">
+    <div class="container" id='design-research'>
       <h1 style="margin:114px auto 119px">Design Research</h1>
       <div class='black-center'>Learners in Context</div>
       <img :src='require("@/assets/img/Group 59.svg")' alt="" class='img-center' style="margin-top:51px;margin-bottom:35px">
@@ -181,7 +181,7 @@
         <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id='design-challenges'>
       <h1 style="margin:52px auto 26px">Design Challenges</h1>
       <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
       <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:24px;margin-bottom:64px'>
@@ -198,7 +198,7 @@
         <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
       </div>
     </div>
-    <div class="container" style="padding: 81px 0 63px;">
+    <div class="container" id='prototyping' style="padding: 81px 0 63px;">
       <h1>Prototyping</h1>
       <div style='margin:70px auto 84px' class="black-center">Paper Prototype</div>
       <p style="margin:84px auto 33px">Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
@@ -243,7 +243,20 @@
           </div>
         </div>
       </div>
-      
+    </div>
+    <div class="container" id='final-design' style="margin-top:60px">
+      <div class="black-center">Final Design</div>
+      <div style="position:relative">
+        <img :src='require("@/assets/img/Group 58.svg")' alt="">
+        <p style="width:478px;left:50px;top:111px;position:absolute">Robi's condition includes <span class="bold">three categories:</span> power, mood, and maintenance. These three categories <span class="bold">correspond to three kinds of actions</span>, including charging, watering flowers, and maintenance work. </p>
+        <p style="width:507px;right:-160px;top:250px;position:absolute;">Learners should <span class="bold">train Robi to stay in good condition</span> by giving Robi instructions of Yes/No in the training phase. Those <span class="bold">instructions will change Robi’s mindset</span>, which will <span class="bold">guide Robi’s behavior</span> in the validation phase automatically. </p>
+        <p style="width:376px;position:absolute;top:495px;left:50px">Thus, if Robi was trained well, he could 'survive' the validation phase. </p>
+      </div>
+      <p style="margin-top:74px">Here is a <span class="bold">mapping</span> between each element in the big picture of ‘machine could learn’ and our final solution.</p>
+      <img class='img-center' :src='require("@/assets/img/Group 42.svg")' alt="" style="margin-top:23px">
+    </div>
+    <div class="container" id="result" style="margin-top:164px">
+      <h1>Result</h1>
     </div>
   </div>
   
