@@ -258,6 +258,17 @@
     <div class="container" id="result" style="margin-top:164px">
       <h1>Result</h1>
     </div>
+
+    <div class="row justify-center">
+      <img :src='require("@/assets/img/left-arrow.svg")' alt="" v-on:click='turnLeft()'>
+      <div class="swipper" style="height:500px;width:800px; display:inline-block">
+        <transition :name='transitionName' >  
+          <img :src='require("@/assets/img/"+swipper_imgs.Note[showIdx])' alt="" style="height:500px;position:absolute;" :key="showIdx">
+        </transition>
+      </div>
+      <img :src='require("@/assets/img/right-arrow.svg")' alt="" v-on:click='turnRight()'>
+    </div>
+    <div style="margin-top:40px"></div>
   </div>
   
 </template>
@@ -271,8 +282,32 @@ export default {
     Banner,
   },
   data: ()=>({
-
+    show:true,
+    targetIdx:0,
+    showIdx:0,
+    transitionName:'slide-fade',
+    swipper_imgs:{
+      Note:['gallery_c_1.jpg','gallery_c_2.jpg','gallery_c_3.jpg','gallery_c_4.png','gallery_c_5.jpg'],
+      Mockup:['','gallery_b_2.png','gallery_b_3.png','gallery_b_4.png','']
+    }
   }),
+  methods:{
+    turnLeft: function(){
+      if(this.showIdx == 0) return
+      this.transitionName = 'slide-fade-reverse'
+      this.showIdx--
+    },
+    turnRight: function(){
+      if(this.showIdx == 4) return
+      this.transitionName = 'slide-fade'
+      this.showIdx++
+    },
+    swipe: function(){
+      this.showIdx = this.targetIdx
+      if (this.transitionName == 'slide-fade') this.transitionName = 'slide-fade-reverse'
+      else this.transitionName = 'slide-fade'
+    }
+  }
 }
 </script>
 <style>
@@ -339,6 +374,37 @@ h4{
 </style>
 
 <style scoped>
+
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.slide-fade-enter-active,.slide-fade-reverse-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active,.slide-fade-reverse-leave-active {
+  transition: all 0.3s ease;
+  
+}
+.slide-fade-enter,.slide-fade-reverse-leave-to
+/* .slide-fade-leave-active for below version 2.1.8 */ {
+  transform: translateX(800px);
+  /* width: 0; */
+  opacity: 0;
+}
+.slide-fade-leave-to,.slide-fade-reverse-enter{
+  transform: translateX(-800px);
+  /* width: 0; */
+  opacity: 0;
+}
+.swipper{
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.swipper-item{
+  width: 800px;
+  /* display: inline; */
+  overflow: hidden;
+}
 #midfi{
   padding:58px 0 32px;
 }
