@@ -31,7 +31,7 @@
         <div class="row align-items-start solution-row">
           <img :src='require("@/assets/img/Robi Indicator.svg")' alt="">
           <div class='robi-solution'>
-            <p class='solution-title'>Let’s teach Robi how to keep in a healthy state.</p>
+            <h5 class='solution-title'>Let’s teach Robi how to keep in a healthy state.</h5>
             <p class='solution-content'>Robi is a young little robot who relies on the player’s instruction to stay healthy. He needs to take <span class="highlight">appropriate actions to maintain three categories — power,</span> maintenance, and mood. </p>
           </div>
           <img :src='require("@/assets/img/teach-robi-hwoto-keep-health.svg")' alt="">
@@ -39,7 +39,7 @@
         <div class="row align-items-start solution-row">
           <img :src='require("@/assets/img/Robi Indicator-2.svg")' alt="">
           <div class='robi-solution'>
-            <p class='solution-title'>Introduce AI concepts using the language of kids. </p>
+            <h5 class='solution-title'>Introduce AI concepts using the language of kids. </h5>
             <p class='solution-content'>We use common elements in everyday life to illustrate the otherwise abstract idea of “machine can learn”. <span class="highlight">Establishing a familiar learning context</span> has been shown <span class="highlight">to promote the knowledge acquisition and synthesis process in learners. </span></p>
           </div>
           <img :src='require("@/assets/img/introduce-ai-concepts.svg")' alt="">
@@ -47,7 +47,7 @@
         <div class="row align-items-start solution-row">
           <img :src='require("@/assets/img/Robi Indicator-3.svg")' alt="">
           <div class='robi-solution'>
-            <p class='solution-title'>Gamification & Character</p>
+            <h5 class='solution-title'>Gamification & Character</h5>
             <p class='solution-content'>We applied gamification and designed a character to <span class="highlight">engage and motivate kids for their future learning.</span> For parents, the main goal of attending an AI extracurricular course is <span class="highlight">to cultivate the interests of their kids.</span></p>
           </div>
           <img :src='require("@/assets/img/robi-gamification-n-character.svg")' alt="">
@@ -55,7 +55,7 @@
         <div class="row align-items-start solution-row">
           <img :src='require("@/assets/img/Robi Indicator-4.svg")' alt="">
           <div class='robi-solution'>
-            <p class='solution-title'>Combine teachable agent and direct manipulation.</p>
+            <h5 class='solution-title'>Combine teachable agent and direct manipulation.</h5>
             <p class='solution-content'>The game environment combines the teachable agent(Robi) with visually appealing UI elements <span class="highlight">to scaffold learning in a motivating way. </span></p>
           </div>
           <img :src='require("@/assets/img/combine-teachable-agent.svg")' alt="">
@@ -258,7 +258,6 @@
     <div class="container" id="result" style="margin-top:164px">
       <h1>Result</h1>
     </div>
-
     <div class="row justify-center">
       <img :src='require("@/assets/img/left-arrow.svg")' alt="" v-on:click='turnLeft()' class="hover-pointer">
       <div class="swipper" style="height:500px;width:800px; display:inline-block">
@@ -275,7 +274,8 @@
       <div class='switcher-button' :class='{ active: selected === "mockup"}' id="mockup" @click='change_switcher("mockup")'>Mockup</div>
       <div class='switcher-button' :class='{active: selected === "note"}' id="note" @click='change_switcher("note")'>Note</div>
     </div>
-    <div style="margin-top:40px"></div>
+    <iframe style="margin: 82px auto 110px auto; display:block" width="756" height="425" src="https://www.youtube.com/embed/1YLQf-1B_vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img :src='require("@/assets/img/group_5.svg")' alt="" class="img-center" style="margin-bottom:128px">
   </div>
   
 </template>
@@ -670,6 +670,7 @@ h4{
   align-items: center;
   letter-spacing: 0.62069px;
   color: #000000;
+  margin:31px 0 25px;
 }
 #final-solution-title{
   margin-bottom: 129px;
@@ -739,7 +740,7 @@ h4{
 }
 .container,#research-1, #research-3{
   margin: 0 auto 0;
-  max-width: 1000px;
+  max-width: 1084px;
 }
 #project-description{
   margin-top: 10px;
