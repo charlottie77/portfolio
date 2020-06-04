@@ -260,13 +260,20 @@
     </div>
 
     <div class="row justify-center">
-      <img :src='require("@/assets/img/left-arrow.svg")' alt="" v-on:click='turnLeft()'>
+      <img :src='require("@/assets/img/left-arrow.svg")' alt="" v-on:click='turnLeft()' class="hover-pointer">
       <div class="swipper" style="height:500px;width:800px; display:inline-block">
         <transition :name='transitionName' >  
-          <img :src='require("@/assets/img/"+swipper_imgs.Note[showIdx])' alt="" style="height:500px;position:absolute;" :key="showIdx">
+          <img :src='require("@/assets/img/"+swipper_img_url)' alt="" style="height:500px;position:absolute;" :key="showIdx">
         </transition>
       </div>
-      <img :src='require("@/assets/img/right-arrow.svg")' alt="" v-on:click='turnRight()'>
+      <img :src='require("@/assets/img/right-arrow.svg")' alt="" v-on:click='turnRight()' class='hover-pointer'>
+    </div>
+    <div class="row justify-center" id="indicators">
+      <span class="indicator" v-for="idx in [0,1,2,3,4]" :key='idx' :class='{active:idx==showIdx}'></span>
+    </div>
+    <div class="swiper-switcher" :class='{disabled: showIdx === 0 || showIdx === 4}'>
+      <div class='switcher-button' :class='{ active: selected === "mockup"}' id="mockup" @click='change_switcher("mockup")'>Mockup</div>
+      <div class='switcher-button' :class='{active: selected === "note"}' id="note" @click='change_switcher("note")'>Note</div>
     </div>
     <div style="margin-top:40px"></div>
   </div>
@@ -281,14 +288,20 @@ export default {
   components:{
     Banner,
   },
+  computed:{
+    swipper_img_url: function(){
+      if (this.showIdx == 0 || this.showIdx == 4) return this.swipper_imgs.Mockup[this.showIdx]
+      else if(this.selected === 'mockup') return this.swipper_imgs.Mockup[this.showIdx]
+      else return this.swipper_imgs.Note[this.showIdx]
+    }
+  },
   data: ()=>({
-    show:true,
-    targetIdx:0,
     showIdx:0,
     transitionName:'slide-fade',
+    selected:'mockup',
     swipper_imgs:{
-      Note:['gallery_c_1.jpg','gallery_c_2.jpg','gallery_c_3.jpg','gallery_c_4.png','gallery_c_5.jpg'],
-      Mockup:['','gallery_b_2.png','gallery_b_3.png','gallery_b_4.png','']
+      Mockup:['gallery_c_1.jpg','gallery_c_2.jpg','gallery_c_3.jpg','gallery_c_4.png','gallery_c_5.jpg'],
+      Note:['','gallery_b_2.png','gallery_b_4.png','gallery_b_3.png','']
     }
   }),
   methods:{
@@ -306,11 +319,18 @@ export default {
       this.showIdx = this.targetIdx
       if (this.transitionName == 'slide-fade') this.transitionName = 'slide-fade-reverse'
       else this.transitionName = 'slide-fade'
+    },
+    change_switcher: function(target){
+      if (this.showIdx === 0 || this.showIdx === 4) return
+      this.selected = target
     }
   }
 }
 </script>
 <style>
+.hover-pointer:hover{
+  cursor: pointer;
+}
 .img-center{
   display: block;
   margin-left: auto;
@@ -374,9 +394,67 @@ h4{
 </style>
 
 <style scoped>
-
-/* 可以设置不同的进入和离开动画 */
-/* 设置持续时间和动画函数 */
+#indicators{
+  margin-top: 23px;
+  margin-bottom: 38px;
+}
+.indicator{
+  background: #D8D8D8;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.indicator.active{
+  background: #189779;
+}
+.swiper-switcher.disabled>div{
+  border: 1px solid #B9B9B9;
+  background: white;
+  color: #B9B9B9;
+}
+.swiper-switcher.disabled>div:hover{
+  cursor: auto;
+}
+.swiper-switcher{
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+.swiper-switcher>div:hover{
+  cursor: pointer;
+}
+#mockup{
+  border-radius: 8px 0px 0px 8px;
+}
+#note{
+  border-radius: 0px 8px 8px 0px;
+}
+.switcher-button.active{
+  background: #189779;
+  
+  color: #FFFFFF;
+  border-color: #189779;
+}
+.switcher-button{
+  border: 1px solid #9E9E9E;
+  box-sizing: border-box;
+  
+  width: 90px;
+  height: 28px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.288889px;
+  color: #9E9E9E;
+}
 .slide-fade-enter-active,.slide-fade-reverse-enter-active {
   transition: all 0.3s ease;
 }
@@ -384,25 +462,23 @@ h4{
   transition: all 0.3s ease;
   
 }
-.slide-fade-enter,.slide-fade-reverse-leave-to
-/* .slide-fade-leave-active for below version 2.1.8 */ {
+.slide-fade-enter,.slide-fade-reverse-leave-to {
   transform: translateX(800px);
-  /* width: 0; */
   opacity: 0;
 }
 .slide-fade-leave-to,.slide-fade-reverse-enter{
   transform: translateX(-800px);
-  /* width: 0; */
   opacity: 0;
 }
 .swipper{
   white-space: nowrap;
   overflow: hidden;
   position: relative;
+  margin-left: 34.5px;
+  margin-right: 34.5px;
 }
 .swipper-item{
   width: 800px;
-  /* display: inline; */
   overflow: hidden;
 }
 #midfi{
