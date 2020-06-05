@@ -23,7 +23,7 @@ export default {
 <style scoped>
 
   @import url("../assets/fonts/ubuntu_font.css");
-  @import url("../assets/fonts/SF-Pro.css");
+
     #main {
         width: 60%;
     }

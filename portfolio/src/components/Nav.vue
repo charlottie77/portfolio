@@ -62,7 +62,7 @@ export default {
   /* font-family: Source Sans Pro; */
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 1.55px;
 }

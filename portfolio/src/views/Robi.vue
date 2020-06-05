@@ -34,7 +34,7 @@
             <h5 class='solution-title'>Let’s teach Robi how to keep in a healthy state.</h5>
             <p class='solution-content'>Robi is a young little robot who relies on the player’s instruction to stay healthy. He needs to take <span class="highlight">appropriate actions to maintain three categories — power,</span> maintenance, and mood. </p>
           </div>
-          <img :src='require("@/assets/img/teach-robi-hwoto-keep-health.svg")' alt="">
+          <img :src='require("@/assets/img/teach-robi-hwoto-keep-health.svg")' alt="" style="width:500px">
         </div>
         <div class="row align-items-start solution-row">
           <img :src='require("@/assets/img/Robi Indicator-2.svg")' alt="">
@@ -225,7 +225,7 @@
         </div>
         <div class="midfi-iter" style="margin-top:96px">
           <div style="width:403px;position:absolute">
-            <p><span class="green">#2 Instructional Text Adjustment</span></p>
+            <p><span class="green bold">#2 Instructional Text Adjustment</span></p>
             <p>We clarified the instructional texts and made them more conversational to promote the psychological engagement of learners better.</p>
           </div>
           <img :src='require("@/assets/img/Group 54.svg")' alt="" style="width: 100%">
@@ -233,12 +233,12 @@
         <div class="row" style="margin:0 -12px">
           <div class="midfi-iter">
             <img :src='require("@/assets/img/robis_room-07.png")' alt="">
-            <p><span class="green">#3 Inclusion of Validation Stage</span></p>
+            <p><span class="green bold">#3 Inclusion of Validation Stage</span></p>
             <p>We added an automatic validation stage where Robi acts according to the training he received. This stage also makes the overall process closer to actual machine learning.</p>
           </div>
           <div class="midfi-iter">
             <img :src='require("@/assets/img/robis_room-08.png")' alt="">
-            <p><span class="green">#4 Additional Guidance and Instruction</span></p>
+            <p><span class="green bold">#4 Additional Guidance and Instruction</span></p>
             <p>We added some guidance and instruction at the beginning of each stage. </p>
           </div>
         </div>
@@ -482,6 +482,7 @@ h4{
   overflow: hidden;
 }
 #midfi{
+  margin-top: 120px;
   padding:58px 0 32px;
 }
 .midfi-iter{
@@ -532,8 +533,8 @@ h4{
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
   font-family: 'Source Sans Pro';
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 26px;
   letter-spacing: 0.488889px;
   color: #000000;
   margin: 8px 0;
@@ -557,12 +558,16 @@ h4{
   display: flex;
 }
 #three-questions p{
-  margin: 22.5px 0 22.5px 32px;
+  margin: 18px 0 18px 12px;
   font-family: 'Source Sans Pro';
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.75px;
   color: #4A4A4A;
+}
+
+#three-questions img{
+  width: 48px;
 }
 .img-center{
   display: block;
@@ -647,7 +652,9 @@ h4{
   margin-top: 255px;
 }
 .solution-row{
-  margin: 108px 0;
+  margin-top: 108px;
+  margin-bottom: 108px;
+  margin-left: -30px;
 }
 .robi-solution{
   flex-grow: 1;
@@ -740,7 +747,7 @@ h4{
 }
 .container,#research-1, #research-3{
   margin: 0 auto 0;
-  max-width: 1084px;
+  max-width: 950px;
 }
 #project-description{
   margin-top: 10px;

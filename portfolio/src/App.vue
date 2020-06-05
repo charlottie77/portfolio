@@ -25,7 +25,6 @@ export default {
 </script>
 
 <style>
-@import url("./assets/fonts/SF-Pro.css");
 @import url("./assets/fonts/ubuntu_font.css");
 @import url("./assets/fonts/SSP.css");
 @import url("./css/MyGrid.css");
@@ -35,7 +34,7 @@ export default {
   max-width: 1920px;
 } */
 #app {
-  font-family: 'SF-Pro-Regular';
+  /* font-family: 'SF-Pro-Regular'; */
   width: 100%;
   /* max-width: 1920px; */
   display: flex;

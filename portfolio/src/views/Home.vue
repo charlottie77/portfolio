@@ -100,7 +100,7 @@ export default {
 
 #main {
   /* position: relative; */
-  font-family: "SF-Pro-Regular";
+  font-family: "Source Sans Pro";
   width: 100%;
 }
 </style>
@@ -112,7 +112,7 @@ export default {
   /* width: 693px; */
 }
 #selfy{
-  width: 407px;
+  width: 370px;
 }
 .container{
   margin: -250px 97px 0px;
@@ -132,7 +132,7 @@ export default {
 .htd-1 {
   font-family: 'Ubuntu';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 36px;
   line-height: 41px;
   letter-spacing: 2.5px;
@@ -140,7 +140,7 @@ export default {
 }
 
 .htd-2 {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
