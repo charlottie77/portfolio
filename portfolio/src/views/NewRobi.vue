@@ -17,8 +17,18 @@
         </div>
         <div><img :src='require("@/assets/img/Robi-question.svg")' alt=""></div>
       </div>
-      <div class="row" id='my-rolw'>
-        <p>My Role</p>
+      <div id='my-role'>
+        <p id='my-role-title'>My Role</p>
+        <p id='my-role-left'>
+          I led our group to complete the UX design and the subsequent game development as the scrum master.
+        </p>
+        <p id="my-role-right">
+          <ul>
+            <li>Developer (Scrum Master)</li>
+            <li>Learning Experience Designer</li>
+            <li>UX Designer</li>
+          </ul>
+        </p>
       </div>
       <div id="Overview">
         <h3>Overview</h3>
@@ -146,6 +156,34 @@ h4{
 </style>
 
 <style scoped>
+#my-role{
+  margin-top: 5.5rem;
+}
+#my-role-title{
+  display: block !important;
+  font-family: 'Ubuntu-Bold';
+  font-size: 2rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.0625rem;
+  color: #50C7AA;
+}
+#my-role>p{
+  display: inline-block;
+}
+#my-role-left{
+  width: 37.9rem;
+}
+#my-role-right ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 5.7rem;
+}
+#my-role-right li::before{
+  content: "\2022";
+  color: #D8D8D8;
+  font-size: 1.85rem;
+  margin-right: 0.7rem;
+}
 #indicators{
   margin-top: 23px;
   margin-bottom: 38px;
@@ -285,11 +323,11 @@ h4{
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
   font-family: 'Source Sans Pro';
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0.488889px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.039375rem;
   color: #000000;
-  margin: 8px 0;
+  margin: 0.9rem 0;
 }
 .research-title{
   margin-left: -42px;
@@ -465,7 +503,7 @@ h4{
   color: #636363;
 }
 #Overview{
-  margin-top: 76px;
+  margin-top: 5.5rem;
 }
 #robi-p1{
   margin-top: 1.7rem;
