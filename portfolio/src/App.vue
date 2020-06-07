@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style>
+html {font-size: 62.5%;}
 @import url("./assets/fonts/ubuntu_font.css");
 @import url("./assets/fonts/SSP.css");
 @import url("./css/MyGrid.css");
