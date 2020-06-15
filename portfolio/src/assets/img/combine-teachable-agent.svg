@@ -1,25 +1,25 @@
-<svg width="525" height="347" viewBox="0 0 525 347" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="455" height="303" viewBox="0 0 455 303" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_f)">
-<rect x="53" y="22" width="450" height="281" fill="url(#pattern0)"/>
+<rect x="48" y="22" width="385" height="240" fill="url(#pattern0)"/>
 </g>
 <g filter="url(#filter1_d)">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="13" y="22" width="230" height="230">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13 22H243V252H13V22Z" fill="white"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="13" y="22" width="197" height="197">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 22H210V219H13V22Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="13" y="-140" width="627" height="392" fill="url(#pattern1)"/>
+<rect x="13" y="-116" width="537" height="335" fill="url(#pattern1)"/>
 </g>
 </g>
 <g filter="url(#filter2_d)">
-<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="279" y="100" width="230" height="230">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M279 100H509V330H279V100Z" fill="white"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="241" y="89" width="197" height="197">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M241 89H438V286H241V89Z" fill="white"/>
 </mask>
 <g mask="url(#mask1)">
-<rect x="36" y="-57" width="627" height="392" fill="url(#pattern2)"/>
+<rect x="33" y="-45" width="537" height="335" fill="url(#pattern2)"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_f" x="31.2537" y="0.253746" width="493.493" height="324.493" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f" x="26.2537" y="0.253746" width="428.493" height="283.493" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="10.8731" result="effect1_foregroundBlur"/>
@@ -27,7 +27,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.000347222 0.000555556)"/>
 </pattern>
-<filter id="filter1_d" x="0" y="13" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d" x="0" y="13" width="223" height="223" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -39,7 +39,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1" transform="scale(0.000347222 0.000555556)"/>
 </pattern>
-<filter id="filter2_d" x="266" y="91" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d" x="228" y="80" width="223" height="223" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>

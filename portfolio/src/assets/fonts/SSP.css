@@ -5,20 +5,24 @@
     src: url("SourceSansPro-Regular.otf");
     font-weight: normal;
     font-style: normal;
+    text-rendering: optimizeLegibility;
   }
 
   @font-face {
     font-family: "Source Sans Pro-M";
     src: url("SourceSansPro-Semibold.otf");
+    text-rendering: optimizeLegibility;
   }
   
   @font-face {
       font-family: "Source Sans Pro-B";
       src: url("SourceSansPro-Bold.otf");
+      text-rendering: optimizeLegibility;
     }
 
     @font-face {
       font-family: "Source Sans Pro-L";
       src: url("SourceSansPro-Light.otf");
+      text-rendering: optimizeLegibility;
     }
   

@@ -5,11 +5,13 @@
     src: url("Ubuntu-B.ttf");
     font-weight: normal;
     font-style: normal;
+    text-rendering: optimizeLegibility;
   }
 
   @font-face {
     font-family: "Ubuntu-M";
     src: url("Ubuntu-M.ttf");
+    text-rendering: optimizeLegibility;
   }
   
   @font-face {
@@ -17,6 +19,7 @@
       src: url("Ubuntu-R.ttf");
       font-weight: normal;
       font-style: normal;
+      text-rendering: optimizeLegibility;
     }
 
     @font-face {
@@ -24,5 +27,6 @@
       src: url("Ubuntu-L.ttf");
       font-weight: normal;
       font-style: normal;
+      text-rendering: optimizeLegibility;
     }
   

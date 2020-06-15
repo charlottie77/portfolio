@@ -9,9 +9,9 @@
         </div>
         <div><img :src='require("@/assets/img/robi-title.svg")' alt=""></div>
       </div>
-      <div class="row" style="margin-top:2.9rem; margin-left:-2rem">
-        <div style="padding:1.3rem 0 0 2rem; position:relative">
-          <img :src='require("@/assets/img/blob-shape (2).svg")' style="position:absolute; left:0; top:0;" alt="">
+      <div class="row" style="margin-top:2.9rem;">
+        <div style=" position:relative; width:50%">
+          <img :src='require("@/assets/img/blob-shape (2).svg")' style="position:absolute; left:-2rem; top:-1.3rem;" alt="">
           <div id='robi-q1'>How might we help <span class="highlight">kids to understand the concepts of “Machine can learn”</span> in a <span class="highlight">motivating</span> way? </div>
           <div id='robi-p1'>In this project, we designed a <span class="bold">gamification learning activity</span> as a part of trial extra-curriculum course for <span class="bold"><span style="display:inline-block">K-12</span> Artificial Intelligence learning</span> in Shanghai, China. </div>
         </div>
@@ -37,6 +37,137 @@
         <div class="info">Collaborators: Dachang Liu, Jan Doring, Jay Zhu</div>
         <div id="overview-content">Our team is responsible for the design and development of the learning experience in a series of K-12 Artificial Intelligence courses, which were created by IfCreate and the College of Design & Innovation, Tongji University. The program was intended to engage earlier grade students in the basic concepts of Artificial Intelligence. The course envisions a future where students will develop a foundation of computational thinking and AI. </div>
         <div id="overview-footnote">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div>
+      </div>
+      <div class="row splitter justify-center"><img :src='require("@/assets/img/robi-splitter.svg")' alt=""></div>
+      <div id="final-solution">
+        <h1 id="final-solution-title">Final Solution</h1>
+        <div class="row align-items-start solution-row">
+          <img class='solution-row-icon' :src='require("@/assets/img/Robi Indicator.svg")' alt="">
+          <div class='robi-solution'>
+            <h5 class='solution-title'>Let’s teach Robi how to keep in a healthy state.</h5>
+            <p class='solution-content'>Robi is a young little robot who relies on the player’s instruction to stay healthy. He needs to take <span class="highlight">appropriate actions to maintain three categories — power,</span> maintenance, and mood. </p>
+          </div>
+          <img :src='require("@/assets/img/teach-robi-hwoto-keep-health.svg")' alt="" style="width:500px">
+        </div>
+        <div class="row align-items-start solution-row">
+          <img class='solution-row-icon' :src='require("@/assets/img/Robi Indicator_2.svg")' alt="">
+          <div class='robi-solution'>
+            <h5 class='solution-title'>Introduce AI concepts using the language of kids. </h5>
+            <p class='solution-content'>We use common elements in everyday life to illustrate the otherwise abstract idea of “machine can learn”. <span class="highlight">Establishing a familiar learning context</span> has been shown <span class="highlight">to promote the knowledge acquisition and synthesis process in learners. </span></p>
+          </div>
+          <img :src='require("@/assets/img/introduce-ai-concepts.svg")' alt="">
+        </div>
+        <div class="row align-items-start solution-row">
+          <img class='solution-row-icon' :src='require("@/assets/img/Robi Indicator_3.svg")' alt="">
+          <div class='robi-solution'>
+            <h5 class='solution-title'>Gamification & Character</h5>
+            <p class='solution-content'>We applied gamification and designed a character to <span class="highlight">engage and motivate kids for their future learning.</span> For parents, the main goal of attending an AI extracurricular course is <span class="highlight">to cultivate the interests of their kids.</span></p>
+          </div>
+          <img :src='require("@/assets/img/robi-gamification-n-character.svg")' alt="">
+        </div>
+        <div class="row align-items-start solution-row">
+          <img class='solution-row-icon' :src='require("@/assets/img/Robi Indicator_4.svg")' alt="">
+          <div class='robi-solution'>
+            <h5 class='solution-title'>Combine teachable agent and direct manipulation.</h5>
+            <p class='solution-content'>The game environment combines the teachable agent(Robi) with visually appealing UI elements <span class="highlight">to scaffold learning in a motivating way. </span></p>
+          </div>
+          <img :src='require("@/assets/img/combine-teachable-agent.svg")' alt="">
+        </div>
+      </div>
+      <div id="final-launch">
+        <h1 id="final-launch-title">Launch</h1>
+        <div class="row">
+          <div id='final-launch-content'>
+            In June 2018, we held a <span class="green">trial course, named “The first class of AI — Machine can learn” at the LEGO Activity Center in Pudong New Area, Shanghai.</span> We used <span class="green">Robi’s Room</span> to scaffold the class successfully. After the course, we received very positive feedback on the practice from both students and their parents. 
+          </div>
+        </div>
+        <div class="row" id='final-launch-images'>
+          <div>
+            <img :src='require("@/assets/img/launch-image-1.jpg")' alt="">
+            <img :src='require("@/assets/img/launch-image-2.jpg")' alt="">
+          </div>
+        </div>
+        <div class="row" id="photo-credit">
+          Photo by Xiaoteng Ge
+        </div>
+        <div id='launch-result' class="row col-17 justify-center" style="margin:5.2rem auto 0">
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green">17/20</span>
+              <span class="green">Students</span>
+            </div>
+            <div>Successfully Completed the Practice</div>
+          </div>
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green">3 Sessions</span>
+            </div>
+            <div>Trial course conducted</div>
+          </div>
+          <div class="col-8 column">
+            <div class="column justify-center">
+              <span class="green"> 90% </span>
+            </div>
+            <div>Positive Feedback</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img :src='require("@/assets/img/Group 8.jpg")' alt="" style="width:100%; margin:22.7rem 0">
+    <div class="container">
+      <h2 style="margin-top:0">How did we get there</h2>
+      <div class="row justify-center" style="margin:6.6rem auto 13.8rem"><img :src='require("@/assets/img/dotdotdot.svg")' alt=""></div>
+    </div>
+    <div id="design-process" class='gray-bg'>
+      <h1 style="margin:0">Design Process</h1>
+      <div class="row justify-center" style="margin-top:10.3rem">
+        <img :src='require("@/assets/img/Group 60.svg")' alt="">
+      </div>
+    </div>
+    <div class="container" id='design-research'>
+      <h1 id='design-research-title'>Design Research</h1>
+      <div class='black-center'>Learners in Context</div>
+      <img :src='require("@/assets/img/Group 59.svg")' alt="" class='img-center' style="margin-top:5rem;margin-bottom:7rem">
+      <div class="text">In this project, our targeted users are 11-12 years old children in elementary school. We went backward and started by outlining the key research questions and investigated them through <span class="green">interviews, observations, and literature reviews.</span> Here are <span class="SSP-bold">three questions I want to share:</span></div>
+      <div id='three-questions'>
+        <div>
+          <img :src='require("@/assets/img/circle-1.svg")' alt="">
+          <p>When parents mentioned learning AI, what do they expect children to learn?</p>
+        </div>
+        <div>
+          <img :src='require("@/assets/img/circle-2.svg")' alt="">
+          <p>What is the learning characteristic of extracurricular courses in this domain?</p>
+        </div>
+        <div>
+          <img :src='require("@/assets/img/circle-3.svg")' alt="">
+          <p>Which learning strategy is most effective for primary school students at age 11-12?</p>
+        </div>
+      </div>
+    </div>
+    <div class='gray-bg'>
+      <div id="research-1">
+        <div class="row align-items-center research-title">
+          <span>1</span>
+          <h4>What do parents expect children to learn?</h4>
+        </div>
+        <p>While our end users are children, the most important stakeholder is their parents, who typically have control over their children's extracurricular activities.</p>
+        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a card-sorting exercise where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
+        <div id='insights'>Insights</div>
+        <div class="row">
+          <div class='insights'>
+            <div>
+              <img :src='require("@/assets/img/blob-shape (2).svg")' alt="">
+              <div class="title">Cultivating interest is the top priority. </div>
+              <div class='content'>To our surprise, in every card-sorting activity, parents always put “cultivate interests” at the top position. Rather than expecting kids to acquire AI basic concepts after finishing the course, they want kids to be motivated to continue learning with the big ideas of AI in the future. </div>
+            </div>
+            <div>
+              <img :src='require("@/assets/img/blob-shape (2).svg")' alt="">
+              <div class="title">Parents prefer soft skills over academic skill development.</div>
+              <div class='content'>Parents put soft skills, like communication, logical thinking, and personality traits, such as patience and perseverance, in higher positions. Generally, they expect their kids to build these soft skills at this early stage and learn specific skills in or after high school. </div>
+            </div>
+          </div>
+          <img :src='require("@/assets/img/Group 41.svg")' alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -109,9 +240,9 @@ export default {
 }
 .text{
   font-family: 'Source Sans Pro';
-  font-size: 22px;
-  line-height: 30px;
-  letter-spacing: 0.488889px;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.0667rem;
   color: #000000;
 }
 #Robi{
@@ -119,34 +250,34 @@ export default {
 }
 h1{
   font-family: 'Ubuntu-Bold';
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 3.4rem;
+  line-height: 3.9rem;
   text-align: center;
-  letter-spacing: 0.875px;
+  letter-spacing: 0.074375rem;
   color: #C0C0C0;
 }
 h2{
   font-family: 'Ubuntu-Bold';
   font-style: italic;
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 3.6rem;
+  line-height: 4.1rem;
   text-align: center;
-  letter-spacing: 0.875px;
+  letter-spacing: 0.07875rem;
   color: #51BAA1;
 }
 h3{
-  margin: 16px 0;
+  margin: 0.7rem 0;
   font-family: 'Ubuntu-Bold';
-  font-size: 22px;
-  line-height: 25px;
-  letter-spacing: 0.6875px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.075rem;
   color: #838383;
 }
 h4{
   font-family: 'Ubuntu-Bold';
-  font-size: 36px;
-  line-height: 41px;
-  letter-spacing: 1.125px;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  letter-spacing: 0.1rem;
   color: #4A4A4A; 
   margin: 0;
 }
@@ -156,16 +287,27 @@ h4{
 </style>
 
 <style scoped>
+p{
+  margin: 7px 0;;
+}
+#design-research-title{
+  margin-bottom: 11.2rem;
+
+}
+#design-research{
+  margin-top: 20rem;
+}
 #my-role{
-  margin-top: 5.5rem;
+  margin-top: 6.4rem;
 }
 #my-role-title{
   display: block !important;
   font-family: 'Ubuntu-Bold';
-  font-size: 2rem;
-  line-height: 2.3rem;
-  letter-spacing: 0.0625rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.075rem;
   color: #50C7AA;
+
 }
 #my-role>p{
   display: inline-block;
@@ -173,15 +315,18 @@ h4{
 #my-role-left{
   width: 37.9rem;
 }
+#my-role-right{
+  margin-left:5rem;
+}
 #my-role-right ul{
   margin: 0;
   list-style: none;
-  padding-left: 5.7rem;
+  padding-left: 0.7rem;
 }
 #my-role-right li::before{
   content: "\2022";
   color: #D8D8D8;
-  font-size: 1.85rem;
+  font-size: 2.4rem;
   margin-right: 0.7rem;
 }
 #indicators{
@@ -317,27 +462,29 @@ h4{
   margin-bottom: 37px;
 }
 #research-1, #research-2, #research-3{
-  padding-top: 60px;
-  padding-left: 42px;
-  padding-bottom: 97px;
+  padding-top: 10.2rem;
+  /* padding-left: 42px; */
+  /* padding-bottom: 97px; */
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
   font-family: 'Source Sans Pro';
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  letter-spacing: 0.039375rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06rem;
   color: #000000;
   margin: 0.9rem 0;
 }
 .research-title{
-  margin-left: -42px;
+  position: relative;
 }
 .research-title>span{
-  margin-right: 7px;
+  position: absolute;
+  left: -3.8rem;
+  /* margin-right: 7px; */
   font-family: 'Ubuntu-Bold';
-  font-size: 59px;
-  line-height: 68px;
-  letter-spacing: 1.22917px;
+  font-size: 4.2rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.0875rem;
   color: #CDCDCD;
 }
 #three-questions{
@@ -348,12 +495,14 @@ h4{
   display: flex;
 }
 #three-questions p{
-  margin: 18px 0 18px 12px;
+  margin: 1.4rem 0 1.4rem 2.8rem;
   font-family: 'Source Sans Pro';
-  font-size: 22px;
-  line-height: 28px;
-  letter-spacing: 0.75px;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06875rem;
   color: #4A4A4A;
+  width: 42.4rem;
+  /* font-weight: 600; 加了太粗，不加太细 */
 }
 
 #three-questions img{
@@ -365,54 +514,56 @@ h4{
   margin-right: auto;
 }
 .black-center{
-  font-family: 'Ubuntu-Bold';
-  font-size: 27px;
-  line-height: 31px;
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   text-align: center;
-  letter-spacing: 0.84375px;
+  letter-spacing: 0.075rem;
   color: #4A4A4A;
 }
 #design-process{
-  padding-top: 44px;
-  padding-bottom: 39px;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
 }
 #launch-result>.col-8{
   align-items: center;
+
 }
 #launch-result>.col-8>div:nth-of-type(1){
   font-family: 'Source Sans Pro-B';
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   text-align: center;
-  letter-spacing: 1.06px;
-  width: 156px;
-  height: 103px;
+  letter-spacing: 0.1178rem;
+  width: 15.6rem;
+  height: 10.3rem;
   background: #ECF5F3;
-  border-radius: 8px;
-  margin-bottom: 9px;
+  border-radius: 0.8rem;
+  margin-bottom: 0.9rem;
 }
 #launch-result>.col-8>div:nth-of-type(2){
   font-family: 'Source Sans Pro';
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
   text-align: center;
-  letter-spacing: 0.942222px;
+  letter-spacing: 0.09422rem;
   color: #4A4A4A;;
 }
 #photo-credit{
-  margin-top: 16px;
+  margin-top: 1.6rem;
   justify-content: center;
-  font-family: Charter;
+  font-family: 'Charter';
   font-style: italic;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
   text-align: center;
-  letter-spacing: 0.5625px;
+  letter-spacing: 0.05625rem;
   color: #979797;
 }
 #final-launch-images{
-  margin-top: 38px;
+  margin-top: 1.8rem;
 }
 #final-launch-images>div{
   display: flex;
@@ -423,12 +574,12 @@ h4{
   width: 48%;
 }
 #final-launch-content{
-  margin-top: 43px;
-  width: 826px;
+  margin-top: 5.3rem;
+  width: 86.5rem;
   font-family: 'Source Sans Pro';
-  font-size: 22px;
-  line-height: 30px;
-  letter-spacing: 0.488889px;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06rem;
   color: #000000;
 }
 .green{
@@ -441,10 +592,14 @@ h4{
 #final-launch{
   margin-top: 255px;
 }
+/* .solution-row>.solution-row-icon{
+  width: 8.1rem;
+  height: 8.1rem;
+} */
 .solution-row{
   margin-top: 108px;
   margin-bottom: 108px;
-  margin-left: -30px;
+  justify-content: center;
 }
 .robi-solution{
   flex-grow: 1;
@@ -454,52 +609,47 @@ h4{
 }
 .solution-content{
   font-family: 'Source Sans Pro';
-  font-size: 21px;
-  line-height: 28px;
-  letter-spacing: 0.466667px;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.04rem;
   color: #4A4A4A;
 }
 .solution-title{
   font-family: 'Source Sans Pro-B';
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 2.6rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
-  letter-spacing: 0.62069px;
+  letter-spacing: 0.05379rem;
   color: #000000;
-  margin:31px 0 25px;
+  margin:1.5rem 0 0.2rem;
 }
 #final-solution-title{
-  margin-bottom: 129px;
+  margin-bottom: 11.6rem;
 }
 .row.splitter{
   margin: 86px 0;
 }
 #Overview>#overview-footnote{
-  margin: 20px 0 271px;
+  margin: 1.2rem 0 14rem;
   font-family: Charter;
   font-style: italic;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 0.4375px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.04375rem;
   color: #979797;
 }
 #Overview>#overview-content{
-  margin-top: 19px;
-  font-family: 'Source Sans Pro';
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.4px;
-  color: #636363;
+  margin-top: 1.8rem;
 }
-#Overview>div.info{
+#Overview>div.info,#Overview>#overview-content{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.4px;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06rem;
   color: #636363;
 }
 #Overview{
@@ -512,9 +662,9 @@ h4{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  letter-spacing: 0.039375rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06rem;
   color: #4A4A4A;
 }
 .bold{
@@ -538,7 +688,7 @@ h4{
 }
 .container,#research-1, #research-3{
   margin: 0 auto 0;
-  max-width: 86rem;
+  max-width: 86.6rem;
 }
 #project-description{
   margin-top: 1.2rem;
@@ -552,7 +702,7 @@ h4{
 #project-title{
   margin-top: 12.5rem;
   font-family: 'Ubuntu-Bold';
-  font-size: 3.6rem;
+  font-size: 4rem;
   line-height: 4.1rem;
   letter-spacing: 0.1125rem;
   color: #262626;
