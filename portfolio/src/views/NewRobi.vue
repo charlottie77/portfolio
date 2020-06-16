@@ -195,36 +195,101 @@
       </div>
     </div>
     <div class="container" id='design-challenges'>
-      <h1 style="margin:52px auto 26px">Design Challenges</h1>
+      <h1 style="margin:5.4rem auto 3.5rem">Design Challenges</h1>
       <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
-      <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:24px;margin-bottom:64px'>
+      <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:3.6rem;margin-bottom:4.6rem'>
       <p>The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
       <img :src='require("@/assets/img/Group 46.svg")' alt="" class="img-center" style="margin-top:38px">
-      <div  style="margin-top:24px;margin-left:-110px"><img class="img-center" :src='require("@/assets/img/Group 45.svg")' alt="" style=""></div>
-      <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:17px; margin-bottom:49px">
+      <div style="position:relative; margin-top:2.4rem">
+        <img :src='require("@/assets/img/Group 45-L.svg")' alt="" style="position:absolute;left:-4rem;top:6.4rem">
+        <img :src='require("@/assets/img/Group 45-R.svg")' alt="" class="img-center">
+      </div>
+      <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:1.7rem; margin-bottom:7.6rem">
     </div>
     <div class="gray-bg" id='ideation'>
-      <div class="container">
+      <div class="container" style="display: flex;flex-direction: column;align-items: center;">
         <h1>Ideation</h1>
         <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we brainstormed elements that can help children learn basic AI concepts in a motivating way.</p>
-        <img :src='require("@/assets/img/Group 48.svg")' alt="" class="img-center" style="margin:54px auto 83px">
+        <img :src='require("@/assets/img/Group 48.svg")' alt="" style="margin-top:3.7rem; margin-bottom:4.2rem">
         <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
       </div>
     </div>
-    <div class="container" id='prototyping' style="padding: 81px 0 63px;">
-      <h1>Prototyping</h1>
-      <div style='margin:70px auto 84px' class="black-center">Paper Prototype</div>
-      <p style="margin:84px auto 33px">Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
-      <img :src='require("@/assets/img/Group 49.png")' alt="" class="img-center" style="max-width:894px">
-      <p style="margin:80px 0 32px">Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
-      <div style="position:relative">
-        <img :src='require("@/assets/img/Group 50.svg")' alt="" style="position:absolute">
-      </div>
-      <div style="margin:444px 396px -46px 15px; width:702px">
+    <div class="container" id='prototyping' style="padding: 14.4rem 0 11rem;display: flex;flex-direction: column;align-items: center;">
+      <h1 style="margin:0">Prototyping</h1>
+      <div style='margin:10.6rem auto 3.5rem' class="black-center">Paper Prototype</div>
+      <p>Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
+      <img :src='require("@/assets/img/Group 49.svg")' alt="" class="img-center" style="margin:4.5rem auto 4.8rem">
+      <p style="align-self: start;">Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
+      <img :src='require("@/assets/img/Group 50.svg")' alt="" style="margin-top:3.6rem">
+      <div style="width: 58rem;align-self: start;margin-top: -16rem;margin-left: -2.2rem;">
         <p>The instructions and feedback were considered confusing and took participants some time to understand. Therefore, we needed to modify the writing and provided more guidance. </p>
         <p>Furthermore, the game length of 20 rounds was too long for kids,  and we realized that this is only the training process. There should be a validation phase for learners to “assess” Robi’s learning, which is also the assessment of players’ learning. </p>
       </div>
     </div>
+    <div class="gray-bg" id="midfi">
+      <div class="container">
+        <div class="black-center">Mid-fi Prototype</div>
+        <p style="margin:3.8rem auto 4.8rem">While our visual designer was working on illustration and animation, Jan and I started to make a medium-fidelity prototype based on previous feedback. Since it was hard for us to recruit more kids, in this round, we conducted more prototype testing with high-school students, who were novices as well.  Here are some <span class="bold">key improvements we made in this iteration: </span></p>
+        <div class="midfi-iter">
+          <div style="width:42.6rem;position:absolute">
+            <p class='midfi-title'><span class="green bold">#1 Feedback Improvement</span></p>
+            <p>When Robi takes action, it will generate a memory block that contains the values, action, and permission. There is also a memory stack for learners to trace back all the data. (which acts like training dataset)</p>
+          </div>
+          <img :src='require("@/assets/img/Group 52.svg")' alt="" style="margin-top:4.6rem;margin-left:-0.5rem;">
+        </div>
+        <div class="midfi-iter" style="margin-top:5.4rem;">
+          <div style="width:403px;position:absolute">
+            <p class='midfi-title'><span class="green bold">#2 Instructional Text Adjustment</span></p>
+            <p>We clarified the instructional texts and made them more conversational to promote the psychological engagement of learners better.</p>
+          </div>
+          <img :src='require("@/assets/img/Group 54.svg")' alt="" style="margin-top:3.4rem">
+        </div>
+        <div class="row" style="margin:5.4rem -1.2rem 0">
+          <div class="midfi-iter">
+            <img :src='require("@/assets/img/robis_room-07.png")' alt="">
+            <p class='midfi-title' style="margin-top:2.8rem"><span class="green bold">#3 Inclusion of Validation Stage</span></p>
+            <p>We added an automatic validation stage where Robi acts according to the training he received. This stage also makes the overall process closer to actual machine learning.</p>
+          </div>
+          <div class="midfi-iter">
+            <img :src='require("@/assets/img/robis_room-08.png")' alt="">
+            <p class='midfi-title' style="margin-top:2.8rem"><span class="green bold">#4 Additional Guidance and Instruction</span></p>
+            <p>We added some guidance and instruction at the beginning of each stage. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id='final-design' style="padding-top: 14.5rem;">
+      <div class="black-center">Final Design</div>
+      <div style="position:relative">
+        <img :src='require("@/assets/img/Group 58.svg")' alt="">
+        <p style="width: 38.8rem;left: 6.5rem;top: 11.6rem;position: absolute;">Robi's condition includes <span class="bold">three categories:</span> power, mood, and maintenance. These three categories <span class="bold">correspond to three kinds of actions</span>, including charging, watering flowers, and maintenance work. </p>
+        <p style="width: 37.9rem;right: -1.5rem;top: 42.2rem;position: absolute;">Learners should <span class="bold">train Robi to stay in good condition</span> by giving Robi instructions of Yes/No in the training phase. Those <span class="bold">instructions will change Robi’s mindset</span>, which will <span class="bold">guide Robi’s behavior</span> in the validation phase automatically. </p>
+        <p style="width: 37.6rem;position: absolute;top: 82.5rem;left: 6.5rem;">Thus, if Robi was trained well, he could 'survive' the validation phase. </p>
+      </div>
+      <p style="margin-top:8.8rem">Here is a <span class="bold">mapping</span> between each element in the big picture of ‘machine could learn’ and our final solution.</p>
+    </div>
+    <img class='img-center' :src='require("@/assets/img/Group 42.svg")' alt="" style="margin-top:4.8rem">
+    <div class="container" id="result" style="padding:21.2rem 0 7.6rem">
+      <h1 style="margin:0">Result</h1>
+    </div>
+    <div class="row justify-center">
+      <img :src='require("@/assets/img/left-arrow.svg")' alt="" v-on:click='turnLeft()' class="hover-pointer">
+      <div class="swipper" style="height:50rem;width:80rem; display:inline-block">
+        <transition :name='transitionName' >  
+          <img :src='require("@/assets/img/"+swipper_img_url)' alt="" style="height:50rem;position:absolute;" :key="showIdx">
+        </transition>
+      </div>
+      <img :src='require("@/assets/img/right-arrow.svg")' alt="" v-on:click='turnRight()' class='hover-pointer'>
+    </div>
+    <div class="row justify-center" id="indicators">
+      <span class="indicator" v-for="idx in [0,1,2,3,4]" :key='idx' :class='{active:idx==showIdx}'></span>
+    </div>
+    <div class="swiper-switcher" :class='{disabled: showIdx === 0 || showIdx === 4}'>
+      <div class='switcher-button' :class='{ active: selected === "mockup"}' id="mockup" @click='change_switcher("mockup")'>Mockup</div>
+      <div class='switcher-button' :class='{active: selected === "note"}' id="note" @click='change_switcher("note")'>Note</div>
+    </div>
+    <iframe style="margin: 8.2rem auto 11rem auto; display:block" width="756" height="425" src="https://www.youtube.com/embed/1YLQf-1B_vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img :src='require("@/assets/img/group_5.svg")' alt="" class="img-center" style="margin-bottom:12.8rem">
   </div>
 </template>
 
@@ -342,8 +407,12 @@ h4{
 </style>
 
 <style scoped>
+.midfi-title{
+  font-size: 2.2rem !important;
+  line-height: 3rem !important;
+}
 p{
-  margin: 7px 0;;
+  margin: 0.7rem 0;;
 }
 #design-research-title{
   margin-bottom: 11.2rem;
@@ -385,21 +454,21 @@ p{
   margin-right: 0.7rem;
 }
 #indicators{
-  margin-top: 23px;
-  margin-bottom: 38px;
+  margin-top: 2.3rem;
+  margin-bottom: 3.8rem;
 }
 .indicator{
   background: #D8D8D8;
-  width: 8px;
-  height: 8px;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 0 0.5rem;
 }
 .indicator.active{
   background: #189779;
 }
 .swiper-switcher.disabled>div{
-  border: 1px solid #B9B9B9;
+  border: 0.1rem solid #B9B9B9;
   background: white;
   color: #B9B9B9;
 }
@@ -409,7 +478,7 @@ p{
 .swiper-switcher{
   display: flex;
   justify-content: center;
-  margin-top: 38px;
+  margin-top: 3.8rem;
 }
 .swiper-switcher>div:hover{
   cursor: pointer;
@@ -427,11 +496,11 @@ p{
   border-color: #189779;
 }
 .switcher-button{
-  border: 1px solid #9E9E9E;
+  border: 0.1rem solid #9E9E9E;
   box-sizing: border-box;
   
-  width: 90px;
-  height: 28px;
+  width: 9rem;
+  height: 2.8rem;
   display: inline-block;
   display: flex;
   justify-content: center;
@@ -439,8 +508,8 @@ p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: bold;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   text-align: center;
   letter-spacing: 0.288889px;
   color: #9E9E9E;
@@ -453,41 +522,40 @@ p{
   
 }
 .slide-fade-enter,.slide-fade-reverse-leave-to {
-  transform: translateX(800px);
+  transform: translateX(80rem);
   opacity: 0;
 }
 .slide-fade-leave-to,.slide-fade-reverse-enter{
-  transform: translateX(-800px);
+  transform: translateX(-80rem);
   opacity: 0;
 }
 .swipper{
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  margin-left: 34.5px;
-  margin-right: 34.5px;
+  margin-left: 3.45rem;
+  margin-right: 3.45rem;
 }
 .swipper-item{
-  width: 800px;
+  width: 80rem;
   overflow: hidden;
 }
 #midfi{
-  margin-top: 120px;
-  padding:58px 0 32px;
+  padding:6.4rem 0 13.7rem;
 }
 .midfi-iter{
   position: relative;
 }
 .row>.midfi-iter{
   flex:1;
-  margin: 57px 12px;
+  margin: 0 1.6rem;
 }
 .row>.midfi-iter>img{
   width: 100%;
 }
 #ideation{
-  padding-top: 47px;
-  padding-bottom: 120px;
+  padding-top: 5.5rem;
+  padding-bottom: 9.6rem;
 }
 .insights{
   width: 47rem;
@@ -495,7 +563,7 @@ p{
 }
 .insights>div{
   position: relative;
-  padding-left: 26px;
+  padding-left: 2.6rem;
 }
 .insights .content{
   width: 41.1rem;
@@ -524,8 +592,6 @@ p{
 }
 #research-1, #research-2, #research-3{
   padding-top: 10.2rem;
-  /* padding-left: 42px; */
-  /* padding-bottom: 97px; */
   padding-bottom: 10rem;
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
@@ -542,7 +608,6 @@ p{
 .research-title>span{
   position: absolute;
   left: -3.8rem;
-  /* margin-right: 7px; */
   font-family: 'Ubuntu-Bold';
   font-size: 4.2rem;
   line-height: 4.8rem;
@@ -550,8 +615,8 @@ p{
   color: #CDCDCD;
 }
 #three-questions{
-  width:590px;
-  margin:84px auto 111px;
+  width:59rem;
+  margin:8.4rem auto 11.1rem;
 }
 #three-questions>div{
   display: flex;
@@ -568,7 +633,7 @@ p{
 }
 
 #three-questions img{
-  width: 48px;
+  width: 4.8rem;
 }
 .img-center{
   display: block;
@@ -630,7 +695,7 @@ p{
 #final-launch-images>div{
   display: flex;
   justify-content: space-between;
-  width: 826px;
+  width: 82.6rem;
 }
 #final-launch-images img{
   width: 48%;
@@ -652,22 +717,22 @@ p{
   
 }
 #final-launch{
-  margin-top: 255px;
+  margin-top: 25.5rem;
 }
 /* .solution-row>.solution-row-icon{
   width: 8.1rem;
   height: 8.1rem;
 } */
 .solution-row{
-  margin-top: 108px;
-  margin-bottom: 108px;
+  margin-top: 10.8rem;
+  margin-bottom: 10.8rem;
   justify-content: center;
 }
 .robi-solution{
   flex-grow: 1;
-  min-width: 413px;
-  max-width: 501px;
-  width: 413px;
+  min-width: 41.3rem;
+  max-width: 50.1rem;
+  width: 41.3rem;
 }
 .solution-content{
   font-family: 'Source Sans Pro';
@@ -690,7 +755,7 @@ p{
   margin-bottom: 11.6rem;
 }
 .row.splitter{
-  margin: 86px 0;
+  margin: 8.6rem 0;
 }
 #Overview>#overview-footnote{
   margin: 1.2rem 0 14rem;
