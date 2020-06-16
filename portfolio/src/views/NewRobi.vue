@@ -166,8 +166,63 @@
               <div class='content'>Parents put soft skills, like communication, logical thinking, and personality traits, such as patience and perseverance, in higher positions. Generally, they expect their kids to build these soft skills at this early stage and learn specific skills in or after high school. </div>
             </div>
           </div>
-          <img :src='require("@/assets/img/Group 41.svg")' alt="">
+          <img :src='require("@/assets/img/Group 41.svg")' alt="" style="position:relative; top:2rem">
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="research-2">
+        <div class="row align-items-start research-title">
+          <span>2</span>
+          <h4 style="margin-top: 0.7rem;">Learning characteristic in related extracurricular courses</h4>
+        </div>
+        <p style="margin:2.2rem 0 2.7rem">In order to understand the current study situation, we interviewed five groups of parents. At the same time, we conducted observations, both in the programming classes and in the experimental AI course which our lab is teaching (without using our product platform)</p>
+        <div class="row align-left"><img :src='require("@/assets/img/Group 37.svg")' alt=""></div>
+        <div class="row align-right"><img :src='require("@/assets/img/Group 38.svg")' alt="" style="margin-top: 0.8rem;"></div>
+        <div class="row align-left"><img :src='require("@/assets/img/Group 39.svg")' alt="" style="margin-top: -0.575rem;"></div>
+        <div class="row align-right"><img :src='require("@/assets/img/Group 40.svg")' alt="" style="margin-top: 0.8rem;"></div>
+      </div>
+    </div>
+    <div class="gray-bg">
+      <div id="research-3">
+        <div class="row align-items-center research-title">
+          <span>3</span>
+          <h4>Which learning strategy is most effective for kids?</h4>
+        </div>
+        <p style="margin-top:2.5rem;">We conducted <span class="green">expert interviews</span> and <span class="green">literature review</span> to explore the children's learning model. During our discussion with Jerry Dong, a learning expert, he claimed that <span class="bold">children would “absorb” new knowledge by fitting it into their existing schemas. Learners could build connections between the new knowledge and their prior knowledge to reach the state of equilibrium, the new schemas. </span></p>
+        <img :src='require("@/assets/img/Group 43.svg")' alt="" style="margin:4.8rem auto">
+        <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
+      </div>
+    </div>
+    <div class="container" id='design-challenges'>
+      <h1 style="margin:52px auto 26px">Design Challenges</h1>
+      <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
+      <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:24px;margin-bottom:64px'>
+      <p>The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
+      <img :src='require("@/assets/img/Group 46.svg")' alt="" class="img-center" style="margin-top:38px">
+      <div  style="margin-top:24px;margin-left:-110px"><img class="img-center" :src='require("@/assets/img/Group 45.svg")' alt="" style=""></div>
+      <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:17px; margin-bottom:49px">
+    </div>
+    <div class="gray-bg" id='ideation'>
+      <div class="container">
+        <h1>Ideation</h1>
+        <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we brainstormed elements that can help children learn basic AI concepts in a motivating way.</p>
+        <img :src='require("@/assets/img/Group 48.svg")' alt="" class="img-center" style="margin:54px auto 83px">
+        <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
+      </div>
+    </div>
+    <div class="container" id='prototyping' style="padding: 81px 0 63px;">
+      <h1>Prototyping</h1>
+      <div style='margin:70px auto 84px' class="black-center">Paper Prototype</div>
+      <p style="margin:84px auto 33px">Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
+      <img :src='require("@/assets/img/Group 49.png")' alt="" class="img-center" style="max-width:894px">
+      <p style="margin:80px 0 32px">Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
+      <div style="position:relative">
+        <img :src='require("@/assets/img/Group 50.svg")' alt="" style="position:absolute">
+      </div>
+      <div style="margin:444px 396px -46px 15px; width:702px">
+        <p>The instructions and feedback were considered confusing and took participants some time to understand. Therefore, we needed to modify the writing and provided more guidance. </p>
+        <p>Furthermore, the game length of 20 rounds was too long for kids,  and we realized that this is only the training process. There should be a validation phase for learners to “assess” Robi’s learning, which is also the assessment of players’ learning. </p>
       </div>
     </div>
   </div>
@@ -434,37 +489,44 @@ p{
   padding-top: 47px;
   padding-bottom: 120px;
 }
+.insights{
+  width: 47rem;
+  margin-right: 4.3rem;
+}
 .insights>div{
   position: relative;
   padding-left: 26px;
-  padding-right: 84px;
-  margin-bottom: 76px;
+}
+.insights .content{
+  width: 41.1rem;
 }
 .insights .title{
   font-family: 'Source Sans Pro-M';
-  font-size: 25px;
-  line-height: 29px;
-  letter-spacing: 1.47222px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.141333rem;
   color: #008757;
+  position: relative;
+  margin-top: 3rem;
 }
 .insights>div>img{
   position: absolute;
-  top: -11px;
-  left: 0;
+    top: -1.8rem;
+    left: 0.2rem;
 }
 #insights{
   font-family: 'Ubuntu-Bold';
-  font-size: 22px;
-  line-height: 25px;
-  letter-spacing: 0.6875px;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0. 6875rem;
   color: #4A4A4A;
-  margin-top: 32px;
-  margin-bottom: 37px;
+  margin-top: 7.4rem;
 }
 #research-1, #research-2, #research-3{
   padding-top: 10.2rem;
   /* padding-left: 42px; */
   /* padding-bottom: 97px; */
+  padding-bottom: 10rem;
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
   font-family: 'Source Sans Pro';
