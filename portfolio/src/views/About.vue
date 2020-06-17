@@ -33,13 +33,13 @@
           <p class="detail-line">Outside of design work, I enjoy video games (a big fan of Nintendo) <img :src="require('@/assets/img/nintendo-switch.svg')" alt=""> , cooking <img :src="require('@/assets/img/cooking.svg')" alt=""> (good at cooking but a novice in baking), and journaling. <img :src="require('@/assets/img/journaling.svg')" alt=""></p>
           <p class="detail-line">Previously, I studied software engineering & new media technology <img :src="require('@/assets/img/coding.svg')" alt=""> at Tongji University. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
         </div>
-        <div style='mix-blend-mode: normal;opacity: 0.51;border: 3px solid #F8E5C7;width: 114px; margin:32.5px 0 16.75px'/>
+        <div style='mix-blend-mode: normal;opacity: 0.51;border: 1.5px solid #F8E5C7;width: 11.8rem; margin:5.2rem 0 1.7rem; border-radius:1.5px;'/>
         <div id="contact-info">
           <div class="row">
             <span class="contact-method">E-mail</span>
             <span class="contact-detail">yuqingg@andrew.cmu.edu</span>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top:1rem">
             <span class="contact-method">Resume</span>
             <span class="contact-detail"> <a href="https://drive.google.com/file/d/189Dg3HKdWIiyQdvahWGtUuL_v_hkkDTZ/view?usp=sharing">English</a> </span>
           </div>
@@ -49,7 +49,7 @@
           <img :src="require('@/assets/img/dribbble.svg')" alt="">
           <img :src="require('@/assets/img/github.svg')" alt="">
         </div>
-        <div id="copyright">This site was designed and developed from scratch by Yuqing. </div>
+        <div id="copyright" style="width:69.5rem">This site was designed and developed from scratch by Yuqing. </div>
       </div>
     </div>
   </div>
@@ -96,45 +96,47 @@ export default {
   background-color: rgba(252,233,155,0.74);
 }
 #copyright{
-  margin-bottom: 150px;
-  /* font-family: SourceSansPro; */
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 1.31667px;
+  margin-bottom: 26.4rem;
   color: #4A4A4A;
+  font-family: 'Source Sans Pro-L';
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-style: italic;
+  letter-spacing: 1.31667px;
 }
 #social-network{
-  margin:85px -19px 21px;
+  margin:9rem -19px 1.8rem;
 }
 #social-network>img{
   margin: 0 19px;
 }
 .contact-detail,.contact-detail>a{
-  /* font-family: Source Sans Pro; */
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: 2.18px;
+  font-family: 'Source Sans Pro';
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.199rem;
   color: #4A4A4A;
 }
 .contact-method{
   font-family: 'Ubuntu-Bold';
-  font-size: 24px;
-  line-height: 26px;
-  letter-spacing: 2.18px;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.199rem;
   color: #825B46;
-  width: 120px;
+  width: 9.5rem;
+  margin-right: 2.2rem;
 }
 #detail{
-  margin-top: 46px;
+  margin-top: 4.8rem;
 }
 .detail-line{
   overflow-wrap: break-word;
-  /* font-family: Source Sans Pro; */
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 26px;
-  letter-spacing: 1.264px;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.06rem;
   color: #4A4A4A;
 }
 .detail-line:nth-of-type(2){
@@ -178,7 +180,7 @@ export default {
   flex-grow: 1;
   padding-top: 40px;
   padding-left: 31px;
-  max-width: 615px;
+  max-width: 57.5rem;
 }
 .line{
   border: 1.5px solid rgba(239,195,123,0.42);

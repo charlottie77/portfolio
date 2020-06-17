@@ -49,8 +49,8 @@ export default {
   cursor: pointer;
 }
 #navbar {
-  right: 214px;
-  top: 100px;
+  right: 12rem;
+  top: 8.3rem;
   position: fixed;
   z-index: 1;
 }
@@ -62,8 +62,8 @@ export default {
   /* font-family: Source Sans Pro; */
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   letter-spacing: 1.55px;
 }
 
