@@ -44,7 +44,7 @@
 
 import Banner from "@/components/Banner"
 import PortItem from "@/components/PortItem"
-
+import {_isMobile} from '@/util.js'
 
 export default {
   name: "home",
@@ -91,6 +91,11 @@ export default {
     toggleSimpleView: function(){
       this.simpleView = !this.simpleView
       console.log(123,!this.simpleView)
+    }
+  },
+  beforeCreate: function(){
+    if (_isMobile()) {
+      this.$router.replace('/m-index');
     }
   }
 };
