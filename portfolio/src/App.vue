@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-    <Nav/>
+    <Nav v-if="!isMobile"/>
     <router-view/>
     </div>
 
@@ -8,11 +8,16 @@
 
 <script>
 import Nav from './components/Nav'
-
+import {_isMobile} from '@/util.js'
 export default {
   name: 'App',
   components:{
     Nav
+  },
+  computed: {
+    isMobile: function(){
+      return _isMobile()
+    }
   },
   props: {
   },
@@ -54,11 +59,16 @@ html {font-size: 62.5%;}
 
 body {
   margin: 0;
-  min-width: 1280px;
   display: flex;
   justify-content: center;
   width: 100%;
   flex-shrink: 0;
+}
+@media screen and (min-width: 1280px)
+{
+  body {
+    min-width: 1280px;
+  }
 }
 
 </style>
