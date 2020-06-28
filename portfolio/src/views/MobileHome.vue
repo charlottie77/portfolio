@@ -47,7 +47,7 @@ export default {
   },
   beforeCreate: function(){
     if(!_isMobile()) {
-      this.$router.replace('/');
+      this.$router.replace('/m-robi');
     }
   },
   data:()=>({
@@ -68,6 +68,12 @@ export default {
   })
 }
 </script>
+
+<style>
+*[padding] {
+  padding: 0 2.3rem;
+}
+</style>
 
 <style scoped>
 #copyright{
@@ -156,9 +162,7 @@ color: #000000;
   letter-spacing: 0.6375px;
   color: #000000;
 }
-*[padding] {
-  padding: 0 2.3rem;
-}
+
 #resume{
   position: absolute;
   top: 6.1rem;

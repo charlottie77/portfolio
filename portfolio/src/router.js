@@ -6,6 +6,7 @@ import About from './views/About'
 import Construction from './views/Construction.vue'
 // import Robi from './views/Robi'
 import Robi from './views/NewRobi'
+import MobileRobi from './views/MobileRobi'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
       path:'/robi',
       name: 'robi',
       component: Robi
+    },
+    {
+      path:'/m-robi',
+      name: 'mobile-robi',
+      component: MobileRobi
     },
     {
       path: '/about',

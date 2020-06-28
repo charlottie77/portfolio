@@ -295,7 +295,7 @@
 
 <script>
 import Banner from '@/components/Banner'
-
+import {_isMobile} from '@/util.js'
 export default {
   name:'Robi',
   components:{
@@ -337,7 +337,12 @@ export default {
       if (this.showIdx === 0 || this.showIdx === 4) return
       this.selected = target
     }
-  }
+  },
+  beforeCreate: function(){
+    if(_isMobile()) {
+      this.$router.replace('/m-robi');
+    }
+  },
 }
 </script>
 <style>
