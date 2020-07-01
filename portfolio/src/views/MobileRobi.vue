@@ -125,7 +125,7 @@
         <img class="img-center" :src='require("@/assets/img/learners-in-context-illu.svg")' alt="" id='learners-in-context-illu'>
         <p>In this project, our targeted users are 11-12 years old children in elementary school. We went backward and started by outlining the key research questions and investigated them through <span class="green">interviews, observations, and literature reviews.</span> Here are <span class="bold">three questions I want to share:</span></p>
       </div>
-      <div class="column align-items-center" style="margin-top:2.4rem;margin-bottom:4.8rem">
+      <div class="column align-items-center" style="margin-top:0.8rem;margin-bottom:4.8rem">
         <div class="row learners-in-context-list-item align-items-start">
           <img :src='require("@/assets/img/learners-in-context-ol-1.svg")' alt="">
           <div>When parents mentioned learning AI, what do they expect children to learn?</div>
@@ -139,6 +139,162 @@
           <div>Which learning strategy is most effective for primary school students at age 11-12?</div>
         </div>
       </div>
+    </div>
+    <div padding class="gray-bg" style="padding-top:5.2rem;padding-bottom:3rem">
+      <div id="research-1">
+        <span class="research-no">1</span>
+        <h2>What do parents expect children to learn?</h2>
+        <p>While our end users are children, the most important stakeholder is their parents, who typically have control over their children's extracurricular activities.</p>
+        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a <span class="green">card-sorting exercise</span> where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
+        <span id='research-insights'>Insights</span>
+        <div class="research-insights-item">
+          <div class="insights-item-title title-green">
+            <img :src='require("@/assets/img/insights-item-title-icon.svg")' alt="" class="insights-item-title-icon">
+            <span>Cultivating interest is the top priority. </span>
+          </div>
+          <p>To our surprise, in every card-sorting activity, parents always put “cultivate interests” at the top position. Rather than expecting kids to acquire AI basic concepts after finishing the course, they want kids to be motivated to continue learning with the big ideas of AI in the future. </p>
+        </div>
+        <div class="research-insights-item">
+          <div class="insights-item-title  title-green">
+            <img :src='require("@/assets/img/insights-item-title-icon.svg")' alt="" class="insights-item-title-icon">
+            <span>Parents prefer soft skills over academic skill development.</span>
+          </div>
+          <p>Parents put soft skills, like communication, logical thinking, and personality traits, such as patience and perseverance, in higher positions. Generally, they expect their kids to build these soft skills at this early stage and learn specific skills in or after high school. </p>
+        </div>
+      </div>
+      <img :src='require("@/assets/img/research-1-img.svg")' alt="" class="img-center" style="margin-top:4.8rem;margin-bottom:3rem">
+    </div>
+    <div padding style="padding-top:7rem;padding-bottom:3rem">
+      <div id="research-2">
+        <span class="research-no">2</span>
+        <h2>Learning characteristic in related extracurricular courses</h2>
+        <p>In order to understand the current study situation, we interviewed five groups of parents. At the same time, we conducted observations, both in the programming classes and in the experimental AI course which our lab is teaching (without using our product platform)</p>
+        <div class="column align-items-center">
+          <img :src='require("@/assets/img/research-2-icon-1.svg")' alt="" style="margin-top:3.2rem">
+          <div class="research-insights-item">
+            <div class="insights-item-title title-purple">
+              <img :src='require("@/assets/img/insights-item-title-icon-purple.svg")' alt="" class="insights-item-title-icon">
+              <span>Parents lack professional knowledge and time to build an AI learning environment for their children.</span>
+            </div>
+            <p class="parents-answer">
+              “I don't know anything about computer-related content, let alone teaching him by myself.”
+            </p>
+            <p class="parents-answer">
+              “…only have time after dinner or on weekends. But we also need to visit grandparents on weekends, so actually,  we don't have too much time for extracurricular studies. ”
+            </p>
+          </div>
+          <div class="research-insights-item" style="margin-top:0.6rem">
+            <div class="insights-item-title title-purple">
+              <img :src='require("@/assets/img/insights-item-title-icon-purple.svg")' alt="" class="insights-item-title-icon">
+              <span>Parents have strict time control for kids using screen-based devices.</span>
+            </div>
+            <p class="parents-answer">
+              “We made an agreement to play iPad or computer for only 30 minutes daily, and he is usually very obedient.”
+            </p>
+          </div>
+          <img :src='require("@/assets/img/research-2-icon-2.svg")' alt="" style="margin-top:4.4rem;margin-bottom:2.4rem">
+          <div class="research-insights-item">
+            <div class="insights-item-title title-yellow">
+              <img :src='require("@/assets/img/insights-item-title-icon-yellow.svg")' alt="" class="insights-item-title-icon">
+              <span>Kids are more interested in visually attractive content.</span>
+            </div>
+            <p class="parents-answer">
+              Based on our observation, kids pay more attention to visually engaging content, like colorful objects, illustrations, and animations. They tend to know more about those elements, which could be a potential approach for motivating.
+            </p>
+          </div>
+          <div class="research-insights-item" style="margin-top:1.1rem">
+            <div class="insights-item-title title-yellow">
+              <img :src='require("@/assets/img/insights-item-title-icon-yellow.svg")' alt="" class="insights-item-title-icon">
+              <span>Learning by doing is the most acceptable way. </span>
+            </div>
+            <p class="parents-answer">
+              We found that the courses with more hands-on practices have more positive feedback. Children demonstrated more engagement in this context than in traditional lecture- or demonstration-based sessions. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div padding class="gray-bg" style="padding-top: 4.6rem; padding-bottom:6.3rem;">
+      <div id="research-3">
+        <span class="research-no">3</span>
+        <h2>Which learning strategy is most effective for kids?</h2>
+        <p>We conducted <span class="green">expert interviews</span> and <span class="green">literature review</span> to explore the children's learning model. During our discussion with Jerry Dong, a learning expert, he claimed that <span class="bold">children would “absorb” new knowledge by fitting it into their existing schemas. Learners could build connections between the new knowledge and their prior knowledge to reach the state of equilibrium, the new schemas.</span></p>
+        <div style="margin-left:-1.7rem;margin-top:3.2rem;margin-bottom:3.6rem"><img :src='require("@/assets/img/research-3-img.svg")' alt="" class="img-center"></div>
+        <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
+      </div>
+    </div>
+    <div padding id="design-challenges">
+      <h1 id='design-challenges-title'>Design Challenges</h1>
+      <p style="margin:2.5rem auto">With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
+      <img :src='require("@/assets/img/design-challenges-img-1.svg")' alt="" class="img-center">
+      <p style="margin:2.8rem auto 3.3rem">The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
+      <img src="" alt="">
+      <img :src='require("@/assets/img/design-challenges-img-2.svg")' alt="" class="img-center">
+    </div>
+    <div padding id="ideation" class="gray-bg">
+      <h1 id="ideation-title">Ideation</h1>
+      <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we brainstormed elements that can help children learn basic AI concepts in a motivating way.</p>
+      <img :src='require("@/assets/img/ideation-img.svg")' alt="" class="img-center" style="margin:3.2rem auto 6.7rem">
+      <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
+    </div>
+    <div padding id="prototyping">
+      <h1 id="prototyping-title">Prototyping</h1>
+      <div id="paper-prototype" class="prototyping-subtitle">Paper Prototype</div>
+      <p style="margin:2.4rem auto">Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
+      <img :src='require("@/assets/img/paper-proto-img-1.png")' class='img-center' alt="" style="width:100%; max-width:32.9rem; margin:2.4rem auto">
+      <img :src='require("@/assets/img/paper-proto-img-2.png")' class='img-center' alt="" style="width:100%; max-width:29.6rem; margin:2.4rem auto">
+      <span id='paper-proto-notes'>Paper prototype</span>
+      <p>Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
+      <img :src='require("@/assets/img/paper-proto-img-3.svg")' class="img-center" style="margin-top:1.8rem">
+      <p style="margin:2.4rem auto">The instructions and feedback were considered confusing and took participants some time to understand. Therefore, we needed to modify the writing and provided more guidance. </p>
+      <p>Furthermore, the game length of 20 rounds was too long for kids,  and we realized that this is only the training process. There should be a validation phase for learners to “assess” Robi’s learning, which is also the assessment of players’ learning. </p>
+      <div id="mid-fi-prototype" class="prototyping-subtitle">Mid-fi Prototype</div>
+      <p>While our visual designer was working on illustration and animation, Jan and I started to make a medium-fidelity prototype based on previous feedback. Since it was hard for us to recruit more kids, in this round, we conducted more prototype testing with high-school students, who were novices as well.  Here are some <span class="bold">key improvements we made in this iteration</span>: </p>
+      <div id="midfi-no1">
+        <h3>#1 Feedback Improvement</h3>
+        <p>When Robi takes action, it will generate a memory block that contains the values, action, and permission. There is also a memory stack for learners to trace back all the data. (which acts like training dataset)</p>
+        <img :src='require("@/assets/img/midfi-1.svg")' alt="" class='img-center width-100' style="margin-top:2.4rem">
+      </div>
+      <div id="midfi-no2">
+        <h3>#2 Instructional Text Adjustment</h3>
+        <p>We clarified the instructional texts and made them more conversational to promote the psychological engagement of learners better.</p>
+        <img :src='require("@/assets/img/midfi-2.svg")' alt="" class='img-center width-100' style="margin-top:1.4rem">
+      </div>
+      <div id="midfi-no3">
+        <h3>#3 Inclusion of Validation Stage</h3>
+        <p>We added an automatic validation stage where Robi acts according to the training he received. This stage also makes the overall process closer to actual machine learning.</p>
+        <img :src='require("@/assets/img/midfi-3.svg")' alt="" class='img-center width-100' style="margin-top:2.2rem">
+      </div>
+      <div id="midfi-no4">
+        <h3>#4 Additional Guidance and Instruction</h3>
+        <p>We added some guidance and instruction at the beginning of each stage. </p>
+        <img :src='require("@/assets/img/midfi-4.svg")' alt="" class='img-center width-100' style="margin-top:2rem">
+      </div>
+      <div id="final-design" class="prototyping-subtitle">Final Design</div>
+      <img :src='require("@/assets/img/final-design-img-1.svg")' alt="" class="img-center" style="margin:3.1rem auto 2.6rem">
+      <p><span class="circle-no">1</span> Robi's condition includes <span class="bold">three categories</span>: power, mood, and maintenance. These three categories <span class="bold">correspond to three kinds of actions</span>, including charging, watering flowers, and maintenance work. </p>
+      <img :src='require("@/assets/img/final-design-img-2.svg")' alt="" class="img-center" style="margin:5.6rem auto 2.7rem">
+      <p><span class="circle-no">2</span> Learners should <span class="bold">train Robi to stay in good condition</span> by giving Robi instructions of Yes/No in the training phase. Those <span class="bold">instructions will change Robi’s mindset</span>, which will <span class="bold">guide Robi’s behavior</span> in the validation phase automatically. </p>
+      <img :src='require("@/assets/img/final-design-img-3.svg")' alt="" class="img-center" style="margin:5.6rem auto 3rem">
+      <p><span class="circle-no">3</span> Thus, if Robi was trained well, he could 'survive' the validation phase.</p>
+      <p style="margin-top:7.2rem">Here is <span class="bold">a mapping</span> between each element in the big picture of ‘machine could learn’ and our final solution.</p>
+      <img :src='require("@/assets/img/training-phase-1.svg")' alt="" class="img-center" style="margin-top:6.7rem">
+      <img :src='require("@/assets/img/training-phase-2.svg")' alt="" class="img-center" style="margin-top:1.4rem">
+      <img :src='require("@/assets/img/training-phase-3.svg")' alt="" class="img-center" style="margin-top:1.4rem">
+      <img :src='require("@/assets/img/validation-phase.svg")' alt="" class="img-center" style="margin-top:5.2rem">
+    </div>
+    <div id="result">
+      <h1>Result</h1>
+      <div padding class="swipper" style="height:20.4rem;">
+        <img :src='require("@/assets/img/gallery_c_1.jpg")' alt="" style="height:20.4rem;">
+        <img :src='require("@/assets/img/gallery_c_2.jpg")' alt="" style="height:20.4rem;">
+        <img :src='require("@/assets/img/gallery_c_3.jpg")' alt="" style="height:20.4rem;">
+        <img :src='require("@/assets/img/gallery_c_4.png")' alt="" style="height:20.4rem;">
+        <img :src='require("@/assets/img/gallery_c_5.jpg")' alt="" style="height:20.4rem;">
+      </div>
+      <div id='scroll-notes'>Scroll vertically to see more</div>
+      <div id='demo-video-title'>Demo Video</div>
+      <iframe style="margin: 1.2rem auto 10.2rem auto; display:block" width="328" height="213" src="https://www.youtube.com/embed/1YLQf-1B_vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </template>
@@ -160,6 +316,169 @@ export default {
 </script>
 
 <style scoped>
+#demo-video-title{
+  margin-top: 5.3rem;
+  font-family: 'Ubuntu-M';
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.5625px;
+  color: #4A4A4A;
+}
+#scroll-notes{
+  margin-top: 1.1rem;
+  font-family: 'Charter';
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.375px;
+  color: #979797;
+}
+.swipper{
+  white-space: nowrap;
+  overflow: scroll;
+  position: relative;
+  /* padding-left: 1.5rem; */
+
+}
+.swipper img{
+  width: 32.8rem;
+  margin: 0 0.5rem;
+  overflow: hidden;
+}
+.circle-no{
+  width: 2.6rem;
+  height: 2.6rem;
+  background: #51BAA1;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 1.3rem;
+}
+#final-design{
+  margin-top: 13rem;
+}
+#midfi-no1,#midfi-no2,#midfi-no3,#midfi-no4{
+  margin-top: 4.2rem;
+}
+h3{
+  font-family: 'Source Sans Pro-B';
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.4px;
+  color: #51BAA1;
+}
+#mid-fi-prototype{
+  margin: 8rem auto 2.9rem;
+}
+#paper-proto-notes{
+  font-family: 'Charter';
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.375px;
+  color: #979797;
+  display: block;
+  margin-bottom:4.8rem
+}
+#paper-prototype{
+  margin-top: 4.8rem;
+}
+#prototyping{
+  padding-top: 9.4rem;
+  padding-bottom: 4.5rem;
+}
+.prototyping-subtitle{
+  font-family: 'Ubuntu-M';
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.5625px;
+  color: #4A4A4A;
+}
+#ideation{
+  padding-top: 4.1rem;
+  padding-bottom: 7.7rem;
+}
+#design-challenges{
+  padding-top: 11rem;
+  padding-bottom: 4.1rem;
+}
+p.parents-answer{
+  background: #F1F1F1;
+  border-radius: 4px;
+  padding: 1.4rem 0.6rem 1.6rem 1.1rem;
+  margin: 1.2rem auto;
+  font-family: 'Source Sans Pro';
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-style: italic;
+}
+.insights-item-title-icon{
+  position: absolute;
+  left: -1.8rem;
+  top: -1.1rem;
+}
+.title-yellow{
+  color: #565233;
+}
+.title-green{
+  color: #008757;
+}
+.title-purple{
+  color: #4D59D3;
+}
+.insights-item-title span{
+  position: relative;
+}
+.insights-item-title{
+  margin-top: 2.6rem;
+  font-family: 'Source Sans Pro-M';
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 1.06px;
+  position: relative;
+}
+#research-insights{
+  display: block;
+  margin-top: 3.6rem;
+  font-family: 'Ubuntu-Bold';
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.5625px;
+  color: #4A4A4A;
+}
+#research-1,#research-2,#research-3{
+  position:relative;
+  padding-left: 1.7rem;
+  margin: -0.7rem auto;
+}
+#research-1 p{
+  margin:0.7rem auto;
+}
+.research-no{
+  position: absolute;
+  left: 0;
+  font-family: 'Ubuntu-Bold';
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.458333px;
+  color: #CDCDCD;
+}
+h2{
+  font-family: 'Ubuntu-Bold';
+  font-style: normal;
+  text-align: start;
+  font-size: 2.1rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.625px;
+  color: #4A4A4A;
+}
+.learners-in-context-list-item{
+  margin-top: 1.6rem;
+}
 .learners-in-context-list-item>div{
   margin-left: 1.1rem;
   font-family: 'Source Sans Pro-M';
