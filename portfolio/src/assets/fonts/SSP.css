@@ -20,9 +20,29 @@
       text-rendering: optimizeLegibility;
     }
 
-    @font-face {
-      font-family: "Source Sans Pro-L";
-      src: url("SourceSansPro-Light.otf");
-      text-rendering: optimizeLegibility;
-    }
+  @font-face {
+    font-family: "Source Sans Pro-L";
+    src: url("SourceSansPro-Light.otf");
+    text-rendering: optimizeLegibility;
+  }
+  @font-face {
+    font-family: "Source Sans Pro-BI";
+    src: url("SourceSansPro-BoldIt.otf");
+    text-rendering: optimizeLegibility;
+  }
+  @font-face {
+    font-family: "Source Sans Pro-I";
+    src: url("SourceSansPro-It.otf");
+    text-rendering: optimizeLegibility;
+  }
+  @font-face {
+    font-family: "Source Sans Pro-SB";
+    src: url("SourceSansPro-Semibold.otf");
+    text-rendering: optimizeLegibility;
+  }
+  @font-face {
+    font-family: "Source Sans Pro-SBI";
+    src: url("SourceSansPro-SemiboldIt.otf");
+    text-rendering: optimizeLegibility;
+  }
   

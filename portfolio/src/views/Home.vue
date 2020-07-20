@@ -71,7 +71,7 @@ export default {
         link:'/robi'
       },
       {
-        projectName: 'HamPage',
+        projectName: 'Food Route',
         projectDiscription: 'A game-like practice to teach the concepts of “Machine could learn”.',
         simpleImgSrc: require('@/assets/img/Dog and chair.png'),
         detailImgSrc: require('@/assets/img/Dog and chair.png'),
@@ -83,7 +83,7 @@ export default {
           duration: '3 months'
         },
         tags:['Game Design','Learning Experience Design'],
-        link:'/'
+        link:'/food-route'
       }
     ]
   }),

@@ -9,6 +9,14 @@
   }
 
   @font-face {
+    font-family: "Ubuntu-BI";
+    src: url("Ubuntu-BI.ttf");
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+  }
+
+  @font-face {
     font-family: "Ubuntu-M";
     src: url("Ubuntu-M.ttf");
     text-rendering: optimizeLegibility;

@@ -63,12 +63,13 @@ body {
   justify-content: center;
   width: 100%;
   flex-shrink: 0;
+  min-width: 128rem;
 }
-@media screen and (min-width: 1280px)
+/* @media screen and (min-width: 600px)
 {
   body {
     min-width: 1280px;
   }
-}
+} */
 
 </style>
