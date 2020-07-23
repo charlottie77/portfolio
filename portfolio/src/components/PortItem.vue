@@ -15,8 +15,8 @@
     <div v-if="showDetail" class="detail" @click='gotoProject(link)'>
       <div class="row">
         <div class="item-detail">
-          <div class="name">{{projectName}}</div>
-          <div class="subtitle">{{subtitle}}</div>
+          <div class="name" :style="styleSetting.detail.projectName">{{projectName}}</div>
+          <div class="subtitle" :style="styleSetting.detail.projectSubtitle">{{subtitle}}</div>
           <div class="item-params">
             <div class="outcome"><label for="">Outcome:</label>{{params.outcome}}</div>
             <div class="client"><label for="">Client: </label>{{params.client}}</div>
@@ -27,7 +27,8 @@
             <div
             class="tag" 
             v-for="(tag,idx) in tags"
-            :key='idx'>
+            :key='idx'
+            :style="styleSetting.detail.tag">
             {{tag}}
             </div>
           </div>
@@ -46,7 +47,7 @@
 <script>
 export default {
   name: 'PortItem',
-  props: ['showDetail','simpleImgSrc','detailImgSrc','projectName','projectDiscription','subtitle','params','tags','link'],
+  props: ['showDetail','simpleImgSrc','detailImgSrc','projectName','projectDiscription','subtitle','params','tags','link','styleSetting'],
   methods:{
     gotoProject: function(url){
       this.$router.push(url)

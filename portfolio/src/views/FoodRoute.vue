@@ -1,5 +1,6 @@
 <template>
   <div id='food-route'>
+    <OnTopTools />
     <Banner height="32.2rem" backgroundColor="#BDE6F7"/>
     <div class='container' id='container-1'>
       <img :src='require("@/assets/img/blue_mock.svg")' alt="" id="phone-icon">
@@ -277,11 +278,14 @@
 
 <script>
 import Banner from '@/components/Banner'
+import OnTopTools from '@/components/OnTopTools'
+
 import {_isMobile} from '@/util.js'
 export default {
   name:'FoodRoute',
   components:{
     Banner,
+    OnTopTools,
   },
   beforeCreate: function(){
     if(_isMobile()) {

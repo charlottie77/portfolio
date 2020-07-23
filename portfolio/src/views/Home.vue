@@ -30,6 +30,7 @@
           :params='item.params'
           :tags='item.tags'
           :link='item.link'
+          :styleSetting="item.styleSetting"
           />
         </div>
       </div>
@@ -68,22 +69,38 @@ export default {
           duration: '3 months'
         },
         tags:['Game Design','Learning Experience Design'],
-        link:'/robi'
+        link:'/robi',
+        styleSetting:{
+          simple:{},
+          detail:{
+            projectName:{},
+            projectSubtitle:{},
+            tag:{}
+          }
+        }
       },
       {
         projectName: 'Food Route',
-        projectDiscription: 'A game-like practice to teach the concepts of “Machine could learn”.',
-        simpleImgSrc: require('@/assets/img/Dog and chair.png'),
-        detailImgSrc: require('@/assets/img/Dog and chair.png'),
-        subtitle: 'How might we help kids to understand the concepts of “Machine could learn” in a motivating way? ',
+        projectDiscription: 'A mobile app plans the food truck dining route for busy CMU students.',
+        simpleImgSrc: require('@/assets/img/food-route-simple.svg'),
+        detailImgSrc: require('@/assets/img/food-route-detail.svg'),
+        subtitle: 'How might we incorporate the food truck visiting into the daily route of CMU students with tight schedules?',
         params:{
-          outcome: 'A game-like practice launched to scaffold AI trial course in Shanghai. ',
-          client: 'Design & Innovation College, Tonjig University; If create Edu Tech. ',
-          myrole: 'Scrum Master, UX Design, Developer',
-          duration: '3 months'
+          outcome: 'A mobile app plans the food truck dining route for busy CMU students.',
+          client: 'CMU Student & Campus Food Truck; IXDO Course Project ',
+          myrole: 'UX Researcher, UX/UI Designer',
+          duration: '1.5 months'
         },
-        tags:['Game Design','Learning Experience Design'],
-        link:'/food-route'
+        tags:['Mobile App Design','UX Design'],
+        link:'/food-route',
+        styleSetting:{
+          simple:{},
+          detail:{
+            projectName:{},
+            projectSubtitle:{color: '#1B75AD'},
+            tag:{background: '#F3FAFD', color: '#1B75AD'}
+          }
+        }
       }
     ]
   }),

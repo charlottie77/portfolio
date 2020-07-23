@@ -1,5 +1,6 @@
 <template>
   <div id="Robi">
+    
     <Banner height="32.2rem" backgroundColor="rgba(168, 216, 185, 0.683047)"/>
     <div class="container" style="margin-top:-17.7rem">
       <div class="row">
@@ -10,9 +11,9 @@
         <div><img :src='require("@/assets/img/robi-title.svg")' alt=""></div>
       </div>
       <div class="row" style="margin-top:2.9rem;">
-        <div style=" position:relative; width:50%">
+        <div style=" position:relative; width:50%;">
           <img :src='require("@/assets/img/blob-shape (2).svg")' style="position:absolute; left:-2rem; top:-1.3rem;" alt="">
-          <div id='robi-q1'>How might we help <span class="highlight">kids to understand the concepts of “Machine can learn”</span> in a <span class="highlight">motivating</span> way? </div>
+          <div id='robi-q1' style="position:relative">How might we help <span class="highlight">kids to understand the concepts of “Machine can learn”</span> in a <span class="highlight">motivating</span> way? </div>
           <div id='robi-p1'>In this project, we designed a <span class="bold">gamification learning activity</span> as a part of trial extra-curriculum course for <span class="bold"><span style="display:inline-block">K-12</span> Artificial Intelligence learning</span> in Shanghai, China. </div>
         </div>
         <div><img :src='require("@/assets/img/Robi-question.svg")' alt=""></div>
@@ -290,16 +291,19 @@
     </div>
     <iframe style="margin: 8.2rem auto 11rem auto; display:block" width="756" height="425" src="https://www.youtube.com/embed/1YLQf-1B_vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img :src='require("@/assets/img/group_5.svg")' alt="" class="img-center" style="margin-bottom:12.8rem">
+    <OnTopTools themeColor='#3FAB91'/>
   </div>
 </template>
 
 <script>
 import Banner from '@/components/Banner'
+import OnTopTools from '@/components/OnTopTools'
 import {_isMobile} from '@/util.js'
 export default {
   name:'Robi',
   components:{
     Banner,
+    OnTopTools,
   },
   computed:{
     swipper_img_url: function(){

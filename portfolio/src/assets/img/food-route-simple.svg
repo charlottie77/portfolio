@@ -1,0 +1,29 @@
+<svg width="270" height="150" viewBox="0 0 270 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 88.1851C15 72.7901 33.3805 42 67.4078 42C101.435 42 114.227 73.6529 119.816 88.1851C124.394 100.088 131.904 131.431 159.323 131.431C186.743 131.431 197.016 98.4169 200.443 88.1851C203.87 77.9534 199.673 42 233 42C266.327 42 265 88.1851 265 88.1851" stroke="#68C5EF" stroke-opacity="0.33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle opacity="0.6" cx="266" cy="41" r="4" fill="#FE9515"/>
+<circle opacity="0.6" cx="241" cy="70" r="4" fill="#E3403E"/>
+<circle opacity="0.6" cx="4" cy="60" r="4" fill="#E3403E"/>
+<circle opacity="0.6" cx="186.5" cy="29.5" r="3.5" fill="#FBE0B4"/>
+<circle opacity="0.6" cx="60.5" cy="83.5" r="3.5" fill="#FBE0B4"/>
+<circle opacity="0.6" cx="89.5" cy="56.5" r="3.5" fill="#FFDA3D"/>
+<circle opacity="0.6" cx="41.6096" cy="32.6095" r="3.6484" transform="rotate(71.6976 41.6096 32.6095)" fill="#FE9515"/>
+<circle opacity="0.6" cx="204.609" cy="96.6095" r="3.6484" transform="rotate(71.6976 204.609 96.6095)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="117.61" cy="128.61" r="3.6484" transform="rotate(71.6976 117.61 128.61)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="156.61" cy="74.6095" r="3.6484" transform="rotate(71.6976 156.61 74.6095)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="220.609" cy="127.61" r="3.6484" transform="rotate(71.6976 220.609 127.61)" fill="#FFDA3D"/>
+<g filter="url(#filter0_d)">
+<rect x="194.754" y="48" width="62" height="61" transform="rotate(35.8826 194.754 48)"/>
+</g>
+<rect x="37" y="25.708" width="85.039" height="83.1903" transform="rotate(-17.5963 37 25.708)"/>
+<defs>
+<filter id="filter0_d" x="147" y="40" width="109.987" height="109.763" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="6"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
