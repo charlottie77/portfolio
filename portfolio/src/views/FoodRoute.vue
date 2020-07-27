@@ -1,6 +1,5 @@
 <template>
   <div id='food-route'>
-    <OnTopTools />
     <Banner height="32.2rem" backgroundColor="#BDE6F7"/>
     <div class='container' id='container-1'>
       <img :src='require("@/assets/img/blue_mock.svg")' alt="" id="phone-icon">
@@ -273,6 +272,7 @@
         </div>
       </div>
     </div>
+    <OnTopTools themeColor='#1B75AD' heightToShow='332' :navOnly='false'/>
   </div>
 </template>
 

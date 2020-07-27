@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-    <Nav v-if="!isMobile && $route.path==='/'"/>
+    <!-- <Nav v-if="!isMobile && $route.path==='/'"/> -->
     <router-view/>
     </div>
 

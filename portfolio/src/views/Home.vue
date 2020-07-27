@@ -37,6 +37,7 @@
     </div>
 
     <!-- <PortList msg=""/> -->
+    <OnTopTools themeColor='#3FAB91' heightToShow='443' :navOnly='true'/>
   </div>
 </template>
 
@@ -45,13 +46,15 @@
 
 import Banner from "@/components/Banner"
 import PortItem from "@/components/PortItem"
+import OnTopTools from '@/components/OnTopTools'
 import {_isMobile} from '@/util.js'
 
 export default {
   name: "home",
   components: {
     Banner,
-    PortItem
+    PortItem,
+    OnTopTools
   },
   data:()=>({
     simpleView: true,

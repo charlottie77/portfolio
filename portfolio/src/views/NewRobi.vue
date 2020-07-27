@@ -291,7 +291,15 @@
     </div>
     <iframe style="margin: 8.2rem auto 11rem auto; display:block" width="756" height="425" src="https://www.youtube.com/embed/1YLQf-1B_vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img :src='require("@/assets/img/group_5.svg")' alt="" class="img-center" style="margin-bottom:12.8rem">
-    <OnTopTools themeColor='#3FAB91'/>
+    <div class="container">
+      <div id="next-block" @click='route_to("/food-route")'>
+        <div class="hr"></div>
+        <div id="next-project-title">Robi's Room</div>
+        <div id="next-project-description">A game-like practice to teach the concepts of “Machine could learn”.</div>
+        <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn.svg")' alt=""></span>
+      </div>
+    </div>
+    <OnTopTools themeColor='#3FAB91' :navOnly='false' heightToShow='322'/>
   </div>
 </template>
 
@@ -340,6 +348,9 @@ export default {
     change_switcher: function(target){
       if (this.showIdx === 0 || this.showIdx === 4) return
       this.selected = target
+    },
+    route_to: function(url){
+      this.$router.push(url)
     }
   },
   beforeCreate: function(){
@@ -842,5 +853,46 @@ p{
   line-height: 4.1rem;
   letter-spacing: 0.1125rem;
   color: #262626;
+}
+</style>
+
+<style lang="scss" scoped>
+#next-block{
+width: 25.1rem;
+float: right;
+margin-bottom: 20rem;
+  .hr{
+    height: 1px;
+    background: #DEDEDE;
+    margin-bottom: 2.4rem;
+  }
+  #next-project-title{
+    font-family: 'Ubuntu-Bold';
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #000000;
+  }
+  #next-project-description{
+    font-family: 'Source Sans Pro';
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    text-align: right;
+    letter-spacing: 0.5625px;
+    color: #848484;
+  }
+  #next-btn{
+    float: right;
+    font-family: 'Ubuntu-Bold';
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.56px;
+    color: #50C7AA;
+    margin-top: 1.6rem;
+  }
+}
+#next-block:hover{
+  cursor: pointer;
 }
 </style>

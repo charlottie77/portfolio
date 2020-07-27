@@ -52,15 +52,18 @@
         <div id="copyright" style="width:69.5rem">This site was designed and developed from scratch by Yuqing. </div>
       </div>
     </div>
+    <OnTopTools themeColor='#3FAB91' heightToShow='439' :navOnly='true'/>
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner"
+import OnTopTools from '@/components/OnTopTools'
 export default {
   name: 'About',
   components: {
     Banner,
+    OnTopTools
   },
   props: {
   },
