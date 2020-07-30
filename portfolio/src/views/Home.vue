@@ -12,10 +12,10 @@
           <label class="htd-3">a technical UX designer.</label>
         </div>
         <div id='simpleview-toggle' @click='toggleSimpleView()'>
-          <svg :class="{filled:!simpleView}"  width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg" >
-            <path d="M13.5285 3.98463C14.6931 4.75982 15.6098 5.89621 16.22 7.18263C16.8329 8.47183 17.1394 9.91107 16.9388 11.2753C16.7382 12.6423 16.0277 13.9315 15.0637 14.9456C14.0996 15.9598 12.8793 16.7016 11.5224 17.1906C10.1682 17.6824 8.68039 17.9213 7.27891 17.6213C5.88021 17.3212 4.56789 16.4793 3.65121 15.3429C2.73733 14.2066 2.2163 12.7729 2.05469 11.3197C1.89309 9.86384 2.08813 8.39126 2.65931 7.06594C3.23049 5.74062 4.1806 4.56533 5.38983 3.80959C6.59906 3.05385 8.06463 2.71766 9.50512 2.75656C10.9456 2.79546 12.361 3.20945 13.5285 3.98463Z" stroke="#CDB19A" stroke-width="4"/>
+          <svg :class="{filled:!simpleView}"  width="30" height="30" viewBox="-4 -4 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
+            <path d="M13.5285 3.98463C14.6931 4.75982 15.6098 5.89621 16.22 7.18263C16.8329 8.47183 17.1394 9.91107 16.9388 11.2753C16.7382 12.6423 16.0277 13.9315 15.0637 14.9456C14.0996 15.9598 12.8793 16.7016 11.5224 17.1906C10.1682 17.6824 8.68039 17.9213 7.27891 17.6213C5.88021 17.3212 4.56789 16.4793 3.65121 15.3429C2.73733 14.2066 2.2163 12.7729 2.05469 11.3197C1.89309 9.86384 2.08813 8.39126 2.65931 7.06594C3.23049 5.74062 4.1806 4.56533 5.38983 3.80959C6.59906 3.05385 8.06463 2.71766 9.50512 2.75656C10.9456 2.79546 12.361 3.20945 13.5285 3.98463Z"/>
           </svg>
-          <label style="margin:0 0 6.3rem 8px" for="">{{simpleView ? 'Simple' : 'Detail'}} View</label>
+          <label for="">{{simpleView ? 'Click to view detailed list' : 'Back to simple view '}}</label>
         </div>
         <div id="home-content">
           <PortItem
@@ -38,6 +38,7 @@
 
     <!-- <PortList msg=""/> -->
     <OnTopTools themeColor='#3FAB91' heightToShow='443' :navOnly='true' activeSpan='work'/>
+    <Footer />
   </div>
 </template>
 
@@ -47,6 +48,8 @@
 import Banner from "@/components/Banner"
 import PortItem from "@/components/PortItem"
 import OnTopTools from '@/components/OnTopTools'
+import Footer from '@/components/Footer'
+
 import {_isMobile} from '@/util.js'
 
 export default {
@@ -54,7 +57,8 @@ export default {
   components: {
     Banner,
     PortItem,
-    OnTopTools
+    OnTopTools,
+    Footer
   },
   data:()=>({
     simpleView: true,
@@ -189,9 +193,10 @@ export default {
 }
 #simpleview-toggle{
   margin-top: 10.4rem;
+  margin-bottom: 5rem;
   padding-left: 2rem;
   display: inline-flex;
-  align-content: center;
+  align-items: center;
 }
 #simpleview-toggle *:hover{
   cursor:pointer;
@@ -203,14 +208,47 @@ export default {
   line-height: 23px;
   letter-spacing: 1.1625px;
   color: #A7A7A7;
+  margin-bottom: 0.3rem;
+  margin-left: 0.8rem;
+}
+
+#simpleview-toggle label:hover {
+  color: #4A4A4A;
 }
 #simpleview-toggle label::selection{
   background: transparent;
 }
+@keyframes clickIndi {
+  0% {
+    stroke: #CDB19A;
+    stroke-width: 3;
+    opacity: 0.3;
+  }
+
+  50% {
+    stroke: #FDCE65;
+    stroke-width: 5;
+    opacity: 1;
+    fill:#FDCE65;
+  }
+  100% {
+    stroke: #CDB19A;
+    stroke-width: 3;
+    opacity: 0.3;
+  }
+}
 #simpleview-toggle>svg{
   opacity: 0.3;
+  stroke: #CDB19A;
+  stroke-width: 2;
+  animation: clickIndi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
 #simpleview-toggle>svg.filled{
   fill:#CDB19A
 }
+
+
 </style>

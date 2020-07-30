@@ -1,22 +1,22 @@
-<svg width="270" height="150" viewBox="0 0 270 150" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M15 88.1851C15 72.7901 33.3805 42 67.4078 42C101.435 42 114.227 73.6529 119.816 88.1851C124.394 100.088 131.904 131.431 159.323 131.431C186.743 131.431 197.016 98.4169 200.443 88.1851C203.87 77.9534 199.673 42 233 42C266.327 42 265 88.1851 265 88.1851" stroke="#68C5EF" stroke-opacity="0.33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-<circle opacity="0.6" cx="266" cy="41" r="4" fill="#FE9515"/>
-<circle opacity="0.6" cx="241" cy="70" r="4" fill="#E3403E"/>
-<circle opacity="0.6" cx="4" cy="60" r="4" fill="#E3403E"/>
-<circle opacity="0.6" cx="186.5" cy="29.5" r="3.5" fill="#FBE0B4"/>
-<circle opacity="0.6" cx="60.5" cy="83.5" r="3.5" fill="#FBE0B4"/>
-<circle opacity="0.6" cx="89.5" cy="56.5" r="3.5" fill="#FFDA3D"/>
-<circle opacity="0.6" cx="41.6096" cy="32.6095" r="3.6484" transform="rotate(71.6976 41.6096 32.6095)" fill="#FE9515"/>
-<circle opacity="0.6" cx="204.609" cy="96.6095" r="3.6484" transform="rotate(71.6976 204.609 96.6095)" fill="#8FA94A"/>
-<circle opacity="0.6" cx="117.61" cy="128.61" r="3.6484" transform="rotate(71.6976 117.61 128.61)" fill="#8FA94A"/>
-<circle opacity="0.6" cx="156.61" cy="74.6095" r="3.6484" transform="rotate(71.6976 156.61 74.6095)" fill="#8FA94A"/>
-<circle opacity="0.6" cx="220.609" cy="127.61" r="3.6484" transform="rotate(71.6976 220.609 127.61)" fill="#FFDA3D"/>
+<svg width="237" height="222" viewBox="0 0 237 222" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M6 148.347C6 134.232 22.7625 106 53.7946 106C84.8266 106 96.492 135.023 101.589 148.347C105.764 159.262 112.613 188 137.619 188C162.625 188 171.994 157.729 175.119 148.347C178.244 138.966 174.417 106 204.81 106C235.203 106 233.993 148.347 233.993 148.347" stroke="#68C5EF" stroke-opacity="0.33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle opacity="0.6" cx="230" cy="97" r="4" fill="#FE9515"/>
+<circle opacity="0.6" cx="220" cy="133" r="4" fill="#E3403E"/>
+<circle opacity="0.6" cx="12" cy="167" r="4" fill="#E3403E"/>
+<circle opacity="0.6" cx="165.5" cy="92.5" r="3.5" fill="#FBE0B4"/>
+<circle opacity="0.6" cx="38.5" cy="133.5" r="3.5" fill="#FBE0B4"/>
+<circle opacity="0.6" cx="68.5" cy="119.5" r="3.5" fill="#FFDA3D"/>
+<circle opacity="0.6" cx="20.6096" cy="95.6096" r="3.6484" transform="rotate(71.6976 20.6096 95.6096)" fill="#FE9515"/>
+<circle opacity="0.6" cx="183.609" cy="159.61" r="3.6484" transform="rotate(71.6976 183.609 159.61)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="96.6096" cy="191.61" r="3.6484" transform="rotate(71.6976 96.6096 191.61)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="135.61" cy="137.61" r="3.6484" transform="rotate(71.6976 135.61 137.61)" fill="#8FA94A"/>
+<circle opacity="0.6" cx="199.609" cy="190.61" r="3.6484" transform="rotate(71.6976 199.609 190.61)" fill="#FFDA3D"/>
 <g filter="url(#filter0_d)">
-<rect x="194.754" y="48" width="62" height="61" transform="rotate(35.8826 194.754 48)" fill="url(#pattern0)"/>
+<rect x="173.754" y="111" width="62" height="61" transform="rotate(35.8826 173.754 111)" fill="url(#pattern0)"/>
 </g>
-<rect x="37" y="25.708" width="85.039" height="83.1903" transform="rotate(-17.5963 37 25.708)" fill="url(#pattern1)"/>
+<rect x="16" y="88.708" width="85.039" height="83.1903" transform="rotate(-17.5963 16 88.708)" fill="url(#pattern1)"/>
 <defs>
-<filter id="filter0_d" x="147" y="40" width="109.987" height="109.763" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="126" y="103" width="109.987" height="109.763" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>

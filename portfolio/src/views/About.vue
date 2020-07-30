@@ -44,26 +44,24 @@
             <span class="contact-detail"> <a href="https://drive.google.com/file/d/189Dg3HKdWIiyQdvahWGtUuL_v_hkkDTZ/view?usp=sharing">English</a> </span>
           </div>
         </div>
-        <div class="row" id='social-network'>
-          <img :src="require('@/assets/img/linkedin.svg')" alt="">
-          <img :src="require('@/assets/img/dribbble.svg')" alt="">
-          <img :src="require('@/assets/img/github.svg')" alt="">
-        </div>
-        <div id="copyright" style="width:69.5rem">This site was designed and developed from scratch by Yuqing. </div>
+        
       </div>
     </div>
     <OnTopTools themeColor='#3FAB91' heightToShow='439' :navOnly='true' activeSpan='about'/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner"
 import OnTopTools from '@/components/OnTopTools'
+import Footer from '@/components/Footer'
 export default {
   name: 'About',
   components: {
     Banner,
-    OnTopTools
+    OnTopTools,
+    Footer
   },
   props: {
   },
@@ -98,21 +96,7 @@ export default {
   transition: top 200ms cubic-bezier(0, .8, .13, 1);
   background-color: rgba(252,233,155,0.74);
 }
-#copyright{
-  margin-bottom: 26.4rem;
-  color: #4A4A4A;
-  font-family: 'Source Sans Pro-L';
-  font-size: 2rem;
-  line-height: 2.3rem;
-  font-style: italic;
-  letter-spacing: 1.31667px;
-}
-#social-network{
-  margin:9rem -19px 1.8rem;
-}
-#social-network>img{
-  margin: 0 19px;
-}
+
 .contact-detail,.contact-detail>a{
   font-family: 'Source Sans Pro';
   font-size: 2.2rem;

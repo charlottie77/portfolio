@@ -159,10 +159,11 @@ export default {
 .item-img>img{
   margin-top: 0rem;
   height: 19.8rem;
-  width: 24.4rem;
+  width: 25rem;
 }
 .detail .item-img>img{
   height: 27rem;
+  width: 28rem;
 }
 .hr{
   /* border: 1px solid #D2D2D2; */
