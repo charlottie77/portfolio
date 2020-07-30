@@ -105,7 +105,13 @@ export default {
   display: inline-block;
 }
 .simple{
-  width:693px;
+  width:69.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.6rem;
+}
+.simple:hover {
+  background-color: #fafafa;
 }
 .detail{
   width:86rem;

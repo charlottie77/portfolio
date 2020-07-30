@@ -146,10 +146,13 @@ export default {
 #home {
   width: 100%;
   flex-grow: 1;
+  
 }
 
 #home-text-div {
   margin-top:6.1rem;
+  padding-left: 2rem;
+  
 }
 #home-text-div>label{
   display: block;
@@ -186,6 +189,7 @@ export default {
 }
 #simpleview-toggle{
   margin-top: 10.4rem;
+  padding-left: 2rem;
   display: inline-flex;
   align-content: center;
 }
