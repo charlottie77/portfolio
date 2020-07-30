@@ -294,12 +294,12 @@
     <div class="container">
       <div id="next-block" @click='route_to("/food-route")'>
         <div class="hr"></div>
-        <div id="next-project-title">Robi's Room</div>
-        <div id="next-project-description">A game-like practice to teach the concepts of “Machine could learn”.</div>
+        <div id="next-project-title">Food Route</div>
+        <div id="next-project-description">A mobile app plans the food truck dining route for busy CMU students.</div>
         <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn.svg")' alt=""></span>
       </div>
     </div>
-    <OnTopTools themeColor='#3FAB91' :navOnly='false' heightToShow='322'/>
+    <OnTopTools themeColor='#3FAB91' :navOnly='false' heightToShow='322' activeSpan='work'/>
   </div>
 </template>
 
@@ -640,6 +640,7 @@ p{
 }
 #three-questions>div{
   display: flex;
+  justify-content: center;
 }
 #three-questions p{
   margin: 1.4rem 0 1.4rem 2.8rem;
@@ -858,7 +859,7 @@ p{
 
 <style lang="scss" scoped>
 #next-block{
-width: 25.1rem;
+width: 26rem;
 float: right;
 margin-bottom: 20rem;
   .hr{

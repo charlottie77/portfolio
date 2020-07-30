@@ -272,7 +272,7 @@
         </div>
       </div>
     </div>
-    <OnTopTools themeColor='#1B75AD' heightToShow='332' :navOnly='false'/>
+    <OnTopTools themeColor='#1B75AD' heightToShow='332' :navOnly='false' activeSpan='work'/>
   </div>
 </template>
 

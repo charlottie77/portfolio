@@ -52,7 +52,7 @@
         <div id="copyright" style="width:69.5rem">This site was designed and developed from scratch by Yuqing. </div>
       </div>
     </div>
-    <OnTopTools themeColor='#3FAB91' heightToShow='439' :navOnly='true'/>
+    <OnTopTools themeColor='#3FAB91' heightToShow='439' :navOnly='true' activeSpan='about'/>
   </div>
 </template>
 

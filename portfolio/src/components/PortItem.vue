@@ -57,8 +57,21 @@ export default {
 </script>
 
 <style scoped>
+.port-item .simple:hover, .port-item .detail:hover{
+  cursor: pointer;
+}
+.detail .row {
+  position: relative;
+}
+.detail .row .item-img {
+  position: absolute;
+  right: 0;
+}
 .tags{
   margin: 1.3rem -8px 1.925rem;
+}
+.port-item .row{
+  align-items: flex-end;
 }
 .tag{
   background: #F9F3EF;
@@ -114,7 +127,7 @@ export default {
   font-style: normal;
   font-weight: 600;
   font-size: 2.1rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   letter-spacing: 0.65625px;
   color: #825B46;
 }
@@ -128,7 +141,7 @@ export default {
 .item-discription>.discription{
   width: 41.9rem;
   padding-top: 0.5rem;
-  padding-bottom: 2.9rem;
+  padding-bottom: 2rem;
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -145,6 +158,8 @@ export default {
   height: 27rem;
 }
 .hr{
-  border: 1px solid #D2D2D2;
+  /* border: 1px solid #D2D2D2; */
+  height: 1px;
+  background: #D2D2D2;
 }
 </style>
