@@ -130,7 +130,7 @@
         <p>Here are the insights of our key stakeholders, CMU students, and food truck owners. </p>
         <div id="student-insights">
           <div id="student-insights-title">Insights from CMU Students</div>
-          <div class="insight-row coulmn">
+          <div class="insight-row coulmn" style="margin-top:1.2rem">
             <img :src='require("@/assets/img/stu-insights-1.svg")' alt="" class="insight-img">
             <div class="insight-title-blue">Due to students' tight schedules, waiting in a long line at a food truck is not feasible. </div>
             <p>“ Yes, sometimes you have to wait for a pretty long time to get the food. Sometimes it takes 20 minutes to get the food. ” </p>
@@ -149,8 +149,8 @@
           </div>
         </div>
         <div id="owner-insights">
-          <div id="owner-insights-title">Insights from CMU Students</div>
-          <div class="insight-row coulmn">
+          <div id="owner-insights-title">Insights from Food Truck Owner</div>
+          <div class="insight-row coulmn" style="margin-top:1.2rem">
             <img :src='require("@/assets/img/owner-insights-1.svg")' alt="" class="insight-img">
             <div class="insight-title-red">Due to students' tight schedules, waiting in a long line at a food truck is not feasible. </div>
             <p>“ Yes, sometimes you have to wait for a pretty long time to get the food. Sometimes it takes 20 minutes to get the food. ” </p>
@@ -178,7 +178,7 @@
         <p>For all the pain points I tried to handle, I asked ‘five whys’ to dig into each of them. Then I did brainstorming and drew a series of storyboards shown to interviewees in the following speed-dating session, where I collected the feedback of CMU students to validate my ideas and extract potential needs. Finally, I decided to go deeper with the idea of planning a dining route fitting to CMU students’ tight schedules. </p>
         <p>I highlighted the basic needs of CMU students (blue) and the value of both students and food truck owners (yellow). During the ideation, the values guided me to brainstorm solutions that fulfill these basic needs. </p>
         <img id="design-challenge-img-2" :src='require("@/assets/img/design-challenge-2.svg")' alt="" class="img-center">
-        <div id="click-benefit">Click to see the <a href="">Benefit</a></div>
+        <!-- <div id="click-benefit">Click to see the <a href="">Benefit</a></div> -->
       </div>
       <div id="prototyping">
         <div id="prototyping-title">Prototyping</div>
@@ -225,13 +225,13 @@
             <p>During the user testing, the first draft of the menu design may include too much information, such as the detailed description. Also, users confused about why some featured items and items in other categories are the same. They were not sure what kind of differences those two items have. </p>
             <img :src='require("@/assets/img/wireframe-img-4.png")' alt="" class="img-center" id="wireframe-img-4">
           </div>
-          <div id="complete-wireframe-link">Click to see complete wireframe</div>
+          <!-- <div id="complete-wireframe-link">Click to see complete wireframe</div> -->
         </div>
       </div>
       <div id="final-design-2">
         <div id="final-design-title">Final Design</div>
         <p id='note'>I only showed the final design of the “planning ahead” scenario here. You could check the whole worked-prototype to check more. </p>
-        <div class="fd-list-item column align-items-center" id="fd-1">
+        <div class="fd-list-item column align-items-center" id="fd-1" style="margin-top:5rem">
           <div class="fd-list-item-title">1. Locate FoodRoute via Quick Campus POI </div>
           <div>
             <p class="fd-content">Quick Campus POI is more efficient and intuitive for busy CMU students to plan their food route, where users can locate POI via familiar abbreviation among CMU students, such as UC, DH, GHC, etc. </p>
@@ -453,7 +453,7 @@ export default {
     #background{
       #background-title{
         @include gray-title();
-        margin-top: 4.8rem;
+        margin-top: 13.8rem;
         margin-bottom:4.8rem;
       }
       .row{
@@ -540,7 +540,7 @@ export default {
         }
       }
       #final-design-4{
-        margin-top: 24.3rem;
+        margin-top: 17rem;
         .col-12:nth-child(2){
           padding-top: 2.4rem;
         }
@@ -619,7 +619,7 @@ export default {
       }
     }
     #synthesis{
-      margin-top: 19.5rem;
+      margin-top: 27rem;
       #synthesis-title{ @include gray-title(); }
       #synthesis-subtitle{
         @include black-subtitle();
@@ -629,12 +629,13 @@ export default {
         position: absolute;
         left: -4.2rem;
         top: 1.8rem;
+        width: 7rem;
       }
       .insight-row{
           position: relative;
           background: #FAFAFA;
           border-radius: 32px;
-          padding: 1.8rem 9.3rem 1.8rem 4.4rem;
+          padding: 2rem 9.3rem 2.3rem 4.4rem;
           margin-top: 2.4rem;
           
           .insight-title-blue,.insight-title-red{
@@ -647,7 +648,10 @@ export default {
           .insight-title-blue {color: #1B75AD;}
           .insight-title-red{color: #A50E07;}
           p{
-            margin-top: 1.2rem;
+            &:nth-of-type(2){
+              margin-top: 0.6rem;
+            }
+            margin-top: 1.5rem;
             font-family: 'Source Sans Pro-I';
             font-size: 2rem;
             line-height: 2.6rem;
@@ -712,7 +716,7 @@ export default {
       }
     }
     #prototyping{
-      margin-top: 12rem;
+      margin-top: 25rem;
       #prototyping-title {@include gray-title();}
       .prototyping-subtitle{@include black-subtitle(); margin-top: 6.3rem; margin-bottom: 3.5rem;}
       #scenarios{
@@ -781,7 +785,7 @@ export default {
     }
     #final-design-2{
       margin-top: 14.2rem;
-      padding-bottom: 19rem;
+      // padding-bottom: 19rem;
       #final-design-title{@include gray-title()}
       p#note{
         font-family: 'Source Sans Pro-I';
@@ -793,7 +797,7 @@ export default {
 
       }
       .fd-list-item{
-        margin-top: 4.8rem;
+        margin-top: 12rem;
         .fd-list-item-title{
           font-family: 'Ubuntu-M';
           font-size: 2.4rem;

@@ -203,7 +203,7 @@
       <img :src='require("@/assets/img/Group 46.svg")' alt="" class="img-center" style="margin-top:38px">
       <div style="position:relative; margin-top:2.4rem">
         <img :src='require("@/assets/img/Group 45-L.svg")' alt="" style="position:absolute;left:-4rem;top:6.4rem">
-        <img :src='require("@/assets/img/Group 45-R.svg")' alt="" class="img-center">
+        <img :src='require("@/assets/img/Group_45_R.png")' alt="" class="img-center" style="width:71.2rem">
       </div>
       <img :src='require("@/assets/img/Group 47.svg")' alt="" class="img-center" style="margin-top:1.7rem; margin-bottom:7.6rem">
     </div>
