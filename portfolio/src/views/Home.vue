@@ -86,7 +86,7 @@ export default {
         projectName: 'Food Route',
         projectDiscription: 'A mobile app plans the food truck dining route for busy CMU students.',
         simpleImgSrc: require('@/assets/img/food-route-simple.svg'),
-        detailImgSrc: require('@/assets/img/food-route-detail.svg'),
+        detailImgSrc: require('@/assets/img/food_route_detail.png'),
         subtitle: 'How might we incorporate the food truck visiting into the daily route of CMU students with tight schedules?',
         params:{
           outcome: 'A mobile app plans the food truck dining route for busy CMU students.',

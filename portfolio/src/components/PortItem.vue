@@ -99,6 +99,7 @@ export default {
 }
 .item-discription{
   padding-top: 10.6rem;
+  
 }
 .item-detail{
   width: 62rem;
@@ -126,6 +127,7 @@ export default {
 }
 .item-discription>.discription{
   width: 41.9rem;
+  padding-top: 0.5rem;
   padding-bottom: 2.9rem;
   font-family: 'Source Sans Pro';
   font-style: normal;
@@ -136,11 +138,11 @@ export default {
   color: #848484;
 }
 .item-img>img{
-  margin-top: 4.2rem;
+  margin-top: 0rem;
   height: 19.8rem;
 }
 .detail .item-img>img{
-  height: 15.6rem;
+  height: 27rem;
 }
 .hr{
   border: 1px solid #D2D2D2;
