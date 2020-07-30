@@ -8,6 +8,7 @@ import Construction from './views/Construction.vue'
 import Robi from './views/NewRobi'
 import MobileRobi from './views/MobileRobi'
 import FoodRoute from './views/FoodRoute'
+import MobileFoodRoute from './views/MobileFoodRoute'
 
 Vue.use(Router)
 
@@ -38,6 +39,11 @@ export default new Router({
       path:'/food-route',
       name: 'food-route',
       component: FoodRoute
+    },
+    {
+      path: '/m-food-route',
+      name: 'mobile-food-route',
+      component: MobileFoodRoute
     },
     {
       path: '/about',

@@ -59,10 +59,10 @@ export default {
         link:'/robi'
       },
       {
-        projectName: 'Robi’s Room',
-        projectDiscription: 'A game-like practice to teach the concepts of “Machine could learn”.',
-        projectImgSrc: require('@/assets/img/robi-project-icon.svg'),
-        link:'/robi'
+        projectName: 'Food Route',
+        projectDiscription: 'A mobile app plans the food truck dining route for busy CMU students.',
+        projectImgSrc: require('@/assets/img/food-route-simple.svg'),
+        link:'/m-food-route'
       }
     ]
   })
