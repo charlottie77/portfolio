@@ -129,7 +129,7 @@ export default {
 
 #main {
   /* position: relative; */
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   width: 100%;
 }
 </style>
@@ -165,8 +165,8 @@ export default {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 600;
-  font-size: 3.2rem;
-  line-height: 3.7rem;
+  font-size: 3rem;
+  line-height: 3.4rem;
   letter-spacing: 0.2222rem;
   color: #000000;
 }
@@ -175,8 +175,8 @@ export default {
   font-family: 'Ubuntu-Bold';
   font-style: normal;
   font-weight: bold;
-  font-size: 4.4rem;
-  line-height: 5.1rem;
+  font-size: 4rem;
+  line-height: 5rem;
   letter-spacing: 0.229rem;
   color: #000000;
 }
@@ -186,8 +186,8 @@ export default {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  font-size: 2.2rem;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
   letter-spacing: 0.229rem;
   color: #000000;
 }
@@ -204,8 +204,8 @@ export default {
 #simpleview-toggle label{
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   letter-spacing: 1.1625px;
   color: #A7A7A7;
   margin-bottom: 0.3rem;

@@ -33,8 +33,10 @@ export default {
 html {font-size: 62.5%;}
 @import url("./assets/fonts/ubuntu_font.css");
 @import url("./assets/fonts/SSP.css");
+@import url("./assets/fonts/OpenSans.css");
 @import url("./assets/fonts/charter.css");
 @import url("./css/MyGrid.css");
+
 /* #app {
   font-family: 'SF-Pro-Regular';
   width: 100%;

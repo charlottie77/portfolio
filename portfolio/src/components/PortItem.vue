@@ -68,7 +68,7 @@ export default {
   right: 0;
 }
 .tags{
-  margin: 1.3rem -8px 1.925rem;
+  margin: 2.8rem -8px 1.925rem;
 }
 .port-item .row{
   align-items: flex-end;
@@ -76,9 +76,9 @@ export default {
 .tag{
   background: #F9F3EF;
   border-radius: 15px;
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-size: 1.8rem;
+  font-family: 'Open Sans-I';
+  /* font-style: italic; */
+  font-size: 1.6rem;
   line-height: 2.1rem;
   text-align: center;
   letter-spacing: 0.05625rem;
@@ -91,14 +91,14 @@ export default {
   margin: 0 8px;
 }
 .item-params{
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   margin-top: 1.3rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 2.3rem;
   letter-spacing: 0.5px;
-  color: #909090;
+  color: #1D1D1D;
 }
 .item-params>div>label{
   width: 8.6rem;
@@ -132,9 +132,9 @@ export default {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 600;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   line-height: 2.8rem;
-  letter-spacing: 0.65625px;
+  letter-spacing: 0.4px;
   color: #825B46;
 }
 .name{
@@ -148,11 +148,11 @@ export default {
   width: 41.9rem;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 2.3rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   letter-spacing: 0.5625px;
   color: #848484;
 }

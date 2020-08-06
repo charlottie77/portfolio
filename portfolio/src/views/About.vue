@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <Banner height="439px" backgroundColor="rgba(255,210,119,0.14)"/>
+    <Banner height="350px" backgroundColor="rgba(255,210,119,0.14)"/>
     <div class="row" id="hr-1">
       <span class="line left-line"></span>
       <span class="blank-line"></span>
@@ -28,10 +28,11 @@
           <span class="skill-name">Coding</span>
         </div>
         <div id="detail">
-          <p class="detail-line">Currently, I am interested in <span class='highlight'>design for learning.</span><img :src="require('@/assets/img/learning.svg')" alt=""> </p>
-          <p class="detail-line">Right now, I am an HCI student and UX Designer at Carnegie Mellon University.  </p>
+          <!-- <img :src="require('@/assets/img/learning.svg')" alt=""> -->
+          <p class="detail-line">Currently, I am interested in <span class='highlight about-bold '> design system </span> and <span class='highlight about-bold '>design for learning tools.</span> </p>
+          <p class="detail-line">Right now, I am an <span class="about-bold">HCI student </span> and <span class="about-bold">UX Designer</span> at <a id="cmu-link" href="https://www.cmu.edu/">Carnegie Mellon University</a>.  </p>
           <p class="detail-line">Outside of design work, I enjoy video games (a big fan of Nintendo) <img :src="require('@/assets/img/nintendo-switch.svg')" alt=""> , cooking <img :src="require('@/assets/img/cooking.svg')" alt=""> (good at cooking but a novice in baking), and journaling. <img :src="require('@/assets/img/journaling.svg')" alt=""></p>
-          <p class="detail-line">Previously, I studied software engineering & new media technology <img :src="require('@/assets/img/coding.svg')" alt=""> at Tongji University. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
+          <p class="detail-line">Previously, I studied <span class="about-bold">software engineering & new media technology</span> <img :src="require('@/assets/img/coding.svg')" alt=""> at <a id="tongji-link" href="https://en.tongji.edu.cn/">Tongji University</a>. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
         </div>
         <div style='mix-blend-mode: normal;opacity: 0.51;border: 1.5px solid #F8E5C7;width: 11.8rem; margin:5.2rem 0 1.7rem; border-radius:1.5px;'/>
         <div id="contact-info">
@@ -118,12 +119,12 @@ export default {
 }
 .detail-line{
   overflow-wrap: break-word;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2.6rem;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.04rem;
   color: #4A4A4A;
 }
 .detail-line:nth-of-type(2){
@@ -135,21 +136,22 @@ export default {
 .skill-name{
   margin-left: 8px;
   margin-right: 12px;
-  font-family: 'Ubuntu-Bold';
+  font-family: 'Ubuntu-M';
   font-size: 21px;
   line-height: 31px;
-  letter-spacing: 1.806px;
+  letter-spacing: 1.2px;
   color: #4A4A4A;
 }
 #content-line1{
-  font-family: 'Ubuntu-Bold';
+  font-family: 'Ubuntu-M';
   font-size: 30px;
   line-height: 31px;
-  letter-spacing: 2.58px;
+  letter-spacing: 2px;
   color: #4A4A4A;
 }
 #content-line2{
   margin-top: 16px;
+  margin-bottom: 0.8rem;
   font-family: 'Ubuntu';
   font-size: 21px;
   line-height: 31px;
@@ -165,7 +167,7 @@ export default {
 }
 #about-content{
   flex-grow: 1;
-  padding-top: 40px;
+  padding-top: 32px;
   padding-left: 31px;
   max-width: 57.5rem;
 }
@@ -186,6 +188,18 @@ export default {
 }
 #hr-2{
   margin: 5px 0 0;
+}
+
+.about-bold {
+  font-family: 'Open Sans-SB';
+}
+
+#cmu-link {
+  color: #B52B36;
+}
+
+#tongji-link {
+  color: #255AA2;
 }
 
 </style>

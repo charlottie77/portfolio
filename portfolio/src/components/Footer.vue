@@ -40,10 +40,9 @@ export default {
 #copyright{
   margin-bottom: 26.4rem;
   color: #4A4A4A;
-  font-family: 'Source Sans Pro-L';
-  font-size: 1.8rem;
+  font-family: 'Open Sans-LI';
+  font-size: 1.4rem;
   line-height: 2.3rem;
-  font-style: italic;
   letter-spacing: 1.31667px;
   text-align: center;
 }
@@ -52,6 +51,7 @@ export default {
 }
 .sn-item{
   margin: 0 19px;
+  height: 2.8rem ;
 }
 
 #footer{
