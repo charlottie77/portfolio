@@ -150,7 +150,7 @@ export default {
 #home {
   width: 100%;
   flex-grow: 1;
-  
+  margin-bottom: 12rem;
 }
 
 #home-text-div {

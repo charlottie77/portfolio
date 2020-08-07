@@ -42,7 +42,9 @@
           </div>
           <div class="row" style="margin-top:1rem">
             <span class="contact-method">Resume</span>
-            <span class="contact-detail"> <a href="https://drive.google.com/file/d/189Dg3HKdWIiyQdvahWGtUuL_v_hkkDTZ/view?usp=sharing">English</a> </span>
+            <span class="contact-detail"> <a href="https://drive.google.com/file/d/1xSHx16AHPCT9-V_Szx7OfakgP7eFVZlv/view?usp=sharing">English</a> </span>
+            <span class="contact-detail cd-divider">  |    </span>
+            <span class="contact-detail"> <a href="/Ch_Yuqing_resume.pdf">中文</a> </span>
           </div>
         </div>
         
@@ -99,17 +101,17 @@ export default {
 }
 
 .contact-detail,.contact-detail>a{
-  font-family: 'Source Sans Pro';
-  font-size: 2.2rem;
+  font-family: 'Open Sans-R';
+  font-size: 1.8rem;
   line-height: 2.8rem;
-  letter-spacing: 0.199rem;
+  letter-spacing: 0.04rem;
   color: #4A4A4A;
 }
 .contact-method{
-  font-family: 'Ubuntu-Bold';
-  font-size: 2.2rem;
+  font-family: 'Open Sans-B';
+  font-size: 1.8rem;
   line-height: 2.6rem;
-  letter-spacing: 0.199rem;
+  letter-spacing: 0.04rem;
   color: #825B46;
   width: 9.5rem;
   margin-right: 2.2rem;
@@ -200,6 +202,10 @@ export default {
 
 #tongji-link {
   color: #255AA2;
+}
+
+.cd-divider {
+  margin: 0 2rem;
 }
 
 </style>

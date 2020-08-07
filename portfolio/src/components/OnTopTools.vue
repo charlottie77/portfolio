@@ -109,7 +109,10 @@ export default {
     #navigator{
       margin: 0 -12px;
       span{
-        &:hover {cursor: pointer;}
+        &:hover {
+          cursor: pointer;
+          color: #825B46;
+          }
         font-family: 'Ubuntu-Light';
         font-size: 1.6rem;
         line-height: 1.8rem;

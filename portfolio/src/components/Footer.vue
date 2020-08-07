@@ -47,7 +47,7 @@ export default {
   text-align: center;
 }
 #social-network{
-  margin:9rem -19px 1.8rem;
+  margin:3rem -19px 1.8rem;
 }
 .sn-item{
   margin: 0 19px;
@@ -58,7 +58,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 4rem;
 }
 
 
