@@ -1,6 +1,6 @@
 <template>
-  <div class="port-item">
-    <div v-if='!showDetail' class="simple" @click='gotoProject(link)'>
+  <div  class="port-item " >
+    <div v-show='!showDetail' class="simple animate__animated animate__fadeInUp" @click='gotoProject(link)'>
       <div class="row">
         <div class="item-discription">
           <div class="name">{{projectName}}</div>
@@ -12,7 +12,7 @@
       </div>
       <div class="hr"></div>
     </div>
-    <div v-if="showDetail" class="detail" @click='gotoProject(link)'>
+    <div v-show="showDetail" class="detail animate__animated animate__fadeInUp" @click='gotoProject(link)'>
       <div class="row">
         <div class="item-detail">
           <div class="name" :style="styleSetting.detail.projectName">{{projectName}}</div>

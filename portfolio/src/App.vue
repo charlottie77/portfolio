@@ -27,21 +27,16 @@ export default {
     return {
       sw:undefined
     }  
-  },
-  mounted() {
-    let sw = new ScrollWatch({
-      onElementInView: function(data) {
-        console.log(data.el, '...is now in view')
-      },
-      inViewClass: 'animate__fadeInUp',
-      watchOnce: false
-    })
   }
 }
   
 </script>
 
 <style>
+.animate__animated{
+  opacity: 0;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

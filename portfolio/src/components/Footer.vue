@@ -13,7 +13,7 @@
         </a>
         
     </div>
-    <div id="copyright" style="width:69.5rem">This site was designed and developed from scratch by Yuqing. </div>
+    <div id="copyright" data-scroll-watch class="animate__animated" style="width:69.5rem" >This site was designed and developed from scratch by Yuqing. </div>
   </div>
 </template>
 
@@ -36,9 +36,6 @@ export default {
 </script>
 
 <style>
-.animate__animated{
-  opacity: 0;
-}
 
 #copyright{
   margin-bottom: 26.4rem;

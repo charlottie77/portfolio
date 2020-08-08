@@ -49,7 +49,7 @@ import Banner from "@/components/Banner"
 import PortItem from "@/components/PortItem"
 import OnTopTools from '@/components/OnTopTools'
 import Footer from '@/components/Footer'
-import ScrollWatch from 'scrollwatch'
+// import ScrollWatch from 'scrollwatch'
 import {_isMobile} from '@/util.js'
 
 export default {
@@ -114,7 +114,8 @@ export default {
   methods:{
     toggleSimpleView: function(){
       this.simpleView = !this.simpleView
-      console.log(123,!this.simpleView)
+      console.log(this.$sw)
+      // this.$sw.refresh()
     }
   },
   beforeCreate: function(){
@@ -123,13 +124,15 @@ export default {
     }
   },
   mounted() {
-    let sw = new ScrollWatch({
-      onElementInView: function(data) {
-        console.log(data.el, '...is now in view')
-      },
-      inViewClass: 'animate__fadeInUp',
-      watchOnce: false
-    })
+    this.$sw.refresh()
+    // let sw = new ScrollWatch({
+    //   onElementInView: function(data) {
+    //     console.log(data.el, '...is now in view')
+    //   },
+    //   inViewClass: 'animate__fadeInUp',
+    //   watchOnce: false,
+    //   scrollThrottle:80
+    // })
   }
 };
 </script>
