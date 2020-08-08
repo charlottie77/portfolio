@@ -161,6 +161,7 @@ export default {
 #home-text-div>label{
   display: block;
 }
+
 .htd-1 {
   font-family: 'Ubuntu';
   font-style: normal;
