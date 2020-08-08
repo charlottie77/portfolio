@@ -9,6 +9,8 @@
 <script>
 import Nav from './components/Nav'
 import {_isMobile} from '@/util.js'
+
+
 export default {
   name: 'App',
   components:{
@@ -23,14 +25,27 @@ export default {
   },
   data: function(){
     return {
+      sw:undefined
     }  
+  },
+  mounted() {
+    let sw = new ScrollWatch({
+      onElementInView: function(data) {
+        console.log(data.el, '...is now in view')
+      },
+      inViewClass: 'animate__fadeInUp',
+      watchOnce: false
+    })
   }
 }
   
 </script>
 
 <style>
-html {font-size: 62.5%;}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 @import url("./assets/fonts/ubuntu_font.css");
 @import url("./assets/fonts/SSP.css");
 @import url("./assets/fonts/charter.css");

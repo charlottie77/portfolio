@@ -26,7 +26,7 @@
         </div>
       </div>
       <div id="overview">
-        <div id="overview-title">overview</div>
+        <div id="overview-title">Overview</div>
         <div id="overview-summary">
           <p>Duration:  1.5 months </p>
           <p>Tools: Figma, Adobe Illustration. </p>

@@ -1,7 +1,7 @@
 
 <template>
-  <div id="footer">
-   <div class="row" id='social-network'>
+  <div id="myfooter">
+   <div class="row animate__animated" id='social-network' data-scroll-watch >
         <a href="https://www.linkedin.com/in/yuqinguo/" target="_blank" rel="noopener noreferrer"> 
             <img class="sn-item" :src="require('@/assets/img/linkedin.svg')" alt="" >
         </a>
@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style>
+.animate__animated{
+  opacity: 0;
+}
 
 #copyright{
   margin-bottom: 26.4rem;
@@ -54,7 +57,7 @@ export default {
   margin: 0 19px;
 }
 
-#footer{
+#myfooter{
     display: flex;
     flex-direction: column;
     align-items: center;

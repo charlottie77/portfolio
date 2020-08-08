@@ -49,7 +49,7 @@ import Banner from "@/components/Banner"
 import PortItem from "@/components/PortItem"
 import OnTopTools from '@/components/OnTopTools'
 import Footer from '@/components/Footer'
-
+import ScrollWatch from 'scrollwatch'
 import {_isMobile} from '@/util.js'
 
 export default {
@@ -121,6 +121,15 @@ export default {
     if (_isMobile()) {
       this.$router.replace('/m-index');
     }
+  },
+  mounted() {
+    let sw = new ScrollWatch({
+      onElementInView: function(data) {
+        console.log(data.el, '...is now in view')
+      },
+      inViewClass: 'animate__fadeInUp',
+      watchOnce: false
+    })
   }
 };
 </script>
