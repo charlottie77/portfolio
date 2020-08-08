@@ -376,13 +376,13 @@ export default {
   justify-content: flex-end;
 }
 .SSP-bold{
-  font-family: 'Source Sans Pro-B';
+  font-family: 'Open Sans-B';
 }
 .text{
-  font-family: 'Source Sans Pro';
-  font-size: 2rem;
-  line-height: 2.6rem;
-  letter-spacing: 0.0667rem;
+  font-family: 'Open Sans';
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.04rem;
   color: #000000;
 }
 #Robi{
@@ -525,7 +525,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 1.3rem;
@@ -615,10 +615,10 @@ p{
   padding-bottom: 10rem;
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
-  font-family: 'Source Sans Pro';
-  font-size: 2rem;
-  line-height: 2.6rem;
-  letter-spacing: 0.06rem;
+  font-family: 'Open Sans';
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.04rem;
   color: #000000;
   margin: 0.9rem 0;
 }
@@ -644,7 +644,7 @@ p{
 }
 #three-questions p{
   margin: 1.4rem 0 1.4rem 2.8rem;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-size: 2.2rem;
   line-height: 2.6rem;
   letter-spacing: 0.06875rem;
@@ -679,9 +679,9 @@ p{
 
 }
 #launch-result>.col-8>div:nth-of-type(1){
-  font-family: 'Source Sans Pro-B';
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-family: 'Open Sans-B';
+  font-size: 1.7rem;
+  line-height: 2.8rem;
   text-align: center;
   letter-spacing: 0.1178rem;
   width: 15.6rem;
@@ -691,12 +691,12 @@ p{
   margin-bottom: 0.9rem;
 }
 #launch-result>.col-8>div:nth-of-type(2){
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   line-height: 2rem;
   text-align: center;
   letter-spacing: 0.09422rem;
-  color: #4A4A4A;;
+  color: #4A4A4A;
 }
 #photo-credit{
   margin-top: 1.6rem;
@@ -724,10 +724,10 @@ p{
 #final-launch-content{
   margin-top: 5.3rem;
   width: 86.5rem;
-  font-family: 'Source Sans Pro';
-  font-size: 2rem;
-  line-height: 2.6rem;
-  letter-spacing: 0.06rem;
+  font-family: 'Open Sans';
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.04rem;
   color: #000000;
 }
 .green{
@@ -756,14 +756,14 @@ p{
   width: 41.3rem;
 }
 .solution-content{
-  font-family: 'Source Sans Pro';
-  font-size: 2rem;
-  line-height: 2.6rem;
+  font-family: 'Open Sans';
+  font-size: 1.7rem;
+  line-height: 2.8rem;
   letter-spacing: 0.04rem;
   color: #4A4A4A;
 }
 .solution-title{
-  font-family: 'Source Sans Pro-B';
+  font-family: 'Open Sans-B';
   font-size: 2.6rem;
   line-height: 3rem;
   display: flex;
@@ -792,12 +792,12 @@ p{
   margin-top: 1.8rem;
 }
 #Overview>div.info,#Overview>#overview-content{
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
-  line-height: 2.6rem;
-  letter-spacing: 0.06rem;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.04rem;
   color: #636363;
 }
 #Overview{
@@ -807,16 +807,16 @@ p{
   margin-top: 1.7rem;
   width:42.8rem;
   height:9.6rem;
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.6rem;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.04rem;
   color: #4A4A4A;
 }
 .bold{
-  font-family: 'Source Sans Pro-B';
+  font-family: 'Open Sans-B';
 }
 .highlight{
   background: #F8DA06;
@@ -876,7 +876,7 @@ margin-bottom: 20rem;
     color: #000000;
   }
   #next-project-description{
-    font-family: 'Source Sans Pro';
+    font-family: 'Open Sans';
     font-size: 1.6rem;
     line-height: 2.1rem;
     text-align: right;

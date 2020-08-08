@@ -43,25 +43,25 @@ export default {
 #copyright{
   margin-bottom: 26.4rem;
   color: #4A4A4A;
-  font-family: 'Source Sans Pro-L';
-  font-size: 1.8rem;
+  font-family: 'Open Sans-LI';
+  font-size: 1.4rem;
   line-height: 2.3rem;
-  font-style: italic;
   letter-spacing: 1.31667px;
   text-align: center;
 }
 #social-network{
-  margin:9rem -19px 1.8rem;
+  margin:3rem -19px 1.8rem;
 }
 .sn-item{
   margin: 0 19px;
+  height: 2.8rem ;
 }
 
 #myfooter{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 4rem;
 }
 
 
