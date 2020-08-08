@@ -32,7 +32,7 @@
         </p>
       </div>
       <div id="Overview">
-        <h3>Overview</h3>
+        <h3 id="overview-title">Overview</h3>
         <div class="info">Duration:  2 months</div> 
         <div class="info">Tools: Sketch, Unity, Illustrator, After Effects.</div>
         <div class="info">Collaborators: Dachang Liu, Jan Doring, Jay Zhu</div>
@@ -196,7 +196,7 @@
       </div>
     </div>
     <div class="container" id='design-challenges'>
-      <h1 style="margin:5.4rem auto 3.5rem">Design Challenges</h1>
+      <h1 style="margin:10rem auto 3.5rem">Design Challenges</h1>
       <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
       <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:3.6rem;margin-bottom:4.6rem'>
       <p>The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
@@ -261,7 +261,7 @@
     </div>
     <div class="container" id='final-design' style="padding-top: 14.5rem;">
       <div class="black-center">Final Design</div>
-      <div style="position:relative">
+      <div class="fd-div-1" style="position:relative">
         <img :src='require("@/assets/img/Group 58.svg")' alt="">
         <p style="width: 38.8rem;left: 6.5rem;top: 11.6rem;position: absolute;">Robi's condition includes <span class="bold">three categories:</span> power, mood, and maintenance. These three categories <span class="bold">correspond to three kinds of actions</span>, including charging, watering flowers, and maintenance work. </p>
         <p style="width: 37.9rem;right: -1.5rem;top: 42.2rem;position: absolute;">Learners should <span class="bold">train Robi to stay in good condition</span> by giving Robi instructions of Yes/No in the training phase. Those <span class="bold">instructions will change Robi’s mindset</span>, which will <span class="bold">guide Robi’s behavior</span> in the validation phase automatically. </p>
@@ -415,7 +415,7 @@ h3{
 }
 h4{
   font-family: 'Ubuntu-Bold';
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   line-height: 3.7rem;
   letter-spacing: 0.1rem;
   color: #4A4A4A; 
@@ -428,7 +428,7 @@ h4{
 
 <style scoped>
 .midfi-title{
-  font-size: 2.2rem !important;
+  font-size: 2rem !important;
   line-height: 3rem !important;
 }
 p{
@@ -574,7 +574,7 @@ p{
   width: 100%;
 }
 #ideation{
-  padding-top: 5.5rem;
+  padding-top: 10rem;
   padding-bottom: 9.6rem;
 }
 .insights{
@@ -629,7 +629,7 @@ p{
   position: absolute;
   left: -3.8rem;
   font-family: 'Ubuntu-Bold';
-  font-size: 4.2rem;
+  font-size: 3.4rem;
   line-height: 4.8rem;
   letter-spacing: 0.0875rem;
   color: #CDCDCD;
@@ -644,8 +644,8 @@ p{
 }
 #three-questions p{
   margin: 1.4rem 0 1.4rem 2.8rem;
-  font-family: 'Open Sans';
-  font-size: 2.2rem;
+  font-family: 'Open Sans-R';
+  font-size: 2rem;
   line-height: 2.6rem;
   letter-spacing: 0.06875rem;
   color: #4A4A4A;
@@ -680,7 +680,7 @@ p{
 }
 #launch-result>.col-8>div:nth-of-type(1){
   font-family: 'Open Sans-B';
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 2.8rem;
   text-align: center;
   letter-spacing: 0.1178rem;
@@ -692,14 +692,14 @@ p{
 }
 #launch-result>.col-8>div:nth-of-type(2){
   font-family: 'Open Sans';
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
   letter-spacing: 0.09422rem;
   color: #4A4A4A;
 }
 #photo-credit{
-  margin-top: 1.6rem;
+  margin-top: 1.5rem;
   justify-content: center;
   font-family: 'Charter';
   font-style: italic;
@@ -798,7 +798,7 @@ p{
   font-size: 1.7rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #636363;
+  color: #000;
 }
 #Overview{
   margin-top: 5.5rem;
@@ -895,5 +895,13 @@ margin-bottom: 20rem;
 }
 #next-block:hover{
   cursor: pointer;
+}
+
+.fd-div-1 {
+  margin-top: 8rem;
+}
+
+#overview-title {
+  color:#50C7AA
 }
 </style>
