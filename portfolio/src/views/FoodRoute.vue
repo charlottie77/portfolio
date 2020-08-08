@@ -313,7 +313,7 @@ export default {
   color: #4A4A4A;
 }
 .bold{
-  font-family: 'Source Sans Pro-B';
+  font-family: 'Open Sans-B';
 }
 #food-route{
   width: 100%;
@@ -324,10 +324,10 @@ export default {
     max-width: 85.7rem;
     margin: 11.7rem auto 0;
     p{
-      font-family: 'Source Sans Pro';
-      font-size: 2rem;
-      line-height: 2.6rem;
-      letter-spacing: 0.6px;
+      font-family: 'Open Sans';
+      font-size: 1.7rem;
+      line-height: 2.8rem;
+      letter-spacing: 0.04rem;
       color: #4A4A4A;
       margin-block-start: 0;
       margin-block-end: 0;
@@ -373,15 +373,15 @@ export default {
       #answer{
         max-width: 43.1rem;
         margin-top: 1.2rem;
-        font-family: 'Source Sans Pro';
-        font-size: 2rem;
-        line-height: 2.6rem;
-        letter-spacing: 0.6px;
-        color: #4A4A4A;
+        font-family: 'Open Sans';
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.04rem;
+        color: #000;
       }
     }
     #my-role{
-      margin-top: 4.6rem;
+      margin-top: 6rem;
       #my-role-title{
         font-family: 'Ubuntu-Bold';
         font-size: 2.4rem;
@@ -403,11 +403,11 @@ export default {
             list-style: none;
             padding-left: 0;
             li{
-              font-family: 'Source Sans Pro';
-              font-size: 2rem;
+              font-family: 'Open Sans';
+              font-size: 1.7rem;
               line-height: 2.8rem;
-              letter-spacing: 0.444444px;
-              color: #4A4A4A;
+              letter-spacing: 0.04rem;
+              color: #000;
             }
           }
           li::before{
@@ -420,31 +420,31 @@ export default {
       }
     }
     #overview{
-      margin-top: 3.6rem;
+      margin-top: 6rem;
       #overview-title{
         font-family: 'Ubuntu-Bold';
         font-size: 2.4rem;
         line-height: 2.8rem;
         letter-spacing: 0.75px;
-        color: #838383;
+        color: #2E7390;
       }
       #overview-summary{
         margin-top: 1.3rem;
         p{
-          font-family: 'Source Sans Pro';
-          font-size: 2rem;
-          line-height: 2.6rem;
-          letter-spacing: 0.444444px;
-          color: #767676;
+          font-family: 'Open Sans';
+          font-size: 1.7rem;
+          line-height: 2.8rem;
+          letter-spacing: 0.04rem;
+          color: #000;
         }
       }
       #overview-detail{
         margin-top: 2.4rem;
-        font-family: 'Source Sans Pro';
-        font-size: 2rem;
-        line-height: 2.6rem;
-        letter-spacing: 0.444444px;
-        color: #767676;
+        font-family: 'Open Sans';
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.04rem;
+        color: #000;
       }
     }
     #splitter-1{
@@ -476,7 +476,7 @@ export default {
       .final-design-item-title{
         position: relative;
         margin-bottom: 1.2rem;
-        font-family: 'Source Sans Pro-BI';
+        font-family: 'Open Sans-BI';
         font-size: 2.6rem;
         line-height: 3rem;
         letter-spacing: 0.577778px;
@@ -503,7 +503,7 @@ export default {
         background: #1E96CB;
         border-radius: 1.3rem;
 
-        font-family: 'Source Sans Pro-B';
+        font-family: 'Open Sans-B';
         font-size: 1.8rem;
         line-height: 2.3rem;
         display: flex;
@@ -513,11 +513,11 @@ export default {
         color: #FFFFFF;
       }
       p{
-        font-family: 'Source Sans Pro';
-        font-size: 2rem;
-        line-height: 2.6rem;
-        letter-spacing: 0.6px;
-        color: #4A4A4A;
+        font-family: 'Open Sans';
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.04rem;
+        color: #000;
       }
       #final-design-1{
         margin-top: 9.3rem;
@@ -564,9 +564,12 @@ export default {
       }
       #immerse{
         .generative-research-subtitle { margin-top: 10.2rem; margin-bottom: 1.1rem;}
-        #gr-img-1{margin: 3.2rem auto 6.4rem;}
+        #gr-img-1{
+          margin: 3.2rem auto 6.4rem;
+          width: 70%;
+          }
         #scroll-note{
-          font-family: 'Source Sans Pro';
+          font-family: 'Open Sans';
           font-size: 1.7rem;
           line-height: 2.1rem;
           letter-spacing: 0.377778px;
@@ -574,6 +577,7 @@ export default {
         }
         position: relative;
         #gr-scroller{
+          margin-top: 1.2rem;
           position: relative;
           display: flex;
           height: 35.5rem;
@@ -635,15 +639,15 @@ export default {
           position: relative;
           background: #FAFAFA;
           border-radius: 32px;
-          padding: 2rem 9.3rem 2.3rem 4.4rem;
-          margin-top: 2.4rem;
+          padding: 3rem 12rem 2.3rem 4.4rem;
+          margin-top: 4.8rem;
           
           .insight-title-blue,.insight-title-red{
             font-family: 'Ubuntu-M';
-            font-size: 2.2rem;
-            line-height: 2.5rem;
-            letter-spacing: 0.6875px;
-            
+            font-size: 2rem;
+            line-height: 3.0rem;
+            letter-spacing: 0.04rem;
+            max-width: 60rem;
           }
           .insight-title-blue {color: #1B75AD;}
           .insight-title-red{color: #A50E07;}
@@ -652,10 +656,10 @@ export default {
               margin-top: 0.6rem;
             }
             margin-top: 1.5rem;
-            font-family: 'Source Sans Pro-I';
-            font-size: 2rem;
-            line-height: 2.6rem;
-            letter-spacing: 0.644444px;
+            font-family: 'Open Sans-I';
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            letter-spacing: 0.04rem;
             color: #4A4A4A;
           }
         }
@@ -680,7 +684,7 @@ export default {
         }
       }
     }
-    #synthesis>p:nth-of-type(1){ margin-top: 1.1rem; }
+    #synthesis>p:nth-of-type(1){ margin-top: 3.6rem; }
     #synthesis>p:nth-of-type(2){
       margin-top: 1.6rem;
     }
@@ -694,7 +698,7 @@ export default {
       #design-challenge-img-1{margin-top: 4.8rem; margin-bottom: 12rem;}
       #design-challenge-img-2{margin-top: 4.8rem; margin-bottom: 9.1rem;}
       #click-benefit{
-        font-family: 'Source Sans Pro-I';
+        font-family: 'Open Sans-I';
         text-align: center;
         letter-spacing: 0.942222px;
         color: #9E9E9E;
@@ -721,11 +725,11 @@ export default {
       .prototyping-subtitle{@include black-subtitle(); margin-top: 6.3rem; margin-bottom: 3.5rem;}
       #scenarios{
         .scenario-title{
-          font-family: 'Source Sans Pro-B';
-          font-size: 2.6rem;
+          font-family: 'Open Sans-B';
+          font-size: 2.2rem;
           line-height: 3.3rem;
           text-align: start;
-          letter-spacing: 0.8125px;
+          letter-spacing: 0.04rem;
           color: #4A4A4A;
           margin-bottom: 1.2rem;
         }
@@ -744,8 +748,8 @@ export default {
       #wireframe{
         .wireframe-list-item{
           .wireframe-subtitle{
-            font-family: 'Source Sans Pro-SB';
-            font-size: 2.4rem;
+            font-family: 'Open Sans-SB';
+            font-size: 2rem;
             line-height: 2.8rem;
             letter-spacing: 0.533333px;
             color: #4A4A4A;
@@ -761,7 +765,7 @@ export default {
         #wireframe-img-3{ width: 75.3rem; }
         #wireframe-img-4{ width: 91.3rem; margin-left: 3.8rem;}
         #complete-wireframe-link{
-          font-family: 'Source Sans Pro-I';
+          font-family: 'Open Sans-I';
           font-size: 1.6rem;
           line-height: 1.9rem;
           text-align: center;
@@ -788,7 +792,7 @@ export default {
       // padding-bottom: 19rem;
       #final-design-title{@include gray-title()}
       p#note{
-        font-family: 'Source Sans Pro-I';
+        font-family: 'Open Sans-I';
         font-size: 1.6rem;
         line-height: 1.9rem;
         letter-spacing: 0.942222px;
@@ -831,7 +835,7 @@ export default {
           top:16.8rem;
           span{
             display: block;
-            font-family: 'Source Sans Pro-SBI';
+            font-family: 'Open Sans-SBI';
             font-size: 21px;
             line-height: 25px;
             letter-spacing: 0.466667px;
