@@ -141,7 +141,7 @@ export default {
 
 #main {
   /* position: relative; */
-  font-family: "Open Sans";
+  font-family: "Open Sans-R";
   width: 100%;
 }
 </style>

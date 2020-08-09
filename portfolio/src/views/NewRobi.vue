@@ -21,7 +21,7 @@
       <div id='my-role'>
         <p id='my-role-title'>My Role</p>
         <p id='my-role-left'>
-          I led our group to complete the UX design and the subsequent game development as the scrum master.
+          I led our group to complete the <span class="bold">UX design</span> and the subsequent <span class="bold">game development</span> as the <span class="bold">scrum master</span>.
         </p>
         <p id="my-role-right">
           <ul>
@@ -36,7 +36,7 @@
         <div class="info">Duration:  2 months</div> 
         <div class="info">Tools: Sketch, Unity, Illustrator, After Effects.</div>
         <div class="info">Collaborators: Dachang Liu, Jan Doring, Jay Zhu</div>
-        <div id="overview-content">Our team is responsible for the design and development of the learning experience in a series of K-12 Artificial Intelligence courses, which were created by IfCreate and the College of Design & Innovation, Tongji University. The program was intended to engage earlier grade students in the basic concepts of Artificial Intelligence. The course envisions a future where students will develop a foundation of computational thinking and AI. </div>
+        <div id="overview-content">Our team is responsible for the design and development of the <span class="bold">learning experience in a series of K-12 Artificial Intelligence courses</span>, which were created by IfCreate and the College of Design & Innovation, Tongji University. The program was intended to <span class="bold">engage earlier grade students</span> in the basic concepts of Artificial Intelligence. The course envisions a future where students will develop a foundation of <span class="bold">computational thinking and AI</span>. </div>
         <div id="overview-footnote">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div>
       </div>
       <div class="row splitter justify-center"><img :src='require("@/assets/img/robi-splitter.svg")' alt=""></div>
@@ -149,10 +149,10 @@
       <div id="research-1">
         <div class="row align-items-center research-title">
           <span>1</span>
-          <h4>What do parents expect children to learn?</h4>
+          <h4>What do <span class="green">parents</span> expect children to learn?</h4>
         </div>
         <p>While our end users are children, the most important stakeholder is their parents, who typically have control over their children's extracurricular activities.</p>
-        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a card-sorting exercise where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
+        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a <span class="green">card-sorting</span> exercise where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
         <div id='insights'>Insights</div>
         <div class="row">
           <div class='insights'>
@@ -175,9 +175,9 @@
       <div id="research-2">
         <div class="row align-items-start research-title">
           <span>2</span>
-          <h4 style="margin-top: 0.7rem;">Learning characteristic in related extracurricular courses</h4>
+          <h4 style="margin-top: 0.7rem;"><span class="green">Learning characteristic</span> in related extracurricular courses</h4>
         </div>
-        <p style="margin:2.2rem 0 2.7rem">In order to understand the current study situation, we interviewed five groups of parents. At the same time, we conducted observations, both in the programming classes and in the experimental AI course which our lab is teaching (without using our product platform)</p>
+        <p style="margin:2.2rem 0 2.7rem">In order to understand the current study situation, we conducted <span class="green">contextual interviews</span> with five groups of parents. At the same time, we conducted <span class="green">observations</span>, both in the programming classes and in the experimental AI course which our lab is teaching (without using our product platform).</p>
         <div class="row align-left"><img :src='require("@/assets/img/Group 37.svg")' alt=""></div>
         <div class="row align-right"><img :src='require("@/assets/img/Group 38.svg")' alt="" style="margin-top: 0.8rem;"></div>
         <div class="row align-left"><img :src='require("@/assets/img/Group 39.svg")' alt="" style="margin-top: -0.575rem;"></div>
@@ -188,16 +188,16 @@
       <div id="research-3">
         <div class="row align-items-center research-title">
           <span>3</span>
-          <h4>Which learning strategy is most effective for kids?</h4>
+          <h4>Which <span class="green">learning strategy</span> is most effective for kids?</h4>
         </div>
-        <p style="margin-top:2.5rem;">We conducted <span class="green">expert interviews</span> and <span class="green">literature review</span> to explore the children's learning model. During our discussion with Jerry Dong, a learning expert, he claimed that <span class="bold">children would “absorb” new knowledge by fitting it into their existing schemas. Learners could build connections between the new knowledge and their prior knowledge to reach the state of equilibrium, the new schemas. </span></p>
+        <p style="margin-top:2.5rem;">We conducted <span class="green">expert interviews</span> and <span class="green">literature review</span> to explore the children's learning model. During our discussion with Jerry Dong, a learning expert, he claimed that children would <span class="bold">“absorb” new knowledge by fitting it into their existing schemas.</span> Learners could <span class="bold">build connections</span> between the new knowledge and their prior knowledge <span class="bold"> to reach the state of equilibrium, the new schemas.</span> </p>
         <img :src='require("@/assets/img/Group 43.svg")' alt="" style="margin:4.8rem auto">
         <p>Based on our <span class="green">background research</span>, traditional AI instructions are <span class="bold">heavy on math notations</span>, and most of the <span class="bold">examples are unfamiliar to children</span>. To facilitate the above connection process, we need to address this issue thoroughly.</p>
       </div>
     </div>
     <div class="container" id='design-challenges'>
       <h1 style="margin:10rem auto 3.5rem">Design Challenges</h1>
-      <p>With all the insights from research in mind,  we started to define the design challenges. Here is the big picture of the learning content in thie module. </p>
+      <p>With all the insights from research in mind,  we started to define the design challenges. Here is the <span class="bold">big picture</span> of the learning content in thie module. </p>
       <img :src='require("@/assets/img/Group 44.svg")' alt="" class='img-center' style='margin-top:3.6rem;margin-bottom:4.6rem'>
       <p>The practice we need to design should scaffold learners in identifying the conceptual knowledge of each element as well as the overall process as portrayed above. Thus, </p>
       <img :src='require("@/assets/img/Group 46.svg")' alt="" class="img-center" style="margin-top:38px">
@@ -210,7 +210,7 @@
     <div class="gray-bg" id='ideation'>
       <div class="container" style="display: flex;flex-direction: column;align-items: center;">
         <h1>Ideation</h1>
-        <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we brainstormed elements that can help children learn basic AI concepts in a motivating way.</p>
+        <p>After reviewing the existing resources on science education in general and AI education in particular, including books and learning products, we <span class="green">brainstormed</span> elements that can help children <span class="bold">learn basic AI concepts in a motivating way.</span></p>
         <img :src='require("@/assets/img/Group 48.svg")' alt="" style="margin-top:3.7rem; margin-bottom:4.2rem">
         <p>Finally, after the <span class="green">voting session</span>, we decided to <span class="bold">develop a game-like learning practice where the main character</span>, consistent with the AI theme, is a <span class="bold">robot agent</span>. Inspired also by the concept of virtual pets, we set the primary goal of the game to be "<span class="bold">teaching little Robi how to take care of himself.</span>"</p>
       </div>
@@ -218,7 +218,7 @@
     <div class="container" id='prototyping' style="padding: 14.4rem 0 11rem;display: flex;flex-direction: column;align-items: center;">
       <h1 style="margin:0">Prototyping</h1>
       <div style='margin:10.6rem auto 3.5rem' class="black-center">Paper Prototype</div>
-      <p>Then Jan and I quickly came up with a rough paper prototype about teaching a robot to take care of himself. We recruited two kids and several novices (people who do not have background in computer science-related areas).</p>
+      <p>Then Jan and I quickly came up with a rough <span class="green">paper prototype</span> about <span class="bold">teaching a robot to take care of himself</span>. We recruited two kids and several novices (people who do not have background in computer science-related areas) for the first user testing.</p>
       <img :src='require("@/assets/img/Group 49.svg")' alt="" class="img-center" style="margin:4.5rem auto 4.8rem">
       <p style="align-self: start;">Here is the main <span class="bold">feedback</span> we got from the first user test:</p>
       <img :src='require("@/assets/img/Group 50.svg")' alt="" style="margin-top:3.6rem">
@@ -230,17 +230,17 @@
     <div class="gray-bg" id="midfi">
       <div class="container">
         <div class="black-center">Mid-fi Prototype</div>
-        <p style="margin:3.8rem auto 4.8rem">While our visual designer was working on illustration and animation, Jan and I started to make a medium-fidelity prototype based on previous feedback. Since it was hard for us to recruit more kids, in this round, we conducted more prototype testing with high-school students, who were novices as well.  Here are some <span class="bold">key improvements we made in this iteration: </span></p>
+        <p style="margin:3.8rem auto 4.8rem">While our visual designer was working on illustration and animation, Jan and I started to make a <span class="green">mid-fidelity prototype</span> based on previous feedback. Since it was hard for us to recruit more kids, in this round, we conducted more prototype testing with high-school students, who were novices as well.  Here are some <span class="bold">key improvements we made in this iteration: </span></p>
         <div class="midfi-iter">
           <div style="width:42.6rem;position:absolute">
-            <p class='midfi-title'><span class="green bold">#1 Feedback Improvement</span></p>
+            <p class='midfi-title'><span class="">#1 Feedback Improvement</span></p>
             <p>When Robi takes action, it will generate a memory block that contains the values, action, and permission. There is also a memory stack for learners to trace back all the data. (which acts like training dataset)</p>
           </div>
           <img :src='require("@/assets/img/Group 52.svg")' alt="" style="margin-top:4.6rem;margin-left:-0.5rem;">
         </div>
         <div class="midfi-iter" style="margin-top:5.4rem;">
           <div style="width:403px;position:absolute">
-            <p class='midfi-title'><span class="green bold">#2 Instructional Text Adjustment</span></p>
+            <p class='midfi-title'><span class="">#2 Instructional Text Adjustment</span></p>
             <p>We clarified the instructional texts and made them more conversational to promote the psychological engagement of learners better.</p>
           </div>
           <img :src='require("@/assets/img/Group 54.svg")' alt="" style="margin-top:3.4rem">
@@ -248,12 +248,12 @@
         <div class="row" style="margin:5.4rem -1.2rem 0">
           <div class="midfi-iter">
             <img :src='require("@/assets/img/robis_room-07.png")' alt="">
-            <p class='midfi-title' style="margin-top:2.8rem"><span class="green bold">#3 Inclusion of Validation Stage</span></p>
+            <p class='midfi-title' style="margin-top:2.8rem"><span class="">#3 Inclusion of Validation Stage</span></p>
             <p>We added an automatic validation stage where Robi acts according to the training he received. This stage also makes the overall process closer to actual machine learning.</p>
           </div>
           <div class="midfi-iter">
             <img :src='require("@/assets/img/robis_room-08.png")' alt="">
-            <p class='midfi-title' style="margin-top:2.8rem"><span class="green bold">#4 Additional Guidance and Instruction</span></p>
+            <p class='midfi-title' style="margin-top:2.8rem"><span class="">#4 Additional Guidance and Instruction</span></p>
             <p>We added some guidance and instruction at the beginning of each stage. </p>
           </div>
         </div>
@@ -326,7 +326,7 @@ export default {
     selected:'mockup',
     swipper_imgs:{
       Mockup:['gallery_c_1.jpg','gallery_c_2.jpg','gallery_c_3.jpg','gallery_c_4.png','gallery_c_5.jpg'],
-      Note:['','gallery_b_2.png','gallery_b_4.png','gallery_b_3.png','']
+      Note:['','gallery_b_2.png','gallery_b_3.png','gallery_b_4.png','']
     }
   }),
   methods:{
@@ -377,13 +377,14 @@ export default {
 }
 .SSP-bold{
   font-family: 'Open Sans-B';
+  color: #000;
 }
 .text{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-size: 1.8rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #000000;
+  color: #404040;
 }
 #Robi{
   width: 100%;
@@ -430,6 +431,12 @@ h4{
 .midfi-title{
   font-size: 2rem !important;
   line-height: 3rem !important;
+  font-family: 'Open Sans-B';
+  color: #50C7AA;
+}
+.midfi-title > span {
+  font-family: 'Open Sans-B';
+  color: #189779;
 }
 p{
   margin: 0.7rem 0;;
@@ -442,7 +449,7 @@ p{
   margin-top: 20rem;
 }
 #my-role{
-  margin-top: 6.4rem;
+  margin-top: 9rem;
 }
 #my-role-title{
   display: block !important;
@@ -469,7 +476,7 @@ p{
 }
 #my-role-right li::before{
   content: "\2022";
-  color: #D8D8D8;
+  color: #50C7AA;
   font-size: 2.4rem;
   margin-right: 0.7rem;
 }
@@ -525,7 +532,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-style: normal;
   font-weight: bold;
   font-size: 1.3rem;
@@ -615,11 +622,11 @@ p{
   padding-bottom: 10rem;
 }
 #research-1 p,#research-1 .content, #research-2 p, #research-3 p, .container p{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-size: 1.7rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #000000;
+  color: #404040;
   margin: 0.9rem 0;
 }
 .research-title{
@@ -644,11 +651,11 @@ p{
 }
 #three-questions p{
   margin: 1.4rem 0 1.4rem 2.8rem;
-  font-family: 'Open Sans-R';
+  font-family: 'Open Sans-SB';
   font-size: 2rem;
   line-height: 2.6rem;
-  letter-spacing: 0.06875rem;
-  color: #4A4A4A;
+  letter-spacing: 0.04rem;
+  color: #404040;
   width: 42.4rem;
   /* font-weight: 600; 加了太粗，不加太细 */
 }
@@ -724,11 +731,11 @@ p{
 #final-launch-content{
   margin-top: 5.3rem;
   width: 86.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-size: 1.7rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #000000;
+  color: #404040;
 }
 .green{
   color: #189779;
@@ -756,11 +763,11 @@ p{
   width: 41.3rem;
 }
 .solution-content{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-size: 1.7rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #4A4A4A;
+  color: #404040;
 }
 .solution-title{
   font-family: 'Open Sans-B';
@@ -792,13 +799,13 @@ p{
   margin-top: 1.8rem;
 }
 #Overview>div.info,#Overview>#overview-content{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-style: normal;
   font-weight: normal;
   font-size: 1.7rem;
   line-height: 2.8rem;
   letter-spacing: 0.04rem;
-  color: #000;
+  color: #404040;
 }
 #Overview{
   margin-top: 5.5rem;
@@ -807,16 +814,17 @@ p{
   margin-top: 1.7rem;
   width:42.8rem;
   height:9.6rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-style: normal;
   font-weight: normal;
   font-size: 1.8rem;
   line-height: 2.6rem;
   letter-spacing: 0.04rem;
-  color: #4A4A4A;
+  color: #404040;
 }
 .bold{
   font-family: 'Open Sans-B';
+  color: #000;
 }
 .highlight{
   background: #F8DA06;

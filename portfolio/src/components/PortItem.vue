@@ -148,7 +148,7 @@ export default {
   width: 41.9rem;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-style: normal;
   font-weight: normal;
   font-size: 1.6rem;

@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <Banner height="350px" backgroundColor="rgba(255,210,119,0.14)"/>
+    <Banner height="330px" backgroundColor="rgba(255,210,119,0.14)"/>
     <div class="row" id="hr-1">
       <span class="line left-line"></span>
       <span class="blank-line"></span>
@@ -69,6 +69,9 @@ export default {
   props: {
   },
   methods: {
+  },
+  mounted() {
+    this.$sw.refresh()
   }
 }
 </script>

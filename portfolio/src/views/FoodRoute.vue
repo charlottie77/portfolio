@@ -324,11 +324,11 @@ export default {
     max-width: 85.7rem;
     margin: 11.7rem auto 0;
     p{
-      font-family: 'Open Sans';
+      font-family: 'Open Sans-R';
       font-size: 1.7rem;
       line-height: 2.8rem;
       letter-spacing: 0.04rem;
-      color: #4A4A4A;
+      color: #404040;
       margin-block-start: 0;
       margin-block-end: 0;
     }
@@ -373,15 +373,15 @@ export default {
       #answer{
         max-width: 43.1rem;
         margin-top: 1.2rem;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans-R';
         font-size: 1.7rem;
         line-height: 2.8rem;
         letter-spacing: 0.04rem;
-        color: #000;
+        color: #404040;
       }
     }
     #my-role{
-      margin-top: 6rem;
+      margin-top: 9rem;
       #my-role-title{
         font-family: 'Ubuntu-Bold';
         font-size: 2.4rem;
@@ -403,11 +403,11 @@ export default {
             list-style: none;
             padding-left: 0;
             li{
-              font-family: 'Open Sans';
+              font-family: 'Open Sans-R';
               font-size: 1.7rem;
               line-height: 2.8rem;
               letter-spacing: 0.04rem;
-              color: #000;
+              color: #404040;
             }
           }
           li::before{
@@ -431,16 +431,16 @@ export default {
       #overview-summary{
         margin-top: 1.3rem;
         p{
-          font-family: 'Open Sans';
+          font-family: 'Open Sans-R';
           font-size: 1.7rem;
           line-height: 2.8rem;
           letter-spacing: 0.04rem;
-          color: #000;
+          color: #404040;
         }
       }
       #overview-detail{
         margin-top: 2.4rem;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans-R';
         font-size: 1.7rem;
         line-height: 2.8rem;
         letter-spacing: 0.04rem;
@@ -513,11 +513,11 @@ export default {
         color: #FFFFFF;
       }
       p{
-        font-family: 'Open Sans';
+        font-family: 'Open Sans-R';
         font-size: 1.7rem;
         line-height: 2.8rem;
         letter-spacing: 0.04rem;
-        color: #000;
+        color: #404040;
       }
       #final-design-1{
         margin-top: 9.3rem;
