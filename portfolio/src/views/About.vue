@@ -124,13 +124,13 @@ export default {
 }
 .detail-line{
   overflow-wrap: break-word;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans-R';
   font-style: normal;
   font-weight: normal;
   font-size: 1.7rem;
   line-height: 2.6rem;
   letter-spacing: 0.04rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 .detail-line:nth-of-type(2){
   margin-top: 14px;
@@ -196,7 +196,8 @@ export default {
 }
 
 .about-bold {
-  font-family: 'Open Sans-SB';
+  font-family: 'Open Sans-B';
+  color: #000;
 }
 
 #cmu-link {
