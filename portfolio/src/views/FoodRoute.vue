@@ -318,11 +318,11 @@ export default {
     Banner,
     OnTopTools,
   },
-  beforeCreate: function(){
-    if(_isMobile()) {
-      this.$router.replace('/m-food-route');
-    }
-  },
+  // beforeCreate: function(){
+  //   if(_isMobile()) {
+  //     this.$router.replace('/m-food-route');
+  //   }
+  // },
 }
 </script>
 

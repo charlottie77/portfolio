@@ -316,9 +316,9 @@ export default {
     Banner,
   },
   beforeCreate: function(){
-    if(!_isMobile()) {
-      this.$router.replace('/robi');
-    }
+    
+      this.$router.replace('/food-route');
+    
   },
 }
 </script>
