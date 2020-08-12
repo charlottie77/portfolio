@@ -16,7 +16,8 @@
       <div class="row">
         <div class="item-detail">
           <div class="name" :style="styleSetting.detail.projectName">{{projectName}}</div>
-          <div class="subtitle" :style="styleSetting.detail.projectSubtitle">{{subtitle}}</div>
+          <!-- <div class="subtitle" :style="styleSetting.detail.projectSubtitle">{{subtitle}}</div> -->
+          <div class="subtitle">{{subtitle}}</div>
           <div class="item-params">
             <div class="outcome"><label for="">Outcome:</label>{{params.outcome}}</div>
             <div class="client"><label for="">Client: </label>{{params.client}}</div>
@@ -163,7 +164,7 @@ export default {
 }
 .detail .item-img>img{
   height: 27rem;
-  width: 28rem;
+  width: 28.5rem;
 }
 .hr{
   /* border: 1px solid #D2D2D2; */

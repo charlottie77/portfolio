@@ -105,7 +105,32 @@ export default {
           detail:{
             projectName:{},
             projectSubtitle:{color: '#1B75AD'},
-            tag:{background: '#F3FAFD', color: '#1B75AD'}
+            tag:{},
+            // tag:{background: '#F3FAFD', color: '#1B75AD'}
+          }
+        }
+      },
+      {
+        projectName: 'Smart Node',
+        projectDiscription: 'A web programming tool for coding novices to build open-source hardware maker projects in a visual and low-coding way.',
+        simpleImgSrc: require('@/assets/img/sn_illu.svg'),
+        detailImgSrc: require('@/assets/img/sn_mock_small.png'),
+        subtitle: 'How might we provide more development aids for coding novice to help with their design and innovation of the open-source hardware project? ',
+        params:{
+          outcome: 'A visual web programming tool for coding novices. ',
+          client: 'Shanghai IfCreate Edu Tech',
+          myrole: 'Front-End Developer (Full-Time)',
+          duration: '4 months'
+        },
+        tags:['Front-End Development','Visual Programming Tool'],
+        link:'/smart-node',
+        styleSetting:{
+          simple:{},
+          detail:{
+            projectName:{},
+            projectSubtitle:{color: '#1B75AD'},
+            tag:{},
+            // tag:{background: '#F3FAFD', color: '#1B75AD'}
           }
         }
       }

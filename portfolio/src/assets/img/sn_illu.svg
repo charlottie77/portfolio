@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="267px" viewBox="0 0 265 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="36" y="0" width="67" height="134" rx="7"></rect>
+        <filter x="-30.6%" y="-11.6%" width="161.2%" height="130.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.288655698   0 0 0 0 0.56455189   0 0 0 0 0.886238694  0 0 0 0.420997509 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="210" y="58" width="67" height="98" rx="7"></rect>
+        <filter x="-30.6%" y="-15.8%" width="161.2%" height="141.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.721193016   0 0 0 0 0.912749648   0 0 0 0 0.527202904  0 0 0 0.647729846 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="79" y="168" width="67" height="75" rx="7"></rect>
+        <filter x="-30.6%" y="-20.7%" width="161.2%" height="154.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.314369351   0 0 0 0 0.8883757   0 0 0 0 0.759899616  0 0 0 0.460626132 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-836.000000, -187.000000)">
+            <g id="graph" transform="translate(812.000000, 194.000000)">
+                <g id="Rectangle-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#B9EF83" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Rectangle-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#50E3C2" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <path d="M101,39 C101,39 128.276982,74.6962532 163.130621,74.6962532 C197.984259,74.6962532 211,91 211,91" id="Path-2" stroke="#AFAFAF" stroke-width="4"></path>
+                <path d="M144,190 C144,190 167.961419,183.72428 186.548426,158.307571 C205.135432,132.890863 212,107 212,107" id="Path-2" stroke="#AFAFAF" stroke-width="4"></path>
+                <circle id="Oval" fill="#545454" cx="101" cy="38" r="4"></circle>
+                <circle id="Oval" fill="#545454" cx="212" cy="91" r="4"></circle>
+                <circle id="Oval-Copy" fill="#545454" cx="212" cy="108" r="4"></circle>
+                <circle id="Oval-Copy" fill="#545454" cx="145" cy="190" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
