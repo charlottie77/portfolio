@@ -23,14 +23,63 @@
       </div>
       <div id="demo">
          <div id="demo-title">Online Demo (Chinese)</div>
+         <div id="demo-link">
+           <a target="_blank" rel="noopener" href="https://dognan.gitee.io/test/#/playground/1"><p>https://dognan.gitee.io/test/#/playground/1 </p></a>
+         </div>
       </div>
      
-      <div id="question"><img :src='require("@/assets/img/sn_ps_dot.svg")' alt="" id="bullet"><span>How might we provide more development aids for coding novice to help with their design and innovation of the open-source hardware project? </span></div>
        <div class="row" id='sn-mock-line-1' >
         <img :src='require("@/assets/img/sn_mock_s_1.png")'>
         <img :src='require("@/assets/img/sn_mock_s_2.png")'>
         <img :src='require("@/assets/img/sn_mock_s_3.png")'>
       </div>
+
+      <img :src='require("@/assets/img/sn-splitter.svg")' alt="" class="img-center" id="splitter-1">
+
+      <div id="final-design-1">
+        <div id="fd1-title">Final Product</div>
+        <p>In the maker learning process, the novices, such as primary students and designers,  always spend a lot of time on the line-by-line coding or debugging but feel frustrated because they are lack of programming knowledge. Thus, we designed and built SmartNode to provide development aids. Thus, the problem statement is:</p>
+        <div id="fd1-ps">
+           <img  :src='require("@/assets/img/sn_ps.svg")' />
+        </div>
+        <p>Using SmartNode, by dragging, dropping and connecting the nodes, novices can do programming for their maker project in a visual and “light on coding” way. The learning with SmartNode is clearer and more straightforward. Students can do technical innovation with lower barrier. </p>
+        <div id="fd1-curated-list">
+          <div class="fd1-cl-item">
+            <div class="fd1-cli-title">
+              <span>1</span>
+              <label>Login & Browse project</label>
+            </div>
+            <img class="fd1-cli-gif" :src='require("@/assets/img/sn_mock_s_1.png")'/>
+          </div>
+          <div class="fd1-cl-item">
+            <div class="fd1-cli-title">
+              <span>2</span>
+              <label>Maker Toolbox</label>
+            </div>
+            <img class="fd1-cli-gif" :src='require("@/assets/img/sn_mock_s_1.png")'/>
+            <p>With the toolbox, student can browse the connected hardware, add new hardware, and use grammar blocks for advanced programming.</p>
+          </div>
+          <div class="fd1-cl-item">
+            <div class="fd1-cli-title">
+              <span>3</span>
+              <label>Visual Programming</label>
+            </div>
+            <img class="fd1-cli-gif" :src='require("@/assets/img/sn_mock_s_1.png")'/>
+            <p>Students can do visual programming by dragging, dropping and connecting the hardware/grammer nodes in the canvas. </p>
+          </div>
+          <div class="fd1-cl-item">
+            <div class="fd1-cli-title">
+              <span>4</span>
+              <label>Test & Debug</label>
+            </div>
+            <img class="fd1-cli-gif" :src='require("@/assets/img/sn_mock_s_1.png")'/>
+            <p>After building a complete flow, students can click “test” to see the values flowing.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="question"><img :src='require("@/assets/img/sn_ps_dot.svg")' alt="" id="bullet"><span>How might we provide more development aids for coding novice to help with their design and innovation of the open-source hardware project? </span></div>
       
       <div id="overview">
         <div id="overview-title">Overview</div>
@@ -43,7 +92,7 @@
           This project is based on my course project of Interaction Design Overview course in CMU, 2019. Our group (four people) conducted generative design research within the scope of food truck service on the campus of CMU. Due to a switch in our course project after the ideation phase, I finished the remaining design work on my own, including sketch, wireframes, hi-fi prototype, and user testing. 
         </p>
       </div>
-      <img :src='require("@/assets/img/foodrouter-splitter.svg")' alt="" class="img-center" id="splitter-1">
+    
       <div id="background">
         <div id="background-title">Background</div>
         <p><span class="bold">Food Trucks are an important part of the CMU dining experience.</span> There are several popular food trucks in and around CMU campus, such as Tartan Express, Taco Food Truck, and Indian on Wheels. </p>
@@ -57,52 +106,7 @@
           </div>
         </div>
       </div>
-      <div id="final-design">
-        <div id="final-design-title">Final Design</div>
-        <div class="row" id='final-design-1'>
-          <div class="col-12"><img :src='require("@/assets/img/FR_final-design-1.svg")' alt=""></div>
-          <div class="col-12">
-            <div class="final-design-item-title"><span class="finaldesign-title-idx">1</span> Plan FoodRoute</div>
-            <div class="final-design-item-subtitle">Quick Campus POI</div>
-            <p>Users can plan FoodRoute by entering a starting point and destination via quick campus POI.</p>
-            <div class="final-design-item-subtitle">Plan vs. Food ASAP</div>
-            <p>Using the segmented controls, users can switch between two modes for different scenarios, including planning ahead and Food ASAP. </p>
-          </div>
-        </div>
-        <div class="row" id='final-design-2'>
-          <div class="col-12"><img :src='require("@/assets/img/FR_final-design-2.svg")' alt=""></div>
-          <div class="col-12">
-            <div class="final-design-item-title"><span class="finaldesign-title-idx">2</span>Browse Food Truck & Menu</div>
-            <p>Users can browse food trucks based on the various factors of interest, such as <span class="bold"> special cuisine options, time estimates, featured foods. </span>  These factors also <span class="bold">connect with food truck owners’ values </span> because they want to be special and meet students' needs. </p>
-          </div>
-        </div>
-        <div class="row" id='final-design-3'>
-          <div class="col-12"><img :src='require("@/assets/img/FR_final-design-3.svg")' alt=""></div>
-          <div class="col-12">
-            <div class="final-design-item-title"><span class="finaldesign-title-idx">3</span>Follow FoodRoute</div>
-            <p>After planning, users can follow the food route through several steps, such as departing, going to the food truck, picking up, and completing. The transition will automatically be trigged to make the dining experience smoother. </p>
-          </div>
-        </div>
-        <div class="row" id='final-design-4'>
-          <div class="col-12"><img :src='require("@/assets/img/FR_final-design-4.svg")' alt=""></div>
-          <div class="col-12">
-            <div class="final-design-item-title"><span class="finaldesign-title-idx">4</span>Quick Feedback</div>
-            <p>FoodRoute encourages users to provide feedback by making it <span class="bold"> simple </span> (only three questions) and <span class="bold"> offering coupons to motivate</span> users.  </p>
-            <p>In this way, <span class="bold"> users become the value creators </span> by providing data valuable for both CMU students and food truck owners. </p>
-          </div>
-        </div>
-        <div class="row" id="final-pro">
-          <div class="fp-subtitle">Hi-fi Prototype</div>
-          <div class="fp-arrow-check">
-            <img :src='require("@/assets/img/download.png")' alt=""/>
-            <label>Check the clickable prototype here</label>
-          </div>
-          <div class="fp-figma">
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="375" height="840" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVtrzvKULOlMf98OcxXVbRb%2Ffood-route-final-prototype%3Fnode-id%3D1%253A6%26viewport%3D362%252C467%252C0.05300828069448471%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
-          </div>
-          <a target="_blank" rel="noopener" href="https://www.figma.com/proto/VtrzvKULOlMf98OcxXVbRb/food-route-final-prototype?node-id=1%3A6&viewport=201%2C454%2C0.05433259904384613&scaling=min-zoom"><button class="fp-btn">Open In New Tab</button></a>
-        </div>
-      </div>
+     
     </div>
     <img :src='require("@/assets/img/FR-bg-splitter.svg")' alt="" id='bg-splitter'>
     <div id="how-did">How did I get there?</div>
@@ -467,6 +471,83 @@ export default {
       #demo-title {
         @include black-subtitle();
       }
+      #demo-link {
+        margin-top: 3.6rem;
+        padding: 1.6rem 5.2rem;
+        
+        a{
+          background-color: #F2F8F7;
+          display: flex;
+          justify-content: center;
+          padding: 1.6rem 0rem;
+          border-radius: 0.6rem;
+          text-decoration-color: #41988E;
+          p{
+            font-size: 2rem;
+            font-family: 'Open Sans-SB';
+            color: #41988E;
+          }
+        }
+        
+      }
+    }
+    #final-design-1 {
+      margin-top: 16rem;
+      #fd1-title {
+        @include gray-title();
+        margin-bottom: 3.6rem;
+      }
+      #fd1-ps {
+        margin-top: 4.6rem;
+        margin-bottom: 4.6rem;
+        display: flex;
+        justify-content: center;
+      }
+      #fd1-curated-list{
+        margin-top: 6.4rem;;
+      }
+      #fd1-curated-list {
+        .fd1-cl-item{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 10rem;
+          .fd1-cli-title{
+            display: flex;
+            span{
+              width: 2.6rem;
+              height: 2.6rem;
+              background: #41988E;
+              border-radius: 1.3rem;
+
+              font-family: 'Open Sans-B';
+              font-size: 1.8rem;
+              line-height: 2.3rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              letter-spacing: 0.4px;
+              color: #FFFFFF;
+              margin-right: 1.2rem;
+            }
+            label{
+              font-family: 'Open Sans-BI';
+              font-size: 2.6rem;
+              line-height: 3rem;
+              letter-spacing: 0.577778px;
+              color: #41988E;
+            }
+          }
+          p{
+            width: 80%;
+          }
+          .fd1-cli-gif{
+            margin-top: 2.4rem;
+            width: 85%;
+          }
+        }
+      }
+
     }
     #overview{
       margin-top: 6rem;
@@ -519,135 +600,7 @@ export default {
         
       }
     }
-    #final-design{
-      margin-top: 24.4rem;
-      #final-design-title{@include gray-title()}
-      .final-design-item-title{
-        position: relative;
-        margin-bottom: 1.2rem;
-        font-family: 'Open Sans-BI';
-        font-size: 2.6rem;
-        line-height: 3rem;
-        letter-spacing: 0.577778px;
-        color: #1E96CB;
-      }
-      .final-design-item-subtitle{
-        margin-bottom: 0.5rem;
-        font-family: 'Ubuntu-M';
-        font-size: 2rem;
-        line-height: 2.3rem;
-        letter-spacing: 0.625px;
-        color: #4A4A4A;
-      }
-      .row .col-12:nth-child(1) img{
-        float: right;
-        margin-right: 1.2rem;
-      }
-      .finaldesign-title-idx{
-        position: absolute;
-        left: -3rem;
-
-        width: 2.6rem;
-        height: 2.6rem;
-        background: #1E96CB;
-        border-radius: 1.3rem;
-
-        font-family: 'Open Sans-B';
-        font-size: 1.8rem;
-        line-height: 2.3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        letter-spacing: 0.4px;
-        color: #FFFFFF;
-      }
-      p{
-        font-family: 'Open Sans-R';
-        font-size: 1.7rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.04rem;
-        color: #404040;
-      }
-      #final-design-1{
-        margin-top: 9.3rem;
-        .col-12:nth-child(2){
-          padding-top: 19.3rem;
-          div:nth-of-type(3){ margin-top: 2.1rem;}
-        }
-        
-      }
-      #final-design-2{
-        margin-top: 12rem;
-        .col-12:nth-child(2){
-          padding-top: 8.2rem;
-        }
-      }
-      #final-design-3{
-        margin-top: 16.4rem;
-        .col-12:nth-child(2){
-          padding-top: 0.3rem;
-        }
-      }
-      #final-design-4{
-        margin-top: 17rem;
-        .col-12:nth-child(2){
-          padding-top: 2.4rem;
-        }
-        p:nth-of-type(2){
-          margin-top: 2.6rem;
-        }
-      }
-      #final-pro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 12rem;
-        .fp-subtitle{
-          @include black-subtitle()
-        }
-        .fp-arrow-check{
-          display: flex;
-          align-items: center;
-          margin-top: 2.4rem;
-          margin-bottom: 1.2rem;
-          img {
-            width: 1.5rem;
-            margin-right: 1.2rem;
-          }
-          label {
-            font-family: 'Open Sans-I';
-            font-size: 1.7rem;
-            line-height: 2.8rem;
-            letter-spacing: 0.04rem;
-            color: #1B75AD;
-          }
-
-        }
-        a {
-          text-decoration: none;
-        }
-        .fp-btn{
-          margin-top: 3.6rem;
-          width: 25rem;
-          height: 5rem;
-          border-radius: 1.7rem;
-          background-color: #BDE6F7;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-family: 'Ubuntu-Bold';
-          font-size: 1.8rem;
-          color: #1B75AD;
-          
-          border:none;
-
-        }
-        .fp-btn:hover{
-            background-color: #1B75AD;
-            color: #fff;
-          }
-      }
-    }
+    
     #generative-research{
       #generative-research-title{
         @include gray-title();

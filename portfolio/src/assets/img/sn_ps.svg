@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="532px" height="148px" viewBox="0 0 532 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-455.000000, -2336.000000)">
+            <g id="编组" transform="translate(454.000000, 2336.000000)">
+                <g id="blob-shape-(2)" transform="translate(195.000000, 0.000000)" fill="#70BDB4" fill-opacity="0.45" fill-rule="nonzero" opacity="0.395810082">
+                    <path d="M110.67322,12.146801 C121.853872,19.7953215 130.653955,31.0076688 136.511761,43.7003748 C142.396315,56.420495 145.338592,70.6209739 143.412738,84.0812735 C141.486884,97.568987 134.666151,110.289107 125.411353,120.295236 C116.156554,130.301365 104.440943,137.620917 91.41468,142.44579 C78.4151655,147.298077 64.1317483,149.655686 50.6775182,146.694968 C37.2500361,143.734251 24.6517411,135.427793 15.8516583,124.215446 C7.07832334,113.003098 2.07645252,98.8574475 0.525070124,84.5198983 C-1.02631227,70.154935 0.846045791,55.6254875 6.32938011,42.5489847 C11.8127144,29.4724818 20.933773,17.8763378 32.542393,10.4197157 C44.151013,2.96309355 58.2204464,-0.35400674 72.0491481,0.0297899882 C85.8778497,0.413586716 99.4658197,4.49828047 110.67322,12.146801 Z" id="路径"></path>
+                </g>
+                <text id="How-might-we-provide" font-family="Ubuntu-Medium, Ubuntu" font-size="22" font-weight="400" line-spacing="28" letter-spacing="0.48125" fill="#41988E">
+                    <tspan x="0.48925" y="49">How might we provide more development aids for </tspan>
+                    <tspan x="37.852125" y="77">coding novice to help with their design and </tspan>
+                    <tspan x="6.958625" y="105">innovation of the open-source hardware project? </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
