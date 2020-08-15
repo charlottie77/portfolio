@@ -295,14 +295,14 @@
       </div>
       <img :src='require("@/assets/img/foodrouter-splitter.svg")' alt="" class="img-center" id="splitter-2">
     </div>
-    <!-- <div class="container">
-      <div id="next-block" @click='route_to("/food-route")'>
+    <div class="container">
+      <div id="next-block" @click='route_to("/smart-node")'>
         <div class="hr"></div>
-        <div id="next-project-title">Food Route</div>
-        <div id="next-project-description">A mobile app plans the food truck dining route for busy CMU students.</div>
+        <div id="next-project-title">Smart Node</div>
+        <div id="next-project-description">A visual web programming tool for coding novices.</div>
         <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn.svg")' alt=""></span>
       </div>
-    </div> -->
+    </div>
     <OnTopTools themeColor='#1B75AD' heightToShow='332' :navOnly='false' activeSpan='work'/>
   </div>
 </template>
@@ -318,6 +318,11 @@ export default {
     Banner,
     OnTopTools,
   },
+  methods: {
+    route_to: function(url){
+      this.$router.push(url)
+    }
+  }
   // beforeCreate: function(){
   //   if(_isMobile()) {
   //     this.$router.replace('/m-food-route');

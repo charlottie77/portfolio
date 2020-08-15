@@ -130,7 +130,7 @@
       </div>
      
     </div>
-    <OnTopTools themeColor='#1B75AD' heightToShow='332' :navOnly='false' activeSpan='work'/>
+    <OnTopTools themeColor='#41988E' heightToShow='332' :navOnly='false' activeSpan='work'/>
   </div>
 </template>
 
