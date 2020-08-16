@@ -10,6 +10,7 @@ import MobileRobi from './views/MobileRobi'
 import FoodRoute from './views/FoodRoute'
 import MobileFoodRoute from './views/MobileFoodRoute'
 import SmartNode from './views/SmartNode'
+import AcronisLearning from './views/AcronisLearning'
 
 Vue.use(Router)
 
@@ -50,6 +51,11 @@ export default new Router({
       path:'/smart-node',
       name: 'smart-node',
       component: SmartNode
+    },
+    {
+      path:'/acronis-learning',
+      name: 'acronis-learning',
+      component: AcronisLearning
     },
     {
       path: '/about',

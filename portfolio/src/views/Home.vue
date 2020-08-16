@@ -64,11 +64,34 @@ export default {
     simpleView: true,
     projectList:[
       {
+        projectName: 'Acronis Learning',
+        projectDiscription: 'Improving the efficiency & learner engagement in Acronis software training.',
+        simpleImgSrc: require('@/assets/img/al-list-logo.png'),
+        detailImgSrc: require('@/assets/img/al-list-detail.png'),
+        subtitle: 'How might we improve the efficiency & learner engagement in Acronis software training? ',
+        params:{
+          outcome: '5-15 hours flexible training with focus on real work needs. ',
+          client: 'Acronis, Capstone Project',
+          myrole: 'Product Designer & Manager',
+          duration: '8 months'
+        },
+        tags:['B2B','Desktop','Learning Platform'],
+        link:'/acronis-learning',
+        styleSetting:{
+          simple:{},
+          detail:{
+            projectName:{},
+            projectSubtitle:{},
+            tag:{}
+          }
+        }
+      },
+      {
         projectName: 'Robi’s Room',
-        projectDiscription: 'A game-like practice to teach the concepts of “Machine could learn”.',
+        projectDiscription: 'Delivering the concepts of “Machine can learn” to kids in a motivating way. ',
         simpleImgSrc: require('@/assets/img/work_list_illu.png'),
         detailImgSrc: require('@/assets/img/wdi_mockup.png'),
-        subtitle: 'How might we help kids to understand the concepts of “Machine could learn” in a motivating way? ',
+        subtitle: 'How might we help kids to understand the concepts of “Machine can learn” in a motivating way? ',
         params:{
           outcome: 'A game-like practice launched to scaffold AI trial course in Shanghai. ',
           client: 'Design & Innovation College, Tonjig University; If create Edu Tech. ',
@@ -88,7 +111,7 @@ export default {
       },
       {
         projectName: 'Food Route',
-        projectDiscription: 'A mobile app plans the food truck dining route for busy CMU students.',
+        projectDiscription: 'Planning the food truck dining route for busy CMU students.',
         simpleImgSrc: require('@/assets/img/food-route-simple.svg'),
         detailImgSrc: require('@/assets/img/food_route_detail.png'),
         subtitle: 'How might we incorporate the food truck visiting into the daily route of CMU students with tight schedules?',
@@ -98,7 +121,7 @@ export default {
           myrole: 'UX Researcher, UX/UI Designer',
           duration: '1.5 months'
         },
-        tags:['Mobile App Design','UX Design'],
+        tags:['Mobile App Design','Service Design'],
         link:'/food-route',
         styleSetting:{
           simple:{},
@@ -112,7 +135,7 @@ export default {
       },
       {
         projectName: 'Smart Node',
-        projectDiscription: 'A web programming tool for coding novices to build open-source hardware maker projects in a visual and low-coding way.',
+        projectDiscription: 'Providing visual development aids for better design & innovation in Maker Education. ',
         simpleImgSrc: require('@/assets/img/sn_illu.svg'),
         detailImgSrc: require('@/assets/img/sn_mock_small.png'),
         subtitle: 'How might we provide more development aids for coding novice to help with their design and innovation of the open-source hardware project? ',
