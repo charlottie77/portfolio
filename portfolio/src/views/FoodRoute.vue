@@ -163,20 +163,19 @@
           <div id="owner-insights-title">Insights from <span class="red-text"> Food Truck Owner </span></div>
           <div class="insight-row coulmn" style="margin-top:1.2rem">
             <img :src='require("@/assets/img/owner-insights-1.svg")' alt="" class="insight-img">
-            <div class="insight-title-red">Due to students' tight schedules, waiting in a long line at a food truck is not feasible. </div>
-            <p>“ Yes, sometimes you have to wait for a pretty long time to get the food. Sometimes it takes 20 minutes to get the food. ” </p>
-            <p>I will see it. If the line is too long, I will change to another place definitely. </p>
+            <div class="insight-title-red">“We try to meet their needs and schedule.” </div>
+            <p> “…I understand CMU students. My kid is in college as well. They only have 20-30mins between the classes. So we try to meet their needs and schedule. ”</p>
           </div>
           <div class="insight-row coulmn">
             <img :src='require("@/assets/img/owner-insights-2.svg")' alt="" class="insight-img">
-            <div class="insight-title-red">“I don’t have too much time and mind in deciding which food truck or place to go to.”</div>
-            <p>“… lunch is not about picking something they enjoy, but a routine task I need to finish ASAP. ”</p>
+            <div class="insight-title-red">The primary value of food truck owners is to be special, providing more choices to be different, and keeping customers exciting. </div>
+            <p>“Now, my goal is to provide a different menu for lunch and dinner. I want to keep customers exciting.”</p>
+            <p>“We decide to do it differently because there are over 21 restaurants on campus, we want to be different. “</p>
           </div>
           <div class="insight-row coulmn">
             <img :src='require("@/assets/img/owner-insights-3.svg")' alt="" class="insight-img">
-            <div class="insight-title-red">Students valued the most that food trucks could provide special cuisine options, such as vegetarian or Indian foods. </div>
-            <p>“It is the only Mediterranean food place on campus.”</p>
-            <p>“I have dietary restrictions, and the food in school doesn’t have too many vegetarian options.”</p>
+            <div class="insight-title-red">There is little communication between food truck staff and customers.  </div>
+            <p>As to the owner and employees, their main pain point is that it is hard to get feedback from customers. With feedbacks, they could improve their service effectively. Customers are busy buying foods or waiting in the line browsing mobile phone or chatting with friends. There is barely any communication between these two sides. </p>
           </div>
         </div>
       </div>

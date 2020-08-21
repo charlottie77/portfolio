@@ -38,26 +38,48 @@
               <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.  </p>
             </div>
             <div class="mrs-item">
-              <label>INSIGHTS & IDEATION</label>
-              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.  </p>
+              <label>SCOPE DEFINATION</label>
+              <p>As a designer and also the product manager, I defined the product with one researcher and one designer. Based on client’s requirements and priority, I negotiated features for our design phrase.   </p>
             </div>
           </div>
           <div class="mrs-row">
             <div class="mrs-item">
-              <label>INSIGHTS & IDEATION</label>
-              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.  </p>
+              <label>DESIGN EXECUTION & VALIDATION</label>
+              <p>I designed the experience of learner side solo and designed the hands-on lab part with one designer collaboratively. I executed journeys, stakeholder maps, wireframes, and prototypes.   </p>
             </div>
             <div class="mrs-item">
-              <label>INSIGHTS & IDEATION</label>
-              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.  </p>
+              <label>CONSOLIDATION & DESIGN SYSTEM</label>
+              <p> I built the information architecture of learner side and designed the overall navigation for the whole platform, including both learner and trainer side. I consolidated and built the design system for our project iteratively.   </p>
             </div>
           </div>
         </div>
+        <div>
+          <p>Duration:  8 months 
+          <p>Tools: Figma, Illustrator, iMovie </p>
+          <p>Collaborators: Estelle Jiang, Chuyao Hua, Ruwen You, Gautam Yadav.  </p>
+          <!-- <div class="note">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div> -->
+        </div>
 
+        <img :src='require("@/assets/img/al-splitter.svg")' alt="" class="img-center" id="splitter-1">
+        
+        <div id="nda">
+          <label>To comply with my <span class="blue-text">non-disclosure agreement</span>, The complete case study would only be shared with potential recruiters. </label>
+          <label>Contact me for it if you are intereseted!</label>
+        </div>
+
+        <div class="row" id="gallery">
+          <img :src='require("@/assets/img/al_gallery_pic.png")' >
+        </div>
+
+        <div class="container">
+        <div id="next-block" @click='route_to("/robi")'>
+          <div class="hr"></div>
+          <div id="next-project-title">Robi’s Room</div>
+          <div id="next-project-description">A game-like activity to teach the concepts of “Machine can learn”.</div>
+          <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn-blue.svg")' alt=""></span>
+        </div>
       </div>
-
-      
-     
+      </div>
     </div>
     <OnTopTools themeColor='#0D44CC' heightToShow='332' :navOnly='false' activeSpan='work'/>
   </div>
@@ -74,6 +96,11 @@ export default {
     Banner,
     OnTopTools,
   },
+  methods: {
+    route_to: function(url){
+      this.$router.push(url)
+    }
+  }
   // beforeCreate: function(){
   //   if(_isMobile()) {
   //     this.$router.replace('/m-food-route');
@@ -109,6 +136,16 @@ export default {
 }
 .green-text {
   color: #41988E;
+}
+.blue-text {
+  color: #0D44CC;
+}
+
+.note {
+  margin-top: 2.4rem;
+  font-family: 'Charter';
+  color: #979797;
+  font-size: 1.6rem;
 }
 
 #acronis-learning{
@@ -197,6 +234,14 @@ export default {
     #splitter-1{
       margin-top: 13.9rem;
     }
+    #gallery {
+      position: relative;
+      left: calc( 50% - 96rem);
+      width: 100%;
+      img {
+        width: 192rem;
+      }
+    }
 
     #my-role {
       margin-top: 10rem;
@@ -234,15 +279,40 @@ export default {
       #mr-sub4 {
         display: flex;
         flex-direction: column;
+        margin-top: 2.4rem;
         .mrs-row{
           display: flex;
           .mrs-item {
             flex:1;
+            margin-top: 2.4rem;
+            margin-right: 1.2rem;
+            label {
+              font-size: 1.7rem;
+              color: #0D44CC;
+              font-family: 'Open Sans-SB';
+            }
           }
         }
       }
+      #nda {
+        display: flex;
+       align-items: center;
+        margin-top: 4.8rem;
+        flex-direction: column;
+        margin-bottom: 12rem;
+        label {
+          font-size: 2.0rem;
+          font-family: 'Ubuntu';
+          line-height: 3.2rem;
+          width: 50%;
+          text-align: center;
+          margin-top: 2.4rem;
+        }
+        
+      }
       
     }
+    
    
     
     
@@ -279,7 +349,7 @@ export default {
       font-size: 1.8rem;
       line-height: 2.3rem;
       letter-spacing: 0.56px;
-      color: #45B6E8;
+      color: #9BB6FB;
       margin-top: 1.6rem;
     }
   }
