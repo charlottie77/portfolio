@@ -59,26 +59,48 @@
           <p>Collaborators: Estelle Jiang, Chuyao Hua, Ruwen You, Gautam Yadav.  </p>
           <!-- <div class="note">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div> -->
         </div>
-
-        <img :src='require("@/assets/img/al-splitter.svg")' alt="" class="img-center" id="splitter-1">
-        
-        <div id="nda">
-          <label>To comply with my <span class="blue-text">non-disclosure agreement</span>, The complete case study would only be shared with potential recruiters. </label>
-          <label>Contact me for it if you are intereseted!</label>
-        </div>
-
-        <div class="row" id="gallery">
-          <img :src='require("@/assets/img/al_gallery_pic.png")' >
-        </div>
-
-        <div class="container">
-        <div id="next-block" @click='route_to("/robi")'>
-          <div class="hr"></div>
-          <div id="next-project-title">Robi’s Room</div>
-          <div id="next-project-description">A game-like activity to teach the concepts of “Machine can learn”.</div>
-          <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn-blue.svg")' alt=""></span>
-        </div>
       </div>
+
+       
+        
+      <!-- <div id="nda">
+        <label>To comply with my <span class="blue-text">non-disclosure agreement</span>, The complete case study would only be shared with potential recruiters. </label>
+        <label>Contact me for it if you are intereseted!</label>
+      </div> -->
+      <div id="overview">
+        <div id="overview-title">Overview</div>
+        <div id="over-sec1">
+          <div class="os-title">01 Initial Challenge</div>
+          <p>How to improve their current Acronis Certified Engineer Training (I will call it ACE training) generally?</p>
+          <img :src='require("@/assets/img/al_over_arrow_1.svg")' alt="" />
+        </div>
+        <div id="over-sec2">
+          <div class="os-title">02 What is current training?</div>
+          <img :src='require("@/assets/img/al_over_sec_2.svg")' alt="" />
+        </div>
+        <div id="over-sec3">
+          <div class="os-title">03 Design Challenge</div>
+          <img :src='require("@/assets/img/al_over_sec_3.svg")' alt="" />
+        </div>
+        <div id="over-sec4">
+          <div class="os-title">04 Final Deliverable</div>
+          <img :src='require("@/assets/img/al_over_sec_4.svg")' alt="" />
+        </div>
+        
+
+      </div>
+
+      <div class="row" id="gallery">
+        <img :src='require("@/assets/img/al_gallery_pic.png")' >
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="next-block" @click='route_to("/robi")'>
+        <div class="hr"></div>
+        <div id="next-project-title">Robi’s Room</div>
+        <div id="next-project-description">A game-like activity to teach the concepts of “Machine can learn”.</div>
+        <span id="next-btn">NEXT <img :src='require("@/assets/img/next-project-btn-blue.svg")' alt=""></span>
       </div>
     </div>
     <OnTopTools themeColor='#0D44CC' heightToShow='332' :navOnly='false' activeSpan='work'/>
@@ -294,21 +316,76 @@ export default {
           }
         }
       }
-      #nda {
-        display: flex;
-       align-items: center;
-        margin-top: 4.8rem;
-        flex-direction: column;
-        margin-bottom: 12rem;
-        label {
-          font-size: 2.0rem;
-          font-family: 'Ubuntu';
-          line-height: 3.2rem;
-          width: 50%;
-          text-align: center;
-          margin-top: 2.4rem;
+      
+    }
+    #overview {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10rem;
+        #overview-title {
+          @include gray-title();
+          margin-bottom: 4.8rem;
         }
-        
+        .os-title {
+          font-size: 2.2rem;
+          font-family: 'Open Sans-B';
+          color: #717171;
+          text-align: center;
+          margin-bottom: 2.4rem;
+        }
+        #over-sec1, #over-sec2, #over-sec3, #over-sec4 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #over-sec1 {
+          // width: 50%;
+          p {
+            text-align: center;
+            width: 60%;
+            margin-bottom: 1.2rem;
+          }
+          img {
+            margin-top: 3.6rem;
+            margin-bottom: 3.6rem;
+          }
+        }
+        #over-sec2 {
+          img {
+            margin-top: 3.6rem;
+            margin-bottom: 3.6rem;
+            position: relative;
+            left: -3.7rem;
+          }
+        }
+        #over-sec3 {
+          img {
+            margin-top: 5.2rem;
+            margin-bottom: 3.6rem;
+          }
+        }
+        #over-sec4 {
+          img {
+            margin-top: 2.4rem;
+            margin-bottom: 5.2rem;
+          }
+        }
+    }
+    #nda {
+      display: flex;
+      align-items: center;
+      margin-top: 4.8rem;
+      flex-direction: column;
+      margin-bottom: 12rem;
+      label {
+        font-size: 2.0rem;
+        font-family: 'Ubuntu';
+        line-height: 3.2rem;
+        width: 50%;
+        text-align: center;
+        margin-top: 2.4rem;
       }
       
     }

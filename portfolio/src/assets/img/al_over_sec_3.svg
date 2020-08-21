@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="371px" height="286px" viewBox="0 0 371 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-2----Design-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-533.000000, -3110.000000)">
+            <g id="编组-16" transform="translate(524.000000, 3110.000000)">
+                <text id="executed-design" font-family="Charter-Italic, Charter" font-size="18" font-style="italic" font-weight="normal" letter-spacing="0.5625" fill="#979797">
+                    <tspan x="229" y="217">executed </tspan>
+                    <tspan x="229" y="239">design</tspan>
+                </text>
+                <g id="编组-3">
+                    <text id="How-might-we-improve" font-family="Ubuntu-Medium, Ubuntu" font-size="22" font-weight="400" line-spacing="28" letter-spacing="0.48125" fill="#0D44CC">
+                        <tspan x="52.467" y="54">How might we improve the </tspan>
+                        <tspan x="8.808" y="82">efficiency &amp; learner engagement in </tspan>
+                        <tspan x="55.31875" y="110">Acronis software training?</tspan>
+                    </text>
+                    <path d="M234.978912,12.3109469 C246.392495,20.0628258 255.375913,31.4266913 261.355756,44.2909204 C267.362905,57.1829341 270.36648,71.5753114 268.400504,85.2175069 C266.434528,98.8874869 259.471696,111.779501 250.024089,121.920847 C240.576483,132.062194 228.616795,139.480659 215.319153,144.370733 C202.048815,149.288592 187.467826,151.67806 173.7333,148.677333 C160.026079,145.676605 147.165319,137.257898 138.181901,125.894033 C129.225788,114.530167 124.119712,100.193359 122.536009,85.6620591 C120.952306,71.1029747 122.863672,56.3771832 128.461242,43.1239709 C134.058813,29.8707586 143.369893,18.11791 155.220359,10.5605227 C167.070826,3.00313536 181.433372,-0.358790615 195.550172,0.0301925556 C209.666972,0.419175726 223.538024,4.55906804 234.978912,12.3109469 Z" id="路径" fill="#1051F4" fill-rule="nonzero" opacity="0.0745210193"></path>
+                </g>
+                <g id="编组-3" transform="translate(195.500000, 228.500000) scale(1, -1) translate(-195.500000, -228.500000) translate(182.000000, 172.000000)" stroke="#1051F4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.2" stroke-width="2">
+                    <path d="M6.89742371,12 L7,112" id="直线-4"></path>
+                    <path d="M21,12 L21,112" id="直线-4"></path>
+                    <polyline id="路径-6" points="-1.13686838e-13 22.4243349 13.3974237 0 26.9921395 22.4243349"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
