@@ -9,7 +9,7 @@
         <div id="home-text-div">
           <label class="htd-1">Hi, I am</label>
           <label class="htd-2">Yuqing Guo</label>
-          <label class="htd-3">a technical UX designer.</label>
+          <label class="htd-3">a technical designer with passion for UX & Product design. </label>
         </div>
         <div id='simpleview-toggle' @click='toggleSimpleView()'>
           <svg :class="{filled:!simpleView}"  width="30" height="30" viewBox="-4 -4 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" >

@@ -35,21 +35,21 @@
           <div class="mrs-row">
             <div class="mrs-item">
               <label>INSIGHTS & IDEATION</label>
-              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.  </p>
+              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.   </p>
             </div>
             <div class="mrs-item">
               <label>SCOPE DEFINATION</label>
-              <p>As a designer and also the product manager, I defined the product with one researcher and one designer. Based on client’s requirements and priority, I negotiated features for our design phrase.   </p>
+              <p>As a designer and also the product manager, I defined the product with one researcher and one designer. Based on the client’s requirements and priority, I negotiated features for our design phrase.    </p>
             </div>
           </div>
           <div class="mrs-row">
             <div class="mrs-item">
               <label>DESIGN EXECUTION & VALIDATION</label>
-              <p>I designed the experience of learner side solo and designed the hands-on lab part with one designer collaboratively. I executed journeys, stakeholder maps, wireframes, and prototypes.   </p>
+              <p>I led and executed the product design of the learner side platform solely. Meanwhile, I designed the hands-on lab part with another designer, collaboratively. I built user journeys, stakeholder maps, wireframes, and prototypes.    </p>
             </div>
             <div class="mrs-item">
               <label>CONSOLIDATION & DESIGN SYSTEM</label>
-              <p> I built the information architecture of learner side and designed the overall navigation for the whole platform, including both learner and trainer side. I consolidated and built the design system for our project iteratively.   </p>
+              <p> I built the information architecture of the learner side and designed the overall navigation for the whole platform, including both learner and trainer side. I consolidated and built the design system for our project iteratively.    </p>
             </div>
           </div>
         </div>
@@ -83,16 +83,122 @@
           <img :src='require("@/assets/img/al_over_sec_3.svg")' alt="" />
         </div>
         <div id="over-sec4">
-          <div class="os-title">04 Final Deliverable</div>
-          <img :src='require("@/assets/img/al_over_sec_4.svg")' alt="" />
+          <div class="os-title" >04 Final Deliverable</div>
+          <img style="position: relative; width: 87.1rem" :src='require("@/assets/img/al_over_sec_4.png")' alt="" />
         </div>
         
 
       </div>
+    </div>
+    
+      <div class="row" id="gallery-1">
+        <img :src='require("@/assets/img/al_over_small_gallery.png")' >
+      </div>
+    <div class='container'>
+      <div id="final-design-showcase">
+        <div id="fds-learner-title">
+          <div class="fdslt-1">Learner Side</div>
+          <div class="fdslt-2">(My focus)</div>
+        </div>
+        <div class="fds-item">
+          <div class="fdi-title" style="margin-top: 1.2rem;">
+              <span>1</span>
+              <label>Learning Path</label>
+          </div>
+            <img class="fdi-gif" :src='require("@/assets/img/First_Time.png")' style="position: relative; width: 96rem;"/>
+            <p>When learners start the trainer, Acronis Learning will recommend a learning path for them to follow and finish the training on time. They can customized the path and ask for trainer’s permission.</p>
+        </div>
+        <div class="fds-item">
+          <div class="fdi-title">
+              <span>2</span>
+              <label>Personalized Homepage</label>
+          </div>
+            <img class="fdi-gif" :src='require("@/assets/img/al_gif_1.gif")'/>
+            <p>In the homepage, after seeing the personalized welcome, learners can keep track of their training progress via in-progress card, overall progress, and learning path. There are also additinal materials offering freedom for learners to explore more related topics.</p>
+        </div>
+        <div class="fds-item">
+          <div class="fdi-title">
+              <span>3</span>
+              <label>Bite-Sized Elements</label>
+          </div>
+            <img class="fdi-gif" :src='require("@/assets/img/al_gif_2.gif")'/>
+            <p>Each learning element is bite-sized to decrease the cognitive overload. To be more flexible and efficient, learners can also use the side drawer to switch between different modules and learning elements. </p>
+        </div>
+        <div class="fds-item">
+          <div class="fdi-title">
+              <span>4</span>
+              <label>Hands-On Lab</label>
+          </div>
+            <div class="fdsi-sub-title">Real Work Scenario</div>
+            <img class="fdi-gif" :src='require("@/assets/img/al_gif_3.gif")'/>
+            <p>Learners will go to real work scenarios in each hands-on lab where they need to solve authentic problems for their virtual customers. It simulates the tasks that learners will face in day-to-day work.  </p>
 
-      <div class="row" id="gallery">
+            <div class="fdsi-sub-title" style="margin-top: 8.4rem;">Step by step lab with Immediate Feedback</div>
+            <img class="fdi-gif" :src='require("@/assets/img/al_gif_4.gif")'/>
+            <p>The hands-on lab provides a step-by-step walkthrough of how to solve the real-work problem with immediate feedback.  </p>
+            
+            <div class="fdsi-sub-title" style="margin-top: 8.4rem;">Just-in-time Instruction</div>
+            <img class="fdi-gif" :src='require("@/assets/img/al_gif_5.gif")'/>
+            <p>Acronis Learning provides just-in-time instruction via annotation tips. Also, if learners take more than three incorrect attempts, the platform will provide video instruction to show them how to complete this step.   </p>
+ 
+            <div class="fdsi-sub-title" style="margin-top: 8.4rem; ">Review</div>
+            <img class="fdi-gif" style="position: relative; width: 96rem;" :src='require("@/assets/img/al_review.png")'/>
+            <p>After finishing the task, learners will review the learning objectives and all the steps. Each step is curated by screenshots and highlighted correct actions in a magnifying lens way.  </p>
+        </div>
+        <div id="fds-learner-title" style="margin-top: 11rem;">
+          <div class="fdslt-1">Trainer Side</div>
+          <div class="fdslt-2">(Estelle & Chuyao's focus)</div>
+        </div>
+        <div class="fds-item">
+          <div class="fdi-title" style="margin-top: 1.2rem;">
+              <span>5</span>
+              <label>Trainer Dashboard</label>
+          </div>
+            <img class="fdi-gif" style="position: relative; width: 108.8rem; border: none;" :src='require("@/assets/img/al_dashboard.png")'/>
+            <p>Trainer dashboard provides the visualization of data in all different granularity, including training, module, and lab level.  </p>
+        </div>
+        <div id="fds-learner-title" style="margin-top: 12rem;">
+          <div class="fdslt-1">Design System</div>
+          <div class="fdslt-2">(My focus)</div>
+        </div>
+        <div class="fds-item"  style="margin-bottom: 12rem;">
+            <img class="fdi-gif" style="position: relative; width: 96rem; border: none" :src='require("@/assets/img/al_design_sys.png")'/>
+            <p>I consolidated and built the design system for both sides iteratively. Check the complete design system <a target="_blank" rel="noopener" href="https://www.figma.com/proto/xdUmhLMyCxzxtXiGV0QTKV/System?node-id=1%3A4&viewport=758%2C306%2C0.19736886024475098&scaling=min-zoom">here</a>  </p>
+        </div>
+
+        
+
+
+      </div>
+      <div id="concept-video">
+        <div>Concept Video</div>
+        <label>Youtube</label>
+        <iframe width="862" height="485" src="https://www.youtube.com/embed/lFdL57xFqJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <label>Bilibili</label>
+       <iframe width="862" height="485" src="//player.bilibili.com/player.html?aid=201864992&bvid=BV11h41197zU&cid=227411662&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <p>Contact me via Email (yuqingg@andrew.cmu.edu) if you want to check a clickable prototype.</p>
+      </div>
+      <div id="impact-overview">
+        <div id="io-title">Impact Overview</div>
+        <p>The most prioritized goal for Acronis Learning is to improve efficiency. In other words, shorten the 15 hours of learning time. In our final design, we make the 15-hour passive learning into 5-15 hours of flexible training with well-designed hands-on labs.  </p>
+        <div id="io-1">
+          <img :src='require("@/assets/img/al_impact_effi.svg")'/>
+        </div>
+        <p>We conducted task-based final usability testing to evaluate users’ overall satisfaction. We asked participants filled out surveys after each task and all four tasks. Besides, we also conducted 6 final heuristic evaluation with Acronis experts, including trainers, designers, PM, etc.  </p>
+        <div id="io-2">
+           <img :src='require("@/assets/img/al_impact_usability.svg")'/>
+            <img :src='require("@/assets/img/al_impact_heu.svg")'/>
+        </div>
+      </div>
+
+
+      
+    </div>
+    <div class="row" id="gallery">
         <img :src='require("@/assets/img/al_gallery_pic.png")' >
       </div>
+    <div id="more">
+       <img :src='require("@/assets/img/al_more.svg")' >
     </div>
 
     <div class="container">
@@ -148,6 +254,29 @@ export default {
   letter-spacing: 0.75px;
   color: #4A4A4A;
 }
+
+@mixin normal-text {
+  font-family: 'Open Sans-R';
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.04rem;
+  color: #404040;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+@mixin in-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cl-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bold{
   font-family: 'Open Sans-B';
   color: #000;
@@ -256,14 +385,7 @@ export default {
     #splitter-1{
       margin-top: 13.9rem;
     }
-    #gallery {
-      position: relative;
-      left: calc( 50% - 96rem);
-      width: 100%;
-      img {
-        width: 192rem;
-      }
-    }
+   
 
     #my-role {
       margin-top: 10rem;
@@ -373,6 +495,112 @@ export default {
           }
         }
     }
+    #gallery-1 {
+      position: relative;
+      left: calc( 50% - 96rem);
+      img {
+        width: 192rem;
+      }
+    }
+    #final-design-showcase{
+      margin-top: 10rem;
+      #fds-learner-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3.6rem;
+        .fdslt-1 {
+          @include black-subtitle();
+        }
+        .fdslt-2 {
+          @include normal-text();
+        }
+      }
+      .fds-item {
+        @include in-flex-col();
+        margin-bottom: 3.6rem;
+        .fdi-gif{
+          border: solid 1px #dcdcdc;
+        }
+        .fdsi-sub-title {
+          font-size: 2rem;
+          font-family: 'Open Sans-B';
+          color: #346EFF;
+          text-align: center;
+          margin-top: 4.8rem;
+          margin-bottom: 1.2rem;
+        }
+        .fdi-title{
+          display: flex;
+          margin-bottom: 2.8rem;
+          margin-top: 6.4rem;
+            span{
+              width: 2.6rem;
+              height: 2.6rem;
+              background: #1051F4;
+              border-radius: 1.3rem;
+
+              font-family: 'Open Sans-B';
+              font-size: 1.8rem;
+              line-height: 2.3rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              letter-spacing: 0.4px;
+              color: #FFFFFF;
+              margin-right: 1.2rem;
+            }
+            label{
+              font-family: 'Open Sans-BI';
+              font-size: 2.6rem;
+              line-height: 3rem;
+              letter-spacing: 0.577778px;
+              color: #1051F4;
+            }
+            
+        }
+        p{
+          margin-top: 1.2rem;
+          width: 90%;
+        }
+      }
+    }
+    #concept-video {
+      @include in-flex-col();
+      div{
+        @include black-subtitle();
+        margin-bottom: 3.6rem;
+      }
+      iframe{
+        margin-bottom: 3.6rem;
+      }
+      p {
+        margin-bottom: 12rem;
+      }
+      label {
+        @include normal-text();
+      }
+    }
+    #impact-overview{
+      #io-title{
+        @include black-subtitle();
+        margin: 3.6rem 0;
+      }
+      #io-1, #io-2{
+        @include in-flex-col();
+      }
+      #io-1{
+        margin-top: 3.6rem;
+        margin-bottom: 3.6rem;
+      }
+      #io-2 {
+        margin-bottom: 12rem;
+        img{
+          margin: 3.6rem 0;
+        }
+      }
+    }
+    
     #nda {
       display: flex;
       align-items: center;
@@ -434,4 +662,16 @@ export default {
       cursor: pointer;
     }
 }
+#gallery, #gallery-1 {
+  img {
+    width: 100vw;
+    
+  }
+}
+#more{
+  @include in-flex-col();
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+    
 </style>

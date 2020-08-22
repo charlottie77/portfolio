@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="605px" height="83px" viewBox="0 0 605 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 51</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-2----Design-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2" transform="translate(-401.000000, -485.000000)">
+            <g id="编组-51" transform="translate(383.000000, 475.000000)">
+                <g id="编组-4">
+                    <g id="编组" fill="#888888">
+                        <text id="15" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" letter-spacing="0.705882353">
+                            <tspan x="53.1700942" y="32">15</tspan>
+                        </text>
+                        <text id="hous-passive-learnin" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.4">
+                            <tspan x="17.0460449" y="65">hous passive </tspan>
+                            <tspan x="36.5435547" y="88">learning</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-2" transform="translate(187.000000, 0.000000)">
+                        <text id="5-15" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" letter-spacing="0.705882353" fill="#0D44CC">
+                            <tspan x="39.07554" y="32">5-15</tspan>
+                        </text>
+                        <text id="hours-flexible-learn" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.4">
+                            <tspan x="12.629248" y="65" fill="#404040">hours </tspan>
+                            <tspan x="65.6308105" y="65" font-family="OpenSans-SemiBold, Open Sans" font-weight="500" fill="#1051F4">flexible</tspan>
+                            <tspan x="128.370752" y="65" fill="#404040"> </tspan>
+                            <tspan x="36.5435547" y="88" fill="#404040">learning</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-3" transform="translate(163.500000, 46.500000) scale(1, -1) rotate(-270.000000) translate(-163.500000, -46.500000) translate(153.000000, 23.000000)" stroke="#1051F4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.2" stroke-width="2">
+                        <path d="M5.89742371,9 L6,46" id="直线-4"></path>
+                        <path d="M15,9 L15,46" id="直线-4"></path>
+                        <polyline id="路径-6" points="0 18 10.423253 0 21 18"></polyline>
+                    </g>
+                </g>
+                <g id="编组-3" transform="translate(404.000000, 0.000000)">
+                    <text id="37%" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" letter-spacing="0.705882353" fill="#0D44CC">
+                        <tspan x="80.3039694" y="32">37%</tspan>
+                    </text>
+                    <text id="the-hands-on-lab-lea" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.4">
+                        <tspan x="3.95825195" y="65" fill="#404040">the</tspan>
+                        <tspan x="31.1313965" y="65" font-family="OpenSans-SemiBold, Open Sans" font-weight="500" fill="#1051F4"> hands-on lab</tspan>
+                        <tspan x="147.312842" y="65" fill="#404040"> learning </tspan>
+                        <tspan x="38.454248" y="88" fill="#404040">time increased by </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
