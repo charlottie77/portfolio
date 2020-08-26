@@ -787,7 +787,7 @@ p{
 }
 #Overview>#overview-footnote{
   margin: 1.2rem 0 14rem;
-  font-family: Charter;
+  font-family: 'Charter';
   font-style: italic;
   font-weight: normal;
   font-size: 1.4rem;

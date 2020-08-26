@@ -4,7 +4,7 @@
     local('Charter'),
     url('charter_regular.woff') format('woff');
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   text-rendering: optimizeLegibility;
 }
 
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: 'Charter';
+  font-family: 'Charter-B';
   src:
     local('Charter Bold'),
     url('charter_bold.woff') format('woff');
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: 'Charter';
+  font-family: 'Charter-BI';
   src:
     local('Charter Bold Italic'),
     url('charter_bold_italic.woff') format('woff');

@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div style="margin-top: 2.4rem;">
           <p>Duration:  8 months 
           <p>Tools: Figma, Illustrator, iMovie </p>
           <p>Collaborators: Estelle Jiang, Chuyao Hua, Ruwen You, Gautam Yadav.  </p>
@@ -197,9 +197,9 @@
     <div class="row" id="gallery">
         <img :src='require("@/assets/img/al_gallery_pic.png")' >
       </div>
-    <div id="more">
+    <!-- <div id="more">
        <img :src='require("@/assets/img/al_more.svg")' >
-    </div>
+    </div> -->
 
     <div class="container">
       <div id="next-block" @click='route_to("/robi")'>
