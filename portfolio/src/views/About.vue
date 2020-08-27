@@ -46,6 +46,16 @@
             <span class="contact-detail cd-divider">  |    </span>
             <span class="contact-detail"> <a target="_blank" rel="noopener" href="/Ch_Yuqing_resume.pdf">中文</a> </span>
           </div>
+          <div class="row" style="margin-top:1rem">
+            <span class="contact-method">Wechat</span>
+            <span class="contact-detail">yuqinguo76 
+              <span @click="toggleQRcode()" v-if="!showQRcode" id='qrcode-controller'><img :src='require("@/assets/img/icon_scan.svg")' alt="" id="qc-up"> Scan - 扫描</span>
+              <span @click="toggleQRcode()" v-if="showQRcode" id='qrcode-controller'><img :src='require("@/assets/img/icon_collapse.svg")' alt="" id="qc-up"> Collapse - 收起</span>
+            </span>
+          </div>
+          <div v-if="showQRcode" class="row imgcenter" style="margin-top:1rem">
+            <img id='qrcode' :src='require("@/assets/img/qrcode.png")' alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -68,7 +78,13 @@ export default {
   props: {
   },
   methods: {
+    toggleQRcode: function() {
+      this.showQRcode = !this.showQRcode
+    }
   },
+  data: () => ({
+    showQRcode: false
+  }),
   mounted() {
     this.$sw.refresh()
   }
@@ -81,7 +97,27 @@ export default {
 }
 </style>
 
+<style lang="scss" scoped>
+#qrcode{
+  width: 12.7rem;
+  margin-left: 11rem;
+}
+#qrcode-controller {
+  font-family: "Open Sans-R";
+  font-size: 1.6rem;
+  line-height:2.6rem;
+  letter-spacing: 0.04rem;
+  background: #F4EFEC;
+  border-radius: 2px;
+  padding: 0.3rem 1rem;
+  user-select: none;
+  &:hover{
+    cursor: pointer;
+  }
+}
+</style>
 <style scoped>
+
 .highlight{
   position: relative;
   cursor: default;
