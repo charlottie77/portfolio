@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="623px" height="97px" viewBox="0 0 623 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 18</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-2----Design-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2" transform="translate(-410.000000, -3663.000000)">
+            <g id="编组-18" transform="translate(410.000000, 3663.000000)">
+                <g id="编组-16">
+                    <g id="编组-9">
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="186" height="39" rx="10"></rect>
+                        <text id="15-hours,-3-days" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22.0614746" y="26">15 hours, 3 days</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-10" transform="translate(202.000000, 0.000000)">
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="134" height="39" rx="10"></rect>
+                        <text id="8-Modules" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22.0566895" y="26">8 Modules</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-11" transform="translate(352.000000, 0.000000)">
+                        <text id="1-Trainer-vs.-100-Le" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22.0868652" y="26">1 Trainer vs. 100 Learners</tspan>
+                        </text>
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="271" height="39" rx="10"></rect>
+                    </g>
+                </g>
+                <g id="编组-17" transform="translate(3.000000, 58.000000)">
+                    <g id="编组-12">
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="204" height="39" rx="10"></rect>
+                        <text id="Webinar-via-Zoom" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22" y="26">Webinar via Zoom</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-14" transform="translate(220.000000, 0.000000)">
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="241" height="39" rx="10"></rect>
+                        <text id="Voluntary-lab-practi" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22" y="26">Voluntary lab practice</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-13" transform="translate(477.000000, 0.000000)">
+                        <rect id="矩形" fill-opacity="0.1" fill="#1051F4" x="0" y="0" width="140" height="39" rx="10"></rect>
+                        <text id="Final-Exam" font-family="OpenSans-Bold, Open Sans" font-size="17" font-weight="bold" letter-spacing="0.4" fill="#404040">
+                            <tspan x="22" y="26">Final Exam</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

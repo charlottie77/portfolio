@@ -196,7 +196,59 @@
     </div>
     <div class="row" id="gallery">
         <img :src='require("@/assets/img/al_gallery_pic.png")' >
+    </div>
+    <div class="container">
+       <div id="how-did">
+         <label>How did I get there?</label>
+       </div>
+       <img :src='require("@/assets/img/al-splitter.svg")' alt="" class="img-center" id="splitter-1" style="margin-top: 8.4rem;">
+       <div id="research">
+         <div id="r-big-title">Research</div>
+         <div id="r-kick">
+           <div id="rk-title-1">
+             <label class="method-title">Kick-Off</label>
+             <label class="sub-title">Understand the 15-hour training</label>
+           </div>
+           
+           <p>In the Kick-Off meeting with Acronis, we got our inital problem space: Acronis is exploring how to improve their current Acronis Certified Engineer Training (I will call it ACE training) generally. For example, how to shorten the training time, strategically develop and document a general methodology for continuous improvement of the training, etc. They want a methodology or tool to be widely applicable to all Acronis’ courses related to cybersecurity for their diverse training programs.</p>
+           <div id="rk-photo">
+             <img :src='require("@/assets/img/al_r_kick_photo.png")'/>
+           </div>
+           <p>During the meeting, to get an overview of this big problem space, we started to understand the current ACE training experience. This is the current learning experience:</p>
+            <div id="rk-labels">
+             <img :src='require("@/assets/img/al_r_kick_labels.svg")'/>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="row" id="r-journey">
+       <img :src='require("@/assets/img/al_r_journey.svg")' >
+    </div>
+    <div id="r-get" class="gray-bg">
+      <div id="rg-inner">
+        <div id="rg-title-1">
+          <label class="method-title">Stakeholder Map, Contextual Interview, Market Research, & Literature Review </label>
+          <label class="sub-title">Get to know the design space in a generative way</label>
+        </div>
+        <p>While validating all the main pain points in the learner journey, we also started to map out the stakeholders. </p>
+        <div id="rg-map" >
+          <img :src='require("@/assets/img/al_r_get_map.svg")'/>
+        </div>
+        <p>With the rough stakeholder map above in mind, we started to conduct customer and market research to drive our planning phase. At the beginning, we recruited interviewees and designed protocols based on the groups we highlighted in the map to get more information.  </p>
+        <div id="rg-numbers">
+          <img :src='require("@/assets/img/al_r_get_numbers.svg")'/>
+        </div>
+        <p> On the other hand, we also started to do some market research and literature review.  </p>
+       
+      </div> 
+       <div id="rg-pages">
+        <img :src='require("@/assets/img/al_r_get_pages.png")'/>
       </div>
+    </div>
+
+
+
+
     <!-- <div id="more">
        <img :src='require("@/assets/img/al_more.svg")' >
     </div> -->
@@ -290,6 +342,22 @@ export default {
 }
 .blue-text {
   color: #0D44CC;
+}
+.method-title {
+  font-size: 1.8rem;
+  font-family: 'Ubuntu';
+  color: #7EA1F9;
+  line-height: 2.2rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.08rem;
+}
+.sub-title {
+  font-family: 'Ubuntu-M';
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #4A4A4A;
 }
 
 .note {
@@ -617,6 +685,33 @@ export default {
       }
       
     }
+    #research{
+      margin-top: 8.8rem;
+      #r-big-title {
+        @include gray-title();
+      }
+      #r-kick {
+        #rk-title-1{
+          margin-top: 7.2rem;
+          margin-bottom: 3.6rem;
+          @include in-flex-col();
+        }
+        #rk-photo {
+           @include in-flex-col();
+           margin-top: 3.6rem;
+           margin-bottom: 3.6rem;
+           img{
+             width: 60%;
+           }
+        }
+        #rk-labels {
+           margin-top: 3.6rem;
+           margin-bottom: 5.2rem;
+          @include in-flex-col();
+        }
+      }
+
+    }
     
    
     
@@ -661,17 +756,80 @@ export default {
     #next-block:hover{
       cursor: pointer;
     }
+    #gallery, #gallery-1 {
+      img {
+        width: 100vw;
+        
+      }
+    }
+    #how-did {
+      @include in-flex-col();
+      label {
+        font-size: 3.2rem;
+        color: #1051F4;
+        font-family: 'Ubuntu-BI';
+      }
+    }
+    #r-journey{
+      @include in-flex-col();
+      img{
+        width: 70%;
+      }
+
+    }
+    #r-get {
+      margin-top: 5.2rem;
+      padding-top: 10rem;
+      padding-bottom: 6rem;
+    p{
+      font-family: 'Open Sans-R';
+      font-size: 1.7rem;
+      line-height: 2.8rem;
+      letter-spacing: 0.04rem;
+      color: #404040;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+    #rg-inner {
+      margin: 0 auto 0;
+      max-width: 86.6rem;
+      #rg-title-1 {
+        margin-bottom: 3.6rem;
+        @include  in-flex-col();
+      }
+      #rg-map {
+        margin-top: 3.6rem;
+        margin-bottom: 3.6rem;
+        img{
+          width: 90rem;
+          position: relative;
+          left: -5rem;
+        }
+      }
+    }
+    #rg-pages {
+      @include in-flex-col();
+      margin-top: 3.6rem;
+      margin-bottom: 3.6rem;
+      img {
+        width: 123.7rem;
+
+      }
+    }
+    #rg-numbers{
+      margin-top: 5.4rem;
+      margin-bottom: 5.4rem;
+      @include in-flex-col();
+    }
+    }
 }
-#gallery, #gallery-1 {
-  img {
-    width: 100vw;
-    
-  }
-}
+
 #more{
   @include in-flex-col();
   margin-top: 12rem;
   margin-bottom: 12rem;
 }
+
+
     
 </style>
