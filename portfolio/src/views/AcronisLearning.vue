@@ -170,7 +170,7 @@
 
 
       </div>
-      <div id="concept-video">
+      <div class="concept-video">
         <div>Concept Video</div>
         <label>Youtube</label>
         <iframe width="862" height="485" src="https://www.youtube.com/embed/lFdL57xFqJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -245,6 +245,280 @@
         <img :src='require("@/assets/img/al_r_get_pages.png")'/>
       </div>
     </div>
+    <div class="container">
+      <div id="r-what">
+        <div id="rw-title-1">
+          <label class="method-title">Interpretation, Affinity Diagram, Insights, & Persona </label>
+          <label class="sub-title">What do learners and trainers want?</label>
+        </div>
+        <p>Given a huge amount of data, we conducted interpretation session within our capstone group to do more mutual inquiries and dig deeper by generating interpretation notes. By organizing 500+ interpretation notes, we used 4 affinity diagram sessions to synthesize and digest all the data.  </p>
+        <div id="rw-pics">
+          <div class="rw-row">
+            <div class="rw-pic-item">
+              <img :src='require("@/assets/img/al_w_p1.png")'/>
+              <label>Photo by Estelle</label>
+            </div>
+            <div class="rw-pic-item">
+              <img :src='require("@/assets/img/al_w_p2.png")'/>
+              <label>Interpretation Notes</label>
+            </div>
+          </div>
+          <div class="rw-row">
+            <div class="rw-pic-item">
+              <img :src='require("@/assets/img/al_w_p3.png")'/>
+              <label>Photo by Chuyao</label>
+            </div>
+            <div class="rw-pic-item">
+              <img :src='require("@/assets/img/al_w_p4.png")'/>
+              <label>Color Code for tracing back</label>
+            </div>
+          </div>    
+        </div>
+        <p>Among 60+ insights,  these are the key insights that most directly defined the final version of the product:</p>
+      </div>
+    </div>
+    <div id="rw-insights">
+       <img :src='require("@/assets/img/al_w_insights.svg")'/>
+    </div>
+    <div class="container">
+      <p>Moreover, we identified two kinds on learners, the novice learner and expert learner. Then we built personas for both of them. Trainers are also important stakeholders. So we built persona for them as well. During this process, we discussed and extracted potential needs and putting them together with priority. We can see that the efficiency is always the most salient and important need. </p>
+    </div>
+    <div id="rw-needs">
+      <img :src='require("@/assets/img/al_w_needs.png")'/>
+    </div>
+    <div class="container">
+      <div id="r-validate">
+        <div id="rv-title-1">
+          <label class="method-title">Storyboard, Speed-Dating</label>
+          <label class="sub-title">Validate needs before going deeper</label>
+        </div>
+        <p>Before we go deeper into ideation phrase, I decided to validate all those potential needs first using storyboards. So we drew 12 sets of storyboards based on the needs above and led a speed-dating session with trainers and target learners.  To keep the visual style consistent, I consolidated and redrew all the boards into the final ones. </p>
+        <p>I asked simple leading question like “how do you feel about this experience?” or “do you have similar experience?” to validate the needs or even probe real needs. </p>
+        <div id="rv_pics">
+          <img :src='require("@/assets/img/al_v_p1.png")'/>
+          <img :src='require("@/assets/img/al_v_p2.png")'/>
+        </div>
+        <p>Then, we organized all the feedbacks and findings we got from the speed-dating session together. With all the feedback and rating results, we grouped and reframed some needs into more solid ones.</p>
+   </div>
+    </div>
+    <div id="rv-notes">
+      <img :src='require("@/assets/img/al_v_notes.jpg")'/>
+    </div>
+    <div class="container" style="margin-top: 8.6rem">
+      <p >Then we discussed with Acronis in the mid-semester meeting to prioritize and evaluate them by thinking about the feasiblity and the current plan of Acronis. Finally, we got the needs we decided to go with: </p>
+      <div id="rv-needs">
+        <img :src='require("@/assets/img/al_v_fneeds.svg")'/>
+      </div>
+
+      <div class="design-challenge">
+        <div id="dc-title-1">
+          <div id="dct1-1">Design Challenge</div>
+          <div id="dct1-2">The balance among trainer, learner, and Acronis</div>
+        </div>
+        <p>With the final validated and chosen needs, we started to balance and connect them with the business goals. We found that the third business goal is a little bit far to reach, so we would mainly contribute to ‘shorten the training time’ and ‘improve training quality’. Thus, by synthesizing needs with the higher-level value, we came up with the three design challenges: </p>
+      </div>
+    </div>
+    <div id="dc-connect">
+      <img :src='require("@/assets/img/al_dc_needconnect.svg")'/>
+    </div>
+    <div class="container">
+      <div class="design-challenge">
+        <div id="dct2-1">Identify the gap</div>
+        <p>For ideation phrase, I borrowed the “identifying & bridging gaps” model from <span style="font-family: 'Open Sans-I'">Julie Dirksen’s book: Design for how people learn. </span> In this model, designers ask a series of questions to identify the gap between the current learner state and the preferred state, then designers will build solutions to bridge the gap. </p>
+        <div id="dc-model">
+          <img :src='require("@/assets/img/al_dc_model.png")'/>
+        </div>
+        <p>In our project, I decided to use this model as a scaffolding tool for ideation, where all the group members brainstormed ideas to bridge the gap. With the gap and needs clearly in the front of our eyes, we can brainstorm more concrete and targeted ideas. </p>
+      </div>
+    </div>
+    <div id="dc-gap">
+      <img id="dcg-1" :src='require("@/assets/img/al_dc_gap.png")'/>
+      <img id="dcg-2" :src='require("@/assets/img/al_dc_voting.jpg")'/>
+    </div>
+    <div class="container">
+      <div class="design-challenge">
+        <div id="dct3-1">Blueprint of the bridge</div>
+        <p>With all the ideas, we conducted voting session both within group and with Acronis. People rated and evaluated ideas especially in two perspectives, time estimation & feasibility. Here are the final ideas we picked for bridging the gap: </p>
+      </div>
+    </div>
+    <div id="dc-blue">
+      <img :src='require("@/assets/img/al_dc_blue_cards.png")'/>
+    </div>
+    <div class="container">
+      <div class="design-challenge">
+        <div id="dct4-1">Set Success Matrix</div>
+        <p>Finally, with both business goal and design goals in mind, we summarized the following success criteria to guide our design phrase:  </p>
+        <div id="dc-matrix">
+          <img :src='require("@/assets/img/al_dc_matrix.svg")'/>
+        </div>
+        <p>Overall, efficiency is still the most prioritized goal here and we will use quantitive measurement for it. Moreover, since we did not have the latest content of ACE training, so we did not add learning outcome into our success matrix. </p>
+      </div>
+
+      <div class="design">
+        <div id="d-title-0">Design</div>
+        <div id="d-title-1">Parallel design for the core concept</div>
+        <p>We used parallel design technique at the begining to explore more possibility. Each group member, including non-design role, would draw sketched independently based on the concepts. </p>
+        <div id="d-parallel">
+          <img :src='require("@/assets/img/al_d_parallel.png")'/>
+        </div>
+        <div id="d-title-1-1">A/B Testing for two ideas</div>
+        <p>With all the sketches, we consolidated them into two versions of Lo-fi prototype. To gauge the intuitiveness of these two versions, we conducted A/B testing with users: </p>
+        <div id="d-title-2">Idea 01: Click-through</div>    
+        <div id="d-idea-1">
+          <img id="di1-1" :src='require("@/assets/img/al_d_idea1_flow.svg")'/>
+          <img id="di1-2" :src='require("@/assets/img/al_d_idea1_pic.png")'/>
+        </div>
+        <div id="d-title-3" style="margin-top: 10rem;">Idea 02: Interactive Video </div>    
+        <div id="d-idea-2">
+          <img id="di2-1" :src='require("@/assets/img/al_d_idea2_flow.svg")'/>
+          <img id="di2-2" :src='require("@/assets/img/al_d_idea2_pic.png")'/>
+        </div>
+
+        <div id="d-title-1-2">Consolidate into new flow: Scaffolding for Novices</div>
+        <p>As a result, we found that novice learners prefer the video while expert learners prefer the click-through version.</p>
+        <div id="d-prefer">
+          <img :src='require("@/assets/img/al_d_prefer.svg")'/>
+        </div>
+        <p>Considering the efforts of generating two set of scripts and learning materials, we decided to consolidate these two versions into one flow: </p>
+      </div>
+    </div>
+  
+    <div id="d-merge-flow" style="margin-top: 4.8rem;">
+        <img :src='require("@/assets/img/al_d_merge_flow.svg")'/>
+    </div>
+    <div class="container" style="margin-top: 4.8rem">
+      <div class="design" style="margin-top: 7.8rem">
+        <p>These are the added screens of watching video and just-in-time tips:</p>
+        <div id="d-title-4">Watch video if stucked</div> 
+        <div id="d-add-1">
+          <img :src='require("@/assets/img/al_d_add1.png")'/>
+        </div>
+        <div id="d-title-5">Just-in-time Tips/Instruction</div> 
+        <div id="d-add-2">
+          <img :src='require("@/assets/img/al_d_add2.png")'/>
+        </div>
+
+        <div id="d-title-1-3">Key Iterations of Core Components</div>
+        <p>Moreover, I want to share several key iterations of some core components here:</p>
+        <div id="d-title-6">Feedback Card</div>
+        <div id="d-iteration-1-0">
+          <img :src='require("@/assets/img/al_d_feedback_v0.png")'/>
+        </div>
+        <p>For the initial design of feedback card, there are several feedback: 1. Too many clicks. Users need to click for both right and wrong cases.  2. The feedback card is not attracting, most users did not read it. (Stay time of cards < 1 sec)</p>
+        <div id="d-iteration-1-1">
+          <img :src='require("@/assets/img/al_d_feedback_v1.png")'/>
+        </div>
+        <label class="bold-improve" >Improvement: Deleted the click of right feedback to reduce the repetitive interaction.</label>
+        <p style="margin-top: 1.2rem">Based on the feedback, we deleted the click of right feedback. Also, we added Emoji to indicate the correctness with some fun. In this way, we thought that we can attract learners but the results were the same. They still stayed in the card less than 1 second and claimed that the Emoji is not professional and not suitable for ToB product.  </p>
+
+        <div id="d-iteration-1-2">
+          <img :src='require("@/assets/img/al_d_feedback_v2.png")'/>
+        </div>
+        <label class="bold-improve">Improvement: Deleted the Emoji but emphasized on text. </label>
+        <p style="margin-top: 1.2rem; margin-bottom: 0.8rem;">In the version 2, we added more focus on text. So we highlighted the correctness text with color cue in a professional and business way. In this time, learners started to stay in feedback card for 1-2 sec. </p>
+        <p>However, learner claimes that the negative words, such as “Not quite right”, was over addressed and looked like criticizm. So it made them feel uncomfortable. Even thought we tried to reduce the use of alert color, like in V2.1. The testing result was basically the same. We put too much emphasize on text. </p>
+
+        <div id="d-iteration-1-3">
+          <img :src='require("@/assets/img/al_d_feedback_v3.png")'/>
+        </div>
+        <label class="bold-improve">Improvement: Top indicator to balance the visual propotion; Added highlights to reduce the cognitive overload.  </label>
+        <p style="margin-top: 1.2rem">In the final version, we added a top indicator to render the overal color cue for correctness. On the other hand, we probed that learner felt the feedback is too long so they don’t want to read. Then, we hightlighted the important information to reduce their cognitive overload and help them to focuse. </p>
+
+        <div id="d-title-7">Scenario Card</div>
+        <div id="d-iteration-2-0">
+          <img :src='require("@/assets/img/al_d_scenario_v0.png")'/>
+        </div>
+        <p>This is the first version of scenario card we designed, we used a paragraph to tell the stories, we highlighted some key information which are necessary for the learners to make decisions during the task. In the usability test, we found that people did not read the text and the highlight words. As a result, they took the actions based on their intuition instead of the requirements from the scenario. We probe the reason during the testing, and we assume that it is because people don’t want to read a whole paragrah, it is not digestable. </p>
+      
+        <div id="d-iteration-2-1">
+          <img :src='require("@/assets/img/al_d_scenario_v1.png")'/>
+        </div>
+        <label class="bold-improve">Improvement: Break the paragraph into smaller chunks, in a conversational way. So every participants started to read the scenario. </label>
+        <p style="margin-top: 1.2rem; margin-bottom: 0.8rem;">In our second version, we broke this paragraph block into smaller digestible chunks. Thus, we decided to use a conversational style to deliver the scenario. Also, we chose to use a real human photo here to provoke more visual sense-making of real world. </p>
+        <p>In the testing, the good thing was that every participants in the testing started to read the conversation, we can tell that by the time they stayed in this page and some of the them even read aloud the words emotionally. We got a lot of positive feedback about this part, they said they like this conversation. it is elegant and immersive. However, we still had some problems: 1)  It is too distracting to focus on learning. Some of the participants told us the character doesn’t really look like the real customers they met in their work. They will think a lot about his age, job, expression and appearance.  2) The layout of overall card design is a poor use of space. </p>
+
+        <div id="d-iteration-2-2">
+          <img :src='require("@/assets/img/al_d_scenario_v2.png")'/>
+        </div>
+        <label class="bold-improve">Improvement: Use flat illustration for less distracting; Add pagination for more user control;</label>
+        <p style="margin-top: 1.2rem">Based on feedback, we changed the photo into a flat illustration. It is more abstract, better aligned with our design system and less distracting. We added a blue indicator at the bottom to show how many chunks of conversation learner needs to go through. We make the next btn obviously to call for the action. And in the final test and evaluation, we got more positive feedback of this part. </p>
+
+        <div id="d-title-8">Zoom out for a big picture</div>
+        <p>After validating the core concept, the hands-on lab part, we went backward and zoom out to consider the bigger picture. Based on the research, we come up with the complete user flow and infomation architecture. </p>
+        
+        
+      </div>
+    </div>
+
+    <div id="d-user-flow">
+          <img :src='require("@/assets/img/al_d_user_flow.png")'/>
+    </div>
+        
+      
+
+    <div class="container" >
+      <div class="design" style="margin-top: 12rem">
+        <p>Due to the time limitation and currrent progress, we planned to only focus on the Module section of learner side platform. </p>
+
+        <div id="d-info-arc">
+          <img :src='require("@/assets/img/al_d_info_arc.png")'/>
+        </div>
+
+        <p>Based on the design and analysis above, we build our final prototype iteratively with usability testing. </p>
+
+        <div id="d-title-9">Visual Execution</div>
+        <p>After three rounds of iteration, I started to lead the process of consolidating our work into a design system. For the typography, we use Poppins pairs with Roboto, the geometric san serif combination to convey a sense of clean and technology. </p>
+        <div id="d-font">
+          <img :src='require("@/assets/img/al_d_font.svg")'/>
+        </div>
+        <p>For the color, we choose the acronis blue as our branding color to keep consistent with Acronis’s current design language. We also use semantic colors, for example, the analogous /əˈnæləɡəs/ sky blue for info, black for text, yellow for highlight, red for alert, and green for success. </p>
+        <div id="d-color">
+          <img :src='require("@/assets/img/al_d_color.svg")'/>
+        </div>
+        <p>Iteratively, I consolidated more design components to build the final design system. Even though the system is simple, but I still learned a lot when I put everything together. If you are interested, you can check the complete design system in Figma to learn more. </p>
+        <div id="d-design-system-check">
+          <a target="_blank" rel="noopener" href="https://www.figma.com/proto/xdUmhLMyCxzxtXiGV0QTKV/System?node-id=1%3A4&viewport=671%2C121%2C0.08914807438850403&scaling=min-zoom">
+            <button>Check Design System</button>
+            
+          </a>
+        </div>
+      </div>
+
+      <div class="concept-video" style="margin-top: 16rem">
+        <div>Concept Video</div>
+        <label>Youtube</label>
+        <iframe width="862" height="485" src="https://www.youtube.com/embed/lFdL57xFqJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <label>Bilibili</label>
+        <iframe width="862" height="485" src="//player.bilibili.com/player.html?aid=201864992&bvid=BV11h41197zU&cid=227411662&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <p>Contact me via Email (yuqingg@andrew.cmu.edu) if you want to check a clickable prototype.</p>
+      </div>
+
+      <div id="impact">
+        <div id="im-title">Evaluation & Impact</div>
+        <p>The most prioritized goal for Acronis Learning is to improve efficiency. In other words, shorten the 15 hours of learning time. In our final design, we make the 15-hour passive learning into 5-15 hours of flexible training with well-designed hands-on labs.  </p>
+        <div id="im-1">
+          <img :src='require("@/assets/img/al_impact_effi.svg")'/>
+        </div>
+        <p>We conducted task-based final usability testing to evaluate users’ overall satisfaction. We asked participants filled out surveys after each tasks and all four tasks. </p>
+        <div id="im-2">
+           <img :src='require("@/assets/img/al_impact_usability.svg")'/>
+        </div>
+        <p>After the third rounds of iteration, we conducted 6 final heuristic evaluation with trainers, engineers, and PMs in Acronis by asking them to finish 4 cognitive walkthrough tasks and an overall evaluation survey. For each task, we also prepared evaluation survey from 7 matrics we tailored based on our project scope, including visilbility of system status, user control & freedom, flexibility, etc. </p>
+        <div id="im-3">
+          <img :src='require("@/assets/img/al_impact_heu.svg")'/>
+        </div>
+        <p>For 6 experts we interviewd, they expressed praises for our product. They all gave the highest score on efficiency of use, and visibility of system status. However, some of them expressed disagreement on the user control part. </p>
+        <div id="im-4">
+          <img :src='require("@/assets/img/al_im_review.svg")'/>
+        </div>
+      </div>
+
+
+    </div>
+  
+   
+  
+
 
 
 
@@ -307,6 +581,8 @@ export default {
   color: #4A4A4A;
 }
 
+
+
 @mixin normal-text {
   font-family: 'Open Sans-R';
   font-size: 1.7rem;
@@ -332,6 +608,12 @@ export default {
 .bold{
   font-family: 'Open Sans-B';
   color: #000;
+}
+.bold-improve {
+  font-family: 'Open Sans-B';
+  color: #000;
+  font-size: 1.7rem;
+
 }
 .bold-green {
   font-family: 'Open Sans-B';
@@ -633,7 +915,7 @@ export default {
         }
       }
     }
-    #concept-video {
+    .concept-video {
       @include in-flex-col();
       div{
         @include black-subtitle();
@@ -653,6 +935,10 @@ export default {
       #io-title{
         @include black-subtitle();
         margin: 3.6rem 0;
+      }
+      #io2-title {
+        @include gray-title();
+        margin-bottom: 2.2rem;
       }
       #io-1, #io-2{
         @include in-flex-col();
@@ -712,15 +998,356 @@ export default {
       }
 
     }
+    #r-what {
+      #rw-title-1 {
+        @include in-flex-col();
+       margin-bottom: 3.6rem;
+      }
+      #rw-pics {
+        @include in-flex-col();
+        margin-top: 3.6rem;
+        margin-bottom: 4.8rem;
+        .rw-row {
+          display:flex;
+          .rw-pic-item {
+            @include in-flex-col();
+            img {
+              width: 40rem;
+              padding: 0.8rem;
+            }
+            label {
+              font-family: 'Charter-I';
+              color: #979797;
+              font-size: 1.6rem;
+              margin: 0.4rem 0 1.6rem 0;
+            }
+          }
+        }
+      }
+
+    }
+    #r-validate{
+      #rv-title-1 {
+        @include in-flex-col();
+        margin-bottom: 2.4rem;
+      }
+      p{
+        margin: 0.8rem 0;
+      }
+      #rv_pics{
+        display: flex;
+        margin-top: 3.6rem;
+        margin-bottom: 3.6rem;
+        img {
+          width: 41.5rem;
+          margin: 1.2rem 0.8rem;
+        }
+      }
+    }
+    #rv-needs{
+      @include in-flex-col();
+      img {
+        margin-top: 7.4rem;
+        width: 70%;
+      }
+    }
+    .design-challenge {
+      #dc-title-1 {
+        margin-top: 20rem;
+        margin-bottom: 3.6rem;
+        #dct1-1 {
+          @include gray-title();
+        }
+        #dct1-2{
+          @include black-subtitle();
+          margin-top: 8.4rem;
+        }
+      }
+      #dct2-1, #dct3-1, #dct4-1 {
+        @include black-subtitle();
+        margin-bottom: 2.4rem;
+      }
+      #dc-model {
+        @include in-flex-col();
+        margin-top: 2.4rem;
+        margin-bottom: 3.6rem;
+        img {
+          width: 80%;
+        }
+      }
+      #dc-matrix{
+        @include in-flex-col();
+        margin-top: 4.4rem;
+        margin-bottom: 4.4rem;
+      }
+    }
+    .design {
+      margin-top: 20rem;
+      #d-title-0 {
+        @include gray-title();
+        margin-bottom: 0.8rem;
+      }
+      #d-title-1 {
+        @include black-subtitle();
+        margin-top: 8.4rem;
+        margin-bottom: 2.4rem;
+      }
+      #d-parallel {
+        @include in-flex-col();
+        margin-top: 2.4rem;
+        margin-bottom: 4.6rem;
+        img{
+          width: 85%;
+        }
+      }
+      #d-title-1-1 {
+        @include black-subtitle();
+        margin-bottom: 0.8rem;
+        margin-top: 16rem;
+      }
+      #d-title-1-2 {
+        @include black-subtitle();
+        margin-top: 16rem;
+      }
+      #d-title-1-3 {
+        @include black-subtitle();
+      }
+      #d-title-2, #d-title-3 {
+        font-family: 'Ubuntu-M';
+        font-size: 2rem;
+        line-height: 2.8rem;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #717171;
+        margin-top: 5.2rem;
+        margin-bottom: 1.2rem;
+      }
+      
+      #d-idea-1, #d-idea-2 {
+        @include in-flex-col();
+        #di1-1, #di2-1 {
+          margin-top: 3.6rem;
+          margin-bottom: 4.8rem;
+        }
+        #di1-2, #di2-2{
+          width: 80%;
+        }
+      }
+
+      #d-idea-2 {
+        margin-bottom: 5.2rem;
+      }
+      #d-prefer{
+        @include in-flex-col();
+        img {
+          width: 60%;
+        }
+      }
+      #d-title-4, #d-title-5 {
+        font-family: 'Ubuntu-M';
+        font-size: 2rem;
+        line-height: 2.8rem;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #717171;
+      }
+      #d-add-1, #d-add-2 {
+        @include in-flex-col();
+        img{
+          width: 80%;
+        }
+      }
+      #d-title-1-2 {
+        margin-bottom: 1.2rem;
+      }
+      #d-prefer{
+        margin-top: 4.8rem;
+        margin-bottom: 4.8rem;
+      }
+      #d-title-4 {
+        margin-top: 3.2rem;
+        margin-bottom: 1.2rem;
+      }
+      #d-title-5 {
+        margin-top: 7.2rem;
+        margin-bottom: 1.2rem;
+      }
+      #d-title-1-3 {
+        margin-top: 8.4rem;
+        margin-bottom: 1.2rem;
+      }
+      #d-title-6 {
+        font-family: 'Ubuntu-M';
+        font-size: 2rem;
+        line-height: 2.8rem;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #717171;
+        margin-top: 5.2rem;
+        margin-bottom: 2.4rem;
+      }
+      #d-iteration-1-0 {
+        @include in-flex-col();
+        margin-bottom: 3.6rem;
+        img{
+          width: 60%;
+        }
+      }
+      #d-iteration-1-1 {
+        @include in-flex-col();
+        margin-top: 9.4rem;
+        margin-bottom: 3.6rem;
+        img{
+          width: 60%;
+        }
+      }
+      #d-iteration-1-2 {
+        @include in-flex-col();
+        margin-top: 9.4rem;
+        margin-bottom: 3.6rem;
+        img{
+          width: 95%;
+        }
+      }
+      #d-iteration-1-3 {
+        @include in-flex-col();
+        margin-top: 9.4rem;
+        margin-bottom: 3.6rem;
+        img{
+          width: 60%;
+        }
+      }
+      #d-title-7 {
+        font-family: 'Ubuntu-M';
+        font-size: 2rem;
+        line-height: 2.8rem;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #717171;
+        margin-top: 10rem;
+        margin-bottom: 3.6rem;
+      }
+      #d-iteration-2-0 {
+        @include in-flex-col();
+        margin-bottom: 2.4rem;
+        img{
+          width: 65%;
+        }
+      }
+      #d-iteration-2-1 {
+        @include in-flex-col();
+        margin-top: 9.4rem;
+        margin-bottom: 2.4rem;
+        img{
+          width: 65%;
+        }
+      }
+      #d-iteration-2-2 {
+        @include in-flex-col();
+        margin-top: 9.4rem;
+        margin-bottom: 2.4rem;
+        img{
+          width: 55%;
+        }
+      }
+      #d-title-8 {
+        @include black-subtitle();
+        margin-top: 16rem;
+        margin-bottom: 1.2rem;
+      }
+
+      #d-info-arc {
+        @include in-flex-col();
+        margin-top: 4.6rem;
+        margin-bottom: 3.6rem;
+        img {
+          width: 100%;
+        }
+      }
+      #d-title-9 {
+        @include black-subtitle();
+        margin-top: 16rem;
+        margin-bottom: 1.2rem;
+      }
+      #d-font{
+        @include in-flex-col();
+        margin-top: 4.8rem;
+        margin-bottom: 4.8rem;
+      }
+      #d-color {
+        @include in-flex-col();
+        margin-top: 4.8rem;
+        margin-bottom: 4.8rem;
+      }
+      #d-design-system-check {
+        @include in-flex-col();
+        a {
+           text-decoration-line: none;
+        }
+        button {
+          margin-top: 3.6rem;
+          width: 25rem;
+          height: 5rem;
+          border-radius: 1.7rem;
+          background-color: #CFDCFD;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          font-family: 'Ubuntu-Bold';
+          font-size: 1.8rem;
+          color: #0D44CC;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    #impact {
+      margin-bottom: 7rem;
+      #im-title {
+        @include gray-title();
+        margin-top: 12rem;
+        margin-bottom: 4.8rem;
+      }
+      #im-1{
+        @include in-flex-col();
+        margin-top: 4.8rem;
+        margin-bottom: 4.8rem;
+        
+      }
+      #im-2{
+        @include in-flex-col();
+        margin-top: 3.4rem;
+        margin-bottom: 4.8rem;
+      }
+      #im-3{
+        @include in-flex-col();
+        margin-top: 6.8rem;
+        margin-bottom: 6.8rem;
+      }
+      #im-4{
+        @include in-flex-col();
+        margin-top: 5.2rem;
+        margin-bottom: 10.8rem;
+      }
+    }
+   
     
    
     
     
   }
+ //out of container
  
   #next-block{
   width: 28rem;
   float: right;
+  margin-top: 8rem;
   margin-bottom: 20rem;
     .hr{
       height: 1px;
@@ -781,47 +1408,109 @@ export default {
       margin-top: 5.2rem;
       padding-top: 10rem;
       padding-bottom: 6rem;
-    p{
-      font-family: 'Open Sans-R';
-      font-size: 1.7rem;
-      line-height: 2.8rem;
-      letter-spacing: 0.04rem;
-      color: #404040;
-      margin-block-start: 0;
-      margin-block-end: 0;
-    }
-    #rg-inner {
-      margin: 0 auto 0;
-      max-width: 86.6rem;
-      #rg-title-1 {
-        margin-bottom: 3.6rem;
-        @include  in-flex-col();
+      p{
+        font-family: 'Open Sans-R';
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.04rem;
+        color: #404040;
+        margin-block-start: 0;
+        margin-block-end: 0;
       }
-      #rg-map {
-        margin-top: 3.6rem;
-        margin-bottom: 3.6rem;
-        img{
-          width: 90rem;
-          position: relative;
-          left: -5rem;
+      #rg-inner {
+        margin: 0 auto 0;
+        max-width: 86.6rem;
+        #rg-title-1 {
+          margin-bottom: 3.6rem;
+          @include  in-flex-col();
+        }
+        #rg-map {
+          margin-top: 3.6rem;
+          margin-bottom: 3.6rem;
+          img{
+            width: 90rem;
+            position: relative;
+            left: -5rem;
+          }
         }
       }
-    }
-    #rg-pages {
-      @include in-flex-col();
-      margin-top: 3.6rem;
-      margin-bottom: 3.6rem;
-      img {
-        width: 123.7rem;
+      #rg-pages {
+        @include in-flex-col();
+        margin-top: 3.6rem;
+        margin-bottom: 3.6rem;
+        img {
+          width: 123.7rem;
 
+        }
+      }
+      #rg-numbers{
+        margin-top: 8.4rem;
+        margin-bottom: 8.4rem;
+        @include in-flex-col();
       }
     }
-    #rg-numbers{
+    #rw-insights {
+      @include in-flex-col();
       margin-top: 5.4rem;
-      margin-bottom: 5.4rem;
+      margin-bottom: 3.6rem;
+    }
+    #rw-needs {
+      @include in-flex-col();
+      margin-top: 12.4rem;
+      margin-bottom: 3.6rem;
+      img {
+        width: 144rem;
+      }
+      
+    }
+    #rv-notes {
+      @include in-flex-col();
+      margin-top: 7.2rem;
+    
+      img{
+        width: 100%;
+      }
+    }
+    #dc-connect {
+      @include in-flex-col();
+      margin-top: 3.4rem;
+      img{
+        position: relative;
+        left: -3.2rem;
+      }
+    }
+    #dc-gap{
+      @include in-flex-col();
+      margin-top: 4.6rem;
+      #dcg-1{
+        width: 60%;
+        position: relative;
+        left: 1.8rem;
+      }
+      #dcg-2 {
+        margin-top: 1.2rem;
+        width: 30%;
+        position: relative;
+      }
+    }
+    #dc-blue {
+      @include in-flex-col();
+      margin-top: 2.4rem;
+      img {
+        width: 80%;
+      }
+    }
+    #d-merge-flow{
       @include in-flex-col();
     }
-    }
+    #d-user-flow {
+      @include in-flex-col();
+      margin-top: 3.6rem;
+        img {
+          width: 90%;
+        }
+        
+      }
 }
 
 #more{

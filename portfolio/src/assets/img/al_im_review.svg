@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="770px" height="752px" viewBox="0 0 770 752" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-2----Design-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-354.000000, -7919.000000)">
+            <g id="编组-10" transform="translate(354.000000, 7914.000000)">
+                <text id="Is-this-just-a-recom" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="436" y="66">Is this just a recommended or we actually </tspan>
+                    <tspan x="436" y="94">force learner to follow the path?</tspan>
+                </text>
+                <text id="—-Product-Manager" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="612.491016" y="137">— Product Manager</tspan>
+                </text>
+                <text id="—-Product-Manager" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="612.491016" y="693">— Product Manager</tspan>
+                </text>
+                <text id="—-ACE-Trainer" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="657.529004" y="249">— ACE Trainer</tspan>
+                </text>
+                <text id="—-ACE-Trainer" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="657.529004" y="547">— ACE Trainer</tspan>
+                </text>
+                <text id="They-may-procrastina" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="436" y="213">They may procrastinated to last day. </tspan>
+                </text>
+                <text id="It-is-not-good-to-gi" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="436" y="623">It is not good to give them so much </tspan>
+                    <tspan x="436" y="651">control. If they can skip, they will skip. </tspan>
+                </text>
+                <text id="They-need-to-watch-a" font-family="OpenSans-Italic, Open Sans" font-size="17" font-style="italic" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#717171">
+                    <tspan x="436" y="455">They need to watch all the video first, then </tspan>
+                    <tspan x="436" y="483">start the hands-on lab. They should not </tspan>
+                    <tspan x="436" y="511">skip that. </tspan>
+                </text>
+                <text id="Recommendation-vs.-M" font-family="OpenSans-Bold, Open Sans" font-size="18" font-weight="bold" letter-spacing="0.423529412" fill="#404040">
+                    <tspan x="0" y="19">Recommendation vs. Mandatory? </tspan>
+                </text>
+                <text id="Complete-learner-con" font-family="OpenSans-Bold, Open Sans" font-size="18" font-weight="bold" letter-spacing="0.423529412" fill="#404040">
+                    <tspan x="0" y="393">Complete learner control can be harmful</tspan>
+                </text>
+                <text id="Trainers-confused-ab" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" line-spacing="28" letter-spacing="0.4" fill="#404040">
+                    <tspan x="0" y="66">Trainers confused about the way we </tspan>
+                    <tspan x="0" y="94">show the learning path as </tspan>
+                    <tspan x="0" y="122">recommendation. They thought it should </tspan>
+                    <tspan x="0" y="150">be mandatory and forced otherwise the </tspan>
+                    <tspan x="0" y="178">learner won’t finish it on time. This is </tspan>
+                    <tspan x="0" y="206">actually the main issue of asynchornized </tspan>
+                    <tspan x="0" y="234">learning. We should consider more for </tspan>
+                    <tspan x="0" y="262">this point. </tspan>
+                </text>
+                <text id="According-to-literat" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" line-spacing="28" letter-spacing="0.4">
+                    <tspan x="0" y="445" fill="#404040">According to</tspan>
+                    <tspan x="104.102246" y="445" fill="#FF10B9"> </tspan>
+                    <tspan x="108.918262" y="445" fill="#404040">literature review, there is no </tspan>
+                    <tspan x="0" y="473" fill="#404040">difference of learning outcome between </tspan>
+                    <tspan x="0" y="501" fill="#404040">whether learners have the full control of </tspan>
+                    <tspan x="0" y="529" fill="#404040">learning pace, let alone our learners are </tspan>
+                    <tspan x="0" y="557" fill="#404040">adults. So we designers decided to give </tspan>
+                    <tspan x="0" y="585" fill="#404040">complete control to learners by providing skip </tspan>
+                    <tspan x="0" y="613" fill="#404040">button and the freedom of switching between </tspan>
+                    <tspan x="0" y="641" fill="#404040">learning contents. However, the trainer and </tspan>
+                    <tspan x="0" y="669" fill="#404040">engineer claims that if we do that they will </tspan>
+                    <tspan x="0" y="697" fill="#404040">never learn some parts and learning </tspan>
+                    <tspan x="0" y="725" fill="#404040">conceptual knowledge is essntial for doing </tspan>
+                    <tspan x="0" y="753" fill="#404040">hands-on lab. </tspan>
+                </text>
+                <path d="M423,55 L423,103" id="直线-3" stroke="#CEDCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M423,199 L423,223" id="直线-3" stroke="#CEDCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M423,440 L423,517" id="直线-3" stroke="#CEDCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M423,613 L423,660" id="直线-3" stroke="#CEDCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

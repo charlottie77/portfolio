@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="710px" height="188px" viewBox="0 0 710 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-2----Design-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3" transform="translate(-365.000000, -6535.000000)">
+            <g id="编组-6" transform="translate(365.000000, 6531.000000)">
+                <text id="Step-01" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.309090909" fill="#717171">
+                    <tspan x="84.3466486" y="18">Step 01</tspan>
+                </text>
+                <text id="Step-02" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.309090909" fill="#717171">
+                    <tspan x="323.346649" y="18">Step 02</tspan>
+                </text>
+                <text id="Step-03" font-family="OpenSans-Regular, Open Sans" font-size="17" font-weight="normal" letter-spacing="0.309090909" fill="#717171">
+                    <tspan x="569.346649" y="18">Step 03</tspan>
+                </text>
+                <g id="Browser" transform="translate(0.000000, 27.000000)">
+                    <rect id="矩形" fill="#F3F5F8" fill-rule="nonzero" x="0" y="0" width="220" height="165" rx="6"></rect>
+                    <path d="M0,6 C0,2.68629 2.68629,0 6,0 L214,0 C217.314,0 220,2.68629 220,6 L220,24 L0,24 L0,6 Z" id="路径" fill="#E0E7EC" fill-rule="nonzero"></path>
+                    <path d="M12,15 C13.6569,15 15,13.6569 15,12 C15,10.3431 13.6569,9 12,9 C10.3431,9 9,10.3431 9,12 C9,13.6569 10.3431,15 12,15 Z M22,15 C23.6569,15 25,13.6569 25,12 C25,10.3431 23.6569,9 22,9 C20.3431,9 19,10.3431 19,12 C19,13.6569 20.3431,15 22,15 Z M35,12 C35,13.6569 33.6569,15 32,15 C30.3431,15 29,13.6569 29,12 C29,10.3431 30.3431,9 32,9 C33.6569,9 35,10.3431 35,12 Z" id="形状" fill="#94A2AB"></path>
+                    <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" x="50" y="93" width="73" height="52" rx="12"></rect>
+                    <rect id="矩形" fill="#27AE60" fill-rule="nonzero" x="61" y="107" width="52" height="8" rx="2"></rect>
+                    <rect id="矩形" fill="#27AE60" fill-rule="nonzero" x="61" y="119" width="48" height="8" rx="2"></rect>
+                    <circle id="椭圆形" fill="#C4C4C4" fill-rule="nonzero" cx="35" cy="103" r="10"></circle>
+                </g>
+                <g id="Group-574" transform="translate(245.000000, 27.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="#F3F5F8" x="0" y="0" width="220" height="165" rx="6"></rect>
+                    <path d="M0,6 C0,2.68629 2.68629,0 6,0 L214,0 C217.314,0 220,2.68629 220,6 L220,24 L0,24 L0,6 Z" id="路径" fill="#E0E7EC"></path>
+                    <rect id="矩形" fill="#FFFFFF" x="89" y="51" width="73" height="52" rx="12"></rect>
+                    <rect id="矩形" fill="#FA6D00" x="100" y="65" width="52" height="8" rx="2"></rect>
+                    <rect id="矩形" fill="#FA6D00" x="100" y="77" width="48" height="8" rx="2"></rect>
+                    <circle id="椭圆形" fill="#C4C4C4" cx="180" cy="61" r="10"></circle>
+                </g>
+                <g id="Group-575" transform="translate(490.000000, 27.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="#F3F5F8" x="0" y="0" width="220" height="165" rx="6"></rect>
+                    <path d="M0,6 C0,2.68629 2.68629,0 6,0 L214,0 C217.314,0 220,2.68629 220,6 L220,24 L0,24 L0,6 Z" id="路径" fill="#E0E7EC"></path>
+                    <rect id="矩形" fill="#FFFFFF" x="84" y="77" width="73" height="52" rx="12"></rect>
+                    <rect id="矩形" fill="#27AE60" x="95" y="91" width="52" height="8" rx="2"></rect>
+                    <rect id="矩形" fill="#27AE60" x="95" y="103" width="48" height="8" rx="2"></rect>
+                    <circle id="椭圆形" fill="#C4C4C4" cx="64" cy="92" r="10"></circle>
+                </g>
+                <path d="M151.5,11.5 L313.5,11.5" id="直线-8" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M397.5,11.5 L557.5,11.5" id="直线-8" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
