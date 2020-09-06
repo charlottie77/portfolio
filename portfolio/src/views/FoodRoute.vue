@@ -321,12 +321,12 @@ export default {
     route_to: function(url){
       this.$router.push(url)
     }
-  }
-  // beforeCreate: function(){
-  //   if(_isMobile()) {
-  //     this.$router.replace('/m-food-route');
-  //   }
-  // },
+  },
+  beforeCreate: function(){
+    if(_isMobile()) {
+      this.$router.replace('/m-food-route');
+    }
+  },
 }
 </script>
 

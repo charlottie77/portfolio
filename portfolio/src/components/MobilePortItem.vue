@@ -45,4 +45,7 @@ export default {
   height: 1px;
   margin-top: 1.8rem;
 }
+.item-img img {
+ width: 12rem;
+}
 </style>

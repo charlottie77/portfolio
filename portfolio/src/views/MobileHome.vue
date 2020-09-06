@@ -58,12 +58,24 @@ export default {
         projectImgSrc: require('@/assets/img/robi-project-icon.svg'),
         link:'/robi'
       },
+      // {
+      //   projectName: 'Acronis Learning',
+      //   projectDiscription: 'Improving the efficiency & learner engagement in Acronis software training.',
+      //   projectImgSrc: require('@/assets/img/al-list-logo.png'),
+      //   link:'/acronis-learning'
+      // },
       {
         projectName: 'Food Route',
         projectDiscription: 'A mobile app plans the food truck dining route for busy CMU students.',
         projectImgSrc: require('@/assets/img/food-route-simple.svg'),
         link:'/m-food-route'
-      }
+      },
+      // {
+      //   projectName: 'Smart Node',
+      //   projectDiscription: 'Providing visual development aids for better design & innovation in Maker Education.',
+      //   projectImgSrc: require('@/assets/img/sn_illu.svg'),
+      //   link:'/smart-node'
+      // }
     ]
   })
 }

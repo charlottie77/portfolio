@@ -41,7 +41,7 @@
           </div>
           <div class="row" style="margin-top:1rem">
             <span class="contact-method">Resume</span>
-            <span class="contact-detail"> <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1xSHx16AHPCT9-V_Szx7OfakgP7eFVZlv/view?usp=sharing">English</a> </span>
+            <span class="contact-detail"> <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1p5UCoZzjN6GsPS4fl1bvCeoMXJkqXVS0/view?usp=sharing">English</a> </span>
             <span class="contact-detail cd-divider">  |    </span>
             <span class="contact-detail"> <a target="_blank" rel="noopener" href="/Ch_Yuqing_resume.pdf">中文</a> </span>
           </div>
