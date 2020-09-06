@@ -111,7 +111,7 @@
          <p>By dragging, dropping and connecting the nodes, they can do programming for their maker project in a visual and “light on coding” way. The learning with SmartNode is clearer and more straightforward. Students can do technical innovation with lower barrier. </p>
          <div class="background-sub-title" id="bgst-3" >How visual development aids can help? </div>
          <div id="visual-aids">
-            <img :src='require("@/assets/img/sn_visual_aids.png")' />
+            <img :src='require("@/assets/img/sn_visual_aids.svg")' />
          </div>
         
       </div>

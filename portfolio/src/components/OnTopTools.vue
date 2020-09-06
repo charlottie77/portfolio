@@ -84,7 +84,7 @@ export default {
       backdrop-filter: blur(0.3rem);
       background: rgba(255,255,255,0.3);
     }
-    padding: 1.6rem 3.9rem;
+    padding: 2rem 8rem 1rem 2rem;
     display: flex;
     // display: none;
     position: relative;

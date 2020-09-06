@@ -18,7 +18,7 @@
       </div>
       <div id="about-content">
         <div id="content-line1">Hi, I am Yuqing</div>
-        <div id="content-line2">a technical designer, with passion for</div>
+        <!-- <div id="content-line2">a technical designer, with passion for</div> -->
         <div id="content-line3" class="row">
           <img :src='require("@/assets/img/skill-point.svg")' alt="">
           <span class="skill-name">UX design</span>
@@ -29,10 +29,9 @@
         </div>
         <div id="detail">
           <!-- <img :src="require('@/assets/img/learning.svg')" alt=""> -->
-          <p class="detail-line">Currently, I am interested in <span class='highlight about-bold '> design system </span> and <span class='highlight about-bold '>design for learning tools.</span> </p>
-          <p class="detail-line">Right now, I am an <span class="about-bold">HCI student </span> and <span class="about-bold">UX Designer</span> at <a id="cmu-link" href="https://www.cmu.edu/">Carnegie Mellon University</a>.  </p>
-          <p class="detail-line">Outside of design work, I enjoy video games (a big fan of Nintendo) <img :src="require('@/assets/img/nintendo-switch.svg')" alt=""> , cooking <img :src="require('@/assets/img/cooking.svg')" alt=""> (good at cooking but a novice in baking), and journaling. <img :src="require('@/assets/img/journaling.svg')" alt=""></p>
-          <p class="detail-line">Previously, I studied <span class="about-bold">software engineering & new media technology</span> <img :src="require('@/assets/img/coding.svg')" alt=""> at <a id="tongji-link" href="https://en.tongji.edu.cn/">Tongji University</a>. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
+          <p class="detail-line">Right now, I am an <span class="about-bold">HCI student </span> and <span class="about-bold">UX Designer</span> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>.  </p>
+          <p class="detail-line">Currently, I am interested in <span class='highlight'> Design System </span> and <span class='highlight'>Design for Learning Tools.</span> Outside of design work, I enjoy video games (a big fan of Nintendo), cooking (good at cooking but a novice in baking), and journaling.</p>
+          <p class="detail-line">Previously, I studied <span class="highlight">software engineering & new media technology</span> at <a href="https://en.tongji.edu.cn/">Tongji University</a>. After graduation, I worked as a software engineer (full-stack) in Shanghai for two years. </p>
         </div>
         <div style='mix-blend-mode: normal;opacity: 0.51;border: 1.5px solid #F8E5C7;width: 11.8rem; margin:5.2rem 0 1.7rem; border-radius:1.5px;'/>
         <div id="contact-info">
@@ -183,14 +182,14 @@ export default {
   color: #4A4A4A;
 }
 #content-line1{
-  font-family: 'Ubuntu-M';
-  font-size: 30px;
+  font-family: 'Ubuntu-Bold';
+  font-size: 3rem;
   line-height: 31px;
   letter-spacing: 2px;
-  color: #4A4A4A;
+  color: #000;
 }
 #content-line2{
-  margin-top: 16px;
+  margin-top: 3.8rem;
   margin-bottom: 0.8rem;
   font-family: 'Ubuntu';
   font-size: 21px;
@@ -198,6 +197,11 @@ export default {
   letter-spacing: 1.806px;
   color: #4A4A4A;
 }
+
+#content-line3 {
+   margin-top: 3.8rem;
+}
+
 #avatar{
   width: 218.88px;
 }
@@ -207,9 +211,9 @@ export default {
 }
 #about-content{
   flex-grow: 1;
-  padding-top: 32px;
+  padding-top: 4.4rem;
   padding-left: 31px;
-  max-width: 57.5rem;
+  max-width: 63rem;
 }
 .line{
   border: 1.5px solid rgba(239,195,123,0.42);

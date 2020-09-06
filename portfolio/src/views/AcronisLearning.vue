@@ -19,6 +19,7 @@
         </div>
 
       </div>
+      
 
       <img :src='require("@/assets/img/al-splitter.svg")' alt="" class="img-center" id="splitter-1">
 
@@ -35,7 +36,7 @@
           <div class="mrs-row">
             <div class="mrs-item">
               <label>INSIGHTS & IDEATION</label>
-              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, three rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.   </p>
+              <p>I collaborated with one researcher to conduct 15+ contextual interviews, six speed-dating, tree rounds of usability testings to uncover the insights. I translated needs into concepts & features with one designer.   </p>
             </div>
             <div class="mrs-item">
               <label>SCOPE DEFINATION</label>
@@ -53,12 +54,7 @@
             </div>
           </div>
         </div>
-        <div style="margin-top: 2.4rem;">
-          <p>Duration:  8 months 
-          <p>Tools: Figma, Illustrator, iMovie </p>
-          <p>Collaborators: Estelle Jiang, Chuyao Hua, Ruwen You, Gautam Yadav.  </p>
-          <!-- <div class="note">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div> -->
-        </div>
+        
       </div>
 
        
@@ -69,6 +65,14 @@
       </div> -->
       <div id="overview">
         <div id="overview-title">Overview</div>
+
+        <div style="margin-top: 1.4rem; margin-bottom: 9.4rem;display: flex; flex-direction: column; align-items: center;">
+        <p style="color: #868686;">Duration:  8 months 
+        <p style="color: #868686;">Tools: Figma, Illustrator, iMovie </p>
+        <p style="color: #868686;">Collaborators: Estelle Jiang, Chuyao Hua, Ruwen You, Gautam Yadav  </p>
+        <!-- <div class="note">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of others.</div> -->
+      </div>
+
         <div id="over-sec1">
           <div class="os-title">01 Initial Challenge</div>
           <p>How to improve their current Acronis Certified Engineer Training (I will call it ACE training) generally?</p>
@@ -162,7 +166,8 @@
           <div class="fdslt-2">(My focus)</div>
         </div>
         <div class="fds-item"  style="margin-bottom: 12rem;">
-            <img class="fdi-gif" style="position: relative; width: 96rem; border: none" :src='require("@/assets/img/al_design_sys.png")'/>
+            <img class="fdi-gif" style="position: relative; width: 96rem; border: none; margin-top: 9rem;" :src='require("@/assets/img/al_d_color.svg")'/>
+            <img class="fdi-gif" style="position: relative; width: 96rem; border: none; margin-top: 12rem; margin-bottom: 6rem;" :src='require("@/assets/img/al_d_font.svg")'/>
             <p>I consolidated and built the design system for both sides iteratively. Check the complete design system <a target="_blank" rel="noopener" href="https://www.figma.com/proto/xdUmhLMyCxzxtXiGV0QTKV/System?node-id=1%3A4&viewport=758%2C306%2C0.19736886024475098&scaling=min-zoom">here</a>  </p>
         </div>
 
@@ -686,8 +691,8 @@ export default {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: normal;
-        font-size: 2rem;
-        line-height: 2.8rem;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
         letter-spacing: 0.04rem;
         min-width: 45rem;
         color: #A6A6A6;
@@ -695,12 +700,13 @@ export default {
     }
     #intro {
       display: flex;
+      margin-top: 5.2rem;
       #intro-text {
         flex: 1.1;
         #question{
           position: relative;
           margin-top: 3.5rem;
-          margin-bottom: 3.6rem;
+          margin-bottom: 1.6rem;
           #bullet{
             position: absolute;
             left: -2.2rem;
@@ -778,12 +784,12 @@ export default {
           display: flex;
           .mrs-item {
             flex:1;
-            margin-top: 2.4rem;
-            margin-right: 1.2rem;
+            margin-top: 5.4rem;
+            margin-right: 7.2rem;
             label {
               font-size: 1.7rem;
               color: #0D44CC;
-              font-family: 'Open Sans-SB';
+              font-family: 'Open Sans-B';
             }
           }
         }

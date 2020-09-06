@@ -13,8 +13,8 @@
         <div id="my-role-title">My Role</div>
         <div id='my-role-detail' class="row">
           <div id="my-role-1" class="col-12">
-            <p>I <span class="bold">led our group in completing the research and ideation phase.</span></p>
-            <p>I also finished the design phases — <span class="bold">prototype work, from sketch to high-fidelity, and user testing as sole designer.</span>  </p>
+            <p>I <span class="">led our group in completing the research and ideation phase.</span></p>
+            <p>I also finished the design phases — <span class="">prototype work, from sketch to high-fidelity, and user testing as sole designer.</span>  </p>
           </div>
           <div id="my-role-2" class="col-12">
             <ul>
@@ -215,7 +215,7 @@
           <div class="prototyping-subtitle">Wireframe</div>
           <p>Then, I made three rounds of wireframe prototype and conducted user tests with CMU students iteratively. I built on the FoodRoute prototype gradually by incorporating students’ feedback. Here are some key design improvements of FoodRoute I want to share: </p>
           <div class='wireframe-list-item column justify-content-center align-items-center' id="wireframe-1">
-            <div class="wireframe-subtitle">1. Two plan modes using quick Campus POI</div>
+            <div class="wireframe-subtitle" style="margin-top: 4.8rem;">1. Two plan modes using quick Campus POI</div>
             <p>The first design is that student can import their course schedule or other calendars (such as google calendar, iOS calendar) to plan their food route. However, during the user testing, people said <span class="bold">their schedule was always changing</span>, and some people used their calendar software as a “notebook”, which could be <span class="bold">messy</span>. Thus, a more efficient and intuitive way is to use the <span class="bold">campus POI</span> to plan their food route, where users can <span class="bold">locate POI via familiar abbreviation among CMU students</span>. Also, for the two scenarios, I added the two plan modes. </p>
             <div><img :src='require("@/assets/img/wireframe-img-1.png")' alt="" class="img-center" id="wireframe-img-1"></div>
             <!-- <img :src='require("@/assets/img/wireframe-img-1.png")' alt="" class="img-center" id="wireframe-img-1"> -->
@@ -451,7 +451,7 @@ export default {
       #my-role-detail{
         margin-top: 1.1rem;
         #my-role-1{
-          padding: 0rem 2rem 0rem 0rem;
+          padding: 0rem 6rem 0rem 0rem;
           max-width: 43.1rem;
           p:nth-child(2){
             margin-top: 1.5rem;
@@ -459,7 +459,7 @@ export default {
         }
         #my-role-2{
           ul{
-            margin: 1.2rem 0 0;
+            margin: 0 0 0;
             list-style: none;
             padding-left: 0;
             li{
@@ -843,7 +843,7 @@ export default {
     #prototyping{
       margin-top: 25rem;
       #prototyping-title {@include gray-title();}
-      .prototyping-subtitle{@include black-subtitle(); margin-top: 10rem; margin-bottom: 3.5rem;}
+      .prototyping-subtitle{@include black-subtitle(); margin-top: 16rem; margin-bottom: 3.5rem;}
       #scenarios{
         .scenario-title{
           font-family: 'Open Sans-B';
@@ -859,12 +859,12 @@ export default {
           margin-top: 2.4rem;
         }
         #scenario-1{ margin-top: 4.7rem; }
-        #scenario-2{ margin-top: 7.2rem; margin-bottom: 9.6rem;}
+        #scenario-2{ margin-top: 15.2rem; margin-bottom: 18.6rem;}
       }
       #initial-sketch #initial-sketch-img{
         width: 100%;
         margin-top: 2.8rem;
-        margin-bottom: 7.2rem;
+        margin-bottom: 9.2rem;
       }
       #wireframe{
         .wireframe-list-item{
@@ -876,7 +876,7 @@ export default {
             color: #4A4A4A;
             text-align: start;
             width: 100%;
-            margin-top: 8.4rem;
+            margin-top: 16.4rem;
             margin-bottom: 0.8rem;
           }
           img{ margin-top: 4.8rem; }
@@ -922,7 +922,7 @@ export default {
 
       }
       .fd-list-item{
-        margin-top: 12rem;
+        margin-top: 16rem;
         .fd-list-item-title{
           font-family: 'Ubuntu-M';
           font-size: 2.4rem;
