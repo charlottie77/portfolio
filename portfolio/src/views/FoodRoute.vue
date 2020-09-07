@@ -13,8 +13,8 @@
         <div id="my-role-title">My Role</div>
         <div id='my-role-detail' class="row">
           <div id="my-role-1" class="col-12">
-            <p>I <span class="">led our group in completing the research and ideation phase.</span></p>
-            <p>I also finished the design phases — <span class="">prototype work, from sketch to high-fidelity, and user testing as sole designer.</span>  </p>
+            <p>I <span class="">led our group in completing the research phase.</span></p>
+            <p>I worked individually on the ideation and design phases, delivering user journeys,scenarios, sketches, wireframes, hi-fi prototype, and illustration. </p>
           </div>
           <div id="my-role-2" class="col-12">
             <ul>
@@ -451,8 +451,8 @@ export default {
       #my-role-detail{
         margin-top: 1.1rem;
         #my-role-1{
-          padding: 0rem 6rem 0rem 0rem;
-          max-width: 43.1rem;
+          padding: 0rem 5rem 0rem 0rem;
+          max-width: 45.1rem;
           p:nth-child(2){
             margin-top: 1.5rem;
           }
