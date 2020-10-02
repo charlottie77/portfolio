@@ -145,7 +145,7 @@
         <span class="research-no">1</span>
         <h2>What do parents expect children to learn?</h2>
         <p>While our end users are children, the most important stakeholder is their parents, who typically have control over their children's extracurricular activities.</p>
-        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a <span class="green">card-sorting exercise</span> where each card contains one potential objective of the AI courses. We then conducted interviews with 4 parents and ask them to sort the cards in their perceived order of importance.</p>
+        <p>Thus, it is crucial to incorporate the parents' expectations from the beginning of the design process. To this end, in the semi-structured interview, we prepared a <span class="green">card-sorting exercise</span> where each card contains one potential objective of the AI courses. We then conducted interviews with 12 parents and ask them to sort the cards in their perceived order of importance.</p>
         <span id='research-insights'>Insights</span>
         <div class="research-insights-item">
           <div class="insights-item-title title-green">

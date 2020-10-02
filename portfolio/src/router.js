@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import MobileHome from './views/MobileHome.vue'
+import MobileConstruction from './views/MobileConstruction.vue'
 import About from './views/About'
 import Construction from './views/Construction.vue'
 // import Robi from './views/Robi'
@@ -25,7 +26,7 @@ export default new Router({
     {
       path: '/m-index',
       name: 'mobile-index',
-      component: MobileHome
+      component: MobileConstruction
     },
     {
       path:'/robi',

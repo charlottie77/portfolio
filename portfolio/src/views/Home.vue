@@ -63,29 +63,7 @@ export default {
   data:()=>({
     simpleView: true,
     projectList:[
-      {
-        projectName: 'Acronis Learning',
-        projectDiscription: 'Improving the efficiency & learner engagement in Acronis software training.',
-        simpleImgSrc: require('@/assets/img/al-list-logo.png'),
-        detailImgSrc: require('@/assets/img/al-list-detail.png'),
-        subtitle: 'How might we improve the efficiency & learner engagement in Acronis software training? ',
-        params:{
-          outcome: '5-15 hours flexible training with focus on real work needs. ',
-          client: 'Acronis, Capstone Project',
-          myrole: 'Product Designer & Manager',
-          duration: '8 months'
-        },
-        tags:['B2B','Desktop','Learning Platform'],
-        link:'/acronis-learning',
-        styleSetting:{
-          simple:{},
-          detail:{
-            projectName:{},
-            projectSubtitle:{},
-            tag:{}
-          }
-        }
-      },
+      
       {
         projectName: 'Robi’s Room',
         projectDiscription: 'Delivering the concepts of “Machine can learn” to kids in a motivating way. ',
@@ -98,7 +76,7 @@ export default {
           myrole: 'Scrum Master, UX Design, Developer',
           duration: '3 months'
         },
-        tags:['Game Design','Learning Experience Design'],
+        tags:['Shipped','Game Design'],
         link:'/robi',
         styleSetting:{
           simple:{},
@@ -130,6 +108,29 @@ export default {
             projectSubtitle:{color: '#1B75AD'},
             tag:{},
             // tag:{background: '#F3FAFD', color: '#1B75AD'}
+          }
+        }
+      },
+      {
+        projectName: 'Acronis Learning',
+        projectDiscription: 'Improving the efficiency & learner engagement in Acronis software training.',
+        simpleImgSrc: require('@/assets/img/al-list-logo.png'),
+        detailImgSrc: require('@/assets/img/al-list-detail.png'),
+        subtitle: 'How might we improve the efficiency & learner engagement in Acronis software training? ',
+        params:{
+          outcome: '5-15 hours flexible training with focus on real work needs. ',
+          client: 'Acronis, Capstone Project',
+          myrole: 'Product Designer & Manager',
+          duration: '8 months'
+        },
+        tags:['B2B','Desktop','Learning Platform'],
+        link:'/acronis-learning',
+        styleSetting:{
+          simple:{},
+          detail:{
+            projectName:{},
+            projectSubtitle:{},
+            tag:{}
           }
         }
       },
