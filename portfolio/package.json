@@ -17,7 +17,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-service": "~5.0.8",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.6.1",
     "node-sass": "^4.12.0",
